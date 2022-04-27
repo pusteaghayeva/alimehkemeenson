@@ -89,3 +89,7 @@ Route::get('/electron_library', function () {
 Route::get('/nmrelectronlibrary', function () {
     return view('pages.nmrelectronlibrary');
 });
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
