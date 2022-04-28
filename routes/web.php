@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomePageController;
 use Illuminate\Support\Facades\Route;
 
@@ -18,6 +19,7 @@ Route::get('/', [HomePageController::class, 'home'])->name('home');
 
 Route::get('/home',[HomePageController::class, 'home'])->name('home');
 
+Route::get('/contact',[ContactController::class, 'contact'])->name('contact');
 
 Route::get('/about', function () {return view('pages.about'); })->name('about');
 

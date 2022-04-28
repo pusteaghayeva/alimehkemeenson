@@ -41,20 +41,23 @@
                     <div class="contact-card">
 
                         <div class=" list-group list-group-flush contact-ul ">
-                            <a href="contact.html" class="list-group-item contact-list ">
-                                <img src="./assets/img/call.png" alt="">
-                                <p>Əlaqə</p>
-                            </a>
+
+{{--                            @foreach($contacts as $contact)--}}
+{{--                            <a href="contact" class="list-group-item contact-list ">--}}
+{{--                                <img src="{{asset('storage/'.$contact->image)}}" alt="">--}}
+{{--                                <p>$contact->title</p>--}}
+{{--                            </a>--}}
+{{--                            @endforeach--}}
 
                             <a href="reception_days.html" class="list-group-item contact-list">
                                 <img src="./assets/img/result.png" alt="">
                                 <p>Qəbul qrafiki</p>
                             </a>
 
-                            <a href="letter.html" class="list-group-item contact-list">
-                                <img src="./assets/img/status.png" alt="">
-                                <p>Onlayn müraciət</p>
-                            </a>
+{{--                            <a href="letter.html" class="list-group-item contact-list">--}}
+{{--                                <img src="./assets/img/status.png" alt="">--}}
+{{--                                <p>Onlayn müraciət</p>--}}
+{{--                            </a>--}}
 
                         </div>
                     </div>
