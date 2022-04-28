@@ -57,19 +57,11 @@
                         <img src="./assets/img/ruf.png" class="ru" alt="">
                     </a>
 
-
                 </div>
             </div>
 
             <div class="col-6 col-md-7 col-sm-6 col-xl-7">
                 {{menu('socialMedia', 'components.socialMedia')}}
-{{--                <div class="social-links d-md-flex align-items-center">--}}
-{{--                    <a href="#" class="twitter"><i class="fa-brands fa-youtube"></i></a>--}}
-{{--                    <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>--}}
-{{--                    <a href="#" class="instagram"><i class="fa-brands fa-twitter"></i></a>--}}
-{{--                    <a href="#" class="linkedin"><i class="fa-brands fa-instagram"></i></a>--}}
-{{--                    <a href="#" class="linkedin"><i class="fa-brands fa-telegram"></i></a>--}}
-{{--                </div>--}}
             </div>
         </div>
 

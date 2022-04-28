@@ -13,30 +13,19 @@
                             <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                         </ol>
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./assets/img/xeber1.jpg" class=" w-100" alt="...">
+                            @foreach($news as $new)
+                            <a href="" class="carousel-item  {{$new->id ==1?'active': ''}}">
+
+                                <img src="{{asset('storage/'.$new->image)}}" class=" w-100" alt="...">
                                 <div class="carousel-bg"></div>
                                 <div class="carousel-caption  d-md-block">
-                                    <h4>Naxçıvan Muxtar Respublikası Ali Məhkəməsində tələbələr üçün “Ailə qanunvericiliyinin aktual məsələləri”nə həsr olunmuş təlim başlayıb.</h4>
-                                    <p>Naxçıvan Dövlət Univerisitetinin hüquqşünaslıq ixtisası üzrə təhsil alan tələbələrinin iştirakı ilə </p>
+                                    <h4>{{$new->title}}</h4>
+                                    <p>{!!$new->text !!}</p>
                                 </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/img/seminar 07.04.2022 (1).jpg" class=" w-100" alt="...">
-                                <div class="carousel-bg"></div>
-                                <div class="carousel-caption  d-md-block">
-                                    <h4>Second slide label</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/img/xeber2.jpg" class="" alt="...">
-                                <div class="carousel-bg"></div>
-                                <div class="carousel-caption  d-md-block">
-                                    <h4>Naxçıvan Mediasiya Təşkilatı üçün müasir iş şəraiti yaradılıb</h4>
-                                    <p>Aprelin 14-də Naxçıvan Mediasiya Təşkilatında bununla bağlı təqdimat olub.</p>
-                                </div>
-                            </div>
+
+                            </a>
+                            @endforeach
+
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -47,7 +36,6 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
-
                 </div>
                 <div class="col-12 col-md-4 col-sm-4 col-lg-3">
                     <div class="contact-card">
