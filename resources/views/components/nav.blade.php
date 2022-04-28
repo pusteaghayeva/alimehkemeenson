@@ -25,20 +25,8 @@
                                 </a>
                                 <div class="footer-menu">
                                     <div class="row">
-                                        @foreach($items as $menu_item)
-                                        <div class="main-menu col-6 col-xs-12 col-sm-4 col-xs-12 col-md-2 col-lg-2">
-                                            <a href="{{ $menu_item->route}}" class="menu-link bold {{request()->routeIs('$menu_item->route')}}">{{$menu_item->title}}</a>
-                                            <p class="menu-text"><a href="/about" class="text-light big-li">Ümumi məlumat</a></p>
-                                            <p class="menu-text"><a href="/college" class="text-light big-li">Məhkəmənin sədri</a></p>
-                                            <p class="menu-text"><a href="https://courts.gov.az/az/nakhchivansupreme/board/Ryast-Heyti_5" target="_blank" class="text-light big-li">Rəyasət heyəti</a></p>
-                                            <p class="menu-text"><a href="https://courts.gov.az/az/nakhchivansupreme/judges" class="text-light big-li" target="_blank">Hakimlər</a></p>
-                                            <p class="menu-text"><a href="/structure" class="text-light big-li">Məhkəmənin strukturu</a></p>
-                                            <p class="menu-text"><a href="/judicial_apparatus" class="text-light big-li">Məhkəmə aparatı</a></p>
-                                            <p class="menu-text"><a href="/court90" class="text-light big-li">Ali məhkəmə - 90</a></p>
 
-                                        </div>
-                                        @endforeach
-
+                                        {{menu("hamburgerNavbar", "components.hamburgerNavbar")}}
                                         <div class="col-5 col-lg-12 col-sm-4 bigsearch">
                                             <form class="form-inline">
                                                 <input class="form-control mr-sm-2" type="search" placeholder="Axtar..." aria-label="Search">
@@ -70,16 +58,7 @@
                                 </button>
 
                                 <div id="navbar-collapse" class="collapse navbar-collapse">
-                                    <ul class="nav navbar-nav">
-                                        @foreach($items as $menu_item)
-
-                                        <li class="nav-item active">
-                                            <a href="{{ $menu_item->route}}" class="nav-link dropdown-toggle fa-2x {{request()->routeIs('$menu_item->route')}}">{{$menu_item->title}}
-                                            </a>
-                                        </li>
-
-                                        @endforeach
-                                    </ul>
+                                    {{menu("dropDownMenu", "components.dropDownMenu")}}
                                 </div>
                                 <div class="nav-search">
                                     <span id="search"><i class="fas fa-search"></i></span>
