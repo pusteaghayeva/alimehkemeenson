@@ -1,4 +1,3 @@
-
 <ul class="nav navbar-nav">
     @foreach($items as $item)
 
@@ -8,9 +7,14 @@
 
         @if(!$children)
             <li class="nav-item active">
-                <a href="{{$item->link()}}" class="nav-link dropdown-toggle fa-2x"><i
-                            class="fas fa-home mr-1"></i>{{$item->title}}
-                </a>
+                @if($item->title == "home")
+                    <a href="{{$item->link()}}" class="nav-link dropdown-toggle fa-2x"><i
+                                class="fas fa-home mr-1"></i>
+                    </a>
+                @else
+                    <a href="{{$item->link()}}" class="nav-link dropdown-toggle fa-2x">{{$item->title}}
+                    </a>
+                @endif
             </li>
         @else
             <li class="nav-item dropdown">
