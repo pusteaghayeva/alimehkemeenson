@@ -158,21 +158,11 @@
         <h1 class="link_title ">Faydalı Lİnklər</h1>
         <p class="underline"></p>
         <div class="owl-carousel owl-carousel4 owl-theme row ">
+            @foreach($usefullinks as $usefullink)
             <a href="https://president.az/ " class="useful-link-img " target="blank ">
-                <img src="assets/img/Group1277.png" alt=" ">
+                <img src="{{asset('storage/'.$usefullink->image)}}" alt=" ">
             </a>
-            <a href="https://courts.gov.az/az/ " class="useful-link-img " target="blank ">
-                <img src="assets/img/Group1278.png " alt=" ">
-            </a>
-            <a href="http://www.alimeclis.az/ " class="useful-link-img " target="blank ">
-                <img src="assets/img/Group1279.png" alt=" ">
-            </a>
-            <a href="http://www.nakhchivan.az/portal-1/index-2.htm " class="useful-link-img " target="blank ">
-                <img src="assets/img/Group1282.png" alt=" ">
-            </a>
-            <a href="https://www.virtualkarabakh.az/ " class="useful-link-img " target="blank ">
-                <img src="assets/img/Group1283.png" alt=" ">
-            </a>
+            @endforeach
 
         </div>
     </div>
@@ -229,37 +219,38 @@
         <div class="row">
             <div class="col-10  m-auto circle-icons">
                 <div class="circle-2">
-                    <a href="">
+                    <a href="https://goo.gl/maps/T626L2cTkQxmNNgh8" target="_blank">
+
                         <img src="./assets/img/Group1285.png" alt="location"/>
                         <p class="h4">
-                            Ünvan: Naxçıvan şəhəri, AZ 7000, Atatürk küçəsi 19
+                            {{setting('site.address')}}
                         </p>
                     </a>
                 </div>
                 <div class="circle-2">
-                    <a href="">
+                    <a href="tel:{{setting('site.phone')}}">
                         <img src="./assets/img/Group1286.png" alt="location"/>
                         <p class="h4">
-                            Telefon: (036) 544-61-77
+                            {{setting('site.phone')}}
                         </p>
                     </a>
 
                 </div>
                 <div class="circle-2">
-                    <a href="">
+                    <a href="fax:{{setting('site.fax')}}">
                         <img src="./assets/img/Group1287.png" alt="location"/>
                         <p class="h4">
-                            Fax: (036) 550-12-77
+                            {{setting('site.fax')}}
                         </p>
                     </a>
 
 
                 </div>
                 <div class="circle-2">
-                    <a href="">
+                    <a href="mailto:{{setting('site.email')}}">
                         <img src="./assets/img/Group1288.png" alt="location"/>
                         <p class="h4">
-                            E-mail: alimehkeme@nakhchivan.az
+                            {{setting('site.email')}}
                         </p>
                     </a>
 

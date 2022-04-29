@@ -4,8 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="keywords" content="{{setting('site.keywords')}}">
     <title>@yield('title')</title>
-    <link rel="icon" href="assets/img/gerb.png" type="image/x-icon">
+    <link rel="shortcut icon" href="{{asset('storage/'.setting('site.favicon'))}}" type="image/x-icon" />
+    {{--    <link rel="icon" href="assets/img/gerb.png" type="image/x-icon">--}}
     <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/bootstrap.css">
@@ -85,7 +87,7 @@
 
 <footer>
     <div class="copyright ">
-        <p class="copy-text "><a href="http://rabite.nmr.az/" target="_blank " class="copy-link "> © 2022 Tərtibat Və Proqramlaşdırma Naxçıvan muxtar respublikası rabitə və yeni texnologiyalar nazirliyi</a></p>
+        <p class="copy-text "><a href="http://rabite.nmr.az/" target="_blank " class="copy-link ">&copy; <?php echo date("Y"); ?>{{setting('site.footer')}}</a></p>
     </div>
 </footer>
 

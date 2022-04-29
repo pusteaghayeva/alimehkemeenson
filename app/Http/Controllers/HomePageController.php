@@ -16,7 +16,8 @@ class HomePageController extends Controller
         $forpersons = \App\Models\Forpersons::get();
         $services = \App\Models\Service::get();
         $nmrcourts = \App\Models\Nmrcourt::where('status', 1)->get();
-        return view('pages.home', compact('news','contacts', 'forpersons', 'services', 'nmrcourts'));
+        $usefullinks = \App\Models\Usefullink::where('status', 1)->get();
+        return view('pages.home', compact('news','contacts', 'forpersons', 'services', 'nmrcourts', 'usefullinks'));
     }
 
 }

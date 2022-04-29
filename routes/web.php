@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomePageController;
+use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,11 +20,13 @@ Route::get('/', [HomePageController::class, 'home'])->name('home');
 
 Route::get('/home',[HomePageController::class, 'home'])->name('home');
 
+
+Route::get('/about' ,[PageController::class, 'page'])->name('page');
+
+
 Route::get('/contact',[ContactController::class, 'contact'])->name('contact');
 
-Route::get('/about', function () {return view('pages.about'); })->name('about');
-
-Route::get('/college', function () {return view('pages.college');});
+Route::get('/college', [PageController::class, 'page']);
 
 Route::get('/structure', function () {
     return view('pages.structure');
