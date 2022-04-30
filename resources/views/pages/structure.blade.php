@@ -3,8 +3,11 @@
 @section('content')
 
     <div class="container">
-        <!-- <img src="./assets/img/structure.png" alt="" style="width: 300px; height: 200px;"> -->
-        <img src="./assets/img/structure.png" class="img-fluid mt-5" alt="Responsive image">
+     @foreach($structures as $structure)
+
+        <img src="{{asset('storage/'.$structure->image)}}" class="img-fluid mt-5" alt="Structure">
+
+     @endforeach
     </div>
 
 @endsection

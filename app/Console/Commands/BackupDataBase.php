@@ -51,7 +51,16 @@ class BackupDataBase extends Command
             'user_roles',
             'translations',
             'contacts',
-            'home_pages'
+            'home_pages',
+            'abouts',
+            'colleges',
+            'contacts',
+            'forpersons',
+            'langs',
+            'news',
+            'nmrcourts',
+            'services',
+            'usefullinks'
         ];
 
         $bar = $this->output->createProgressBar(count($tables));

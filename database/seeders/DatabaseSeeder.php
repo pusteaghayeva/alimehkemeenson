@@ -18,5 +18,20 @@ class DatabaseSeeder extends Seeder
         Schema::disableForeignKeyConstraints();
         // Bütün Seederlər burada olmalıdır.
         Schema::disableForeignKeyConstraints();
+        $this->call(FromArtisanDataTypesTableSeeder::class);
+        $this->call(FromArtisanDataRowsTableSeeder::class);
+        $this->call(FromArtisanMenusTableSeeder::class);
+        $this->call(FromArtisanMenuItemsTableSeeder::class);
+        $this->call(FromArtisanRolesTableSeeder::class);
+        $this->call(FromArtisanPermissionsTableSeeder::class);
+        $this->call(FromArtisanPermissionRoleTableSeeder::class);
+        $this->call(FromArtisanSettingsTableSeeder::class);
+        $this->call(FromArtisanUsersTableSeeder::class);
+        $this->call(FromArtisanUserRolesTableSeeder::class);
+        $this->call(FromArtisanTranslationsTableSeeder::class);
+        $this->call(FromArtisanContactsTableSeeder::class);
+        $this->call(FromArtisanHomePagesTableSeeder::class);
+        $this->call(FromArtisanAboutsTableSeeder::class);
+        $this->call(FromArtisanCollegesTableSeeder::class);
     }
 }

@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\ApparatusController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\CourtsController;
 use App\Http\Controllers\HomePageController;
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
@@ -21,20 +23,23 @@ Route::get('/', [HomePageController::class, 'home'])->name('home');
 Route::get('/home',[HomePageController::class, 'home'])->name('home');
 
 
-Route::get('/about' ,[PageController::class, 'page'])->name('page');
+Route::get('/about' ,[PageController::class, 'about'])->name('about');
+
+Route::get('/college', [PageController::class, 'college'])->name('college');
+Route::get('/structure', [PageController::class, 'structure'])->name('structure');
+
+Route::get('/apparatus', [PageController::class, 'apparatus'])->name('apparatus');
+
+Route::get('/courts',[CourtsController::class, 'courts'])->name('courts');
 
 
 Route::get('/contact',[ContactController::class, 'contact'])->name('contact');
 
-Route::get('/college', [PageController::class, 'page']);
+//Route::get('/structure', function () {
+//    return view('pages.structure');
+//});
 
-Route::get('/structure', function () {
-    return view('pages.structure');
-});
 
-Route::get('/judicial_apparatus', function () {
-    return view('pages.judicial_apparatus');
-});
 
 
 Route::get('/court90', function () {
