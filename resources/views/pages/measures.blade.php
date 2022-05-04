@@ -5,21 +5,21 @@
 
 
     <h2 class="text-center">Tədbirlər</h2>
-
-    <figure class="news_hor container">
+    @foreach($measures as $measure)
+        <figure class="news_hor container">
         <img src="./assets/img/111.jpg" alt="image" />
         <figcaption>
-            <h3>You really think you can fly that thing? </h3>
-            <p>God creates dinosaurs. God destroys dinosaurs. God creates Man. </p>
+            <h3>{{$measure->title}} </h3>
+            <p>{!! $measure->content !!} </p>
             <footer>
-                <div class="hor_date">January 21, 2016</div>
+                <div class="hor_date">{{$measure->created_at}}</div>
             </footer>
         </figcaption>
-        <a href="single_news.html"></a>
+        <a href="{{route('measures', ['measures'=>$measure->id])}}"></a>
     </figure>
 
 
-
+@endforeach
 
 
 @endsection

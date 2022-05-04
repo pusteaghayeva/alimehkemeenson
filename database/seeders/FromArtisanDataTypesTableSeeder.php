@@ -1,0 +1,278 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+
+class FromArtisanDataTypesTableSeeder extends Seeder
+{
+
+    /**
+     * Auto generated seed file
+     *
+     * @return void
+     */
+    public function run()
+    {
+        
+
+        \DB::table('data_types')->delete();
+        
+        \DB::table('data_types')->insert(array (
+            0 => 
+            array (
+                'id' => 1,
+                'name' => 'users',
+                'slug' => 'users',
+                'display_name_singular' => 'User',
+                'display_name_plural' => 'Users',
+                'icon' => 'voyager-person',
+                'model_name' => 'TCG\\Voyager\\Models\\User',
+                'policy_name' => 'TCG\\Voyager\\Policies\\UserPolicy',
+                'controller' => 'TCG\\Voyager\\Http\\Controllers\\VoyagerUserController',
+                'description' => '',
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => NULL,
+                'created_at' => '2022-04-27 18:17:11',
+                'updated_at' => '2022-04-27 18:17:11',
+            ),
+            1 => 
+            array (
+                'id' => 2,
+                'name' => 'menus',
+                'slug' => 'menus',
+                'display_name_singular' => 'Menu',
+                'display_name_plural' => 'Menus',
+                'icon' => 'voyager-list',
+                'model_name' => 'TCG\\Voyager\\Models\\Menu',
+                'policy_name' => NULL,
+                'controller' => '',
+                'description' => '',
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => NULL,
+                'created_at' => '2022-04-27 18:17:11',
+                'updated_at' => '2022-04-27 18:17:11',
+            ),
+            2 => 
+            array (
+                'id' => 3,
+                'name' => 'roles',
+                'slug' => 'roles',
+                'display_name_singular' => 'Role',
+                'display_name_plural' => 'Roles',
+                'icon' => 'voyager-lock',
+                'model_name' => 'TCG\\Voyager\\Models\\Role',
+                'policy_name' => NULL,
+                'controller' => 'TCG\\Voyager\\Http\\Controllers\\VoyagerRoleController',
+                'description' => '',
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => NULL,
+                'created_at' => '2022-04-27 18:17:11',
+                'updated_at' => '2022-04-27 18:17:11',
+            ),
+            3 => 
+            array (
+                'id' => 4,
+                'name' => 'languages',
+                'slug' => 'languages',
+                'display_name_singular' => 'Language',
+                'display_name_plural' => 'Languages',
+                'icon' => NULL,
+                'model_name' => 'App\\Models\\Language',
+                'policy_name' => NULL,
+                'controller' => 'App\\Http\\Controllers\\LanguageController',
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":"id","order_display_column":null,"order_direction":"asc","default_search_key":null}',
+                'created_at' => '2022-04-28 12:04:31',
+                'updated_at' => '2022-04-28 12:04:31',
+            ),
+            4 => 
+            array (
+                'id' => 5,
+                'name' => 'news',
+                'slug' => 'news',
+                'display_name_singular' => 'News',
+                'display_name_plural' => 'News',
+                'icon' => NULL,
+                'model_name' => 'App\\Models\\News',
+                'policy_name' => NULL,
+                'controller' => 'App\\Http\\Controllers\\NewsController',
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
+                'created_at' => '2022-04-28 12:40:21',
+                'updated_at' => '2022-04-28 12:41:04',
+            ),
+            5 => 
+            array (
+                'id' => 7,
+                'name' => 'contacts',
+                'slug' => 'contacts',
+                'display_name_singular' => 'Contact',
+                'display_name_plural' => 'Contacts',
+                'icon' => 'voyager-people',
+                'model_name' => 'App\\Models\\Contact',
+                'policy_name' => NULL,
+                'controller' => 'App\\Http\\Controllers\\ContactController',
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
+                'created_at' => '2022-04-28 18:34:28',
+                'updated_at' => '2022-04-28 18:34:55',
+            ),
+            6 => 
+            array (
+                'id' => 13,
+                'name' => 'forpersons',
+                'slug' => 'forpersons',
+                'display_name_singular' => 'Forperson',
+                'display_name_plural' => 'Forpeople',
+                'icon' => 'voyager-people',
+                'model_name' => 'App\\Models\\Forpersons',
+                'policy_name' => NULL,
+                'controller' => 'App\\Http\\Controllers\\ForpersonsController',
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":"id","order_display_column":null,"order_direction":"desc","default_search_key":null,"scope":null}',
+                'created_at' => '2022-04-29 06:03:24',
+                'updated_at' => '2022-04-29 06:03:45',
+            ),
+            7 => 
+            array (
+                'id' => 14,
+                'name' => 'services',
+                'slug' => 'services',
+                'display_name_singular' => 'Service',
+                'display_name_plural' => 'Services',
+                'icon' => NULL,
+                'model_name' => 'App\\Models\\Service',
+                'policy_name' => NULL,
+                'controller' => 'App\\Http\\Controllers\\ServiceController',
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null}',
+                'created_at' => '2022-04-29 06:22:54',
+                'updated_at' => '2022-04-29 06:22:54',
+            ),
+            8 => 
+            array (
+                'id' => 15,
+                'name' => 'nmrcourts',
+                'slug' => 'nmrcourts',
+                'display_name_singular' => 'Nmrcourt',
+                'display_name_plural' => 'Nmrcourts',
+                'icon' => 'voyager-treasure',
+                'model_name' => 'App\\Models\\Nmrcourt',
+                'policy_name' => NULL,
+                'controller' => 'App\\Http\\Controllers\\NmrcourtController',
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":"id","order_display_column":null,"order_direction":"desc","default_search_key":null}',
+                'created_at' => '2022-04-29 07:16:30',
+                'updated_at' => '2022-04-29 07:16:30',
+            ),
+            9 => 
+            array (
+                'id' => 16,
+                'name' => 'langs',
+                'slug' => 'langs',
+                'display_name_singular' => 'Lang',
+                'display_name_plural' => 'Langs',
+                'icon' => NULL,
+                'model_name' => 'App\\Models\\Lang',
+                'policy_name' => NULL,
+                'controller' => 'App\\Http\\Controllers\\LangController',
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":"id","order_display_column":null,"order_direction":"asc","default_search_key":null}',
+                'created_at' => '2022-04-29 08:33:42',
+                'updated_at' => '2022-04-29 08:33:42',
+            ),
+            10 => 
+            array (
+                'id' => 17,
+                'name' => 'usefullinks',
+                'slug' => 'usefullinks',
+                'display_name_singular' => 'Usefullink',
+                'display_name_plural' => 'Usefullinks',
+                'icon' => 'voyager-credit-cards',
+                'model_name' => 'App\\Models\\Usefullink',
+                'policy_name' => NULL,
+                'controller' => 'App\\Http\\Controllers\\UsefullinkController',
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":"id","order_display_column":null,"order_direction":"desc","default_search_key":null}',
+                'created_at' => '2022-04-29 08:45:16',
+                'updated_at' => '2022-04-29 08:45:16',
+            ),
+            11 => 
+            array (
+                'id' => 18,
+                'name' => 'footersocials',
+                'slug' => 'footersocials',
+                'display_name_singular' => 'Footersocial',
+                'display_name_plural' => 'Footersocials',
+                'icon' => 'voyager-params',
+                'model_name' => 'App\\Models\\Footersocial',
+                'policy_name' => NULL,
+                'controller' => 'App\\Http\\Controllers\\FootersocialController',
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":"id","order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
+                'created_at' => '2022-04-29 10:04:39',
+                'updated_at' => '2022-04-29 10:04:55',
+            ),
+            12 => 
+            array (
+                'id' => 19,
+                'name' => 'abouts',
+                'slug' => 'abouts',
+                'display_name_singular' => 'About',
+                'display_name_plural' => 'Abouts',
+                'icon' => 'voyager-company',
+                'model_name' => 'App\\Models\\About',
+                'policy_name' => NULL,
+                'controller' => 'App\\Http\\Controllers\\AboutController',
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":"id","order_display_column":"title","order_direction":"desc","default_search_key":null}',
+                'created_at' => '2022-04-29 12:31:20',
+                'updated_at' => '2022-04-29 12:31:20',
+            ),
+            13 => 
+            array (
+                'id' => 20,
+                'name' => 'colleges',
+                'slug' => 'colleges',
+                'display_name_singular' => 'College',
+                'display_name_plural' => 'Colleges',
+                'icon' => NULL,
+                'model_name' => 'App\\Models\\College',
+                'policy_name' => NULL,
+                'controller' => 'App\\Http\\Controllers\\CollegeController',
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":"id","order_display_column":"title","order_direction":"desc","default_search_key":null}',
+                'created_at' => '2022-04-29 13:32:27',
+                'updated_at' => '2022-04-29 13:32:27',
+            ),
+        ));
+        
+        
+    }
+}

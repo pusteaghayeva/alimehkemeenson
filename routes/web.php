@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\ApparatusController;
 use App\Http\Controllers\ContactController;
-use App\Http\Controllers\CourtsController;
+use App\Http\Controllers\SupremecourtController;
 use App\Http\Controllers\HomePageController;
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
@@ -30,7 +30,39 @@ Route::get('/structure', [PageController::class, 'structure'])->name('structure'
 
 Route::get('/apparatus', [PageController::class, 'apparatus'])->name('apparatus');
 
-Route::get('/courts',[CourtsController::class, 'courts'])->name('courts');
+Route::get('/supremecourt',[PageController::class, 'supremecourt'])->name('supremecourt');
+Route::get('/supreme-court{slug}',[PageController::class, 'singleCourt'])->name('court');
+
+
+Route::get('/news', [PageController::class, 'news'])->name('news');
+Route::get('/singlenews/{slug}', [PageController::class, 'singleNews'])->name('news');
+
+//Route::get('/azlegalact', [PageController::class, 'azlegalact'])->name('azlegalact');
+Route::get('/legalact', [PageController::class, 'legalact'])->name('legalact');
+//Nmr huquqi aktlar
+Route::get('/decisionpresidia', [PageController::class, 'decisionpresidia'])->name('decisionpresidia');
+
+Route::get('/gallery', [PageController::class, 'galleryClass'])->name('gallery');
+
+Route::get('/videogallery', [PageController::class, 'videogallery'])->name('videogallery');
+
+Route::get('/faq', [PageController::class, 'faq'])->name('faq');
+Route::get('/educationmaterial', [PageController::class, 'educationmaterial'])->name('educationmaterial');
+//Internationaldocuments-Beynelxalq huquqi senedler
+Route::get('/internationaldocument', [PageController::class, 'internationaldocument'])->name('internationaldocument');
+
+Route::get('/measures', [PageController::class, 'measures'])->name('measures');
+
+
+
+
+
+
+//Route::get('/azlegalacts',[PageController::class, 'azlegalact'])->name('azlegalacts');
+
+//Route::get('/decisions',[PageController::class, 'decision'])->name('decisions');
+
+//Route::get('/rhdecision',[PageController::class, 'rhdecision'])->name('rhdecision');
 
 
 Route::get('/contact',[ContactController::class, 'contact'])->name('contact');
@@ -42,61 +74,61 @@ Route::get('/contact',[ContactController::class, 'contact'])->name('contact');
 
 
 
-Route::get('/court90', function () {
-    return view('pages.court90');
-});
+//Route::get('mySingle', function () {
+//    return view('pages.singleCourt');
+//});
+//
+//Route::get('/azlegalacts', function () {
+//    return view('pages.azlegalacts');
+//});
+//
+//Route::get('/decision', function () {
+//    return view('pages.decision');
+//});
+//Route::get('/news', function () {
+//    return view('pages.news');
+//});
 
-Route::get('/azlegalacts', function () {
-    return view('pages.azlegalacts');
-});
 
-Route::get('/decision', function () {
-    return view('pages.decision');
-});
-Route::get('/news', function () {
-    return view('pages.news');
-});
-
-
-Route::get('/speech', function () {
-    return view('pages.speech');
-});
-
-Route::get('/gallery', function () {
-    return view('pages.gallery');
-});
-
-Route::get('/videogallery', function () {
-    return view('pages.videogallery');
-});
-
-Route::get('/question', function () {
-    return view('pages.question');
-});
-
-Route::get('/measures', function () {
-    return view('pages.measures');
-});
-
-Route::get('/contact', function () {
-    return view('pages.contact');
-});
-
-Route::get('/example_documents', function () {
-    return view('pages.example_documents');
-});
-
-Route::get('/publications', function () {
-    return view('pages.publications');
-});
-
-Route::get('/electron_library', function () {
-    return view('pages.electron_library');
-});
-
-Route::get('/nmrelectronlibrary', function () {
-    return view('pages.nmrelectronlibrary');
-});
+//Route::get('/speech', function () {
+//    return view('pages.speech');
+//});
+//
+////Route::get('/gallery', function () {
+////    return view('pages.gallery');
+////});
+//
+//Route::get('/videogallery', function () {
+//    return view('pages.videogallery');
+//});
+//
+//Route::get('/question', function () {
+//    return view('pages.question');
+//});
+//
+//Route::get('/measures', function () {
+//    return view('pages.measures');
+//});
+//
+//Route::get('/contact', function () {
+//    return view('pages.contact');
+//});
+//
+//Route::get('/example_documents', function () {
+//    return view('pages.example_documents');
+//});
+//
+//Route::get('/publications', function () {
+//    return view('pages.publications');
+//});
+//
+//Route::get('/electron_library', function () {
+//    return view('pages.electron_library');
+//});
+//
+//Route::get('/nmrelectronlibrary', function () {
+//    return view('pages.nmrelectronlibrary');
+//});
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
