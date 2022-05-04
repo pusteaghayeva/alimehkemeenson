@@ -28,7 +28,7 @@
                         </div>
                         <div class="blog-content home-blog">
                             <h2 class="blog-title">
-                                <a href="{{url('/news'.$news->slug)}}">{{$news_item->title}}</a>
+                                <a href="">{{$news_item->title}}</a>
                             </h2>
                             <p>{!! $news_item->content !!} </p>
                         </div>

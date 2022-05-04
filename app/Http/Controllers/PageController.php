@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Article;
 use App\Models\Azlegalact;
 use App\Models\Court90;
 use App\Models\Courts;
@@ -16,6 +17,7 @@ use App\Models\Measures;
 use App\Models\News;
 use App\Models\Photogallery;
 use App\Models\rhdecision;
+use App\Models\Speech;
 use App\Models\Supremecourt;
 use App\Models\Videogallery;
 use Illuminate\Http\Request;
@@ -61,10 +63,21 @@ class PageController extends Controller
         return view('pages.news', compact('news'));
     }
 
-    public function singleNews() {
-        $singlenews = News::where("slug", \request("slug"))->get();
-        return view('pages.singleNews', compact('singlenews'));
+//    public function singlenews() {
+//        $singlenewss = News::where("slug", \request("slug"))->get();
+//
+//        return view('pages.singlenews', compact('singlenewss'));
+//    }
+
+    public function singlenews($slug) {
+        $singlenewss = News::where('slug', $slug )->first();
+//        if ($singlenewss ===null){
+//            abort(404);
+//        }
+        return view('pages.singlenews', compact('singlenewss'));
     }
+
+
 
 
   public function legalact(){
@@ -106,6 +119,16 @@ class PageController extends Controller
     public function measures(){
         $measures = Measures:: orderBy('id', 'desc')->get();
         return view('pages.measures', compact('measures'));
+    }
+
+    public function speech(){
+        $speechs = Speech:: orderBy('id', 'desc')->get();
+        return view('pages.speech', compact('speechs'));
+    }
+
+    public function article(){
+        $articles = Article:: orderBy('id', 'desc')->get();
+        return view('pages.article', compact('articles'));
     }
 
 

@@ -31,11 +31,11 @@ Route::get('/structure', [PageController::class, 'structure'])->name('structure'
 Route::get('/apparatus', [PageController::class, 'apparatus'])->name('apparatus');
 
 Route::get('/supremecourt',[PageController::class, 'supremecourt'])->name('supremecourt');
-Route::get('/supreme-court{slug}',[PageController::class, 'singleCourt'])->name('court');
+//Route::get('/supreme-court{slug}',[PageController::class, 'singleCourt'])->name('court');
 
 
 Route::get('/news', [PageController::class, 'news'])->name('news');
-Route::get('/singlenews/{slug}', [PageController::class, 'singleNews'])->name('news');
+Route::get('/singlenews/{slug}', [PageController::class, 'singlenews'])->name('news');
 
 //Route::get('/azlegalact', [PageController::class, 'azlegalact'])->name('azlegalact');
 Route::get('/legalact', [PageController::class, 'legalact'])->name('legalact');
@@ -53,7 +53,9 @@ Route::get('/internationaldocument', [PageController::class, 'internationaldocum
 
 Route::get('/measures', [PageController::class, 'measures'])->name('measures');
 
+Route::get('/speech', [PageController::class, 'speech'])->name('speech');
 
+Route::get('/article', [PageController::class, 'article'])->name('article');
 
 
 
