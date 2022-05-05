@@ -1,14 +1,14 @@
 @extends('layouts.master')
-@section('title', 'Beynəlxalq hüquqi sənədlər')
+@section('title', 'Hesabatlar')
 @section('content')
 
     <div class="first-down-menu container">
-        <h2 class="first-dm-title text-center mt-5">Beynəlxalq hüquqi sənədlər</h2>
+        <h2 class="first-dm-title text-center mt-5">Hesabatlar</h2>
         <ul>
-            @foreach($internationaldocuments as $internationaldocument)
+            @foreach($reports as $report)
                 <li>
-                    <a class="cool-link" href="{{asset('/storage/'.json_decode($internationaldocument->pdf)[0]->download_link)}}" target="_blank">
-                        {{$internationaldocument->title}}
+                    <a class="cool-link" href="{{route('singlereport', ['singlereport'=>$report->id])}}">
+                        {{$report->title}}
                     </a>
                 </li>
             @endforeach

@@ -13,14 +13,16 @@ use App\Models\Faq;
 use App\Models\Gallery;
 use App\Models\Internationaldocument;
 use App\Models\Legalact;
+use App\Models\Measure;
 use App\Models\Measures;
 use App\Models\News;
 use App\Models\Page;
 use App\Models\Photogallery;
+use App\Models\Report;
 use App\Models\rhdecision;
 use App\Models\Speech;
 use App\Models\Supremecourt;
-use App\Models\Videogallery;
+use App\Models\Video;
 use Illuminate\Http\Request;
 use \App\Models\About;
 use \App\Models\College;
@@ -79,17 +81,10 @@ class PageController extends Controller
         return view('pages.news', compact('news'));
     }
 
-//    public function singlenews() {
-//        $singlenewss = News::where("slug", \request("slug"))->get();
-//
-//        return view('pages.singlenews', compact('singlenewss'));
-//    }
 
     public function singlenews(Request $request) {
-//        $singlenewss = News::where('slug', $slug )->first();
         $singlenewss=News::where('id', $request->singlenews)->get();
         return view('pages.singleNews', compact('singlenewss'));
-//        return view('pages.singleNews', compact('singlenewss'));
     }
 
 
@@ -110,9 +105,9 @@ class PageController extends Controller
         return view('pages.gallery', compact('galleries'));
   }
 
-  public function  videogallery(){
-        $videogalleries = Videogallery::get();
-        return view ('pages.videogallery', compact('videogalleries'));
+  public function  video(){
+        $videos = Video::get();
+        return view ('pages.video', compact('videos'));
   }
 
   public function faq(){
@@ -131,11 +126,6 @@ class PageController extends Controller
     }
 
 
-    public function measures(){
-        $measures = Measures:: orderBy('id', 'desc')->get();
-        return view('pages.measures', compact('measures'));
-    }
-
     public function speech(){
         $speechs = Speech:: orderBy('id', 'desc')->get();
         return view('pages.speech', compact('speechs'));
@@ -147,6 +137,23 @@ class PageController extends Controller
     }
 
 
+    public function report(){
+        $reports = Report:: orderBy('id', 'desc')->get();
+        return view('pages.report', compact('reports'));
+    }
+    public function singlereport(Request $request) {
+        $singlereports=Report::where('id', $request->singlereports)->get();
+        return view('pages.singleReport', compact('singlereports'));
+    }
+
+    public function measures(){
+        $measures = Measure:: orderBy('id', 'desc')->get();
+        return view('pages.measures', compact('measures'));
+    }
+    public function singlemeasures(Request $request) {
+        $singlemeasures=Measure::where('id', $request->singlemeasures)->get();
+        return view('pages.singleMeasure', compact('singlemeasures'));
+    }
 
 //  public function photogallery(){
 //        $photogalleries = Photogallery::get();

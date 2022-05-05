@@ -5,25 +5,25 @@
 
     <div class="speech">
         <div class="container">
-            @foreach($speechs as $speech)
-            <div class="bd-speech bd-speech-warning">
-                <h3 class="speech-title">{{$speech->title}}</h3>
-                <div class="speech-text">
-                    <a href="" class="speech-link">{!! $speech->content !!}
-                    </a>
-                </div>
-            </div>
-            @endforeach
-
+{{--            @foreach($speechs as $speech)--}}
 {{--            <div class="bd-speech bd-speech-warning">--}}
-{{--                <h3 class="speech-title">Çıxış2</h3>--}}
+{{--                <h3 class="speech-title">{{$speech->title}}</h3>--}}
 {{--                <div class="speech-text">--}}
-{{--                    <a href="" class="speech-link">Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies – such as screen readers. Ensure that information denoted by the color is either obvious from the content itself--}}
-{{--                        (e.g. the visible text), or is included through alternative means, such as additional text hidden with the Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies – such as screen readers. Ensure that information denoted by the color is either obvious from the content itself--}}
-{{--                        (e.g. the visible text), or is included through alternative means, such as additional text hidden with the class.--}}
+{{--                    <a href="" class="speech-link">{!! $speech->content !!}--}}
 {{--                    </a>--}}
 {{--                </div>--}}
 {{--            </div>--}}
+{{--            @endforeach--}}
+
+                @foreach($speechs as $speech)
+            <div class="bd-speech bd-speech-warning">
+                <h3 class="speech-title">{{$speech->title}}</h3>
+                <div class="speech-text">
+                    <a href="" class="speech-link">{!!$speech->content!!}
+                    </a>
+                </div>
+            </div>
+                @endforeach
 
         </div>
     </div>

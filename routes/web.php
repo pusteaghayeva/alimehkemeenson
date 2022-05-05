@@ -35,20 +35,23 @@ Route::get('/apparatus', [PageController::class, 'apparatus'])->name('apparatus'
 Route::get('/supremecourt',[PageController::class, 'supremecourt'])->name('supremecourt');
 //Route::get('/supreme-court{slug}',[PageController::class, 'singleCourt'])->name('court');
 Route::get('/news', [PageController::class, 'news'])->name('news');
-
 Route::get('/singlenews', [PageController::class, 'singleNews'])->name('singlenews');
-//Route::get('/singlenews/{slug}', [PageController::class, 'singleNews'])->name('news');
+
+Route::get('/report', [PageController::class, 'report'])->name('report');
+Route::get('/singlereport', [PageController::class, 'singlereport'])->name('singlereport');
 //Route::get('/azlegalact', [PageController::class, 'azlegalact'])->name('azlegalact');
 Route::get('/legalact', [PageController::class, 'legalact'])->name('legalact');
 //Nmr huquqi aktlar
 Route::get('/decisionpresidia', [PageController::class, 'decisionpresidia'])->name('decisionpresidia');
 Route::get('/gallery', [PageController::class, 'galleryClass'])->name('gallery');
-Route::get('/videogallery', [PageController::class, 'videogallery'])->name('videogallery');
+Route::get('/video', [PageController::class, 'video'])->name('video');
 Route::get('/faq', [PageController::class, 'faq'])->name('faq');
 Route::get('/educationmaterial', [PageController::class, 'educationmaterial'])->name('educationmaterial');
 //Internationaldocuments-Beynelxalq huquqi senedler
 Route::get('/internationaldocument', [PageController::class, 'internationaldocument'])->name('internationaldocument');
 Route::get('/measures', [PageController::class, 'measures'])->name('measures');
+Route::get('/singlemeasures', [PageController::class, 'singlemeasures'])->name('singlemeasures');
+
 //Route::get('/contact',[ContactController::class, 'contact'])->name('contact');
 
 Route::get('/speech', [PageController::class, 'speech'])->name('speech');
