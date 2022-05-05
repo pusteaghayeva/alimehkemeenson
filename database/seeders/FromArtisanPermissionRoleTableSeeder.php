@@ -419,6 +419,31 @@ class FromArtisanPermissionRoleTableSeeder extends Seeder
                 'permission_id' => 85,
                 'role_id' => 1,
             ),
+            80 => 
+            array (
+                'permission_id' => 86,
+                'role_id' => 1,
+            ),
+            81 => 
+            array (
+                'permission_id' => 87,
+                'role_id' => 1,
+            ),
+            82 => 
+            array (
+                'permission_id' => 88,
+                'role_id' => 1,
+            ),
+            83 => 
+            array (
+                'permission_id' => 89,
+                'role_id' => 1,
+            ),
+            84 => 
+            array (
+                'permission_id' => 90,
+                'role_id' => 1,
+            ),
         ));
         
         

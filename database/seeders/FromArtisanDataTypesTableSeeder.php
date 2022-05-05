@@ -271,6 +271,24 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-04-29 13:32:27',
                 'updated_at' => '2022-04-29 13:32:27',
             ),
+            14 => 
+            array (
+                'id' => 22,
+                'name' => 'pages',
+                'slug' => 'pages',
+                'display_name_singular' => 'Page',
+                'display_name_plural' => 'Pages',
+                'icon' => NULL,
+                'model_name' => 'App\\Models\\Page',
+                'policy_name' => NULL,
+                'controller' => 'App\\Http\\Controllers\\PageController',
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
+                'created_at' => '2022-05-05 04:47:07',
+                'updated_at' => '2022-05-05 05:00:29',
+            ),
         ));
         
         
