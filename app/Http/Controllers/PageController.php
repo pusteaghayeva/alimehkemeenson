@@ -69,12 +69,11 @@ class PageController extends Controller
 //        return view('pages.singlenews', compact('singlenewss'));
 //    }
 
-    public function singlenews($slug) {
-        $singlenewss = News::where('slug', $slug )->first();
-//        if ($singlenewss ===null){
-//            abort(404);
-//        }
-        return view('pages.singlenews', compact('singlenewss'));
+    public function singlenews(Request $request) {
+//        $singlenewss = News::where('slug', $slug )->first();
+        $singlenewss=News::where('id', $request->singlenews)->get();
+        return view('pages.singleNews', compact('singlenewss'));
+//        return view('pages.singleNews', compact('singlenewss'));
     }
 
 

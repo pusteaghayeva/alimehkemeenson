@@ -17,7 +17,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                     <div class="blog-wrapper home-blog-wrapper white-bg">
                         <div class="blog-thumb">
-                            <a href="https://bit.ly/2LHKl61">
+                            <a href="{{route('singlenews', ['singlenews'=>$news_item->id])}}">
                                 <img src="{{asset('storage/'.$news_item->image)}}" alt="" />
                             </a>
                         </div>
@@ -28,12 +28,12 @@
                         </div>
                         <div class="blog-content home-blog">
                             <h2 class="blog-title">
-                                <a href="">{{$news_item->title}}</a>
+                                <a href="{{route('singlenews', ['singlenews'=>$news_item->id])}}" class="text-justify">{{$news_item->title}}</a>
                             </h2>
-                            <p>{!! $news_item->content !!} </p>
+                            <p>{{mb_substr(html_entity_decode (strip_tags($news_item->content)), 0, 115) }}</p>
                         </div>
                         <div class="link-box home-blog-link">
-                            <a href="single_news.html">Ardını oxu</a>
+                            <a href="{{route('singlenews', ['singlenews'=>$news_item->id])}}">Ardını oxu</a>
                         </div>
                     </div>
                 </div>

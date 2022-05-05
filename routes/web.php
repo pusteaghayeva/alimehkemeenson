@@ -35,8 +35,9 @@ Route::get('/supremecourt',[PageController::class, 'supremecourt'])->name('supre
 
 
 Route::get('/news', [PageController::class, 'news'])->name('news');
-Route::get('/singlenews/{slug}', [PageController::class, 'singlenews'])->name('news');
+//Route::get('/singlenews/{slug}', [PageController::class, 'singlenews'])->name('news');
 
+Route::get('/singlenews', [PageController::class, 'singlenews'])->name('singlenews');
 //Route::get('/azlegalact', [PageController::class, 'azlegalact'])->name('azlegalact');
 Route::get('/legalact', [PageController::class, 'legalact'])->name('legalact');
 //Nmr huquqi aktlar
