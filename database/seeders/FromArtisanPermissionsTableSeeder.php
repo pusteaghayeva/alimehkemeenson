@@ -659,6 +659,46 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 13:32:27',
                 'updated_at' => '2022-04-29 13:32:27',
             ),
+            80 => 
+            array (
+                'id' => 86,
+                'key' => 'browse_pages',
+                'table_name' => 'pages',
+                'created_at' => '2022-05-05 04:47:07',
+                'updated_at' => '2022-05-05 04:47:07',
+            ),
+            81 => 
+            array (
+                'id' => 87,
+                'key' => 'read_pages',
+                'table_name' => 'pages',
+                'created_at' => '2022-05-05 04:47:07',
+                'updated_at' => '2022-05-05 04:47:07',
+            ),
+            82 => 
+            array (
+                'id' => 88,
+                'key' => 'edit_pages',
+                'table_name' => 'pages',
+                'created_at' => '2022-05-05 04:47:07',
+                'updated_at' => '2022-05-05 04:47:07',
+            ),
+            83 => 
+            array (
+                'id' => 89,
+                'key' => 'add_pages',
+                'table_name' => 'pages',
+                'created_at' => '2022-05-05 04:47:07',
+                'updated_at' => '2022-05-05 04:47:07',
+            ),
+            84 => 
+            array (
+                'id' => 90,
+                'key' => 'delete_pages',
+                'table_name' => 'pages',
+                'created_at' => '2022-05-05 04:47:07',
+                'updated_at' => '2022-05-05 04:47:07',
+            ),
         ));
         
         

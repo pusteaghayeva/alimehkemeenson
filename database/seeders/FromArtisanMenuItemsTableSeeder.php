@@ -1427,6 +1427,22 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.colleges.index',
                 'parameters' => NULL,
             ),
+            88 => 
+            array (
+                'id' => 93,
+                'menu_id' => 1,
+                'title' => 'Pages',
+                'url' => '',
+                'target' => '_self',
+                'icon_class' => NULL,
+                'color' => NULL,
+                'parent_id' => NULL,
+                'order' => 38,
+                'created_at' => '2022-05-05 04:47:07',
+                'updated_at' => '2022-05-05 04:47:07',
+                'route' => 'voyager.pages.index',
+                'parameters' => NULL,
+            ),
         ));
         
         
