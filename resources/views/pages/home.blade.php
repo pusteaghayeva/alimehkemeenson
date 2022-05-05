@@ -14,7 +14,7 @@
                         </ol>
                         <div class="carousel-inner">
                             @foreach($news as $new)
-                                <a href="" class="carousel-item  {{$new->id ==1?'active': ''}}">
+                                <a href="{{route('singlenews', ['singlenews'=>$new->id])}}" class="carousel-item  {{$new->id ==1?'active': ''}}">
 
                                     <img src="{{asset('storage/'.$new->image)}}" class=" w-100" alt="...">
                                     <div class="carousel-bg"></div>
@@ -45,8 +45,8 @@
                         <div class=" list-group list-group-flush contact-ul ">
 
                             @foreach($contacts as $contact)
-                                <a href="contact" class="list-group-item contact-list ">
-                                    <img src="{{asset('storage/'.$contact->image)}}" alt="">
+                                <a href="{{$contact->slug}}" class="list-group-item contact-list ">
+                                    <img src="{{asset('storage/'.$contact->image)}}" width="40" alt="">
                                     <p>{{$contact->title}}</p>
                                 </a>
                             @endforeach
@@ -60,7 +60,7 @@
                     </div>
                     <div class="cat-container">
                         @foreach($forpersons as $forperson)
-                            <a href="{{$forperson->link}}">
+                            <a href="{{$forperson->link}}" target="_blank">
                                 <div class="cat-img-display">
                                     <h2 class="cat-title">{{$forperson->title}}</h2>
                                 </div>
@@ -144,7 +144,7 @@
                     @foreach($nmrcourts as $nmrcourt)
                     <div class="col-12 col-sm-12 col-md-6 only-courts courts-left ">
                             <div class="city-court">
-                                <a href="{{$nmrcourt->link}}" target="{{$nmrcourt->_blank}}">{{$nmrcourt->title}}</a>
+                                <a href="{{$nmrcourt->link}}" target="_blank">{{$nmrcourt->title}}</a>
                             </div>
                     </div>
                     @endforeach

@@ -23,25 +23,28 @@ class FromArtisanContactsTableSeeder extends Seeder
             array (
                 'id' => 1,
                 'title' => 'Əlaqə',
-                'image' => 'contacts\\April2022\\koCdx6LCoPqIzGEytLr0.png',
-                'created_at' => '2022-04-28 18:35:49',
-                'updated_at' => '2022-04-28 18:35:49',
+                'slug' => 'contact',
+                'image' => 'contacts\\May2022\\Dm56Kw9rSB3IVTLnM4jc.png',
+                'created_at' => '2022-05-05 08:47:00',
+                'updated_at' => '2022-05-05 12:12:02',
             ),
             1 => 
             array (
                 'id' => 2,
                 'title' => 'Qəbul qrafiki',
-                'image' => 'contacts\\April2022\\EReX6XA4QHAERXXQc40W.png',
-                'created_at' => '2022-04-29 05:31:52',
-                'updated_at' => '2022-04-29 05:31:52',
+                'slug' => 'reception_days',
+                'image' => 'contacts\\May2022\\cBBa9VcCRaikLJsVxaxK.png',
+                'created_at' => '2022-05-05 08:50:00',
+                'updated_at' => '2022-05-05 12:09:29',
             ),
             2 => 
             array (
                 'id' => 3,
                 'title' => 'Onlayn müraciət',
-                'image' => 'contacts\\April2022\\XcS00XBt7QxCjwMgTQ7l.png',
-                'created_at' => '2022-04-29 05:33:01',
-                'updated_at' => '2022-04-29 05:33:01',
+                'slug' => 'online',
+                'image' => 'contacts\\May2022\\cVqoVMQGBwJJqw0GxFpe.png',
+                'created_at' => '2022-05-05 08:50:00',
+                'updated_at' => '2022-05-05 12:12:36',
             ),
         ));
         

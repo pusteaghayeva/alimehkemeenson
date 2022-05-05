@@ -440,7 +440,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'id' => 27,
                 'data_type_id' => 5,
                 'field' => 'id',
-                'type' => 'text',
+                'type' => 'number',
                 'display_name' => 'Id',
                 'required' => 1,
                 'browse' => 0,
@@ -464,26 +464,10 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{}',
+                'details' => '{"validation":{"rule":"required"}}',
                 'order' => 2,
             ),
             28 => 
-            array (
-                'id' => 29,
-                'data_type_id' => 5,
-                'field' => 'text',
-                'type' => 'rich_text_box',
-                'display_name' => 'Text',
-                'required' => 1,
-                'browse' => 1,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 1,
-                'delete' => 1,
-                'details' => '{}',
-                'order' => 3,
-            ),
-            29 => 
             array (
                 'id' => 30,
                 'data_type_id' => 5,
@@ -496,10 +480,10 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{}',
+                'details' => '{"resize":{"width":"1000","height":null},"quality":"70%","upsize":true,"thumbnails":[{"name":"medium","scale":"50%"},{"name":"small","scale":"25%"},{"name":"cropped","crop":{"width":"300","height":"250"}}]}',
                 'order' => 4,
             ),
-            30 => 
+            29 => 
             array (
                 'id' => 31,
                 'data_type_id' => 5,
@@ -512,10 +496,10 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'edit' => 1,
                 'add' => 0,
                 'delete' => 1,
-                'details' => '{}',
+                'details' => '{"format":"%Y-%m-%d"}',
                 'order' => 5,
             ),
-            31 => 
+            30 => 
             array (
                 'id' => 32,
                 'data_type_id' => 5,
@@ -528,10 +512,10 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'edit' => 0,
                 'add' => 0,
                 'delete' => 0,
-                'details' => '{}',
+                'details' => '{"format":"%Y-%m-%d"}',
                 'order' => 6,
             ),
-            32 => 
+            31 => 
             array (
                 'id' => 40,
                 'data_type_id' => 7,
@@ -547,7 +531,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 1,
             ),
-            33 => 
+            32 => 
             array (
                 'id' => 41,
                 'data_type_id' => 7,
@@ -560,10 +544,10 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{}',
+                'details' => '{"validation":{"rule":"required"}}',
                 'order' => 2,
             ),
-            34 => 
+            33 => 
             array (
                 'id' => 42,
                 'data_type_id' => 7,
@@ -576,10 +560,10 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{}',
+                'details' => '{"resize":{"width":"1000","height":null},"quality":"70%","upsize":true,"thumbnails":[{"name":"medium","scale":"50%"},{"name":"small","scale":"25%"},{"name":"cropped","crop":{"width":"300","height":"250"}}]}',
                 'order' => 3,
             ),
-            35 => 
+            34 => 
             array (
                 'id' => 43,
                 'data_type_id' => 7,
@@ -592,10 +576,10 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'edit' => 1,
                 'add' => 0,
                 'delete' => 1,
-                'details' => '{}',
+                'details' => '{"format":"%Y-%m-%d"}',
                 'order' => 4,
             ),
-            36 => 
+            35 => 
             array (
                 'id' => 44,
                 'data_type_id' => 7,
@@ -608,10 +592,10 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'edit' => 0,
                 'add' => 0,
                 'delete' => 0,
-                'details' => '{}',
+                'details' => '{"format":"%Y-%m-%d"}',
                 'order' => 5,
             ),
-            37 => 
+            36 => 
             array (
                 'id' => 45,
                 'data_type_id' => 13,
@@ -627,7 +611,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 1,
             ),
-            38 => 
+            37 => 
             array (
                 'id' => 46,
                 'data_type_id' => 13,
@@ -643,7 +627,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 2,
             ),
-            39 => 
+            38 => 
             array (
                 'id' => 47,
                 'data_type_id' => 13,
@@ -659,7 +643,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 3,
             ),
-            40 => 
+            39 => 
             array (
                 'id' => 48,
                 'data_type_id' => 13,
@@ -675,7 +659,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 4,
             ),
-            41 => 
+            40 => 
             array (
                 'id' => 49,
                 'data_type_id' => 13,
@@ -691,7 +675,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 5,
             ),
-            42 => 
+            41 => 
             array (
                 'id' => 50,
                 'data_type_id' => 14,
@@ -707,7 +691,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 1,
             ),
-            43 => 
+            42 => 
             array (
                 'id' => 51,
                 'data_type_id' => 14,
@@ -723,7 +707,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 2,
             ),
-            44 => 
+            43 => 
             array (
                 'id' => 52,
                 'data_type_id' => 14,
@@ -739,7 +723,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 3,
             ),
-            45 => 
+            44 => 
             array (
                 'id' => 53,
                 'data_type_id' => 14,
@@ -755,7 +739,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 4,
             ),
-            46 => 
+            45 => 
             array (
                 'id' => 54,
                 'data_type_id' => 14,
@@ -771,7 +755,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 5,
             ),
-            47 => 
+            46 => 
             array (
                 'id' => 55,
                 'data_type_id' => 14,
@@ -787,7 +771,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 6,
             ),
-            48 => 
+            47 => 
             array (
                 'id' => 56,
                 'data_type_id' => 15,
@@ -803,7 +787,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 1,
             ),
-            49 => 
+            48 => 
             array (
                 'id' => 57,
                 'data_type_id' => 15,
@@ -819,7 +803,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 2,
             ),
-            50 => 
+            49 => 
             array (
                 'id' => 58,
                 'data_type_id' => 15,
@@ -835,7 +819,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 3,
             ),
-            51 => 
+            50 => 
             array (
                 'id' => 59,
                 'data_type_id' => 15,
@@ -851,7 +835,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 4,
             ),
-            52 => 
+            51 => 
             array (
                 'id' => 60,
                 'data_type_id' => 15,
@@ -867,7 +851,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 5,
             ),
-            53 => 
+            52 => 
             array (
                 'id' => 61,
                 'data_type_id' => 15,
@@ -883,7 +867,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 6,
             ),
-            54 => 
+            53 => 
             array (
                 'id' => 62,
                 'data_type_id' => 16,
@@ -899,7 +883,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 1,
             ),
-            55 => 
+            54 => 
             array (
                 'id' => 63,
                 'data_type_id' => 16,
@@ -915,7 +899,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 2,
             ),
-            56 => 
+            55 => 
             array (
                 'id' => 64,
                 'data_type_id' => 16,
@@ -931,7 +915,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 3,
             ),
-            57 => 
+            56 => 
             array (
                 'id' => 65,
                 'data_type_id' => 16,
@@ -947,7 +931,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 4,
             ),
-            58 => 
+            57 => 
             array (
                 'id' => 66,
                 'data_type_id' => 17,
@@ -963,7 +947,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 1,
             ),
-            59 => 
+            58 => 
             array (
                 'id' => 67,
                 'data_type_id' => 17,
@@ -979,7 +963,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 2,
             ),
-            60 => 
+            59 => 
             array (
                 'id' => 68,
                 'data_type_id' => 17,
@@ -995,7 +979,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 3,
             ),
-            61 => 
+            60 => 
             array (
                 'id' => 69,
                 'data_type_id' => 17,
@@ -1011,7 +995,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 4,
             ),
-            62 => 
+            61 => 
             array (
                 'id' => 70,
                 'data_type_id' => 17,
@@ -1027,7 +1011,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 5,
             ),
-            63 => 
+            62 => 
             array (
                 'id' => 71,
                 'data_type_id' => 17,
@@ -1043,7 +1027,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 6,
             ),
-            64 => 
+            63 => 
             array (
                 'id' => 72,
                 'data_type_id' => 18,
@@ -1059,7 +1043,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 1,
             ),
-            65 => 
+            64 => 
             array (
                 'id' => 73,
                 'data_type_id' => 18,
@@ -1075,7 +1059,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 2,
             ),
-            66 => 
+            65 => 
             array (
                 'id' => 74,
                 'data_type_id' => 18,
@@ -1091,7 +1075,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 3,
             ),
-            67 => 
+            66 => 
             array (
                 'id' => 75,
                 'data_type_id' => 18,
@@ -1107,7 +1091,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 4,
             ),
-            68 => 
+            67 => 
             array (
                 'id' => 76,
                 'data_type_id' => 18,
@@ -1123,7 +1107,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 5,
             ),
-            69 => 
+            68 => 
             array (
                 'id' => 77,
                 'data_type_id' => 19,
@@ -1139,7 +1123,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 1,
             ),
-            70 => 
+            69 => 
             array (
                 'id' => 78,
                 'data_type_id' => 19,
@@ -1155,7 +1139,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{"validation":{"rule":"required"}}',
                 'order' => 2,
             ),
-            71 => 
+            70 => 
             array (
                 'id' => 79,
                 'data_type_id' => 19,
@@ -1171,7 +1155,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{"tinymceOptions":{"toolbar":"styleselect bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter  alignright | bullist numlist outdent indent | link image table | code"}}',
                 'order' => 3,
             ),
-            72 => 
+            71 => 
             array (
                 'id' => 80,
                 'data_type_id' => 19,
@@ -1187,7 +1171,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{"format":"%Y-%m-%d"}',
                 'order' => 4,
             ),
-            73 => 
+            72 => 
             array (
                 'id' => 81,
                 'data_type_id' => 19,
@@ -1203,7 +1187,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{"format":"%Y-%m-%d"}',
                 'order' => 5,
             ),
-            74 => 
+            73 => 
             array (
                 'id' => 82,
                 'data_type_id' => 20,
@@ -1219,7 +1203,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 1,
             ),
-            75 => 
+            74 => 
             array (
                 'id' => 83,
                 'data_type_id' => 20,
@@ -1235,7 +1219,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{"validation":{"rule":"required"}}',
                 'order' => 2,
             ),
-            76 => 
+            75 => 
             array (
                 'id' => 84,
                 'data_type_id' => 20,
@@ -1251,7 +1235,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{"tinymceOptions":{"toolbar":"styleselect bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter  alignright | bullist numlist outdent indent | link image table | code"}}',
                 'order' => 3,
             ),
-            77 => 
+            76 => 
             array (
                 'id' => 85,
                 'data_type_id' => 20,
@@ -1267,7 +1251,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{"format":"%Y-%m-%d"}',
                 'order' => 4,
             ),
-            78 => 
+            77 => 
             array (
                 'id' => 86,
                 'data_type_id' => 20,
@@ -1283,7 +1267,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{"format":"%Y-%m-%d"}',
                 'order' => 5,
             ),
-            79 => 
+            78 => 
             array (
                 'id' => 87,
                 'data_type_id' => 22,
@@ -1299,7 +1283,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 1,
             ),
-            80 => 
+            79 => 
             array (
                 'id' => 88,
                 'data_type_id' => 22,
@@ -1315,7 +1299,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 2,
             ),
-            81 => 
+            80 => 
             array (
                 'id' => 89,
                 'data_type_id' => 22,
@@ -1331,7 +1315,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 3,
             ),
-            82 => 
+            81 => 
             array (
                 'id' => 90,
                 'data_type_id' => 22,
@@ -1347,7 +1331,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 4,
             ),
-            83 => 
+            82 => 
             array (
                 'id' => 91,
                 'data_type_id' => 22,
@@ -1363,7 +1347,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{"tinymceOptions":{"toolbar":"styleselect bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter alignright | bullist numlist outdent indent | link image table | code"}}',
                 'order' => 5,
             ),
-            84 => 
+            83 => 
             array (
                 'id' => 92,
                 'data_type_id' => 22,
@@ -1379,7 +1363,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 6,
             ),
-            85 => 
+            84 => 
             array (
                 'id' => 93,
                 'data_type_id' => 22,
@@ -1395,7 +1379,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{"slugify":{"origin":"title"},"validation":{"rule":"unique:pages,slug"}}',
                 'order' => 7,
             ),
-            86 => 
+            85 => 
             array (
                 'id' => 94,
                 'data_type_id' => 22,
@@ -1411,7 +1395,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{"0":"No Redirect","1":"Redirect","checked":false}',
                 'order' => 8,
             ),
-            87 => 
+            86 => 
             array (
                 'id' => 95,
                 'data_type_id' => 22,
@@ -1427,7 +1411,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 9,
             ),
-            88 => 
+            87 => 
             array (
                 'id' => 96,
                 'data_type_id' => 22,
@@ -1443,7 +1427,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 10,
             ),
-            89 => 
+            88 => 
             array (
                 'id' => 97,
                 'data_type_id' => 22,
@@ -1459,7 +1443,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 11,
             ),
-            90 => 
+            89 => 
             array (
                 'id' => 98,
                 'data_type_id' => 22,
@@ -1475,7 +1459,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{"default":"INACTIVE","options":{"INACTIVE":"INACTIVE","ACTIVE":"ACTIVE"}}',
                 'order' => 12,
             ),
-            91 => 
+            90 => 
             array (
                 'id' => 99,
                 'data_type_id' => 22,
@@ -1491,7 +1475,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 13,
             ),
-            92 => 
+            91 => 
             array (
                 'id' => 100,
                 'data_type_id' => 22,
@@ -1506,6 +1490,518 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'delete' => 0,
                 'details' => '{}',
                 'order' => 14,
+            ),
+            92 => 
+            array (
+                'id' => 101,
+                'data_type_id' => 5,
+                'field' => 'slug',
+                'type' => 'text',
+                'display_name' => 'Slug',
+                'required' => 1,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"slugify":{"origin":"title","forceUpdate":true}}',
+                'order' => 4,
+            ),
+            93 => 
+            array (
+                'id' => 102,
+                'data_type_id' => 5,
+                'field' => 'content',
+                'type' => 'rich_text_box',
+                'display_name' => 'Content',
+                'required' => 1,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"tinymceOptions":{"toolbar":"styleselect bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter  alignright | bullist numlist outdent indent | link image table | code"}}',
+                'order' => 5,
+            ),
+            94 => 
+            array (
+                'id' => 103,
+                'data_type_id' => 7,
+                'field' => 'slug',
+                'type' => 'text',
+                'display_name' => 'Slug',
+                'required' => 1,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"slugify":{"origin":"title","forceUpdate":true}}',
+                'order' => 3,
+            ),
+            95 => 
+            array (
+                'id' => 104,
+                'data_type_id' => 24,
+                'field' => 'id',
+                'type' => 'number',
+                'display_name' => 'Id',
+                'required' => 1,
+                'browse' => 0,
+                'read' => 0,
+                'edit' => 0,
+                'add' => 0,
+                'delete' => 0,
+                'details' => '{}',
+                'order' => 1,
+            ),
+            96 => 
+            array (
+                'id' => 105,
+                'data_type_id' => 24,
+                'field' => 'title',
+                'type' => 'text',
+                'display_name' => 'Title',
+                'required' => 1,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"validation":{"rule":"required"}}',
+                'order' => 2,
+            ),
+            97 => 
+            array (
+                'id' => 106,
+                'data_type_id' => 24,
+                'field' => 'content',
+                'type' => 'rich_text_box',
+                'display_name' => 'Content',
+                'required' => 1,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"tinymceOptions":{"toolbar":"styleselect bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter  alignright | bullist numlist outdent indent | link image table | code"}}',
+                'order' => 3,
+            ),
+            98 => 
+            array (
+                'id' => 107,
+                'data_type_id' => 24,
+                'field' => 'created_at',
+                'type' => 'timestamp',
+                'display_name' => 'Created At',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 0,
+                'delete' => 1,
+                'details' => '{"format":"%Y-%m-%d"}',
+                'order' => 4,
+            ),
+            99 => 
+            array (
+                'id' => 108,
+                'data_type_id' => 24,
+                'field' => 'updated_at',
+                'type' => 'timestamp',
+                'display_name' => 'Updated At',
+                'required' => 0,
+                'browse' => 0,
+                'read' => 0,
+                'edit' => 0,
+                'add' => 0,
+                'delete' => 0,
+                'details' => '{"format":"%Y-%m-%d"}',
+                'order' => 5,
+            ),
+            100 => 
+            array (
+                'id' => 109,
+                'data_type_id' => 25,
+                'field' => 'id',
+                'type' => 'number',
+                'display_name' => 'Id',
+                'required' => 1,
+                'browse' => 0,
+                'read' => 0,
+                'edit' => 0,
+                'add' => 0,
+                'delete' => 0,
+                'details' => '{}',
+                'order' => 1,
+            ),
+            101 => 
+            array (
+                'id' => 110,
+                'data_type_id' => 25,
+                'field' => 'title',
+                'type' => 'text',
+                'display_name' => 'Title',
+                'required' => 1,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"validation":{"rule":"required"}}',
+                'order' => 2,
+            ),
+            102 => 
+            array (
+                'id' => 111,
+                'data_type_id' => 25,
+                'field' => 'pdf',
+                'type' => 'file',
+                'display_name' => 'Pdf',
+                'required' => 1,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"max":10,"min":0,"expanded":true,"show_folders":true,"show_toolbar":true,"allow_upload":true,"allow_move":true,"allow_delete":true,"allow_create_folder":true,"allow_rename":true,"allow_crop":true,"allowed":[],"hide_thumbnails":false,"quality":90,"watermark":{"source":"...","position":"top-left","x":0,"y":0}}',
+                'order' => 3,
+            ),
+            103 => 
+            array (
+                'id' => 112,
+                'data_type_id' => 25,
+                'field' => 'created_at',
+                'type' => 'timestamp',
+                'display_name' => 'Created At',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 0,
+                'delete' => 1,
+                'details' => '{"format":"%Y-%m-%d"}',
+                'order' => 4,
+            ),
+            104 => 
+            array (
+                'id' => 113,
+                'data_type_id' => 25,
+                'field' => 'updated_at',
+                'type' => 'timestamp',
+                'display_name' => 'Updated At',
+                'required' => 0,
+                'browse' => 0,
+                'read' => 0,
+                'edit' => 0,
+                'add' => 0,
+                'delete' => 0,
+                'details' => '{"format":"%Y-%m-%d"}',
+                'order' => 5,
+            ),
+            105 => 
+            array (
+                'id' => 114,
+                'data_type_id' => 26,
+                'field' => 'id',
+                'type' => 'number',
+                'display_name' => 'Id',
+                'required' => 1,
+                'browse' => 0,
+                'read' => 0,
+                'edit' => 0,
+                'add' => 0,
+                'delete' => 0,
+                'details' => '{}',
+                'order' => 1,
+            ),
+            106 => 
+            array (
+                'id' => 115,
+                'data_type_id' => 26,
+                'field' => 'image',
+                'type' => 'image',
+                'display_name' => 'Image',
+                'required' => 1,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"resize":{"width":"1000","height":null},"quality":"70%","upsize":true,"thumbnails":[{"name":"medium","scale":"50%"},{"name":"small","scale":"25%"},{"name":"cropped","crop":{"width":"300","height":"250"}}]}',
+                'order' => 2,
+            ),
+            107 => 
+            array (
+                'id' => 116,
+                'data_type_id' => 26,
+                'field' => 'title',
+                'type' => 'text',
+                'display_name' => 'Title',
+                'required' => 1,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"validation":{"rule":"required"}}',
+                'order' => 3,
+            ),
+            108 => 
+            array (
+                'id' => 117,
+                'data_type_id' => 26,
+                'field' => 'link',
+                'type' => 'text',
+                'display_name' => 'Link',
+                'required' => 1,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"validation":{"rule":"required"}}',
+                'order' => 4,
+            ),
+            109 => 
+            array (
+                'id' => 118,
+                'data_type_id' => 26,
+                'field' => 'created_at',
+                'type' => 'timestamp',
+                'display_name' => 'Created At',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 0,
+                'delete' => 1,
+                'details' => '{"format":"%Y-%m-%d"}',
+                'order' => 5,
+            ),
+            110 => 
+            array (
+                'id' => 119,
+                'data_type_id' => 26,
+                'field' => 'updated_at',
+                'type' => 'timestamp',
+                'display_name' => 'Updated At',
+                'required' => 0,
+                'browse' => 0,
+                'read' => 0,
+                'edit' => 0,
+                'add' => 0,
+                'delete' => 0,
+                'details' => '{"format":"%Y-%m-%d"}',
+                'order' => 6,
+            ),
+            111 => 
+            array (
+                'id' => 120,
+                'data_type_id' => 27,
+                'field' => 'id',
+                'type' => 'number',
+                'display_name' => 'Id',
+                'required' => 1,
+                'browse' => 0,
+                'read' => 0,
+                'edit' => 0,
+                'add' => 0,
+                'delete' => 0,
+                'details' => '{}',
+                'order' => 1,
+            ),
+            112 => 
+            array (
+                'id' => 121,
+                'data_type_id' => 27,
+                'field' => 'image',
+                'type' => 'image',
+                'display_name' => 'Image',
+                'required' => 1,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"resize":{"width":"1000","height":null},"quality":"70%","upsize":true,"thumbnails":[{"name":"medium","scale":"50%"},{"name":"small","scale":"25%"},{"name":"cropped","crop":{"width":"300","height":"250"}}]}',
+                'order' => 2,
+            ),
+            113 => 
+            array (
+                'id' => 122,
+                'data_type_id' => 27,
+                'field' => 'title',
+                'type' => 'text',
+                'display_name' => 'Title',
+                'required' => 1,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"validation":{"rule":"required"}}',
+                'order' => 3,
+            ),
+            114 => 
+            array (
+                'id' => 123,
+                'data_type_id' => 27,
+                'field' => 'slug',
+                'type' => 'text',
+                'display_name' => 'Slug',
+                'required' => 1,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"slugify":{"origin":"title","forceUpdate":true}}',
+                'order' => 4,
+            ),
+            115 => 
+            array (
+                'id' => 124,
+                'data_type_id' => 27,
+                'field' => 'content',
+                'type' => 'rich_text_box',
+                'display_name' => 'Content',
+                'required' => 1,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"tinymceOptions":{"toolbar":"styleselect bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter  alignright | bullist numlist outdent indent | link image table | code"}}',
+                'order' => 5,
+            ),
+            116 => 
+            array (
+                'id' => 125,
+                'data_type_id' => 27,
+                'field' => 'created_at',
+                'type' => 'timestamp',
+                'display_name' => 'Created At',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 0,
+                'delete' => 1,
+                'details' => '{"format":"%Y-%m-%d"}',
+                'order' => 6,
+            ),
+            117 => 
+            array (
+                'id' => 126,
+                'data_type_id' => 27,
+                'field' => 'updated_at',
+                'type' => 'timestamp',
+                'display_name' => 'Updated At',
+                'required' => 0,
+                'browse' => 0,
+                'read' => 0,
+                'edit' => 0,
+                'add' => 0,
+                'delete' => 0,
+                'details' => '{"format":"%Y-%m-%d"}',
+                'order' => 7,
+            ),
+            118 => 
+            array (
+                'id' => 127,
+                'data_type_id' => 28,
+                'field' => 'id',
+                'type' => 'number',
+                'display_name' => 'Id',
+                'required' => 1,
+                'browse' => 0,
+                'read' => 0,
+                'edit' => 0,
+                'add' => 0,
+                'delete' => 0,
+                'details' => '{}',
+                'order' => 1,
+            ),
+            119 => 
+            array (
+                'id' => 128,
+                'data_type_id' => 28,
+                'field' => 'title',
+                'type' => 'text',
+                'display_name' => 'Title',
+                'required' => 1,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"validation":{"rule":"required"}}',
+                'order' => 2,
+            ),
+            120 => 
+            array (
+                'id' => 129,
+                'data_type_id' => 28,
+                'field' => 'slug',
+                'type' => 'text',
+                'display_name' => 'Slug',
+                'required' => 1,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"slugify":{"origin":"title","forceUpdate":true}}',
+                'order' => 3,
+            ),
+            121 => 
+            array (
+                'id' => 130,
+                'data_type_id' => 28,
+                'field' => 'content',
+                'type' => 'rich_text_box',
+                'display_name' => 'Content',
+                'required' => 1,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"tinymceOptions":{"toolbar":"styleselect bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter  alignright | bullist numlist outdent indent | link image table | code"}}',
+                'order' => 4,
+            ),
+            122 => 
+            array (
+                'id' => 131,
+                'data_type_id' => 28,
+                'field' => 'created_at',
+                'type' => 'timestamp',
+                'display_name' => 'Created At',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 0,
+                'delete' => 1,
+                'details' => '{"format":"%Y-%m-%d"}',
+                'order' => 5,
+            ),
+            123 => 
+            array (
+                'id' => 132,
+                'data_type_id' => 28,
+                'field' => 'updated_at',
+                'type' => 'timestamp',
+                'display_name' => 'Updated At',
+                'required' => 0,
+                'browse' => 0,
+                'read' => 0,
+                'edit' => 0,
+                'add' => 0,
+                'delete' => 0,
+                'details' => '{"format":"%Y-%m-%d"}',
+                'order' => 6,
             ),
         ));
         

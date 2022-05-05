@@ -17,7 +17,8 @@ class CreateDecisionpresidiaTable extends Migration
             $table->id();
             $table->string('image');
             $table->string('title');
-            $table->string('link');
+            $table->string('slug');
+            $table->longText('content');
             $table->timestamps();
         });
     }

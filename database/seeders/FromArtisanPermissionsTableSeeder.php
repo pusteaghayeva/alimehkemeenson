@@ -699,6 +699,206 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 04:47:07',
                 'updated_at' => '2022-05-05 04:47:07',
             ),
+            85 => 
+            array (
+                'id' => 91,
+                'key' => 'browse_faqs',
+                'table_name' => 'faqs',
+                'created_at' => '2022-05-05 12:28:37',
+                'updated_at' => '2022-05-05 12:28:37',
+            ),
+            86 => 
+            array (
+                'id' => 92,
+                'key' => 'read_faqs',
+                'table_name' => 'faqs',
+                'created_at' => '2022-05-05 12:28:37',
+                'updated_at' => '2022-05-05 12:28:37',
+            ),
+            87 => 
+            array (
+                'id' => 93,
+                'key' => 'edit_faqs',
+                'table_name' => 'faqs',
+                'created_at' => '2022-05-05 12:28:37',
+                'updated_at' => '2022-05-05 12:28:37',
+            ),
+            88 => 
+            array (
+                'id' => 94,
+                'key' => 'add_faqs',
+                'table_name' => 'faqs',
+                'created_at' => '2022-05-05 12:28:37',
+                'updated_at' => '2022-05-05 12:28:37',
+            ),
+            89 => 
+            array (
+                'id' => 95,
+                'key' => 'delete_faqs',
+                'table_name' => 'faqs',
+                'created_at' => '2022-05-05 12:28:37',
+                'updated_at' => '2022-05-05 12:28:37',
+            ),
+            90 => 
+            array (
+                'id' => 96,
+                'key' => 'browse_internationaldocuments',
+                'table_name' => 'internationaldocuments',
+                'created_at' => '2022-05-05 12:40:05',
+                'updated_at' => '2022-05-05 12:40:05',
+            ),
+            91 => 
+            array (
+                'id' => 97,
+                'key' => 'read_internationaldocuments',
+                'table_name' => 'internationaldocuments',
+                'created_at' => '2022-05-05 12:40:05',
+                'updated_at' => '2022-05-05 12:40:05',
+            ),
+            92 => 
+            array (
+                'id' => 98,
+                'key' => 'edit_internationaldocuments',
+                'table_name' => 'internationaldocuments',
+                'created_at' => '2022-05-05 12:40:05',
+                'updated_at' => '2022-05-05 12:40:05',
+            ),
+            93 => 
+            array (
+                'id' => 99,
+                'key' => 'add_internationaldocuments',
+                'table_name' => 'internationaldocuments',
+                'created_at' => '2022-05-05 12:40:05',
+                'updated_at' => '2022-05-05 12:40:05',
+            ),
+            94 => 
+            array (
+                'id' => 100,
+                'key' => 'delete_internationaldocuments',
+                'table_name' => 'internationaldocuments',
+                'created_at' => '2022-05-05 12:40:05',
+                'updated_at' => '2022-05-05 12:40:05',
+            ),
+            95 => 
+            array (
+                'id' => 101,
+                'key' => 'browse_legalacts',
+                'table_name' => 'legalacts',
+                'created_at' => '2022-05-05 12:56:54',
+                'updated_at' => '2022-05-05 12:56:54',
+            ),
+            96 => 
+            array (
+                'id' => 102,
+                'key' => 'read_legalacts',
+                'table_name' => 'legalacts',
+                'created_at' => '2022-05-05 12:56:54',
+                'updated_at' => '2022-05-05 12:56:54',
+            ),
+            97 => 
+            array (
+                'id' => 103,
+                'key' => 'edit_legalacts',
+                'table_name' => 'legalacts',
+                'created_at' => '2022-05-05 12:56:54',
+                'updated_at' => '2022-05-05 12:56:54',
+            ),
+            98 => 
+            array (
+                'id' => 104,
+                'key' => 'add_legalacts',
+                'table_name' => 'legalacts',
+                'created_at' => '2022-05-05 12:56:54',
+                'updated_at' => '2022-05-05 12:56:54',
+            ),
+            99 => 
+            array (
+                'id' => 105,
+                'key' => 'delete_legalacts',
+                'table_name' => 'legalacts',
+                'created_at' => '2022-05-05 12:56:54',
+                'updated_at' => '2022-05-05 12:56:54',
+            ),
+            100 => 
+            array (
+                'id' => 106,
+                'key' => 'browse_decisionpresidia',
+                'table_name' => 'decisionpresidia',
+                'created_at' => '2022-05-05 13:21:00',
+                'updated_at' => '2022-05-05 13:21:00',
+            ),
+            101 => 
+            array (
+                'id' => 107,
+                'key' => 'read_decisionpresidia',
+                'table_name' => 'decisionpresidia',
+                'created_at' => '2022-05-05 13:21:00',
+                'updated_at' => '2022-05-05 13:21:00',
+            ),
+            102 => 
+            array (
+                'id' => 108,
+                'key' => 'edit_decisionpresidia',
+                'table_name' => 'decisionpresidia',
+                'created_at' => '2022-05-05 13:21:00',
+                'updated_at' => '2022-05-05 13:21:00',
+            ),
+            103 => 
+            array (
+                'id' => 109,
+                'key' => 'add_decisionpresidia',
+                'table_name' => 'decisionpresidia',
+                'created_at' => '2022-05-05 13:21:00',
+                'updated_at' => '2022-05-05 13:21:00',
+            ),
+            104 => 
+            array (
+                'id' => 110,
+                'key' => 'delete_decisionpresidia',
+                'table_name' => 'decisionpresidia',
+                'created_at' => '2022-05-05 13:21:00',
+                'updated_at' => '2022-05-05 13:21:00',
+            ),
+            105 => 
+            array (
+                'id' => 111,
+                'key' => 'browse_speeches',
+                'table_name' => 'speeches',
+                'created_at' => '2022-05-05 13:40:29',
+                'updated_at' => '2022-05-05 13:40:29',
+            ),
+            106 => 
+            array (
+                'id' => 112,
+                'key' => 'read_speeches',
+                'table_name' => 'speeches',
+                'created_at' => '2022-05-05 13:40:29',
+                'updated_at' => '2022-05-05 13:40:29',
+            ),
+            107 => 
+            array (
+                'id' => 113,
+                'key' => 'edit_speeches',
+                'table_name' => 'speeches',
+                'created_at' => '2022-05-05 13:40:29',
+                'updated_at' => '2022-05-05 13:40:29',
+            ),
+            108 => 
+            array (
+                'id' => 114,
+                'key' => 'add_speeches',
+                'table_name' => 'speeches',
+                'created_at' => '2022-05-05 13:40:29',
+                'updated_at' => '2022-05-05 13:40:29',
+            ),
+            109 => 
+            array (
+                'id' => 115,
+                'key' => 'delete_speeches',
+                'table_name' => 'speeches',
+                'created_at' => '2022-05-05 13:40:29',
+                'updated_at' => '2022-05-05 13:40:29',
+            ),
         ));
         
         

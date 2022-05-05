@@ -51,6 +51,7 @@ class BackupDataBase extends Command
             'user_roles',
             'translations',
             'contacts',
+            'usefullunks',
             'home_pages',
             'colleges',
             'contacts',
@@ -60,7 +61,15 @@ class BackupDataBase extends Command
             'nmrcourts',
             'services',
             'usefullinks',
-            'pages'
+            'pages',
+            'structures',
+            'faqs',
+            'internationaldocuments',
+            'speeches',
+            'decisionpresidia',
+            'galleries',
+            'educationmaterials',
+
         ];
 
         $bar = $this->output->createProgressBar(count($tables));

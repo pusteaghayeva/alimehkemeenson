@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Article;
-use App\Models\Azlegalact;
+//use App\Models\Azlegalact;
 use App\Models\Court90;
 use App\Models\Courts;
 use App\Models\Decision;
@@ -96,7 +96,7 @@ class PageController extends Controller
 
 
   public function legalact(){
-        $legalacts = Legalact::get();
+        $legalacts = Legalact::orderBy('id', 'desc')->get();
         return view('pages.legalact', compact('legalacts'));
   }
 

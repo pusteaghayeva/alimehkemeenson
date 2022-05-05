@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Decisionpresidium extends Model
 {
     use HasFactory;
-    protected $fillable= ['image', 'title','link'];
+    protected $fillable=['image', 'title', 'slug', 'content'];
 }

@@ -29,13 +29,15 @@ Route::get('/', [HomePageController::class, 'home'])->name('home');
 
 Route::get('/home',[HomePageController::class, 'home'])->name('home');
 //Route::get('/about' ,[PageController::class, 'about'])->name('about');
-Route::get('/college', [PageController::class, 'college'])->name('college');
-Route::get('/structure', [PageController::class, 'structure'])->name('structure');
+//Route::get('/college', [PageController::class, 'college'])->name('college');
+//Route::get('/structure', [PageController::class, 'structure'])->name('structure');
 Route::get('/apparatus', [PageController::class, 'apparatus'])->name('apparatus');
 Route::get('/supremecourt',[PageController::class, 'supremecourt'])->name('supremecourt');
-Route::get('/supreme-court{slug}',[PageController::class, 'singleCourt'])->name('court');
+//Route::get('/supreme-court{slug}',[PageController::class, 'singleCourt'])->name('court');
 Route::get('/news', [PageController::class, 'news'])->name('news');
-Route::get('/singlenews/{slug}', [PageController::class, 'singleNews'])->name('news');
+
+Route::get('/singlenews', [PageController::class, 'singleNews'])->name('singlenews');
+//Route::get('/singlenews/{slug}', [PageController::class, 'singleNews'])->name('news');
 //Route::get('/azlegalact', [PageController::class, 'azlegalact'])->name('azlegalact');
 Route::get('/legalact', [PageController::class, 'legalact'])->name('legalact');
 //Nmr huquqi aktlar
@@ -47,7 +49,7 @@ Route::get('/educationmaterial', [PageController::class, 'educationmaterial'])->
 //Internationaldocuments-Beynelxalq huquqi senedler
 Route::get('/internationaldocument', [PageController::class, 'internationaldocument'])->name('internationaldocument');
 Route::get('/measures', [PageController::class, 'measures'])->name('measures');
-Route::get('/contact',[ContactController::class, 'contact'])->name('contact');
+//Route::get('/contact',[ContactController::class, 'contact'])->name('contact');
 
 Route::get('/speech', [PageController::class, 'speech'])->name('speech');
 
