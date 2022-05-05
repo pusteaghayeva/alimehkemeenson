@@ -6,7 +6,8 @@ use App\Http\Controllers\SupremecourtController;
 use App\Http\Controllers\HomePageController;
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
-use TCG\Voyager\Voyager;
+use TCG\Voyager\Facades\Voyager;
+
 
 /*
 |--------------------------------------------------------------------------
