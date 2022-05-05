@@ -14,6 +14,7 @@ use App\Models\Internationaldocument;
 use App\Models\Legalact;
 use App\Models\Measures;
 use App\Models\News;
+use App\Models\Page;
 use App\Models\Photogallery;
 use App\Models\rhdecision;
 use App\Models\Supremecourt;
@@ -22,12 +23,27 @@ use Illuminate\Http\Request;
 use \App\Models\About;
 use \App\Models\College;
 use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\View;
 
 class PageController extends Controller
 {
-    public function about(){
-        $abouts = \App\Models\About::get();
-        return view('pages.about', compact('abouts'));
+    public function pageView($slug){
+        $page = Page::findBySlug($slug);
+//        $data = $this->getPreparedData($slug);
+        $data = [];
+
+        // if blade view already created for the page
+        if (View::exists("pages." . $slug)) { // pages.about
+            return view('pages.' . $slug, compact('data', 'page'));
+        } elseif ($page == null) { // if page was not created from admin panel
+            return "Səhifə tapılmadı! Admin panelden yaradilmalidir!";
+//            return view('pages.notFound');
+        }
+//        elseif ($data != null) { // there are data for the page, but blade view is not existing
+//            return view('pages.posts', compact('data', 'page'));
+//        }
+        return view('pages.dinamic', compact('page', 'data'));
+
     }
 
     public function college(){

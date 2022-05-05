@@ -6,6 +6,7 @@ use App\Http\Controllers\SupremecourtController;
 use App\Http\Controllers\HomePageController;
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
+use TCG\Voyager\Voyager;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,43 +18,38 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
+
+
 Route::get('/', [HomePageController::class, 'home'])->name('home');
 
-
 Route::get('/home',[HomePageController::class, 'home'])->name('home');
-
-
-Route::get('/about' ,[PageController::class, 'about'])->name('about');
-
+//Route::get('/about' ,[PageController::class, 'about'])->name('about');
 Route::get('/college', [PageController::class, 'college'])->name('college');
 Route::get('/structure', [PageController::class, 'structure'])->name('structure');
-
 Route::get('/apparatus', [PageController::class, 'apparatus'])->name('apparatus');
-
 Route::get('/supremecourt',[PageController::class, 'supremecourt'])->name('supremecourt');
 Route::get('/supreme-court{slug}',[PageController::class, 'singleCourt'])->name('court');
-
-
 Route::get('/news', [PageController::class, 'news'])->name('news');
 Route::get('/singlenews/{slug}', [PageController::class, 'singleNews'])->name('news');
-
 //Route::get('/azlegalact', [PageController::class, 'azlegalact'])->name('azlegalact');
 Route::get('/legalact', [PageController::class, 'legalact'])->name('legalact');
 //Nmr huquqi aktlar
 Route::get('/decisionpresidia', [PageController::class, 'decisionpresidia'])->name('decisionpresidia');
-
 Route::get('/gallery', [PageController::class, 'galleryClass'])->name('gallery');
-
 Route::get('/videogallery', [PageController::class, 'videogallery'])->name('videogallery');
-
 Route::get('/faq', [PageController::class, 'faq'])->name('faq');
 Route::get('/educationmaterial', [PageController::class, 'educationmaterial'])->name('educationmaterial');
 //Internationaldocuments-Beynelxalq huquqi senedler
 Route::get('/internationaldocument', [PageController::class, 'internationaldocument'])->name('internationaldocument');
-
 Route::get('/measures', [PageController::class, 'measures'])->name('measures');
+Route::get('/contact',[ContactController::class, 'contact'])->name('contact');
 
-
+// bütün static səhifələr admin paneldən page hissəsindən yaradılmalıdır
+Route::get('/{slug}', [PageController::class, 'pageView']);
 
 
 
@@ -65,7 +61,6 @@ Route::get('/measures', [PageController::class, 'measures'])->name('measures');
 //Route::get('/rhdecision',[PageController::class, 'rhdecision'])->name('rhdecision');
 
 
-Route::get('/contact',[ContactController::class, 'contact'])->name('contact');
 
 //Route::get('/structure', function () {
 //    return view('pages.structure');
@@ -130,6 +125,4 @@ Route::get('/contact',[ContactController::class, 'contact'])->name('contact');
 //    return view('pages.nmrelectronlibrary');
 //});
 
-Route::group(['prefix' => 'admin'], function () {
-    Voyager::routes();
-});
+
