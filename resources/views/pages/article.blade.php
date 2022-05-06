@@ -7,7 +7,7 @@
         <ul>
          @foreach($articles as $article)
                 <li>
-                    <a class="cool-link" href="{{$article->link}}">
+                    <a class="cool-link" href="{{route('singlearticle', ['singlearticle'=>$article->id])}}">
                         <img src="{{asset('storage/'.$article->image)}}" alt=""> {{$article->title}}
                     </a>
                 </li>

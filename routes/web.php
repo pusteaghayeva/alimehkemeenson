@@ -33,20 +33,35 @@ Route::get('/home',[HomePageController::class, 'home'])->name('home');
 //Route::get('/structure', [PageController::class, 'structure'])->name('structure');
 Route::get('/apparatus', [PageController::class, 'apparatus'])->name('apparatus');
 Route::get('/supremecourt',[PageController::class, 'supremecourt'])->name('supremecourt');
+Route::get('/singlesupremecourt', [PageController::class, 'singlesupremecourt'])->name('singlesupremecourt');
 //Route::get('/supreme-court{slug}',[PageController::class, 'singleCourt'])->name('court');
 Route::get('/news', [PageController::class, 'news'])->name('news');
 Route::get('/singlenews', [PageController::class, 'singleNews'])->name('singlenews');
+Route::get('/exampledocuments',[PageController::class, 'exampledocument'])->name('exampledocuments');
+
+Route::get('/appeal',[PageController::class, 'appeal'])->name('appeal');
+Route::get('/singleappeal', [PageController::class, 'singleappeal'])->name('singleappeal');
 
 Route::get('/report', [PageController::class, 'report'])->name('report');
 Route::get('/singlereport', [PageController::class, 'singlereport'])->name('singlereport');
+
+
 //Route::get('/azlegalact', [PageController::class, 'azlegalact'])->name('azlegalact');
+
+
 Route::get('/legalact', [PageController::class, 'legalact'])->name('legalact');
+Route::get('/constitution', [PageController::class, 'constitution'])->name('constitution');
+
 //Nmr huquqi aktlar
 Route::get('/decisionpresidia', [PageController::class, 'decisionpresidia'])->name('decisionpresidia');
+Route::get('/singledecisionpresidia', [PageController::class, 'singledecisionpresidia'])->name('singledecisionpresidia');
+
 Route::get('/gallery', [PageController::class, 'galleryClass'])->name('gallery');
 Route::get('/video', [PageController::class, 'video'])->name('video');
 Route::get('/faq', [PageController::class, 'faq'])->name('faq');
 Route::get('/educationmaterial', [PageController::class, 'educationmaterial'])->name('educationmaterial');
+Route::get('/singleeducation', [PageController::class, 'singleeducation'])->name('singleeducation');
+
 //Internationaldocuments-Beynelxalq huquqi senedler
 Route::get('/internationaldocument', [PageController::class, 'internationaldocument'])->name('internationaldocument');
 Route::get('/measures', [PageController::class, 'measures'])->name('measures');
@@ -55,8 +70,17 @@ Route::get('/singlemeasures', [PageController::class, 'singlemeasures'])->name('
 //Route::get('/contact',[ContactController::class, 'contact'])->name('contact');
 
 Route::get('/speech', [PageController::class, 'speech'])->name('speech');
+Route::get('/singlespeech', [PageController::class, 'singlespeech'])->name('singlespeech');
 
 Route::get('/article', [PageController::class, 'article'])->name('article');
+Route::get('/singlearticle', [PageController::class, 'singlearticle'])->name('singlearticle');
+
+Route::get('/electronlibrary', [PageController::class, 'electronlibrary'])->name('electronlibrary');
+Route::get('/nmrelectronlibrary', [PageController::class, 'nmrelectronlibrary'])->name('nmrelectronlibrary');
+
+Route::get('/publications', [PageController::class, 'publication'])->name('publications');
+
+
 // bütün static səhifələr admin paneldən page hissəsindən yaradılmalıdır
 Route::get('/{slug}', [PageController::class, 'pageView']);
 

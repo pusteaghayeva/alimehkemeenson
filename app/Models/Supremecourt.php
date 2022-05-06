@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Supremecourt extends Model
 {
     use HasFactory;
-    protected $fillable=['title', 'slug', 'link', 'content'];
+    protected $fillable=['title', 'slug', 'content'];
 }

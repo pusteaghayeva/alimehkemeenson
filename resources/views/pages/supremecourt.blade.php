@@ -1,13 +1,13 @@
 @extends('layouts.master')
-@section('title', 'Məhkəmənin sədri')
+{{--@section('title', 'Ali Məhkəmə-90)--}}
 @section('content')
 
     <div class="college container">
-        <h2 class="first-dm-title text-center mt-5">Ali Məhkəmə - 90</h2>
+        <h2 class="first-dm-title text-center mt-5">Ali Məhkəmə-90</h2>
         @foreach($supremecourts as $supremecourt)
                     <div class="card court-card mb-3">
                         <div class="card-body">
-                            <a href="{{url('/supreme-court'.$supremecourt->slug)}}" class="court-link">{{$supremecourt->title}}</a>
+                            <a href="{{route('singlesupremecourt', ['singlesupremecourt'=>$supremecourt->id])}}" class="court-link">{{$supremecourt->title}}</a>
                         </div>
                     </div>
         @endforeach

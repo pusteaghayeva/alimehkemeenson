@@ -87,7 +87,7 @@
 
 <footer>
     <div class="copyright ">
-        <p class="copy-text "><a href="http://rabite.nmr.az/" target="_blank " class="copy-link ">&copy; <?php echo date("Y"); ?>{{setting('site.footer')}}</a></p>
+        <p class="copy-text "><a href="http://rabite.nmr.az/" target="_blank " class="copy-link ">&copy; <?php echo date("Y"); ?> {{setting('site.footer')}}</a></p>
     </div>
 </footer>
 

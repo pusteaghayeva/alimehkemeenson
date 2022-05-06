@@ -9,7 +9,7 @@
             <div class="bd-speech bd-speech-warning">
                 <h3 class="speech-title">{{$educationmaterial->title}}</h3>
                 <div class="speech-text">
-                    <a href="{{route('educationmaterial', ['educationmaterial'=>$educationmaterial->id])}}" class="speech-link">{{mb_substr(html_entity_decode (strip_tags($educationmaterial->content)), 0, 400) }}</a>
+                    <a href="{{route('singleeducation', ['singleeducation'=>$educationmaterial->id])}}" class="speech-link">{{mb_substr(html_entity_decode (strip_tags($educationmaterial->content)), 0, 400) }}</a>
                 </div>
             </div>
             @endforeach

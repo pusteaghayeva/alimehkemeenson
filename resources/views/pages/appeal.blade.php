@@ -5,10 +5,10 @@
     <div class="first-down-menu container">
         <h2 class="first-dm-title text-center mt-5">Rəyasət heyətinin qərarları</h2>
         <ul>
-         @foreach($decisionpresidias as $decisionpresidia)
+         @foreach($appeals as $appeal)
                 <li>
-                    <a class="cool-link" href="{{route('singledecisionpresidia', ['singledecisionpresidia'=>$decisionpresidia->id])}}">
-                        <img src="./assets/img/decision-icon-17.jpg" alt=""> {{$decisionpresidia->title}}
+                    <a class="cool-link" href="{{route('singleappeal', ['singleappeal'=>$appeal->id])}}">
+                        <img src="{{asset('storage/'.$appeal->image)}}" alt=""> {{$appeal->title}}
                     </a>
                 </li>
          @endforeach

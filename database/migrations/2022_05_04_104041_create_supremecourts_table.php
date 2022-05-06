@@ -17,7 +17,6 @@ class CreateSupremecourtsTable extends Migration
             $table->id();
             $table->string('title');
             $table->string('slug');
-            $table->string('link');
             $table->longText('content');
             $table->timestamps();
         });
