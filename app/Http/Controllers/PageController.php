@@ -127,10 +127,19 @@ class PageController extends Controller
         $electronlibrarys = Electronlibrary::orderBy('id', 'desc')->get();
         return view('pages.electronlibrary', compact('electronlibrarys'));
     }
-    public function nmrelectronlibrary(Request $request) {
-        $nmrelectronlibrarys= Electronlibrary::where('id', $request->nmrelectronlibrary)->get();
-        return view('pages.nmrelectronlibrary', compact('nmrelectronlibrarys'));
+//    public function nmrelectronlibrary(Request $request) {
+//        $nmrelectronlibraries=Electronlibrary::where('id', $request->nmrelectronlibrary)->get();
+//        return view('pages.nmrelectronlibraries', compact('nmrelectronlibraries'));
+//    }
+
+    public function nmrelectronlibrary(){
+        $nmrelectronlibraries = Electronlibrary::orderBy('id', 'desc')->get();
+        return view('pages.nmrelectronlibraries', compact('nmrelectronlibraries'));
     }
+//    public function nmrelectronlibrary(Request $request) {
+//        $nmrelectronlibraries= Electronlibrary ::orderBy('id', 'desc')->get();
+//        return view('pages.nmrelectronlibraries', compact('nmrelectronlibraries'));
+//    }
 
     public function exampledocument(){
         $exampledocuments = Exampledocument::orderBy('id', 'desc')->get();
@@ -199,7 +208,7 @@ class PageController extends Controller
         return view('pages.report', compact('reports'));
     }
     public function singlereport(Request $request) {
-        $singlereports=Report::where('id', $request->singlereports)->get();
+        $singlereports= Report::where('id', $request->singlereport)->get();
         return view('pages.singleReport', compact('singlereports'));
     }
 

@@ -47,11 +47,15 @@ class BackupDataBase extends Command
             'permissions', // +
             'permission_role', // +
             'settings', // +
+            'personal_access_tokens',
+            'password_resets',
+            'failed_jobs',
+            'footersocials',
             'users',
             'user_roles',
             'translations',
             'contacts',
-            'usefullunks',
+            'usefullinks',
             'home_pages',
             'colleges',
             'contacts',
@@ -69,6 +73,24 @@ class BackupDataBase extends Command
             'decisionpresidia',
             'galleries',
             'educationmaterials',
+            'apparatuses',
+            'appeals',
+            'articles',
+            'constitutions',
+            'electronlibraries',
+            'exampledocuments',
+            'legalacts',
+            'measures',
+            'migrations',
+            'nmrelectronlibraries',
+            'publications',
+            'reports',
+            'roles',
+            'supremecourts',
+            'videos,
+            '
+
+
 
         ];
 

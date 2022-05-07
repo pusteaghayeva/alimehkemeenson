@@ -159,7 +159,7 @@
         <p class="underline"></p>
         <div class="owl-carousel owl-carousel4 owl-theme row ">
             @foreach($usefullinks as $usefullink)
-            <a href="https://president.az/ " class="useful-link-img " target="blank ">
+            <a href="{{$usefullink->link}}" class="useful-link-img " target="_blank ">
                 <img src="{{asset('storage/'.$usefullink->image)}}" alt=" ">
             </a>
             @endforeach

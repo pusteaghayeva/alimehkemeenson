@@ -899,6 +899,566 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 13:40:29',
                 'updated_at' => '2022-05-05 13:40:29',
             ),
+            110 => 
+            array (
+                'id' => 116,
+                'key' => 'browse_reports',
+                'table_name' => 'reports',
+                'created_at' => '2022-05-05 18:17:30',
+                'updated_at' => '2022-05-05 18:17:30',
+            ),
+            111 => 
+            array (
+                'id' => 117,
+                'key' => 'read_reports',
+                'table_name' => 'reports',
+                'created_at' => '2022-05-05 18:17:30',
+                'updated_at' => '2022-05-05 18:17:30',
+            ),
+            112 => 
+            array (
+                'id' => 118,
+                'key' => 'edit_reports',
+                'table_name' => 'reports',
+                'created_at' => '2022-05-05 18:17:30',
+                'updated_at' => '2022-05-05 18:17:30',
+            ),
+            113 => 
+            array (
+                'id' => 119,
+                'key' => 'add_reports',
+                'table_name' => 'reports',
+                'created_at' => '2022-05-05 18:17:30',
+                'updated_at' => '2022-05-05 18:17:30',
+            ),
+            114 => 
+            array (
+                'id' => 120,
+                'key' => 'delete_reports',
+                'table_name' => 'reports',
+                'created_at' => '2022-05-05 18:17:30',
+                'updated_at' => '2022-05-05 18:17:30',
+            ),
+            115 => 
+            array (
+                'id' => 121,
+                'key' => 'browse_galleries',
+                'table_name' => 'galleries',
+                'created_at' => '2022-05-05 19:07:19',
+                'updated_at' => '2022-05-05 19:07:19',
+            ),
+            116 => 
+            array (
+                'id' => 122,
+                'key' => 'read_galleries',
+                'table_name' => 'galleries',
+                'created_at' => '2022-05-05 19:07:19',
+                'updated_at' => '2022-05-05 19:07:19',
+            ),
+            117 => 
+            array (
+                'id' => 123,
+                'key' => 'edit_galleries',
+                'table_name' => 'galleries',
+                'created_at' => '2022-05-05 19:07:19',
+                'updated_at' => '2022-05-05 19:07:19',
+            ),
+            118 => 
+            array (
+                'id' => 124,
+                'key' => 'add_galleries',
+                'table_name' => 'galleries',
+                'created_at' => '2022-05-05 19:07:19',
+                'updated_at' => '2022-05-05 19:07:19',
+            ),
+            119 => 
+            array (
+                'id' => 125,
+                'key' => 'delete_galleries',
+                'table_name' => 'galleries',
+                'created_at' => '2022-05-05 19:07:19',
+                'updated_at' => '2022-05-05 19:07:19',
+            ),
+            120 => 
+            array (
+                'id' => 126,
+                'key' => 'browse_videos',
+                'table_name' => 'videos',
+                'created_at' => '2022-05-05 19:13:05',
+                'updated_at' => '2022-05-05 19:13:05',
+            ),
+            121 => 
+            array (
+                'id' => 127,
+                'key' => 'read_videos',
+                'table_name' => 'videos',
+                'created_at' => '2022-05-05 19:13:05',
+                'updated_at' => '2022-05-05 19:13:05',
+            ),
+            122 => 
+            array (
+                'id' => 128,
+                'key' => 'edit_videos',
+                'table_name' => 'videos',
+                'created_at' => '2022-05-05 19:13:05',
+                'updated_at' => '2022-05-05 19:13:05',
+            ),
+            123 => 
+            array (
+                'id' => 129,
+                'key' => 'add_videos',
+                'table_name' => 'videos',
+                'created_at' => '2022-05-05 19:13:05',
+                'updated_at' => '2022-05-05 19:13:05',
+            ),
+            124 => 
+            array (
+                'id' => 130,
+                'key' => 'delete_videos',
+                'table_name' => 'videos',
+                'created_at' => '2022-05-05 19:13:05',
+                'updated_at' => '2022-05-05 19:13:05',
+            ),
+            125 => 
+            array (
+                'id' => 131,
+                'key' => 'browse_articles',
+                'table_name' => 'articles',
+                'created_at' => '2022-05-05 19:17:26',
+                'updated_at' => '2022-05-05 19:17:26',
+            ),
+            126 => 
+            array (
+                'id' => 132,
+                'key' => 'read_articles',
+                'table_name' => 'articles',
+                'created_at' => '2022-05-05 19:17:26',
+                'updated_at' => '2022-05-05 19:17:26',
+            ),
+            127 => 
+            array (
+                'id' => 133,
+                'key' => 'edit_articles',
+                'table_name' => 'articles',
+                'created_at' => '2022-05-05 19:17:26',
+                'updated_at' => '2022-05-05 19:17:26',
+            ),
+            128 => 
+            array (
+                'id' => 134,
+                'key' => 'add_articles',
+                'table_name' => 'articles',
+                'created_at' => '2022-05-05 19:17:26',
+                'updated_at' => '2022-05-05 19:17:26',
+            ),
+            129 => 
+            array (
+                'id' => 135,
+                'key' => 'delete_articles',
+                'table_name' => 'articles',
+                'created_at' => '2022-05-05 19:17:26',
+                'updated_at' => '2022-05-05 19:17:26',
+            ),
+            130 => 
+            array (
+                'id' => 136,
+                'key' => 'browse_measures',
+                'table_name' => 'measures',
+                'created_at' => '2022-05-05 19:25:26',
+                'updated_at' => '2022-05-05 19:25:26',
+            ),
+            131 => 
+            array (
+                'id' => 137,
+                'key' => 'read_measures',
+                'table_name' => 'measures',
+                'created_at' => '2022-05-05 19:25:26',
+                'updated_at' => '2022-05-05 19:25:26',
+            ),
+            132 => 
+            array (
+                'id' => 138,
+                'key' => 'edit_measures',
+                'table_name' => 'measures',
+                'created_at' => '2022-05-05 19:25:26',
+                'updated_at' => '2022-05-05 19:25:26',
+            ),
+            133 => 
+            array (
+                'id' => 139,
+                'key' => 'add_measures',
+                'table_name' => 'measures',
+                'created_at' => '2022-05-05 19:25:26',
+                'updated_at' => '2022-05-05 19:25:26',
+            ),
+            134 => 
+            array (
+                'id' => 140,
+                'key' => 'delete_measures',
+                'table_name' => 'measures',
+                'created_at' => '2022-05-05 19:25:26',
+                'updated_at' => '2022-05-05 19:25:26',
+            ),
+            135 => 
+            array (
+                'id' => 141,
+                'key' => 'browse_educationmaterials',
+                'table_name' => 'educationmaterials',
+                'created_at' => '2022-05-05 19:47:45',
+                'updated_at' => '2022-05-05 19:47:45',
+            ),
+            136 => 
+            array (
+                'id' => 142,
+                'key' => 'read_educationmaterials',
+                'table_name' => 'educationmaterials',
+                'created_at' => '2022-05-05 19:47:45',
+                'updated_at' => '2022-05-05 19:47:45',
+            ),
+            137 => 
+            array (
+                'id' => 143,
+                'key' => 'edit_educationmaterials',
+                'table_name' => 'educationmaterials',
+                'created_at' => '2022-05-05 19:47:45',
+                'updated_at' => '2022-05-05 19:47:45',
+            ),
+            138 => 
+            array (
+                'id' => 144,
+                'key' => 'add_educationmaterials',
+                'table_name' => 'educationmaterials',
+                'created_at' => '2022-05-05 19:47:45',
+                'updated_at' => '2022-05-05 19:47:45',
+            ),
+            139 => 
+            array (
+                'id' => 145,
+                'key' => 'delete_educationmaterials',
+                'table_name' => 'educationmaterials',
+                'created_at' => '2022-05-05 19:47:45',
+                'updated_at' => '2022-05-05 19:47:45',
+            ),
+            140 => 
+            array (
+                'id' => 146,
+                'key' => 'browse_supremecourts',
+                'table_name' => 'supremecourts',
+                'created_at' => '2022-05-06 05:15:06',
+                'updated_at' => '2022-05-06 05:15:06',
+            ),
+            141 => 
+            array (
+                'id' => 147,
+                'key' => 'read_supremecourts',
+                'table_name' => 'supremecourts',
+                'created_at' => '2022-05-06 05:15:06',
+                'updated_at' => '2022-05-06 05:15:06',
+            ),
+            142 => 
+            array (
+                'id' => 148,
+                'key' => 'edit_supremecourts',
+                'table_name' => 'supremecourts',
+                'created_at' => '2022-05-06 05:15:06',
+                'updated_at' => '2022-05-06 05:15:06',
+            ),
+            143 => 
+            array (
+                'id' => 149,
+                'key' => 'add_supremecourts',
+                'table_name' => 'supremecourts',
+                'created_at' => '2022-05-06 05:15:06',
+                'updated_at' => '2022-05-06 05:15:06',
+            ),
+            144 => 
+            array (
+                'id' => 150,
+                'key' => 'delete_supremecourts',
+                'table_name' => 'supremecourts',
+                'created_at' => '2022-05-06 05:15:06',
+                'updated_at' => '2022-05-06 05:15:06',
+            ),
+            145 => 
+            array (
+                'id' => 151,
+                'key' => 'browse_apparatuses',
+                'table_name' => 'apparatuses',
+                'created_at' => '2022-05-06 06:10:44',
+                'updated_at' => '2022-05-06 06:10:44',
+            ),
+            146 => 
+            array (
+                'id' => 152,
+                'key' => 'read_apparatuses',
+                'table_name' => 'apparatuses',
+                'created_at' => '2022-05-06 06:10:44',
+                'updated_at' => '2022-05-06 06:10:44',
+            ),
+            147 => 
+            array (
+                'id' => 153,
+                'key' => 'edit_apparatuses',
+                'table_name' => 'apparatuses',
+                'created_at' => '2022-05-06 06:10:44',
+                'updated_at' => '2022-05-06 06:10:44',
+            ),
+            148 => 
+            array (
+                'id' => 154,
+                'key' => 'add_apparatuses',
+                'table_name' => 'apparatuses',
+                'created_at' => '2022-05-06 06:10:44',
+                'updated_at' => '2022-05-06 06:10:44',
+            ),
+            149 => 
+            array (
+                'id' => 155,
+                'key' => 'delete_apparatuses',
+                'table_name' => 'apparatuses',
+                'created_at' => '2022-05-06 06:10:44',
+                'updated_at' => '2022-05-06 06:10:44',
+            ),
+            150 => 
+            array (
+                'id' => 156,
+                'key' => 'browse_appeals',
+                'table_name' => 'appeals',
+                'created_at' => '2022-05-06 08:33:52',
+                'updated_at' => '2022-05-06 08:33:52',
+            ),
+            151 => 
+            array (
+                'id' => 157,
+                'key' => 'read_appeals',
+                'table_name' => 'appeals',
+                'created_at' => '2022-05-06 08:33:52',
+                'updated_at' => '2022-05-06 08:33:52',
+            ),
+            152 => 
+            array (
+                'id' => 158,
+                'key' => 'edit_appeals',
+                'table_name' => 'appeals',
+                'created_at' => '2022-05-06 08:33:52',
+                'updated_at' => '2022-05-06 08:33:52',
+            ),
+            153 => 
+            array (
+                'id' => 159,
+                'key' => 'add_appeals',
+                'table_name' => 'appeals',
+                'created_at' => '2022-05-06 08:33:52',
+                'updated_at' => '2022-05-06 08:33:52',
+            ),
+            154 => 
+            array (
+                'id' => 160,
+                'key' => 'delete_appeals',
+                'table_name' => 'appeals',
+                'created_at' => '2022-05-06 08:33:52',
+                'updated_at' => '2022-05-06 08:33:52',
+            ),
+            155 => 
+            array (
+                'id' => 161,
+                'key' => 'browse_exampledocuments',
+                'table_name' => 'exampledocuments',
+                'created_at' => '2022-05-06 10:17:00',
+                'updated_at' => '2022-05-06 10:17:00',
+            ),
+            156 => 
+            array (
+                'id' => 162,
+                'key' => 'read_exampledocuments',
+                'table_name' => 'exampledocuments',
+                'created_at' => '2022-05-06 10:17:00',
+                'updated_at' => '2022-05-06 10:17:00',
+            ),
+            157 => 
+            array (
+                'id' => 163,
+                'key' => 'edit_exampledocuments',
+                'table_name' => 'exampledocuments',
+                'created_at' => '2022-05-06 10:17:00',
+                'updated_at' => '2022-05-06 10:17:00',
+            ),
+            158 => 
+            array (
+                'id' => 164,
+                'key' => 'add_exampledocuments',
+                'table_name' => 'exampledocuments',
+                'created_at' => '2022-05-06 10:17:00',
+                'updated_at' => '2022-05-06 10:17:00',
+            ),
+            159 => 
+            array (
+                'id' => 165,
+                'key' => 'delete_exampledocuments',
+                'table_name' => 'exampledocuments',
+                'created_at' => '2022-05-06 10:17:00',
+                'updated_at' => '2022-05-06 10:17:00',
+            ),
+            160 => 
+            array (
+                'id' => 166,
+                'key' => 'browse_publications',
+                'table_name' => 'publications',
+                'created_at' => '2022-05-06 11:05:09',
+                'updated_at' => '2022-05-06 11:05:09',
+            ),
+            161 => 
+            array (
+                'id' => 167,
+                'key' => 'read_publications',
+                'table_name' => 'publications',
+                'created_at' => '2022-05-06 11:05:09',
+                'updated_at' => '2022-05-06 11:05:09',
+            ),
+            162 => 
+            array (
+                'id' => 168,
+                'key' => 'edit_publications',
+                'table_name' => 'publications',
+                'created_at' => '2022-05-06 11:05:09',
+                'updated_at' => '2022-05-06 11:05:09',
+            ),
+            163 => 
+            array (
+                'id' => 169,
+                'key' => 'add_publications',
+                'table_name' => 'publications',
+                'created_at' => '2022-05-06 11:05:09',
+                'updated_at' => '2022-05-06 11:05:09',
+            ),
+            164 => 
+            array (
+                'id' => 170,
+                'key' => 'delete_publications',
+                'table_name' => 'publications',
+                'created_at' => '2022-05-06 11:05:09',
+                'updated_at' => '2022-05-06 11:05:09',
+            ),
+            165 => 
+            array (
+                'id' => 171,
+                'key' => 'browse_electronlibraries',
+                'table_name' => 'electronlibraries',
+                'created_at' => '2022-05-06 11:20:45',
+                'updated_at' => '2022-05-06 11:20:45',
+            ),
+            166 => 
+            array (
+                'id' => 172,
+                'key' => 'read_electronlibraries',
+                'table_name' => 'electronlibraries',
+                'created_at' => '2022-05-06 11:20:45',
+                'updated_at' => '2022-05-06 11:20:45',
+            ),
+            167 => 
+            array (
+                'id' => 173,
+                'key' => 'edit_electronlibraries',
+                'table_name' => 'electronlibraries',
+                'created_at' => '2022-05-06 11:20:45',
+                'updated_at' => '2022-05-06 11:20:45',
+            ),
+            168 => 
+            array (
+                'id' => 174,
+                'key' => 'add_electronlibraries',
+                'table_name' => 'electronlibraries',
+                'created_at' => '2022-05-06 11:20:45',
+                'updated_at' => '2022-05-06 11:20:45',
+            ),
+            169 => 
+            array (
+                'id' => 175,
+                'key' => 'delete_electronlibraries',
+                'table_name' => 'electronlibraries',
+                'created_at' => '2022-05-06 11:20:45',
+                'updated_at' => '2022-05-06 11:20:45',
+            ),
+            170 => 
+            array (
+                'id' => 176,
+                'key' => 'browse_nmrelectronlibraries',
+                'table_name' => 'nmrelectronlibraries',
+                'created_at' => '2022-05-06 12:16:56',
+                'updated_at' => '2022-05-06 12:16:56',
+            ),
+            171 => 
+            array (
+                'id' => 177,
+                'key' => 'read_nmrelectronlibraries',
+                'table_name' => 'nmrelectronlibraries',
+                'created_at' => '2022-05-06 12:16:56',
+                'updated_at' => '2022-05-06 12:16:56',
+            ),
+            172 => 
+            array (
+                'id' => 178,
+                'key' => 'edit_nmrelectronlibraries',
+                'table_name' => 'nmrelectronlibraries',
+                'created_at' => '2022-05-06 12:16:56',
+                'updated_at' => '2022-05-06 12:16:56',
+            ),
+            173 => 
+            array (
+                'id' => 179,
+                'key' => 'add_nmrelectronlibraries',
+                'table_name' => 'nmrelectronlibraries',
+                'created_at' => '2022-05-06 12:16:56',
+                'updated_at' => '2022-05-06 12:16:56',
+            ),
+            174 => 
+            array (
+                'id' => 180,
+                'key' => 'delete_nmrelectronlibraries',
+                'table_name' => 'nmrelectronlibraries',
+                'created_at' => '2022-05-06 12:16:56',
+                'updated_at' => '2022-05-06 12:16:56',
+            ),
+            175 => 
+            array (
+                'id' => 181,
+                'key' => 'browse_constitutions',
+                'table_name' => 'constitutions',
+                'created_at' => '2022-05-06 12:54:31',
+                'updated_at' => '2022-05-06 12:54:31',
+            ),
+            176 => 
+            array (
+                'id' => 182,
+                'key' => 'read_constitutions',
+                'table_name' => 'constitutions',
+                'created_at' => '2022-05-06 12:54:31',
+                'updated_at' => '2022-05-06 12:54:31',
+            ),
+            177 => 
+            array (
+                'id' => 183,
+                'key' => 'edit_constitutions',
+                'table_name' => 'constitutions',
+                'created_at' => '2022-05-06 12:54:31',
+                'updated_at' => '2022-05-06 12:54:31',
+            ),
+            178 => 
+            array (
+                'id' => 184,
+                'key' => 'add_constitutions',
+                'table_name' => 'constitutions',
+                'created_at' => '2022-05-06 12:54:31',
+                'updated_at' => '2022-05-06 12:54:31',
+            ),
+            179 => 
+            array (
+                'id' => 185,
+                'key' => 'delete_constitutions',
+                'table_name' => 'constitutions',
+                'created_at' => '2022-05-06 12:54:31',
+                'updated_at' => '2022-05-06 12:54:31',
+            ),
         ));
         
         

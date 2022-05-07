@@ -9,9 +9,9 @@
             <div class="row">
                 @foreach($singlereports as $singlereport)
                     <div class="colleges single-news ">
-                        <h2 class="coll-title ">nJKXBJX</h2>
+                        <h3 class="coll-title text-center font-weight-bold">{{$singlereport->title}}</h3>
                         <div class="container single_text">
-                            <p class="coll-text text-justify">test</p>
+                            <p class="coll-text text-justify">{!! $singlereport->content !!}</p>
                         </div>
                     </div>
                 @endforeach
