@@ -9,8 +9,11 @@ use TCG\Voyager\Traits\Translatable;
 class Supremecourt extends Model
 {
     use HasFactory, Translatable;
+
     protected $translatable = ['title', 'slug', 'content'];
-    public static function findBySlug($slug){
+
+    public static function findBySlug($slug)
+    {
         return static::withTranslations(Session::get('locale'))->first();
     }
 }

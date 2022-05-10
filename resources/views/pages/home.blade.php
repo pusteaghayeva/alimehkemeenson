@@ -18,11 +18,14 @@
 
                                     <img src="{{asset('storage/'.$new->image)}}" class=" w-100" alt="...">
                                     <div class="carousel-bg"></div>
-                                    <div class="carousel-caption  d-md-block">
-                                        <h4>{{$new->title}}</h4>
-                                        <p>{!!$new->text !!}</p>
+                                    <div class="carousel-caption  d-md-block ">
+                                        <h4 class="text-left">
+                                            {{$new->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
+                                        </h4>
+                                        <p>
+                                            {!! mb_substr(html_entity_decode (strip_tags($new->getTranslatedAttribute('content', $locale, 'fallbackLocale'))), 0, 100)  !!}
+                                        </p>
                                     </div>
-
                                 </a>
                             @endforeach
 
@@ -47,7 +50,9 @@
                             @foreach($contacts as $contact)
                                 <a href="{{$contact->slug}}" class="list-group-item contact-list ">
                                     <img src="{{asset('storage/'.$contact->image)}}" width="40" alt="">
-                                    <p>{{$contact->title}}</p>
+                                    <p>
+                                        {{$contact->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
+                                    </p>
                                 </a>
                             @endforeach
                         </div>
@@ -62,7 +67,8 @@
                         @foreach($forpersons as $forperson)
                             <a href="{{$forperson->link}}" target="_blank">
                                 <div class="cat-img-display">
-                                    <h2 class="cat-title">{{$forperson->title}}</h2>
+                                    <h2 class="cat-title">
+                                        {{$forperson->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
                                 </div>
                             </a>
                         @endforeach
@@ -89,7 +95,9 @@
                                 <div class="section-divler">
                                     <i class="fa-solid {{$service->icon}}"></i>
                                     <div class="hover-div_inner ">
-                                        <p class="text-center ">{{$service->title}}
+                                        <p class="text-center ">
+                                            {{$service->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
+
                                         </p>
                                     </div>
                                 </div>
@@ -110,7 +118,9 @@
                     @foreach($nmrcourts as $nmrcourt)
                     <div class="col-12 col-sm-12 col-md-6 only-courts courts-left ">
                             <div class="city-court">
-                                <a href="{{$nmrcourt->link}}" target="_blank">{{$nmrcourt->title}}</a>
+                                <a href="{{$nmrcourt->link}}" target="_blank">
+                                    {{$nmrcourt->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
+                                </a>
                             </div>
                     </div>
                     @endforeach

@@ -9,7 +9,7 @@ use TCG\Voyager\Traits\Translatable;
 
 class Report extends Model
 {
-    use HasFactory;
+//    use HasFactory;
     use HasFactory, Translatable;
 
     protected $translatable = ['title', 'slug', 'content'];

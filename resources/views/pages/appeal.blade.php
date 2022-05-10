@@ -8,7 +8,8 @@
          @foreach($appeals as $appeal)
                 <li>
                     <a class="cool-link" href="{{route('singleappeal', ['singleappeal'=>$appeal->id])}}">
-                        <img src="{{asset('storage/'.$appeal->image)}}" alt=""> {{$appeal->title}}
+                        <img src="{{asset('storage/'.$appeal->image)}}" alt="">
+                        {{$appeal->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
                     </a>
                 </li>
          @endforeach

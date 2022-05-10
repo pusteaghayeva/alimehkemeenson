@@ -9,9 +9,14 @@
             <div class="row">
                 @foreach($singlespeechs as $singlespeech)
                     <div class="colleges single-news ">
-                        <h2 class="coll-title text-center">{{$singlespeech->title}}</h2>
+                        <h2 class="coll-title text-center">
+                            {{$singlespeech->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
+
+                        </h2>
                         <div class="container single_text">
-                            <p class="coll-text text-justify"> {!! $singlespeech->content !!}</p>
+                            <p class="coll-text text-justify">
+                                {{$singlespeech->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
+                            </p>
                         </div>
                     </div>
                 @endforeach

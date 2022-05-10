@@ -8,7 +8,9 @@
          @foreach($articles as $article)
                 <li>
                     <a class="cool-link" href="{{route('singlearticle', ['singlearticle'=>$article->id])}}">
-                        <img src="{{asset('storage/'.$article->image)}}" alt=""> {{$article->title}}
+                        <img src="{{asset('storage/'.$article->image)}}" alt="">
+                        {{$article->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
+
                     </a>
                 </li>
          @endforeach

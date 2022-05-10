@@ -4,9 +4,18 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use TCG\Voyager\Traits\Translatable;
+
 
 class Measure extends Model
 {
     use HasFactory;
-    protected $fillable= ['image', 'title', 'slug', 'content'];
+    use HasFactory, Translatable;
+
+    protected $translatable = ['title', 'slug', 'content'];
+
+    public static function findBySlug($slug)
+    {
+        return static::withTranslations(Session::get('locale'))->first();
+    }
 }

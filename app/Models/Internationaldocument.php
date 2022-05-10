@@ -4,9 +4,17 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use TCG\Voyager\Traits\Translatable;
+
 
 class Internationaldocument extends Model
 {
-    use HasFactory;
-    protected $fillable= ['title', 'pdf'];
+    use HasFactory, Translatable;
+
+    protected $translatable = ['title'];
+
+    public static function findBySlug($slug)
+    {
+        return static::withTranslations(Session::get('locale'))->first();
+    }
 }

@@ -9,10 +9,12 @@
             <div class="row">
                 @foreach($singlearticles as $singlearticle)
                     <div class="colleges single-news ">
-                        <h2 class="coll-title text-center">{{$singlearticle->title}}</h2>
+                        <h2 class="coll-title text-center">
+                            {{$singlearticle->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
+
+                        </h2>
                         <div class="container single_text">
-{{--                            <img src="{{asset('storage/'.$singlenews->image)}}" class="coll-image m-auto" alt="">--}}
-                            <p class="coll-text text-justify"> {!! $singlearticle->content !!}</p>
+                            <p class="coll-text text-justify"> {!!$singlearticle->getTranslatedAttribute('title', $locale, 'fallbackLocale') !!}</p>
                         </div>
                     </div>
                 @endforeach

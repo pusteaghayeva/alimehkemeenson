@@ -72,7 +72,6 @@ class PageController extends Controller
         $apparatus = \App\Models\Apparatus::get();
         return view('pages.apparatus', compact('apparatus'));
     }
-//    Tam hazir deyil
 
     public function supremecourt(){
         $locale = \Illuminate\Support\Facades\Session::get('locale');
@@ -80,11 +79,7 @@ class PageController extends Controller
         return view('pages.supremecourt', compact('supremecourts', 'locale'));
     }
 
-//    public function faq(){
-//        $locale = \Illuminate\Support\Facades\Session::get('locale');
-//        $faqs = Faq::get();
-//        return view('pages.faq', compact('faqs', 'locale'));
-//    }
+
     public function singlesupremecourt(Request $request){
         $locale = \Illuminate\Support\Facades\Session::get('locale');
         $singlesupremecourts = Supremecourt::where('id', $request->singlesupremecourt)->get();
@@ -92,8 +87,9 @@ class PageController extends Controller
     }
 
     public function singleCourt() {
+        $locale = \Illuminate\Support\Facades\Session::get('locale');
         $singlecourts = Supremecourt::where("slug", \request("slug"))->get();
-        return view('pages.singleCourt', compact('singlecourts'));
+        return view('pages.singleCourt', compact('singlecourts', 'locale'));
     }
 
     public function news(){
@@ -103,8 +99,9 @@ class PageController extends Controller
     }
 
     public function singlenews(Request $request) {
+        $locale = \Illuminate\Support\Facades\Session::get('locale');
         $singlenewss=News::where('id', $request->singlenews)->get();
-        return view('pages.singleNews', compact('singlenewss'));
+        return view('pages.singleNews', compact('singlenewss', 'locale'));
     }
 
   public function legalact(){
@@ -131,35 +128,32 @@ class PageController extends Controller
     }
 
     public function appeal(){
+        $locale = \Illuminate\Support\Facades\Session::get('locale');
         $appeals = Appeal::orderBy('id', 'desc')->get();
-        return view('pages.appeal', compact('appeals'));
+        return view('pages.appeal', compact('appeals', 'locale'));
     }
     public function singleappeal(Request $request) {
+        $locale = \Illuminate\Support\Facades\Session::get('locale');
         $singleappeals=Appeal::where('id', $request->singleappeal)->get();
-        return view('pages.singleAppeal', compact('singleappeals'));
+        return view('pages.singleAppeal', compact('singleappeals', 'locale'));
     }
 
     public function electronlibrary(){
+        $locale = \Illuminate\Support\Facades\Session::get('locale');
         $electronlibrarys = Electronlibrary::orderBy('id', 'desc')->get();
-        return view('pages.electronlibrary', compact('electronlibrarys'));
+        return view('pages.electronlibrary', compact('electronlibrarys', 'locale'));
     }
-//    public function nmrelectronlibrary(Request $request) {
-//        $nmrelectronlibraries=Electronlibrary::where('id', $request->nmrelectronlibrary)->get();
-//        return view('pages.nmrelectronlibraries', compact('nmrelectronlibraries'));
-//    }
 
     public function nmrelectronlibrary(){
+        $locale = \Illuminate\Support\Facades\Session::get('locale');
         $nmrelectronlibraries = Nmrelectronlibrary::orderBy('id', 'desc')->get();
-        return view('pages.nmrelectronlibraries', compact('nmrelectronlibraries'));
+        return view('pages.nmrelectronlibraries', compact('nmrelectronlibraries', 'locale'));
     }
-//    public function nmrelectronlibrary(Request $request) {
-//        $nmrelectronlibraries= Electronlibrary ::orderBy('id', 'desc')->get();
-//        return view('pages.nmrelectronlibraries', compact('nmrelectronlibraries'));
-//    }
 
     public function exampledocument(){
+        $locale = \Illuminate\Support\Facades\Session::get('locale');
         $exampledocuments = Exampledocument::orderBy('id', 'desc')->get();
-        return view('pages.exampledocuments', compact('exampledocuments'));
+        return view('pages.exampledocuments', compact('exampledocuments', 'locale'));
     }
 
     public function publication(){
@@ -168,12 +162,14 @@ class PageController extends Controller
     }
 
     public function speech(){
+        $locale = \Illuminate\Support\Facades\Session::get('locale');
         $speechs = Speech:: orderBy('id', 'desc')->get();
-        return view('pages.speech', compact('speechs'));
+        return view('pages.speech', compact('speechs', 'locale'));
     }
     public function singlespeech(Request $request) {
+        $locale = \Illuminate\Support\Facades\Session::get('locale');
         $singlespeechs=Speech::where('id', $request->singlespeech)->get();
-        return view('pages.singleSpeech', compact('singlespeechs'));
+        return view('pages.singleSpeech', compact('singlespeechs', 'locale'));
     }
 
   public function galleryClass(){
@@ -193,37 +189,33 @@ class PageController extends Controller
         return view('pages.faq', compact('faqs', 'locale'));
     }
 
-//    public function contactView($slug)
-//    {
-//        $contact = Contact::findBySlug($slug);
-//        return view('contact', compact('contact'));
-//
-//    }
-
     public function educationmaterial(){
+        $locale = \Illuminate\Support\Facades\Session::get('locale');
         $educationmaterials = Educationmaterial::orderBy('id', 'desc')->get();
-        return view('pages.educationmaterial', compact('educationmaterials'));
+        return view('pages.educationmaterial', compact('educationmaterials', 'locale'));
     }
     public function singleeducation(Request $request) {
+        $locale = \Illuminate\Support\Facades\Session::get('locale');
         $singleeducations=Educationmaterial::where('id', $request->singleeducation)->get();
-        return view('pages.singleEducation', compact('singleeducations'));
+        return view('pages.singleEducation', compact('singleeducations', 'locale'));
     }
 
     public function internationaldocument(){
+        $locale = \Illuminate\Support\Facades\Session::get('locale');
         $internationaldocuments = Internationaldocument::orderBy('id', 'desc')->get();
-        return view('pages.internationaldocument', compact('internationaldocuments'));
+        return view('pages.internationaldocument', compact('internationaldocuments', 'locale'));
     }
-
-
 
 
     public function article(){
+        $locale = \Illuminate\Support\Facades\Session::get('locale');
         $articles = Article:: orderBy('id', 'desc')->get();
-        return view('pages.article', compact('articles'));
+        return view('pages.article', compact('articles', 'locale'));
     }
     public function singlearticle(Request $request) {
+        $locale = \Illuminate\Support\Facades\Session::get('locale');
         $singlearticles=Article::where('id', $request->singlearticle)->get();
-        return view('pages.singleArticle', compact('singlearticles'));
+        return view('pages.singleArticle', compact('singlearticles', 'locale'));
     }
 
 
@@ -234,33 +226,19 @@ class PageController extends Controller
         return view('pages.report', compact('reports', 'locale'));
     }
     public function singlereport(Request $request) {
+        $locale = \Illuminate\Support\Facades\Session::get('locale');
         $singlereports= Report::where('id', $request->singlereport)->get();
-        return view('pages.singleReport', compact('singlereports'));
+        return view('pages.singleReport', compact('singlereports', 'locale'));
     }
 
     public function measures(){
+        $locale = \Illuminate\Support\Facades\Session::get('locale');
         $measures = Measure:: orderBy('id', 'desc')->get();
-        return view('pages.measures', compact('measures'));
+        return view('pages.measures', compact('measures', 'locale'));
     }
     public function singlemeasures(Request $request) {
+        $locale = \Illuminate\Support\Facades\Session::get('locale');
         $singlemeasures=Measure::where('id', $request->singlemeasures)->get();
-        return view('pages.singleMeasure', compact('singlemeasures'));
+        return view('pages.singleMeasure', compact('singlemeasures', 'locale'));
     }
-
-//  public function photogallery(){
-//        $photogalleries = Photogallery::get();
-//        return view('pages.gallery', compact('photogalleries'));
-//  }
-
-//    public function decision(){
-//        $decisions = Decision::get();
-//        return view('pages.decision', compact('decisions'));
-//    }
-
-//    public function rhdecision(){
-//        $rhdecisions = rhdecision::get();
-//        return view('pages.decision', compact('rhdecisions'));
-//    }
-
-
 }
