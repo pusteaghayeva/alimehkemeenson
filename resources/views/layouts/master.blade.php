@@ -49,13 +49,13 @@
         <div class="row containers">
             <div class="col-6 col-md-5 col-sm-6 col-xl-5">
                 <div class="contact-info d-flex align-items-center">
-                    <a href="">
+                    <a href="/locale/az">
                         <img src="./assets/img/az.gif" alt="">
                     </a>
-                    <a href="">
+                    <a href="/locale/en">
                         <img src="./assets/img/en.gif" alt="">
                     </a>
-                    <a href="">
+                    <a href="/locale/ru">
                         <img src="./assets/img/ruf.png" class="ru" alt="">
                     </a>
 

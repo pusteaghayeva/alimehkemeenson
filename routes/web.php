@@ -2,10 +2,12 @@
 
 use App\Http\Controllers\ApparatusController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\SupremecourtController;
 use App\Http\Controllers\HomePageController;
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Session;
 use TCG\Voyager\Facades\Voyager;
 
 
@@ -85,6 +87,8 @@ Route::get('/publications', [PageController::class, 'publication'])->name('publi
 Route::get('/{slug}', [PageController::class, 'pageView']);
 
 
+//Language
+Route::get('locale/{locale}', [LanguageController::class, 'index'])->name('locale');
 
 
 //Route::get('/azlegalacts',[PageController::class, 'azlegalact'])->name('azlegalacts');

@@ -32,26 +32,28 @@ use Illuminate\Http\Request;
 use \App\Models\About;
 use \App\Models\College;
 use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\View;
 
 class PageController extends Controller
 {
     public function pageView($slug){
         $page = Page::findBySlug($slug);
+        $locale = Session::get('locale');
 //        $data = $this->getPreparedData($slug);
         $data = [];
 
         // if blade view already created for the page
         if (View::exists("pages." . $slug)) { // pages.about
-            return view('pages.' . $slug, compact('data', 'page'));
+            return view('pages.' . $slug, compact('data', 'page','locale'));
         } elseif ($page == null) { // if page was not created from admin panel
-            return "Səhifə tapılmadı! Admin panelden yaradilmalidir!";
+            return "Səhifə tapılmadı! Admin panelden yaradılmalıdır!";
 //            return view('pages.notFound');
         }
 //        elseif ($data != null) { // there are data for the page, but blade view is not existing
 //            return view('pages.posts', compact('data', 'page'));
 //        }
-        return view('pages.dinamic', compact('page', 'data'));
+        return view('pages.dinamic', compact('page', 'data','locale'));
 
     }
 

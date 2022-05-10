@@ -1,10 +1,10 @@
 @extends('layouts.master')
-@section('title', $page->title)
+@section('title', $page->getTranslatedAttribute('title', $locale, 'fallbackLocale'))
 @section('content')
 
     <div class="about-content container">
-        <h3 class="about-title text-center text-dark">{{$page->title}}</h3>
-        <p class="about-text">{!! $page->body !!}</p>
+        <h3 class="about-title text-center text-dark">{{$page->getTranslatedAttribute('title', $locale, 'fallbackLocale')}}</h3>
+        <p class="about-text">{!! $page->getTranslatedAttribute('body', $locale, 'fallbackLocale') !!}</p>
     </div>
 
     @if($page->slug=="online")
