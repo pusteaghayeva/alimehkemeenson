@@ -9,10 +9,11 @@
             <div class="row">
                 @foreach($singledecisionpresidias as $singledecisionpresidia)
                     <div class="colleges single-news ">
-                        <h2 class="coll-title text-center">{{$singledecisionpresidia->title}}</h2>
+                        <h2 class="coll-title text-center">{{$singledecisionpresidia->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}</h2>
                         <div class="container single_text">
-{{--                            <img src="{{asset('storage/'.$singlenews->image)}}" class="coll-image m-auto" alt="">--}}
-                            <p class="coll-text text-justify"> {!! $singledecisionpresidia->content !!}</p>
+                            <p class="coll-text text-justify">
+                                {!! $singledecisionpresidia->getTranslatedAttribute('content', $locale, 'fallbackLocale') !!}
+                            </p>
                         </div>
                     </div>
                 @endforeach

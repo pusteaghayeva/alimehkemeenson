@@ -1,5 +1,6 @@
 @extends('layouts.master')
-{{--@section('title', 'Ali Məhkəmə-90)--}}
+{{--@section('title', $supremecourt->getTranslatedAttribute('title', $locale, 'fallbackLocale'))--}}
+
 @section('content')
 
     <div class="college container">
@@ -7,7 +8,11 @@
         @foreach($supremecourts as $supremecourt)
                     <div class="card court-card mb-3">
                         <div class="card-body">
-                            <a href="{{route('singlesupremecourt', ['singlesupremecourt'=>$supremecourt->id])}}" class="court-link">{{$supremecourt->title}}</a>
+                            <a href="{{route('singlesupremecourt', ['singlesupremecourt'=>$supremecourt->id])}}" class="court-link">
+                                {{$supremecourt->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
+                            </a>
+
+
                         </div>
                     </div>
         @endforeach

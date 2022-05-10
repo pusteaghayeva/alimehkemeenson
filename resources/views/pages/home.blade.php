@@ -72,7 +72,6 @@
 
         </div>
     </section>
-    <!-- </main> -->
 
 
     <div class="contact container-fluid ">
@@ -98,44 +97,11 @@
                         </section>
                     </div>
                 @endforeach
-                {{--                <div class="col-12 col-sm-6 col-md-3 contact-item ">--}}
-                {{--                    <section class="hover-div ">--}}
-                {{--                        <a href="example_documents.html">--}}
-                {{--                            <i class="fa-solid fa-file"></i>--}}
-                {{--                            <div class="hover-div_inner ">--}}
-                {{--                                <p class="text-center ">Sənədlərin nümunələri--}}
-                {{--                                </p>--}}
-                {{--                            </div>--}}
-                {{--                        </a>--}}
-                {{--                    </section>--}}
-                {{--                </div>--}}
-                {{--                <div class="col-12 col-sm-6 col-md-3 contact-item ">--}}
-                {{--                    <section class="hover-div ">--}}
-                {{--                        <a href="publications.html">--}}
-                {{--                            <i class="fa-solid fa-print"></i>--}}
-                {{--                            <div class="hover-div_inner ">--}}
-                {{--                                <p class="text-center ">Nəşrlərimiz</p>--}}
-                {{--                            </div>--}}
-                {{--                        </a>--}}
 
-                {{--                    </section>--}}
-                {{--                </div>--}}
-                {{--                <div class="col-12 col-sm-6 col-md-3 contact-item ">--}}
-                {{--                    <section class="hover-div ">--}}
-                {{--                        <a href="elektron_library.html">--}}
-                {{--                            <i class="fa-solid fa-lines-leaning"></i>--}}
-                {{--                            <div class="hover-div_inner ">--}}
-                {{--                                <p class="text-center ">Elektron kitabxana</p>--}}
-                {{--                            </div>--}}
-                {{--                        </a>--}}
-
-                {{--                    </section>--}}
-                {{--                </div>--}}
             </div>
         </div>
     </div>
 
-    {{--<main>--}}
     <section class="nmr-courts container">
         <div class="courts-bg courts--img">
             <h3 class="h3">Naxçıvan Muxtar Respublikası Məhkəmələri</h3>

@@ -78,7 +78,7 @@ Route::get('/article', [PageController::class, 'article'])->name('article');
 Route::get('/singlearticle', [PageController::class, 'singlearticle'])->name('singlearticle');
 
 Route::get('/electronlibrary', [PageController::class, 'electronlibrary'])->name('electronlibrary');
-Route::get('/nmrelectronlibrar', [PageController::class, 'nmrelectronlibrary'])->name('nmrelectronlibrary');
+Route::get('/nmrelectronlibraries', [PageController::class, 'nmrelectronlibrary'])->name('nmrelectronlibrary');
 
 Route::get('/publications', [PageController::class, 'publication'])->name('publications');
 

@@ -12,12 +12,14 @@ class HomePageController extends Controller
     //
     public function home(){
         $news = \App\Models\News::get();
+
+        $locale = \Illuminate\Support\Facades\Session::get('locale');
         $contacts = \App\Models\Contact::get();
         $forpersons = \App\Models\Forpersons::get();
         $services = \App\Models\Service::get();
         $nmrcourts = \App\Models\Nmrcourt::where('status', 1)->get();
         $usefullinks = \App\Models\Usefullink::where('status', 1)->get();
-        return view('pages.home', compact('news','contacts', 'forpersons', 'services', 'nmrcourts', 'usefullinks'));
+        return view('pages.home', compact('news','contacts', 'forpersons', 'services', 'nmrcourts', 'usefullinks', 'locale'));
     }
 
 }

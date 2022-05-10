@@ -8,7 +8,7 @@
             @foreach($reports as $report)
                 <li>
                     <a class="cool-link" href="{{route('singlereport', ['singlereport'=>$report->id])}}">
-                        {{$report->title}}
+                        {{$report->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
                     </a>
                 </li>
             @endforeach

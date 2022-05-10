@@ -28,9 +28,14 @@
                         </div>
                         <div class="blog-content home-blog">
                             <h2 class="blog-title">
-                                <a href="{{route('singlenews', ['singlenews'=>$news_item->id])}}" class="text-justify">{{$news_item->title}}</a>
+                                <a href="{{route('singlenews', ['singlenews'=>$news_item->id])}}" class="text-justify">
+                                    {{$news_item->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
+
+                                </a>
                             </h2>
-                            <p>{{mb_substr(html_entity_decode (strip_tags($news_item->content)), 0, 115) }}</p>
+                            <p>{!! mb_substr(html_entity_decode (strip_tags($news_item->getTranslatedAttribute('content', $locale, 'fallbackLocale'))), 0, 115) !!}</p>
+{{--                            {!! $singledecisionpresidia->getTranslatedAttribute('content', $locale, 'fallbackLocale') !!}--}}
+
                         </div>
                         <div class="link-box home-blog-link">
                             <a href="{{route('singlenews', ['singlenews'=>$news_item->id])}}">Ardını oxu</a>

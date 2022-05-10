@@ -4,50 +4,23 @@
 
 
 
-<!-- Accordion -->
-<div class="faq">
-    <h3 class="text-center">Tez-tez verilən suallar</h3>
-    @foreach($faqs as $faq)
-    <details class="accordion">
-        <summary>{{$faq->title}}</summary>
-        <div class="accordion-content">
-            <p>
-                {!! $faq->content !!}
-            </p>
-        </div>
-    </details>
-    @endforeach
+    <!-- Accordion -->
+    <div class="faq">
+        {{--    <h3 class="text-center">Tez-tez verilən suallar</h3>--}}
 
-{{--    <details id="event-emitter" class="accordion">--}}
-{{--        <summary>Expand Accordion (check console for <code>accordionToggled</code> event)</summary>--}}
-{{--        <div class="accordion-content">--}}
-{{--            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, doloribus quos sint saepe tempore reprehenderit distinctio, rerum quis culpa sequi <a href="#">animi deleniti</a> pariatur amet facilis rem, asperiores optio quia nemo.</p>--}}
-{{--        </div>--}}
-
-{{--        <summary>Expand Accordion</summary>--}}
-{{--        <div class="accordion-content">--}}
-{{--            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, doloribus quos sint saepe tempore reprehenderit distinctio, rerum quis culpa sequi <a href="#">animi deleniti</a> pariatur amet facilis rem, asperiores optio quia nemo.</p>--}}
-{{--        </div>--}}
-{{--    </details>--}}
-
-{{--    <details id="event-emitter" class="accordion">--}}
-{{--        <summary>Expand Accordion (check console for <code>accordionToggled</code> event)</summary>--}}
-{{--        <div class="accordion-content">--}}
-{{--            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, doloribus quos sint saepe tempore reprehenderit distinctio, rerum quis culpa sequi <a href="#">animi deleniti</a> pariatur amet facilis rem, asperiores optio quia nemo.</p>--}}
-{{--        </div>--}}
-{{--        <summary>Expand Accordion</summary>--}}
-{{--        <div class="accordion-content">--}}
-{{--            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, doloribus quos sint saepe tempore reprehenderit distinctio, rerum quis culpa sequi <a href="#">animi deleniti</a> pariatur amet facilis rem, asperiores optio quia nemo.</p>--}}
-{{--        </div>--}}
-{{--    </details>--}}
-
-{{--    <details id="event-emitter" class="accordion">--}}
-{{--        <summary>Expand Accordion (check console for <code>accordionToggled</code> event)</summary>--}}
-{{--        <div class="accordion-content">--}}
-{{--            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, doloribus quos sint saepe tempore reprehenderit distinctio, rerum quis culpa sequi <a href="#">animi deleniti</a> pariatur amet facilis rem, asperiores optio quia nemo.</p>--}}
-{{--        </div>--}}
-{{--    </details>--}}
-</div>
+        @foreach($faqs as $faq)
+            <details class="accordion">
+                <summary>
+                       {{$faq->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
+                </summary>
+                <div class="accordion-content">
+                    <p>
+                        {!! $faq->getTranslatedAttribute('content', $locale, 'fallbackLocale') !!}
+                    </p>
+                </div>
+            </details>
+        @endforeach
+    </div>
 
 
 

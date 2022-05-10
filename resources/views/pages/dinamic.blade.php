@@ -11,7 +11,7 @@
         <div class="letters">
             <div class="letter-write container">
                 <div class="letter">
-                    <a href="" class="apply">Muraciet etmek</a>
+                    <a href="" class="apply">Müraciət etmək</a>
                 </div>
             </div>
         </div>
