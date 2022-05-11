@@ -1,8 +1,6 @@
 @extends('layouts.master')
 @section('title', 'Maarifləndirici materiallar')
 @section('content')
-
-
     <div class="speech">
         <div class="container">
             @foreach($educationmaterials as $educationmaterial)
@@ -20,5 +18,5 @@
         </div>
     </div>
 
-
+    <div class="text-center"> {{$educationmaterials->appends(request()->input())->links()}}</div>
 @endsection

@@ -47,6 +47,8 @@ Route::get('/singleappeal', [PageController::class, 'singleappeal'])->name('sing
 Route::get('/report', [PageController::class, 'report'])->name('report');
 Route::get('/singlereport', [PageController::class, 'singlereport'])->name('singlereport');
 
+Route::get('/applyonline',[PageController::class, 'applyonline'])->name('applyonline');
+Route::get('/mail',[PageController::class, 'mail'])->name('mail');
 
 //Route::get('/azlegalact', [PageController::class, 'azlegalact'])->name('azlegalact');
 

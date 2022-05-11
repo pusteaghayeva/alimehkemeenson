@@ -1,7 +1,6 @@
 @extends('layouts.master')
 @section('title', 'Naxçıvan Muxtar Respublikasının Elektron kitabxanası')
 @section('content')
-
     <div class="wrap">
         @foreach($nmrelectronlibraries as $nmrelectronlibrary)
         <div class="box">

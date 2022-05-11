@@ -19,11 +19,11 @@
                                     <img src="{{asset('storage/'.$new->image)}}" class=" w-100" alt="...">
                                     <div class="carousel-bg"></div>
                                     <div class="carousel-caption  d-md-block ">
-                                        <h4 class="text-left">
+                                        <h5 class="text-left">
                                             {{$new->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
-                                        </h4>
+                                        </h5>
                                         <p>
-                                            {!! mb_substr(html_entity_decode (strip_tags($new->getTranslatedAttribute('content', $locale, 'fallbackLocale'))), 0, 100)  !!}
+{{--                                            {!! mb_substr(html_entity_decode (strip_tags($new->getTranslatedAttribute('content', $locale, 'fallbackLocale'))), 0, 100)  !!}--}}
                                         </p>
                                     </div>
                                 </a>

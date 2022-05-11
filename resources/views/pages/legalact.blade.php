@@ -11,11 +11,7 @@
                 </span>
             </a>
         @endforeach
-
-
     </div>
-
-
 @endsection
 
 

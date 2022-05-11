@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Appeal;
+use App\Models\Applyonline;
 use App\Models\Article;
 //use App\Models\Azlegalact;
 use App\Models\Constitution;
@@ -92,9 +93,22 @@ class PageController extends Controller
         return view('pages.singleCourt', compact('singlecourts', 'locale'));
     }
 
-    public function news(){
+    public function applyonline(){
         $locale = \Illuminate\Support\Facades\Session::get('locale');
-        $news = News:: orderBy('id', 'desc')->get();
+        $applyonlines = \App\models\Applyonline::get();
+        return view('pages.applyonline', compact('applyonlines', 'locale'));
+    }
+
+    public function mail()
+    {
+        $mails= Applyonline::get();
+        return view('pages.mail', compact('mails'));
+    }
+
+    public function news(){
+        $search = request('search');
+        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $news = News::where('title', 'like', "%$search%")->orderBy('id', 'desc')->paginate(5);
         return view('pages.news', compact('news', 'locale'));
     }
 
@@ -118,7 +132,7 @@ class PageController extends Controller
 
   public function decisionpresidia(){
       $locale = \Illuminate\Support\Facades\Session::get('locale');
-      $decisionpresidias = Decisionpresidium::orderBy('id', 'desc')->get();
+      $decisionpresidias = Decisionpresidium::orderBy('id', 'desc')->paginate(10);
         return view('pages.decisionpresidia', compact('decisionpresidias', 'locale'));
   }
     public function singledecisionpresidia(Request $request) {
@@ -163,7 +177,7 @@ class PageController extends Controller
 
     public function speech(){
         $locale = \Illuminate\Support\Facades\Session::get('locale');
-        $speechs = Speech:: orderBy('id', 'desc')->get();
+        $speechs = Speech:: orderBy('id', 'desc')->paginate(10);
         return view('pages.speech', compact('speechs', 'locale'));
     }
     public function singlespeech(Request $request) {
@@ -191,7 +205,7 @@ class PageController extends Controller
 
     public function educationmaterial(){
         $locale = \Illuminate\Support\Facades\Session::get('locale');
-        $educationmaterials = Educationmaterial::orderBy('id', 'desc')->get();
+        $educationmaterials = Educationmaterial::orderBy('id', 'desc')->paginate(10);
         return view('pages.educationmaterial', compact('educationmaterials', 'locale'));
     }
     public function singleeducation(Request $request) {
@@ -209,7 +223,7 @@ class PageController extends Controller
 
     public function article(){
         $locale = \Illuminate\Support\Facades\Session::get('locale');
-        $articles = Article:: orderBy('id', 'desc')->get();
+        $articles = Article:: orderBy('id', 'desc')->paginate(10);
         return view('pages.article', compact('articles', 'locale'));
     }
     public function singlearticle(Request $request) {
@@ -222,7 +236,7 @@ class PageController extends Controller
 
     public function report(){
         $locale = \Illuminate\Support\Facades\Session::get('locale');
-        $reports = Report:: orderBy('id', 'desc')->get();
+        $reports = Report:: orderBy('id', 'desc')->paginate(10);
         return view('pages.report', compact('reports', 'locale'));
     }
     public function singlereport(Request $request) {
@@ -233,7 +247,7 @@ class PageController extends Controller
 
     public function measures(){
         $locale = \Illuminate\Support\Facades\Session::get('locale');
-        $measures = Measure:: orderBy('id', 'desc')->get();
+        $measures = Measure:: orderBy('id', 'desc')->paginate(10);
         return view('pages.measures', compact('measures', 'locale'));
     }
     public function singlemeasures(Request $request) {

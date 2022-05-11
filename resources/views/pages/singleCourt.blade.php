@@ -3,7 +3,6 @@
 {{--    {{$singlecourts[0]->title}}--}}
 @endsection
 @section('content')
-
     <div class="college container">
         @foreach($singlecourts as $singlecourt)
             <div class="card court-card mb-3 w-75 mt-3">
@@ -15,5 +14,4 @@
             </div>
         @endforeach
     </div>
-
 @endsection

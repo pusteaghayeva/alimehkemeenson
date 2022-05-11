@@ -86,6 +86,7 @@ class BackupDataBase extends Command
             'publications',
             'reports',
             'roles',
+            'applyonlines',
             'supremecourts',
             'videos,
             '

@@ -2,9 +2,8 @@
 @section('title', 'Elektron Kitabxana')
 @section('content')
 
-
     <div class="first-down-menu container">
-        <h2 class="first-dm-title text-center">Elektron Kitabxana</h2>
+        <h2 class="first-dm-title text-center mt-5">Elektron Kitabxana</h2>
         <ul>
             @foreach($electronlibrarys as $electronlibrary)
             <li>

@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="first-down-menu container">
-        <h2 class="first-dm-title text-center mt-5">Məqalələr</h2>
+        <h2 class="first-dm-title text-center mt-5 mb-5">Məqalələr</h2>
         <ul>
          @foreach($articles as $article)
                 <li>
@@ -16,6 +16,7 @@
          @endforeach
         </ul>
     </div>
+    <div class="text-center"> {{$articles->appends(request()->input())->links()}}</div>
 
 @endsection
 

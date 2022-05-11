@@ -1,13 +1,8 @@
 @extends('layouts.master')
 @section('title', 'Sual-cavab')
 @section('content')
-
-
-
-    <!-- Accordion -->
     <div class="faq">
-        {{--    <h3 class="text-center">Tez-tez verilən suallar</h3>--}}
-
+            <h3 class="first-dm-title text-center  mt-5 mb-5 ">Tez-tez verilən suallar</h3>
         @foreach($faqs as $faq)
             <details class="accordion">
                 <summary>

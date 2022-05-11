@@ -66,10 +66,13 @@
                                 <!-- Search end -->
 
                                 <div class="search-block" style="display: none;">
-                                    <label for="search-field" class="w-100 mb-0">
-                                        <input type="text" class="form-control" id="search-field" placeholder="Axtar">
-                                    </label>
-                                    <span class="search-close">&times;</span>
+                                    <form>
+                                        <label for="search-field" class="w-100 mb-0">
+                                            <input type="text" class="form-control" name="search" id="search-field" placeholder="Axtar">
+                                        </label>
+                                        <span class="search-close">&times;</span>
+                                    </form>
+
                                 </div>
                                 <!-- Site search end -->
                             </nav>

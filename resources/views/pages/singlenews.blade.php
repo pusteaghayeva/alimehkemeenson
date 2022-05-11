@@ -3,7 +3,6 @@
 {{--    {{$singlenews[0]->title}}--}}
 @endsection
 @section('content')
-
     <section class="blog-area pt-5 pb-5">
         <div class="container">
             <div class="row">
@@ -16,14 +15,11 @@
                             <img src="{{asset('storage/'.$singlenews->image)}}" class="coll-image m-auto" alt="">
                             <p class="coll-text text-justify">
                                 {!! mb_substr(html_entity_decode (strip_tags($singlenews->getTranslatedAttribute('content', $locale, 'fallbackLocale'))), 0, 400)  !!}
-
                             </p>
                         </div>
                     </div>
                 @endforeach
-
             </div>
         </div>
     </section>
-
 @endsection

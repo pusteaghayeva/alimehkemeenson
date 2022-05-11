@@ -1,8 +1,6 @@
 @extends('layouts.master')
 @section('title', 'Çıxışlar')
 @section('content')
-
-
     <div class="speech">
         <div class="container">
             @foreach($speechs as $speech)
@@ -17,9 +15,8 @@
                     </div>
                 </div>
             @endforeach
-
         </div>
     </div>
-
+    <div class="text-center"> {{$speechs->appends(request()->input())->links()}}</div>
 
 @endsection

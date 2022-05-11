@@ -3,8 +3,7 @@
 {{--    {{$singlenews[0]->title}}--}}
 @endsection
 @section('content')
-
-    <section class="blog-area pt-5 pb-5">
+    <section class="blog-area">
         <div class="container">
             <div class="row">
                 @foreach($singledecisionpresidias as $singledecisionpresidia)
@@ -17,9 +16,7 @@
                         </div>
                     </div>
                 @endforeach
-
             </div>
         </div>
     </section>
-
 @endsection

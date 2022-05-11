@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Ümumi məlumat')
+@section('title', 'Rəyasət heyətinin qərarları')
 @section('content')
 
     <div class="first-down-menu container">
@@ -16,6 +16,7 @@
          @endforeach
         </ul>
     </div>
+    <div class="text-center"> {{$decisionpresidias->appends(request()->input())->links()}}</div>
 
 @endsection
 
