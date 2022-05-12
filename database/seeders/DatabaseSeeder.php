@@ -65,5 +65,8 @@ class DatabaseSeeder extends Seeder
         $this->call(FromArtisanReportsTableSeeder::class);
         $this->call(FromArtisanSupremecourtsTableSeeder::class);
         $this->call(FromArtisanVideosTableSeeder::class);
+        $this->call(FromArtisanApplyonlinesTableSeeder::class);
+        $this->call(FromArtisanTranslatesTableSeeder::class);
+        $this->call(FromArtisanAdresTableSeeder::class);
     }
 }
