@@ -61,7 +61,7 @@
                 <div class="col-12 col-md-12 col-sm-12 col-lg-3 person-for">
                     <div class="personfor-title">
                         {{--Forcitizens--}}
-                        <p class="title-border">Vətəndaşlar üçün</p>
+                        <p class="title-border">{{__('all.forpersons')}}</p>
                     </div>
                     <div class="cat-container">
                         @foreach($forpersons as $forperson)
@@ -194,45 +194,20 @@
     <div class="container footer-socialicons">
         <div class="row">
             <div class="col-10  m-auto circle-icons">
+                @foreach($adres as $adres_item)
                 <div class="circle-2">
-                    <a href="https://goo.gl/maps/T626L2cTkQxmNNgh8" target="_blank">
-
-                        <img src="./assets/img/Group1285.png" alt="location"/>
+                    <a href="{{$adres_item->link}}">
+                        <img src="{{asset('storage/'.$adres_item->image)}}" alt="location" />
                         <p class="h4">
-                            {{setting('site.address')}}
+                            {{$adres_item->getTranslatedAttribute('title', $locale, 'fallbackLocale')}}
+                            :
+                            {{$adres_item->getTranslatedAttribute('adres', $locale, 'fallbackLocale')}}
                         </p>
                     </a>
                 </div>
-                <div class="circle-2">
-                    <a href="tel:{{setting('site.phone')}}">
-                        <img src="./assets/img/Group1286.png" alt="location"/>
-                        <p class="h4">
-                            {{setting('site.phone')}}
-                        </p>
-                    </a>
+                @endforeach
 
-                </div>
-                <div class="circle-2">
-                    <a href="fax:{{setting('site.fax')}}">
-                        <img src="./assets/img/Group1287.png" alt="location"/>
-                        <p class="h4">
-                            {{setting('site.fax')}}
-                        </p>
-                    </a>
-
-
-                </div>
-                <div class="circle-2">
-                    <a href="mailto:{{setting('site.email')}}">
-                        <img src="./assets/img/Group1288.png" alt="location"/>
-                        <p class="h4">
-                            {{setting('site.email')}}
-                        </p>
-                    </a>
-
-                </div>
             </div>
-
         </div>
     </div>
 @endsection

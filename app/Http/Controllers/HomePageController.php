@@ -12,6 +12,8 @@ class HomePageController extends Controller
     //
     public function home(){
         $news = \App\Models\News::get();
+//        $title = \App\Models\Title::get();
+        $adres = \App\Models\Adres::get();
 
         $locale = \Illuminate\Support\Facades\Session::get('locale');
         $contacts = \App\Models\Contact::get();
@@ -27,7 +29,7 @@ class HomePageController extends Controller
 
         $locale = \Illuminate\Support\Facades\Session::get('locale');
         $usefullinks = \App\Models\Usefullink::where('status', 1)->get();
-        return view('pages.home', compact('news','contacts', 'forpersons', 'services', 'nmrcourts', 'usefullinks', 'locale'));
+        return view('pages.home', compact('news','contacts', 'forpersons', 'services', 'nmrcourts', 'usefullinks', 'adres', 'locale'));
     }
 
 }

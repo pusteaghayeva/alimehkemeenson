@@ -7,17 +7,14 @@ use Illuminate\Database\Eloquent\Model;
 use TCG\Voyager\Traits\Translatable;
 
 
-class Apparatus extends Model
+class Translate extends Model
 {
 //    use HasFactory;
-//    protected $fillable = ['title', 'slug', 'link', 'college', 'status'];
+//    protected $fillable = ['key', 'text', 'status'];
 
     use HasFactory, Translatable;
-
-    protected $translatable = ['title', 'slug',  'college', 'link'];
-
-    public static function findBySlug($slug)
-    {
+    protected $translatable = ['text'];
+    public static function findBySlug($slug){
         return static::withTranslations(Session::get('locale'))->first();
     }
 }

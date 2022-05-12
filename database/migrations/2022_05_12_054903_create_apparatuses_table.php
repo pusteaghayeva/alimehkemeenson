@@ -15,8 +15,11 @@ class CreateApparatusesTable extends Migration
     {
         Schema::create('apparatuses', function (Blueprint $table) {
             $table->id();
-            $table->string('link');
             $table->string('title');
+            $table->string('slug');
+            $table->string('link');
+            $table->string('college');
+            $table->integer('status');
             $table->timestamps();
         });
     }

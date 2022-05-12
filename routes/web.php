@@ -30,6 +30,8 @@ Route::group(['prefix' => 'admin'], function () {
 Route::get('/', [HomePageController::class, 'home'])->name('home');
 
 Route::get('/home',[HomePageController::class, 'home'])->name('home');
+//Route::get('/title', [PageController::class, 'title'])->name('title');
+
 //Route::get('/about' ,[PageController::class, 'about'])->name('about');
 //Route::get('/college', [PageController::class, 'college'])->name('college');
 //Route::get('/structure', [PageController::class, 'structure'])->name('structure');
@@ -40,6 +42,8 @@ Route::get('/singlesupremecourt', [PageController::class, 'singlesupremecourt'])
 Route::get('/news', [PageController::class, 'news'])->name('news');
 Route::get('/singlenews', [PageController::class, 'singleNews'])->name('singlenews');
 Route::get('/exampledocuments',[PageController::class, 'exampledocument'])->name('exampledocuments');
+
+Route::get('/adres', [PageController::class, 'adres'])->name('adres');
 
 Route::get('/appeal',[PageController::class, 'appeal'])->name('appeal');
 Route::get('/singleappeal', [PageController::class, 'singleappeal'])->name('singleappeal');
@@ -52,6 +56,7 @@ Route::get('/mail',[PageController::class, 'mail'])->name('mail');
 
 //Route::get('/azlegalact', [PageController::class, 'azlegalact'])->name('azlegalact');
 
+//Route::get('/judicialapparat', [PageController::class, 'judicialapparatus'])->name('judicialapparat');
 
 Route::get('/legalact', [PageController::class, 'legalact'])->name('legalact');
 Route::get('/constitution', [PageController::class, 'constitution'])->name('constitution');

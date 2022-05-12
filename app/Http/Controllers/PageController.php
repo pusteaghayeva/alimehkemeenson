@@ -29,6 +29,7 @@ use App\Models\Report;
 use App\Models\rhdecision;
 use App\Models\Speech;
 use App\Models\Supremecourt;
+use App\Models\Title;
 use App\Models\Video;
 use Illuminate\Http\Request;
 use \App\Models\About;
@@ -59,20 +60,53 @@ class PageController extends Controller
 
     }
 
-    public function college(){
-        $colleges = \App\models\College::get();
-        return view('pages.college', compact('colleges'));
+    public function titleView($slug){
+        $title = Title::findBySlug($slug);
+        $locale = Session::get('locale');
+//        $data = $this->getPreparedData($slug);
+        $data = [];
+
+//        // if blade view already created for the page
+//        if (View::exists("pages." . $slug)) { // pages.about
+//            return view('pages.' . $slug, compact('data', 'page','locale'));
+//        } elseif ($page == null) { // if page was not created from admin panel
+//            return "Səhifə tapılmadı! Admin panelden yaradılmalıdır!";
+////            return view('pages.notFound');
+//        }
+////        elseif ($data != null) { // there are data for the page, but blade view is not existing
+////            return view('pages.posts', compact('data', 'page'));
+////        }
+        return view('pages.title', compact('title', 'data','locale'));
+
     }
 
-    public function structure(){
-        $structures = \App\Models\Structure::get();
-        return view('pages.structure', compact('structures'));
+//    public function college(){
+//        $colleges = \App\models\College::get();
+//        return view('pages.college', compact('colleges'));
+//    }
+
+//    public function structure(){
+//        $structures = \App\Models\Structure::get();
+//        return view('pages.structure', compact('structures'));
+//    }
+
+//    public function title(){
+////        $locale = \Illuminate\Support\Facades\Session::get('locale');
+//        $titles = \App\Models\Title::orderBy('id', 'desc')->get();
+//        return view('pages.titles', compact('titles'));
+//    }
+    public function adres(){
+        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $adress = \App\Models\Adres::orderBy('id', 'desc')->get();
+        return view('pages.titles', compact('adress'));
     }
 
     public function apparatus(){
-        $apparatus = \App\Models\Apparatus::get();
-        return view('pages.apparatus', compact('apparatus'));
+        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $apparatus = \App\Models\Apparatus::orderBy('id', 'desc')->get();
+        return view('pages.apparatus', compact('apparatus', 'locale'));
     }
+
 
     public function supremecourt(){
         $locale = \Illuminate\Support\Facades\Session::get('locale');

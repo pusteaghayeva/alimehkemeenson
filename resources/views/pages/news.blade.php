@@ -8,7 +8,7 @@
                 <div class="col-xl-12 text-center pb-3">
                     <div class="section-title service-title">
 
-                        <h2 class="first-dm-title text-center  mt-5">Xəbərlər</h2>
+                        <h2 class="first-dm-title text-center  mt-5">{{__('all.news')}}</h2>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 @extends('layouts.master')
-{{--@section('title', $supremecourt->getTranslatedAttribute('title', $locale, 'fallbackLocale'))--}}
+{{--@section('title', $supremecourts->getTranslatedAttribute('title', $locale, 'fallbackLocale'))--}}
 
 @section('content')
     <div class="college container">
