@@ -14,7 +14,8 @@
                         </ol>
                         <div class="carousel-inner">
                             @foreach($news as $new)
-                                <a href="{{route('singlenews', ['singlenews'=>$new->id])}}" class="carousel-item  {{$new->id ==1?'active': ''}}">
+                                <a href="{{route('singlenews', ['singlenews'=>$new->id])}}"
+                                   class="carousel-item  {{$new->id ==1?'active': ''}}">
 
                                     <img src="{{asset('storage/'.$new->image)}}" class=" w-100" alt="...">
                                     <div class="carousel-bg"></div>
@@ -23,7 +24,7 @@
                                             {{$new->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
                                         </h5>
                                         <p>
-{{--                                            {!! mb_substr(html_entity_decode (strip_tags($new->getTranslatedAttribute('content', $locale, 'fallbackLocale'))), 0, 100)  !!}--}}
+                                            {{--                                            {!! mb_substr(html_entity_decode (strip_tags($new->getTranslatedAttribute('content', $locale, 'fallbackLocale'))), 0, 100)  !!}--}}
                                         </p>
                                     </div>
                                 </a>
@@ -68,7 +69,7 @@
                             <a href="{{$forperson->link}}" target="_blank">
                                 <div class="cat-img-display">
                                     <h2 class="cat-title">
-                                        {{$forperson->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
+                                    {{$forperson->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
                                 </div>
                             </a>
                         @endforeach
@@ -116,13 +117,13 @@
             <div class="container nmr-courts">
                 <div class="row align-items-center justify-content-between">
                     @foreach($nmrcourts as $nmrcourt)
-                    <div class="col-12 col-sm-12 col-md-6 only-courts courts-left ">
+                        <div class="col-12 col-sm-12 col-md-6 only-courts courts-left ">
                             <div class="city-court">
                                 <a href="{{$nmrcourt->link}}" target="_blank">
                                     {{$nmrcourt->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
                                 </a>
                             </div>
-                    </div>
+                        </div>
                     @endforeach
 
                 </div>
@@ -131,13 +132,15 @@
     </section>
 
     <div class="usefull-links container ">
-        <h1 class="link_title ">Faydalı Lİnklər</h1>
+        <h1 class="link_title ">
+            {{$titlesTranslation['faydalıLinklər']}}
+        </h1>
         <p class="underline"></p>
         <div class="owl-carousel owl-carousel4 owl-theme row ">
             @foreach($usefullinks as $usefullink)
-            <a href="{{$usefullink->link}}" class="useful-link-img " target="_blank ">
-                <img src="{{asset('storage/'.$usefullink->image)}}" alt=" ">
-            </a>
+                <a href="{{$usefullink->link}}" class="useful-link-img " target="_blank ">
+                    <img src="{{asset('storage/'.$usefullink->image)}}" alt=" ">
+                </a>
             @endforeach
 
         </div>
@@ -195,16 +198,16 @@
         <div class="row">
             <div class="col-10  m-auto circle-icons">
                 @foreach($adres as $adres_item)
-                <div class="circle-2">
-                    <a href="{{$adres_item->link}}">
-                        <img src="{{asset('storage/'.$adres_item->image)}}" alt="location" />
-                        <p class="h4">
-                            {{$adres_item->getTranslatedAttribute('title', $locale, 'fallbackLocale')}}
-                            :
-                            {{$adres_item->getTranslatedAttribute('adres', $locale, 'fallbackLocale')}}
-                        </p>
-                    </a>
-                </div>
+                    <div class="circle-2">
+                        <a href="{{$adres_item->link}}">
+                            <img src="{{asset('storage/'.$adres_item->image)}}" alt="location"/>
+                            <p class="h4">
+                                {{$adres_item->getTranslatedAttribute('title', $locale, 'fallbackLocale')}}
+                                :
+                                {{$adres_item->getTranslatedAttribute('adres', $locale, 'fallbackLocale')}}
+                            </p>
+                        </a>
+                    </div>
                 @endforeach
 
             </div>

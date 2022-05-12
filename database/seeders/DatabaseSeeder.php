@@ -38,8 +38,6 @@ class DatabaseSeeder extends Seeder
         $this->call(FromArtisanServicesTableSeeder::class);
         $this->call(FromArtisanUsefullinksTableSeeder::class);
         $this->call(FromArtisanPagesTableSeeder::class);
-        Schema::enableForeignKeyConstraints();
-
         $this->call(FromArtisanPersonalAccessTokensTableSeeder::class);
         $this->call(FromArtisanPasswordResetsTableSeeder::class);
         $this->call(FromArtisanFailedJobsTableSeeder::class);
@@ -68,5 +66,7 @@ class DatabaseSeeder extends Seeder
         $this->call(FromArtisanApplyonlinesTableSeeder::class);
         $this->call(FromArtisanTranslatesTableSeeder::class);
         $this->call(FromArtisanAdresTableSeeder::class);
+        Schema::enableForeignKeyConstraints();
+
     }
 }

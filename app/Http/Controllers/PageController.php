@@ -40,6 +40,7 @@ use Illuminate\Support\Facades\View;
 
 class PageController extends Controller
 {
+
     public function pageView($slug){
         $page = Page::findBySlug($slug);
         $locale = Session::get('locale');
@@ -47,7 +48,7 @@ class PageController extends Controller
         $data = [];
 
         // if blade view already created for the page
-        if (View::exists("pages." . $slug)) { // pages.about
+        if (View::exists("pages." . $slug)) { // pages.xeberler
             return view('pages.' . $slug, compact('data', 'page','locale'));
         } elseif ($page == null) { // if page was not created from admin panel
             return "Səhifə tapılmadı! Admin panelden yaradılmalıdır!";
@@ -80,55 +81,40 @@ class PageController extends Controller
 
     }
 
-//    public function college(){
-//        $colleges = \App\models\College::get();
-//        return view('pages.college', compact('colleges'));
-//    }
-
-//    public function structure(){
-//        $structures = \App\Models\Structure::get();
-//        return view('pages.structure', compact('structures'));
-//    }
-
-//    public function title(){
-////        $locale = \Illuminate\Support\Facades\Session::get('locale');
-//        $titles = \App\Models\Title::orderBy('id', 'desc')->get();
-//        return view('pages.titles', compact('titles'));
-//    }
     public function adres(){
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $adress = \App\Models\Adres::orderBy('id', 'desc')->get();
         return view('pages.titles', compact('adress'));
     }
 
     public function apparatus(){
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $apparatus = \App\Models\Apparatus::orderBy('id', 'desc')->get();
         return view('pages.apparatus', compact('apparatus', 'locale'));
     }
 
 
     public function supremecourt(){
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $supremecourts = Supremecourt::orderBy('id', 'desc')->get();
         return view('pages.supremecourt', compact('supremecourts', 'locale'));
     }
 
 
     public function singlesupremecourt(Request $request){
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $singlesupremecourts = Supremecourt::where('id', $request->singlesupremecourt)->get();
         return view('pages.singleSupremecourt', compact('singlesupremecourts', 'locale'));
     }
 
     public function singleCourt() {
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $singlecourts = Supremecourt::where("slug", \request("slug"))->get();
         return view('pages.singleCourt', compact('singlecourts', 'locale'));
     }
 
     public function applyonline(){
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $applyonlines = \App\models\Applyonline::get();
         return view('pages.applyonline', compact('applyonlines', 'locale'));
     }
@@ -141,65 +127,65 @@ class PageController extends Controller
 
     public function news(){
         $search = request('search');
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $news = News::where('title', 'like', "%$search%")->orderBy('id', 'desc')->paginate(5);
         return view('pages.news', compact('news', 'locale'));
     }
 
     public function singlenews(Request $request) {
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $singlenewss=News::where('id', $request->singlenews)->get();
         return view('pages.singleNews', compact('singlenewss', 'locale'));
     }
 
   public function legalact(){
-      $locale = \Illuminate\Support\Facades\Session::get('locale');
+      $locale = Session::get('locale');
       $legalacts = Legalact::orderBy('id', 'desc')->get();
         return view('pages.legalact', compact('legalacts', 'locale'));
   }
 
     public function constitution(Request $request) {
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $constitutions= Constitution ::orderBy('id', 'desc')->get();
         return view('pages.constitution', compact('constitutions', 'locale'));
     }
 
   public function decisionpresidia(){
-      $locale = \Illuminate\Support\Facades\Session::get('locale');
+      $locale = Session::get('locale');
       $decisionpresidias = Decisionpresidium::orderBy('id', 'desc')->paginate(10);
         return view('pages.decisionpresidia', compact('decisionpresidias', 'locale'));
   }
     public function singledecisionpresidia(Request $request) {
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $singledecisionpresidias=Decisionpresidium::where('id', $request->singledecisionpresidia)->get();
         return view('pages.singleDecisionpresidia', compact('singledecisionpresidias', 'locale'));
     }
 
     public function appeal(){
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $appeals = Appeal::orderBy('id', 'desc')->get();
         return view('pages.appeal', compact('appeals', 'locale'));
     }
     public function singleappeal(Request $request) {
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $singleappeals=Appeal::where('id', $request->singleappeal)->get();
         return view('pages.singleAppeal', compact('singleappeals', 'locale'));
     }
 
     public function electronlibrary(){
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $electronlibrarys = Electronlibrary::orderBy('id', 'desc')->get();
         return view('pages.electronlibrary', compact('electronlibrarys', 'locale'));
     }
 
     public function nmrelectronlibrary(){
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $nmrelectronlibraries = Nmrelectronlibrary::orderBy('id', 'desc')->get();
         return view('pages.nmrelectronlibraries', compact('nmrelectronlibraries', 'locale'));
     }
 
     public function exampledocument(){
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $exampledocuments = Exampledocument::orderBy('id', 'desc')->get();
         return view('pages.exampledocuments', compact('exampledocuments', 'locale'));
     }
@@ -210,12 +196,12 @@ class PageController extends Controller
     }
 
     public function speech(){
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $speechs = Speech:: orderBy('id', 'desc')->paginate(10);
         return view('pages.speech', compact('speechs', 'locale'));
     }
     public function singlespeech(Request $request) {
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $singlespeechs=Speech::where('id', $request->singlespeech)->get();
         return view('pages.singleSpeech', compact('singlespeechs', 'locale'));
     }
@@ -232,36 +218,36 @@ class PageController extends Controller
 
 
     public function faq(){
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $faqs = Faq::get();
         return view('pages.faq', compact('faqs', 'locale'));
     }
 
     public function educationmaterial(){
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $educationmaterials = Educationmaterial::orderBy('id', 'desc')->paginate(10);
         return view('pages.educationmaterial', compact('educationmaterials', 'locale'));
     }
     public function singleeducation(Request $request) {
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $singleeducations=Educationmaterial::where('id', $request->singleeducation)->get();
         return view('pages.singleEducation', compact('singleeducations', 'locale'));
     }
 
     public function internationaldocument(){
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $internationaldocuments = Internationaldocument::orderBy('id', 'desc')->get();
         return view('pages.internationaldocument', compact('internationaldocuments', 'locale'));
     }
 
 
     public function article(){
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $articles = Article:: orderBy('id', 'desc')->paginate(10);
         return view('pages.article', compact('articles', 'locale'));
     }
     public function singlearticle(Request $request) {
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $singlearticles=Article::where('id', $request->singlearticle)->get();
         return view('pages.singleArticle', compact('singlearticles', 'locale'));
     }
@@ -269,23 +255,23 @@ class PageController extends Controller
 
 
     public function report(){
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $reports = Report:: orderBy('id', 'desc')->paginate(10);
         return view('pages.report', compact('reports', 'locale'));
     }
     public function singlereport(Request $request) {
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $singlereports= Report::where('id', $request->singlereport)->get();
         return view('pages.singleReport', compact('singlereports', 'locale'));
     }
 
     public function measures(){
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $measures = Measure:: orderBy('id', 'desc')->paginate(10);
         return view('pages.measures', compact('measures', 'locale'));
     }
     public function singlemeasures(Request $request) {
-        $locale = \Illuminate\Support\Facades\Session::get('locale');
+        $locale = Session::get('locale');
         $singlemeasures=Measure::where('id', $request->singlemeasures)->get();
         return view('pages.singleMeasure', compact('singlemeasures', 'locale'));
     }
