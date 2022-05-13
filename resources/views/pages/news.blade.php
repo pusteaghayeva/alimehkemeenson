@@ -8,7 +8,9 @@
                 <div class="col-xl-12 text-center pb-3">
                     <div class="section-title service-title">
 
-                        <h2 class="first-dm-title text-center  mt-5">{{__('all.news')}}</h2>
+                        <h2 class="first-dm-title text-center  mt-5">
+                            {{$titlesTranslation['Xəbərlər']}}
+                        </h2>
                     </div>
                 </div>
             </div>
@@ -30,7 +32,7 @@
                                 <h2 class="blog-title">
                                     <a href="{{route('singlenews', ['singlenews'=>$news_item->id])}}"
                                        class="text-justify">
-                                        {{$news_item->getTranslatedAttribute('title', $locale, 'fallbackLocale')}}
+                                        {{$news_item->getTranslatedAttribute('title',  $locale, 'fallbackLocale')}}
 
                                     </a>
                                 </h2>

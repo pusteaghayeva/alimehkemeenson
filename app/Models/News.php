@@ -12,8 +12,9 @@ class News extends Model
 //    protected $fillable=['image', 'title', 'content', 'slug', 'read_more'];
 
     use HasFactory, Translatable;
+    protected $fillable=['image','slug'];
 
-    protected $translatable = ['title', 'slug', 'content', 'read_more'];
+    protected $translatable = ['title', 'content', 'read_more'];
 
     public static function findBySlug($slug)
     {

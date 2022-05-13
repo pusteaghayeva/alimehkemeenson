@@ -2,7 +2,9 @@
 @section('title', 'Sual-cavab')
 @section('content')
     <div class="faq">
-            <h3 class="first-dm-title text-center  mt-5 mb-5 ">Tez-tez verilən suallar</h3>
+            <h3 class="first-dm-title text-center  mt-5 mb-5 ">
+                {{$titlesTranslation['Faq']}}
+            </h3>
         @foreach($faqs as $faq)
             <details class="accordion">
                 <summary>

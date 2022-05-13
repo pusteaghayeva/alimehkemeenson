@@ -23,9 +23,6 @@
                                         <h5 class="text-left">
                                             {{$new->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
                                         </h5>
-                                        <p>
-                                            {{--                                            {!! mb_substr(html_entity_decode (strip_tags($new->getTranslatedAttribute('content', $locale, 'fallbackLocale'))), 0, 100)  !!}--}}
-                                        </p>
                                     </div>
                                 </a>
                             @endforeach
@@ -62,7 +59,9 @@
                 <div class="col-12 col-md-12 col-sm-12 col-lg-3 person-for">
                     <div class="personfor-title">
                         {{--Forcitizens--}}
-                        <p class="title-border">{{__('all.forpersons')}}</p>
+                        <p class="title-border">
+                            {{$titlesTranslation['vətəndaşlarÜçün']}}
+                        </p>
                     </div>
                     <div class="cat-container">
                         @foreach($forpersons as $forperson)
@@ -70,6 +69,7 @@
                                 <div class="cat-img-display">
                                     <h2 class="cat-title">
                                     {{$forperson->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
+                                    </h2>
                                 </div>
                             </a>
                         @endforeach
@@ -83,7 +83,7 @@
 
     <div class="contact container-fluid ">
         <div class="container">
-            <h1 class="contact_title "> Xİdmətlər</h1>
+            <h1 class="contact_title ">  {{$titlesTranslation['Xidmətlər']}}</h1>
             <p class="underline"></p>
         </div>
 
@@ -113,7 +113,7 @@
 
     <section class="nmr-courts container">
         <div class="courts-bg courts--img">
-            <h3 class="h3">Naxçıvan Muxtar Respublikası Məhkəmələri</h3>
+            <h3 class="h3">{{$titlesTranslation['NaxçıvanMrMəhkəmələri']}}</h3>
             <div class="container nmr-courts">
                 <div class="row align-items-center justify-content-between">
                     @foreach($nmrcourts as $nmrcourt)
@@ -148,7 +148,7 @@
 
 
     <div class="carousel-second container ">
-        <h1 class="link_title ">Naxçıvan bu gün</h1>
+        <h1 class="link_title ">{{$titlesTranslation['NaxçıvanBuGün']}}</h1>
         <p class="underline"></p>
         <div class="owl-carousel owl-theme p-0 ">
 

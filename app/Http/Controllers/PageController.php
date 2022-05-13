@@ -96,8 +96,18 @@ class PageController extends Controller
 
     public function supremecourt(){
         $locale = Session::get('locale');
+        switch ($locale){
+            case "en":
+                $titlesTranslation['AliMəhkəmə90'] = "Supreme Court-90";
+                break;
+            case "ru":
+                $titlesTranslation['AliMəhkəmə90'] = "Верховный суд-90";
+                break;
+            default :
+                $titlesTranslation['AliMəhkəmə90'] = "Ali Məhkəmə-90";
+        }
         $supremecourts = Supremecourt::orderBy('id', 'desc')->get();
-        return view('pages.supremecourt', compact('supremecourts', 'locale'));
+        return view('pages.supremecourt', compact('supremecourts', 'locale','titlesTranslation'));
     }
 
 
@@ -128,8 +138,18 @@ class PageController extends Controller
     public function news(){
         $search = request('search');
         $locale = Session::get('locale');
+        switch ($locale){
+            case "en":
+                $titlesTranslation['Xəbərlər'] = "News";
+                break;
+            case "ru":
+                $titlesTranslation['Xəbərlər'] = "Новости";
+                break;
+            default :
+                $titlesTranslation['Xəbərlər'] = "Xəbərlər";
+        }
         $news = News::where('title', 'like', "%$search%")->orderBy('id', 'desc')->paginate(5);
-        return view('pages.news', compact('news', 'locale'));
+        return view('pages.news', compact('news', 'locale', 'titlesTranslation'));
     }
 
     public function singlenews(Request $request) {
@@ -140,20 +160,50 @@ class PageController extends Controller
 
   public function legalact(){
       $locale = Session::get('locale');
+      switch ($locale){
+          case "en":
+              $titlesTranslation['AzərbaycanRespublikasınınHüquqiAktları'] = "Legal acts of the Republic of Azerbaijan";
+              break;
+          case "ru":
+              $titlesTranslation['AzərbaycanRespublikasınınHüquqiAktları'] = "Правовые акты Азербайджанской Республики";
+              break;
+          default :
+              $titlesTranslation['AzərbaycanRespublikasınınHüquqiAktları'] = "Azərbaycan Respublikasının Hüquqi aktları ";
+      }
       $legalacts = Legalact::orderBy('id', 'desc')->get();
-        return view('pages.legalact', compact('legalacts', 'locale'));
+        return view('pages.legalact', compact('legalacts', 'locale', 'titlesTranslation'));
   }
 
     public function constitution(Request $request) {
         $locale = Session::get('locale');
+        switch ($locale){
+            case "en":
+                $titlesTranslation['Konstitusiya'] = "Constitution";
+                break;
+            case "ru":
+                $titlesTranslation['Konstitusiya'] = "Конституция";
+                break;
+            default :
+                $titlesTranslation['Konstitusiya'] = "Konstitusiya";
+        }
         $constitutions= Constitution ::orderBy('id', 'desc')->get();
-        return view('pages.constitution', compact('constitutions', 'locale'));
+        return view('pages.constitution', compact('constitutions', 'locale', 'titlesTranslation'));
     }
 
   public function decisionpresidia(){
       $locale = Session::get('locale');
+      switch ($locale){
+          case "en":
+              $titlesTranslation['RəyasətHeyətininQərarları'] = "Decisions of the presidium";
+              break;
+          case "ru":
+              $titlesTranslation['RəyasətHeyətininQərarları'] = "Решения президиума";
+              break;
+          default :
+              $titlesTranslation['RəyasətHeyətininQərarları'] = "Rəyasət heyətinin qərarları";
+      }
       $decisionpresidias = Decisionpresidium::orderBy('id', 'desc')->paginate(10);
-        return view('pages.decisionpresidia', compact('decisionpresidias', 'locale'));
+        return view('pages.decisionpresidia', compact('decisionpresidias', 'locale', 'titlesTranslation'));
   }
     public function singledecisionpresidia(Request $request) {
         $locale = Session::get('locale');
@@ -174,8 +224,18 @@ class PageController extends Controller
 
     public function electronlibrary(){
         $locale = Session::get('locale');
+         switch ($locale){
+             case "en":
+                 $titlesTranslation['ElektronKitabxana'] = "Electronic Library";
+                 break;
+             case "ru":
+                 $titlesTranslation['ElektronKitabxana'] = "Электронная библиотека";
+                 break;
+             default :
+                 $titlesTranslation['ElektronKitabxana'] = "Elektron Kitabxana";
+         }
         $electronlibrarys = Electronlibrary::orderBy('id', 'desc')->get();
-        return view('pages.electronlibrary', compact('electronlibrarys', 'locale'));
+        return view('pages.electronlibrary', compact('electronlibrarys', 'locale', 'titlesTranslation'));
     }
 
     public function nmrelectronlibrary(){
@@ -219,8 +279,18 @@ class PageController extends Controller
 
     public function faq(){
         $locale = Session::get('locale');
+        switch ($locale){
+            case "en":
+                $titlesTranslation['Faq'] = "Frequently Asked Questions";
+                break;
+            case "ru":
+                $titlesTranslation['Faq'] = "Часто задаваемые вопросы";
+                break;
+            default :
+                $titlesTranslation['Faq'] = "Tez-tez verilən suallar";
+        }
         $faqs = Faq::get();
-        return view('pages.faq', compact('faqs', 'locale'));
+        return view('pages.faq', compact('faqs', 'locale', 'titlesTranslation'));
     }
 
     public function educationmaterial(){
@@ -236,15 +306,35 @@ class PageController extends Controller
 
     public function internationaldocument(){
         $locale = Session::get('locale');
+        switch ($locale){
+            case "en":
+                $titlesTranslation['BeynəlxalqHüquqiSənədlər'] = "International legal documents";
+                break;
+            case "ru":
+                $titlesTranslation['BeynəlxalqHüquqiSənədlər'] = "Международно-правовые документы";
+                break;
+            default :
+                $titlesTranslation['BeynəlxalqHüquqiSənədlər'] = "Beynəlxalq hüquqi sənədlər";
+        }
         $internationaldocuments = Internationaldocument::orderBy('id', 'desc')->get();
-        return view('pages.internationaldocument', compact('internationaldocuments', 'locale'));
+        return view('pages.internationaldocument', compact('internationaldocuments', 'locale', 'titlesTranslation'));
     }
 
 
     public function article(){
         $locale = Session::get('locale');
+        switch ($locale){
+            case "en":
+                $titlesTranslation['Məqalələr'] = "Articles";
+                break;
+            case "ru":
+                $titlesTranslation['Məqalələr'] = "Статьи";
+                break;
+            default :
+                $titlesTranslation['Məqalələr'] = "Məqalələr";
+        }
         $articles = Article:: orderBy('id', 'desc')->paginate(10);
-        return view('pages.article', compact('articles', 'locale'));
+        return view('pages.article', compact('articles', 'locale', 'titlesTranslation'));
     }
     public function singlearticle(Request $request) {
         $locale = Session::get('locale');
@@ -256,8 +346,18 @@ class PageController extends Controller
 
     public function report(){
         $locale = Session::get('locale');
+        switch ($locale){
+            case "en":
+                $titlesTranslation['Hesabatlar'] = "Reports";
+                break;
+            case "ru":
+                $titlesTranslation['Hesabatlar'] = "Отчеты";
+                break;
+            default :
+                $titlesTranslation['Hesabatlar'] = "Hesabatlar";
+        }
         $reports = Report:: orderBy('id', 'desc')->paginate(10);
-        return view('pages.report', compact('reports', 'locale'));
+        return view('pages.report', compact('reports', 'locale', 'titlesTranslation'));
     }
     public function singlereport(Request $request) {
         $locale = Session::get('locale');
@@ -267,8 +367,18 @@ class PageController extends Controller
 
     public function measures(){
         $locale = Session::get('locale');
+        switch ($locale){
+            case "en":
+                $titlesTranslation['Tədbirlər'] = "Events";
+                break;
+            case "ru":
+                $titlesTranslation['Tədbirlər'] = "События";
+                break;
+            default :
+                $titlesTranslation['Tədbirlər'] = "Tədbirlər";
+        }
         $measures = Measure:: orderBy('id', 'desc')->paginate(10);
-        return view('pages.measures', compact('measures', 'locale'));
+        return view('pages.measures', compact('measures', 'locale', 'titlesTranslation'));
     }
     public function singlemeasures(Request $request) {
         $locale = Session::get('locale');

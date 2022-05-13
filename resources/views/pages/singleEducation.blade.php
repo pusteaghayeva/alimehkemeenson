@@ -8,9 +8,13 @@
             <div class="row">
                 @foreach($singleeducations as $singleeducation)
                     <div class="colleges single-news ">
-                        <h2 class="coll-title text-center">{{$singleeducation->title}}</h2>
+                        <h2 class="coll-title text-center">
+                            {{$singleeducation->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
+                        </h2>
                         <div class="container single_text">
-                            <p class="coll-text text-justify"> {!! $singleeducation->content !!}</p>
+                            <p class="coll-text text-justify">
+                                {!! mb_substr(html_entity_decode (strip_tags($singleeducation->getTranslatedAttribute('content', $locale, 'fallbackLocale'))), 0, 400)  !!}
+                            </p>
                         </div>
                     </div>
                 @endforeach

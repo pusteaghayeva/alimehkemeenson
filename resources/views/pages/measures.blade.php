@@ -2,7 +2,9 @@
 @section('title', 'Tədbirlər')
 @section('content')
 
-    <h2 class="first-dm-title text-center  mt-5 mb-5">Tədbirlər</h2>
+    <h2 class="first-dm-title text-center  mt-5 mb-5">
+        {{$titlesTranslation['Tədbirlər']}}
+    </h2>
     @foreach($measures as $measure)
         <figure class="news_hor container">
             <img src="{{asset('storage/'.$measure->image)}}" alt="image"/>

@@ -16,7 +16,6 @@ class HomePageController extends Controller
     //
     public function home(){
         $news = \App\Models\News::get();
-//        $title = \App\Models\Title::get();
         $adres = \App\Models\Adres::get();
         $contacts = \App\Models\Contact::get();
         $forpersons = Forpersons::get();
@@ -28,12 +27,30 @@ class HomePageController extends Controller
         switch ($locale){
             case "en":
                 $titlesTranslation['faydalıLinklər'] = "Useful Links";
+                $titlesTranslation['Xidmətlər'] = "Servİces";
+                $titlesTranslation['NaxçıvanBuGün'] = "NAKHCHIVAN TODAY";
+                $titlesTranslation['NaxçıvanMrMəhkəmələri'] = "Courts of the Nakhchivan Autonomous Republic";
+                $titlesTranslation['AliMəhkəmə90'] = "Supreme Court-90";
+                $titlesTranslation['vətəndaşlarÜçün'] = "For citizens";
+
                 break;
             case "ru":
                 $titlesTranslation['faydalıLinklər'] = "Полезные ссылки";
+                $titlesTranslation['Xidmətlər'] = "Услуги";
+                $titlesTranslation['NaxçıvanBuGün'] = "НАХЧИВАН СЕГОДНЯ";
+                $titlesTranslation['NaxçıvanMrMəhkəmələri'] = "Суды Нахчыванской Автономной Республики";
+                $titlesTranslation['AliMəhkəmə90'] = "Верховный суд-90";
+                $titlesTranslation['vətəndaşlarÜçün'] = "Для граждан";
                 break;
             default :
-                $titlesTranslation['faydalıLinklər'] = "Faydalı Linklər";
+                $titlesTranslation['faydalıLinklər'] = "Faydalı Lİnklər";
+                $titlesTranslation['Xidmətlər'] = "Xİdmətlər";
+                $titlesTranslation['NaxçıvanBuGün'] = "NAXÇIVAN BU GÜN";
+                $titlesTranslation['NaxçıvanMrMəhkəmələri'] = "Naxçıvan Muxtar Respublikası Məhkəmələri";
+                $titlesTranslation['AliMəhkəmə90'] = "Ali Məhkəmə-90";
+                $titlesTranslation['vətəndaşlarÜçün'] = "Vətəndaşlar Üçün";
+
+
         }
 
 

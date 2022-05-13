@@ -1,8 +1,10 @@
 @extends('layouts.master')
-@section('title', 'Konstitusiya, Məcəllələr və Qanunlar')
+{{--@section('title', 'Konstitusiya, Məcəllələr və Qanunlar')--}}
 @section('content')
     <div class="first-down-menu container">
-        <h2 class="first-dm-title text-center mt-5">Konstitusiya</h2>
+        <h2 class="first-dm-title text-center mt-5">
+            {{$titlesTranslation['Konstitusiya']}}
+        </h2>
         <ul>
             @foreach($constitutions as $constitution)
                 <li>
