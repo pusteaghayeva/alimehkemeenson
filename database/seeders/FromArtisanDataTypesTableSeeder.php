@@ -685,6 +685,24 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:05:22',
                 'updated_at' => '2022-05-12 13:32:16',
             ),
+            37 => 
+            array (
+                'id' => 52,
+                'name' => 'footers',
+                'slug' => 'footers',
+                'display_name_singular' => 'Footer',
+                'display_name_plural' => 'Footers',
+                'icon' => 'voyager-credit-cards',
+                'model_name' => 'App\\Models\\Footer',
+                'policy_name' => NULL,
+                'controller' => NULL,
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":"id","order_display_column":"title","order_direction":"desc","default_search_key":null}',
+                'created_at' => '2022-05-14 08:52:08',
+                'updated_at' => '2022-05-14 08:52:08',
+            ),
         ));
         
         

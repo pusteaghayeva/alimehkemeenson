@@ -93,7 +93,6 @@ class PageController extends Controller
         return view('pages.apparatus', compact('apparatus', 'locale'));
     }
 
-
     public function supremecourt(){
         $locale = Session::get('locale');
         switch ($locale){

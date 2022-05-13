@@ -61,6 +61,20 @@ class FromArtisanMenusTableSeeder extends Seeder
                 'created_at' => '2022-04-29 10:19:46',
                 'updated_at' => '2022-04-29 10:19:46',
             ),
+            6 => 
+            array (
+                'id' => 8,
+                'name' => 'logo',
+                'created_at' => '2022-05-14 12:51:47',
+                'updated_at' => '2022-05-14 12:59:44',
+            ),
+            7 => 
+            array (
+                'id' => 9,
+                'name' => 'search',
+                'created_at' => '2022-05-14 13:01:45',
+                'updated_at' => '2022-05-14 13:01:45',
+            ),
         ));
         
         

@@ -33,7 +33,6 @@
                                     <a href="{{route('singlenews', ['singlenews'=>$news_item->id])}}"
                                        class="text-justify">
                                         {{$news_item->getTranslatedAttribute('title',  $locale, 'fallbackLocale')}}
-
                                     </a>
                                 </h2>
                                 <p>
@@ -44,7 +43,6 @@
                             <div class="link-box home-blog-link">
                                 <a href="{{route('singlenews', ['singlenews'=>$news_item->id])}}">
                                     {{$news_item->getTranslatedAttribute('read_more', $locale, 'fallbackLocale') }}
-
                                 </a>
                             </div>
                         </div>

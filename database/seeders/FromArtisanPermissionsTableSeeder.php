@@ -1579,6 +1579,46 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:05:22',
                 'updated_at' => '2022-05-12 13:05:22',
             ),
+            195 => 
+            array (
+                'id' => 221,
+                'key' => 'browse_footers',
+                'table_name' => 'footers',
+                'created_at' => '2022-05-14 08:52:08',
+                'updated_at' => '2022-05-14 08:52:08',
+            ),
+            196 => 
+            array (
+                'id' => 222,
+                'key' => 'read_footers',
+                'table_name' => 'footers',
+                'created_at' => '2022-05-14 08:52:08',
+                'updated_at' => '2022-05-14 08:52:08',
+            ),
+            197 => 
+            array (
+                'id' => 223,
+                'key' => 'edit_footers',
+                'table_name' => 'footers',
+                'created_at' => '2022-05-14 08:52:08',
+                'updated_at' => '2022-05-14 08:52:08',
+            ),
+            198 => 
+            array (
+                'id' => 224,
+                'key' => 'add_footers',
+                'table_name' => 'footers',
+                'created_at' => '2022-05-14 08:52:08',
+                'updated_at' => '2022-05-14 08:52:08',
+            ),
+            199 => 
+            array (
+                'id' => 225,
+                'key' => 'delete_footers',
+                'table_name' => 'footers',
+                'created_at' => '2022-05-14 08:52:08',
+                'updated_at' => '2022-05-14 08:52:08',
+            ),
         ));
         
         

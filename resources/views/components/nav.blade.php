@@ -15,26 +15,17 @@
                     </a>
                 </div>
                 <div class="sub-menu-overlay">
-
                     <footer>
                         <div class="row">
                             <div class=" col-12 footer-menus  ">
-                                <a href="/" class="footer-logo">
-                                    <img src="assets/img/logo.png" class="logo-img" alt="">
-                                    <p class="logo-text">Naxçıvan Muxtar Respublikası Ali Məhkəməsi</p>
-                                </a>
+                                {{menu("Logo", "components.logo")}}
                                 <div class="footer-menu">
                                     <div class="row">
-
                                         {{menu("hamburgerNavbar", "components.hamburgerNavbar")}}
                                         <div class="col-5 col-lg-12 col-sm-4 bigsearch">
-                                            <form class="form-inline">
-                                                <input class="form-control mr-sm-2" type="search" placeholder="Axtar..." aria-label="Search">
-                                                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Axtar</button>
-                                            </form>
+                                            {{menu("search", "components.search")}}
                                         </div>
                                         <hr>
-
                                     </div>
                                 </div>
 
@@ -66,7 +57,7 @@
                                 <!-- Search end -->
 
                                 <div class="search-block" style="display: none;">
-                                    <form>
+                                    <form action="{{route('news')}}">
                                         <label for="search-field" class="w-100 mb-0">
                                             <input type="text" class="form-control" name="search" id="search-field" placeholder="Axtar">
                                         </label>
@@ -80,8 +71,6 @@
                         <!--/ Col end -->
                     </div>
                     <!--/ Row end -->
-
-
                 </div>
                 <!--/ Container end -->
             </nav>

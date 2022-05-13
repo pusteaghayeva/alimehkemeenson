@@ -7769,9 +7769,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 90,
                 'locale' => 'en',
-                'value' => '© 2022 Design and Programming Nakhchivan Autonomous Republic Ministry of Communications and New Technologies',
+                'value' => 'Design and Programming Nakhchivan Autonomous Republic Ministry of Communications and New Technologies',
                 'created_at' => '2022-05-10 19:45:57',
-                'updated_at' => '2022-05-10 19:45:57',
+                'updated_at' => '2022-05-14 12:37:53',
             ),
             116 => 
             array (
@@ -7780,9 +7780,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 90,
                 'locale' => 'ru',
-                'value' => '© 2022 Дизайн и Программирование Министерство Связи и Новых Технологий Нахчыванской Автономной Республики',
+                'value' => 'Дизайн и Программирование Министерство Связи и Новых Технологий Нахчыванской Автономной Республики',
                 'created_at' => '2022-05-10 19:45:57',
-                'updated_at' => '2022-05-10 19:45:57',
+                'updated_at' => '2022-05-14 12:37:53',
             ),
             117 => 
             array (
@@ -11109,6 +11109,50 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'value' => 'nkj',
                 'created_at' => '2022-05-13 12:45:33',
                 'updated_at' => '2022-05-13 12:45:33',
+            ),
+            417 => 
+            array (
+                'id' => 928,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 121,
+                'locale' => 'en',
+                'value' => 'Supreme Court of the Nakhchivan Autonomous Republic',
+                'created_at' => '2022-05-14 12:53:55',
+                'updated_at' => '2022-05-14 12:53:55',
+            ),
+            418 => 
+            array (
+                'id' => 929,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 121,
+                'locale' => 'ru',
+                'value' => 'Верховный Суд Нахчыванской Автономной Республики',
+                'created_at' => '2022-05-14 12:53:55',
+                'updated_at' => '2022-05-14 12:53:55',
+            ),
+            419 => 
+            array (
+                'id' => 930,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 122,
+                'locale' => 'en',
+                'value' => 'Search',
+                'created_at' => '2022-05-14 13:02:22',
+                'updated_at' => '2022-05-14 13:02:22',
+            ),
+            420 => 
+            array (
+                'id' => 931,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 122,
+                'locale' => 'ru',
+                'value' => 'Поиск',
+                'created_at' => '2022-05-14 13:02:22',
+                'updated_at' => '2022-05-14 13:02:22',
             ),
         ));
         

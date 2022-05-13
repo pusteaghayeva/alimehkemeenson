@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 
+use App\Models\Footer;
 use App\Models\Forpersons;
 use App\Models\Nmrcourt;
 use App\Models\Service;
@@ -20,6 +21,7 @@ class HomePageController extends Controller
         $contacts = \App\Models\Contact::get();
         $forpersons = Forpersons::get();
         $services = Service::get();
+//        $footers = Footer::get();
         $nmrcourts = Nmrcourt::where('status', 1)->get();
 
         $locale = Session::get('locale'); // ="en"
