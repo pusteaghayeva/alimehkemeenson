@@ -1,0 +1,106 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+
+class FromArtisanNewsTableSeeder extends Seeder
+{
+
+    /**
+     * Auto generated seed file
+     *
+     * @return void
+     */
+    public function run()
+    {
+        
+
+        \DB::table('news')->delete();
+        
+        \DB::table('news')->insert(array (
+            0 => 
+            array (
+                'id' => 1,
+                'image' => 'news\\May2022\\h9ClPM72kZBuwz0TWPqi.jpg',
+                'title' => 'MUZEY GÜNLƏRİ ÇƏRÇİVƏSİNDƏ NAXÇIVAN MUXTAR RESPUBLİKASI ALİ MƏHKƏMƏSİ VƏ İXTİSASLAŞDIRILMIŞ MƏHKƏMƏLƏRİN KOLLEKTİVİ MİLLİ DƏYƏRLƏR MUZEYİNDƏ OLUBLAR.',
+                'slug' => 'muzey-gunl-ri-c-rci-v-si-nd-naxcivan-muxtar-respubli-kasi-ali-m-hk-m-si-v-i-xti-saslasdirilmis-m-hk-m-l-ri-n-kollekti-vi-mi-lli-d-y-rl-r-muzeyi-nd-olublar',
+                'content' => '<p>sdadd</p>',
+                'read_more' => 'Ardını oxu',
+                'created_at' => '2022-05-11 05:37:00',
+                'updated_at' => '2022-05-11 06:04:28',
+            ),
+            1 => 
+            array (
+                'id' => 2,
+                'image' => 'news\\May2022\\nsPvB2wVm10oJjaD5xil.jpg',
+                'title' => 'Hüquqşünaslıq ixtisası üzrə təhsil alan tələbələr üçün “Təqsirsizlik prezumpsiyasında trasologiya, mövcud problemlər, yol verilən nöqsanlar və həlli üsulları” mövzusunda təlim keçilib',
+                'slug' => 'huquqsunasliq-ixtisasi-uzr-t-hsil-alan-t-l-b-l-r-ucun-t-qsirsizlik-prezumpsiyasinda-trasologiya-movcud-probleml-r-yol-veril-n-noqsanlar-v-h-lli-usullari-movzusunda-t-lim-kecilib',
+                'content' => '<h1 class="" style="box-sizing: border-box; margin: 0px 0px 25px; font-size: 24.48px; font-family: Arial, sans-serif; font-weight: normal; line-height: 34.272px; color: #5e502f; padding: 30px 0px 14px; text-rendering: optimizelegibility; border-top: 1px dotted #bbbbbb; border-bottom: 1px dotted #bbbbbb; letter-spacing: -0.3px; outline: none !important;">H&uuml;quqş&uuml;naslıq ixtisası &uuml;zrə təhsil alan tələbələr &uuml;&ccedil;&uuml;n &ldquo;Təqsirsizlik prezumpsiyasında trasologiya, m&ouml;vcud problemlər, yol verilən n&ouml;qsanlar və həlli &uuml;sulları&rdquo; m&ouml;vzusunda təlim ke&ccedil;ilib</h1>
+<h1 class="" style="box-sizing: border-box; margin: 0px 0px 25px; font-size: 24.48px; font-family: Arial, sans-serif; font-weight: normal; line-height: 34.272px; color: #5e502f; padding: 30px 0px 14px; text-rendering: optimizelegibility; border-top: 1px dotted #bbbbbb; border-bottom: 1px dotted #bbbbbb; letter-spacing: -0.3px; outline: none !important;">H&uuml;quqş&uuml;naslıq ixtisası &uuml;zrə təhsil alan tələbələr &uuml;&ccedil;&uuml;n &ldquo;Təqsirsizlik prezumpsiyasında trasologiya, m&ouml;vcud problemlər, yol verilən n&ouml;qsanlar və həlli &uuml;sulları&rdquo; m&ouml;vzusunda təlim ke&ccedil;ilib</h1>
+<h1 class="" style="box-sizing: border-box; margin: 0px 0px 25px; font-size: 24.48px; font-family: Arial, sans-serif; font-weight: normal; line-height: 34.272px; color: #5e502f; padding: 30px 0px 14px; text-rendering: optimizelegibility; border-top: 1px dotted #bbbbbb; border-bottom: 1px dotted #bbbbbb; letter-spacing: -0.3px; outline: none !important;">H&uuml;quqş&uuml;naslıq ixtisası &uuml;zrə təhsil alan tələbələr &uuml;&ccedil;&uuml;n &ldquo;Təqsirsizlik prezumpsiyasında trasologiya, m&ouml;vcud problemlər, yol verilən n&ouml;qsanlar və həlli &uuml;sulları&rdquo; m&ouml;vzusunda təlim ke&ccedil;ilib</h1>
+<h1 class="" style="box-sizing: border-box; margin: 0px 0px 25px; font-size: 24.48px; font-family: Arial, sans-serif; font-weight: normal; line-height: 34.272px; color: #5e502f; padding: 30px 0px 14px; text-rendering: optimizelegibility; border-top: 1px dotted #bbbbbb; border-bottom: 1px dotted #bbbbbb; letter-spacing: -0.3px; outline: none !important;">H&uuml;quqş&uuml;naslıq ixtisası &uuml;zrə təhsil alan tələbələr &uuml;&ccedil;&uuml;n &ldquo;Təqsirsizlik prezumpsiyasında trasologiya, m&ouml;vcud problemlər, yol verilən n&ouml;qsanlar və həlli &uuml;sulları&rdquo; m&ouml;vzusunda təlim ke&ccedil;ilib</h1>
+<h1 class="" style="box-sizing: border-box; margin: 0px 0px 25px; font-size: 24.48px; font-family: Arial, sans-serif; font-weight: normal; line-height: 34.272px; color: #5e502f; padding: 30px 0px 14px; text-rendering: optimizelegibility; border-top: 1px dotted #bbbbbb; border-bottom: 1px dotted #bbbbbb; letter-spacing: -0.3px; outline: none !important;">H&uuml;quqş&uuml;naslıq ixtisası &uuml;zrə təhsil alan tələbələr &uuml;&ccedil;&uuml;n &ldquo;Təqsirsizlik prezumpsiyasında trasologiya, m&ouml;vcud problemlər, yol verilən n&ouml;qsanlar və həlli &uuml;sulları&rdquo; m&ouml;vzusunda təlim ke&ccedil;ilib</h1>
+<h1 class="" style="box-sizing: border-box; margin: 0px 0px 25px; font-size: 24.48px; font-family: Arial, sans-serif; font-weight: normal; line-height: 34.272px; color: #5e502f; padding: 30px 0px 14px; text-rendering: optimizelegibility; border-top: 1px dotted #bbbbbb; border-bottom: 1px dotted #bbbbbb; letter-spacing: -0.3px; outline: none !important;">H&uuml;quqş&uuml;naslıq ixtisası &uuml;zrə təhsil alan tələbələr &uuml;&ccedil;&uuml;n &ldquo;Təqsirsizlik prezumpsiyasında trasologiya, m&ouml;vcud problemlər, yol verilən n&ouml;qsanlar və həlli &uuml;sulları&rdquo; m&ouml;vzusunda təlim ke&ccedil;ilib</h1>
+<h1 class="" style="box-sizing: border-box; margin: 0px 0px 25px; font-size: 24.48px; font-family: Arial, sans-serif; font-weight: normal; line-height: 34.272px; color: #5e502f; padding: 30px 0px 14px; text-rendering: optimizelegibility; border-top: 1px dotted #bbbbbb; border-bottom: 1px dotted #bbbbbb; letter-spacing: -0.3px; outline: none !important;">H&uuml;quqş&uuml;naslıq ixtisası &uuml;zrə təhsil alan tələbələr &uuml;&ccedil;&uuml;n &ldquo;Təqsirsizlik prezumpsiyasında trasologiya, m&ouml;vcud problemlər, yol verilən n&ouml;qsanlar və həlli &uuml;sulları&rdquo; m&ouml;vzusunda təlim ke&ccedil;ilib</h1>
+<h1 class="" style="box-sizing: border-box; margin: 0px 0px 25px; font-size: 24.48px; font-family: Arial, sans-serif; font-weight: normal; line-height: 34.272px; color: #5e502f; padding: 30px 0px 14px; text-rendering: optimizelegibility; border-top: 1px dotted #bbbbbb; border-bottom: 1px dotted #bbbbbb; letter-spacing: -0.3px; outline: none !important;">H&uuml;quqş&uuml;naslıq ixtisası &uuml;zrə təhsil alan tələbələr &uuml;&ccedil;&uuml;n &ldquo;Təqsirsizlik prezumpsiyasında trasologiya, m&ouml;vcud problemlər, yol verilən n&ouml;qsanlar və həlli &uuml;sulları&rdquo; m&ouml;vzusunda təlim ke&ccedil;ilib</h1>
+<p>&nbsp;</p>',
+                'read_more' => 'Ardını oxu',
+                'created_at' => '2022-05-11 12:53:00',
+                'updated_at' => '2022-05-13 12:05:06',
+            ),
+            2 => 
+            array (
+                'id' => 4,
+                'image' => 'news\\May2022\\uVbhOcqldEENcoP3qkrE.jpg',
+                'title' => 'Sonda trasoloji ekspertizaların tətbiq edildiyi Robert Şvartz cinayəti barədə “İstintaq təcrübəsi, izin sirri” sənədli filmi nümayiş olunub.',
+                'slug' => 'sonda-trasoloji-ekspertizalarin-t-tbiq-edildiyi-robert-svartz-cinay-ti-bar-d-i-stintaq-t-crub-si-izin-sirri-s-n-dli-filmi-numayis-olunub',
+                'content' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; text-indent: 35.45pt; outline: none !important;"><span style="box-sizing: border-box; outline: none !important; font-size: 14pt; line-height: 21.4667px; font-family: \'Times New Roman\', \'serif\';">Sonda trasoloji ekspertizaların tətbiq edildiyi Robert Şvartz cinayəti barədə &ldquo;İstintaq təcr&uuml;bəsi, izin sirri&rdquo; sənədli filmi n&uuml;mayiş olunub.</span></p>
+<p>&nbsp;</p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; text-indent: 35.45pt; outline: none !important;"><span style="box-sizing: border-box; outline: none !important; font-size: 14pt; line-height: 21.4667px; font-family: \'Times New Roman\', \'serif\';">Sonda trasoloji ekspertizaların tətbiq edildiyi Robert Şvartz cinayəti barədə &ldquo;İstintaq təcr&uuml;bəsi, izin sirri&rdquo; sənədli filmi n&uuml;mayiş olunub.</span></p>
+<p>&nbsp;</p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; text-indent: 35.45pt; outline: none !important;"><span style="box-sizing: border-box; outline: none !important; font-size: 14pt; line-height: 21.4667px; font-family: \'Times New Roman\', \'serif\';">Sonda trasoloji ekspertizaların tətbiq edildiyi Robert Şvartz cinayəti barədə &ldquo;İstintaq təcr&uuml;bəsi, izin sirri&rdquo; sənədli filmi n&uuml;mayiş olunub.</span></p>
+<p>&nbsp;</p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; text-indent: 35.45pt; outline: none !important;"><span style="box-sizing: border-box; outline: none !important; font-size: 14pt; line-height: 21.4667px; font-family: \'Times New Roman\', \'serif\';">Sonda trasoloji ekspertizaların tətbiq edildiyi Robert Şvartz cinayəti barədə &ldquo;İstintaq təcr&uuml;bəsi, izin sirri&rdquo; sənədli filmi n&uuml;mayiş olunub.</span></p>
+<p>&nbsp;</p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; text-indent: 35.45pt; outline: none !important;"><span style="box-sizing: border-box; outline: none !important; font-size: 14pt; line-height: 21.4667px; font-family: \'Times New Roman\', \'serif\';">Sonda trasoloji ekspertizaların tətbiq edildiyi Robert Şvartz cinayəti barədə &ldquo;İstintaq təcr&uuml;bəsi, izin sirri&rdquo; sənədli filmi n&uuml;mayiş olunub.</span></p>
+<p>&nbsp;</p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; text-indent: 35.45pt; outline: none !important;"><span style="box-sizing: border-box; outline: none !important; font-size: 14pt; line-height: 21.4667px; font-family: \'Times New Roman\', \'serif\';">Sonda trasoloji ekspertizaların tətbiq edildiyi Robert Şvartz cinayəti barədə &ldquo;İstintaq təcr&uuml;bəsi, izin sirri&rdquo; sənədli filmi n&uuml;mayiş olunub.</span></p>
+<p>&nbsp;</p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; text-indent: 35.45pt; outline: none !important;"><span style="box-sizing: border-box; outline: none !important; font-size: 14pt; line-height: 21.4667px; font-family: \'Times New Roman\', \'serif\';">Sonda trasoloji ekspertizaların tətbiq edildiyi Robert Şvartz cinayəti barədə &ldquo;İstintaq təcr&uuml;bəsi, izin sirri&rdquo; sənədli filmi n&uuml;mayiş olunub.</span></p>
+<p>&nbsp;</p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; text-indent: 35.45pt; outline: none !important;"><span style="box-sizing: border-box; outline: none !important; font-size: 14pt; line-height: 21.4667px; font-family: \'Times New Roman\', \'serif\';">Sonda trasoloji ekspertizaların tətbiq edildiyi Robert Şvartz cinayəti barədə &ldquo;İstintaq təcr&uuml;bəsi, izin sirri&rdquo; sənədli filmi n&uuml;mayiş olunub.</span></p>
+<p>&nbsp;</p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; text-indent: 35.45pt; outline: none !important;"><span style="box-sizing: border-box; outline: none !important; font-size: 14pt; line-height: 21.4667px; font-family: \'Times New Roman\', \'serif\';">Sonda trasoloji ekspertizaların tətbiq edildiyi Robert Şvartz cinayəti barədə &ldquo;İstintaq təcr&uuml;bəsi, izin sirri&rdquo; sənədli filmi n&uuml;mayiş olunub.</span></p>
+<p><span style="box-sizing: border-box; outline: none !important; font-size: 14pt; line-height: 21.4667px; font-family: \'Times New Roman\', \'serif\';">&nbsp;</span></p>',
+                'read_more' => 'nkj',
+                'created_at' => '2022-05-13 12:21:00',
+                'updated_at' => '2022-05-13 12:47:59',
+            ),
+            3 => 
+            array (
+                'id' => 5,
+                'image' => 'news\\May2022\\ihvJ5zgtdHqk0wlUZmhT.jpeg',
+                'title' => 'Hüquqşünaslıq ixtisası üzrə təhsil alan tələbələr üçün “Təqsirsizlik prezumpsiyasında trasologiya, mövcud problemlər, yol verilən nöqsanlar və həlli üsulları” mövzusunda təlim keçilib',
+                'slug' => 'huquqsunasliq-ixtisasi-uzr-t-hsil-alan-t-l-b-l-r-ucun-t-qsirsizlik-prezumpsiyasinda-trasologiya-movcud-probleml-r-yol-veril-n-noqsanlar-v-h-lli-usullari-movzusunda-t-lim-kecilib',
+                'content' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; text-indent: 35.45pt;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 21.4667px; font-family: \'Times New Roman\', \'serif\';">Mayın 11-də Nax&ccedil;ıvan Muxtar Respublikası Ali Məhkəməsinin və Nax&ccedil;ıvan D&ouml;vlət Universitetinin birgə təşkilat&ccedil;ılığı ilə Universitetin Beynəlxalq m&uuml;nasibətlər və h&uuml;quq fak&uuml;ltəsinin h&uuml;quqş&uuml;naslıq ixtisası &uuml;zrə təhsil alan tələbələri &uuml;&ccedil;&uuml;n &ldquo;Təqsirsizlik prezumpsiyasında trasologiya, m&ouml;vcud problemlər, yol verilən n&ouml;qsanlar və həlli &uuml;sulları&rdquo; m&ouml;vzusunda təlim ke&ccedil;ilib. Nax&ccedil;ıvan Muxtar Respublikası Ali Məhkəməsinin Cinayət Kollegiyasının sədri İlqar Mirzəyev tərəfindən ke&ccedil;ilən təlimdə Ali Məhkəmənin M&uuml;lki Kollegiyasının sədri vəzifəsini icra edən Əli Allahverdiyev və Kommersiya Kollegiyasının sədri Əhliman Xıdırov iştirak etmişlər.</span></p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; text-indent: 35.45pt;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 21.4667px; font-family: \'Times New Roman\', \'serif\';">Tədbiri giriş s&ouml;z&uuml; ilə a&ccedil;an Universitetin Beynəlxalq m&uuml;nasibətlər və h&uuml;quq fak&uuml;ltəsinin dekanı Yusif H&uuml;seynov Nax&ccedil;ıvan Muxtar Respublikası Ali Məclisi Sədrinin ali və orta ixtisas təhsili m&uuml;əssisələrində ixtisasların m&uuml;vafiq təşkilatlara hamiliyə verilməsi ilə bağlı m&uuml;vafiq sərəncamlarına uyğun olaraq ke&ccedil;irilən bu c&uuml;r tədbirlərin tələbələrin ixtisaslı kadrlar kimi yetişdirilməsində əhəmiyyətini vurğulayıb.</span></p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; text-indent: 35.45pt;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 21.4667px; font-family: \'Times New Roman\', \'serif\';"><img style="box-sizing: border-box; border: 0px; vertical-align: middle; max-width: 100%; height: auto; margin: 5px; float: right;" src="http://www.supremecourt.nakhchivan.az/images/news/11.05.2022%20(1).JPG" alt="11.05.2022 (1)" width="300" height="200" />Əli Allahverdiyev tədbir iştirak&ccedil;ılarını salamlayaraq həyata ke&ccedil;irilən təlimin tələbələrin cinayət h&uuml;ququ sahəsinə olan maraqlarının daha da artmasına xidmət etməklə yanaşı, cinayətlərin məhkəməyəqədərki tədqiqatı barədə onlarda zəruri biliklərin formalaşmasına t&ouml;hfə verəcəyini bildirib, gələcəyin gənc h&uuml;quqş&uuml;naslarına uğur arzulayıb.</span></p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; text-indent: 35.45pt;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 21.4667px; font-family: \'Times New Roman\', \'serif\';">M&ouml;vzu ətrafında hazırlanmış slayd m&uuml;şayiəti ilə ke&ccedil;irilən təlimdə iştirak&ccedil;ılara təqsirsizlik prezumpsiyası, həmin prinsipin tarixi və qanunvericiliyimizdəki yeri barədə geniş məlumat verildikdən sonra trаsоlоgiyаnın predmeti, əsaslandığı еlmi m&uuml;ddəаlаr, trasologiyada izlərin qrup təsnifatları ətraflı izah olunub.</span></p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; text-indent: 35.45pt;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 21.4667px; font-family: \'Times New Roman\', \'serif\';">Təlimdə iştirak&ccedil;ılar həm&ccedil;inin insan şəxsiyyətinin eyniləşdirilməsi məqsədilə aparılan daktiloskopik qeydiyyat, DNT tədqiqatının k&ouml;məyi ilə şəxsiyyətin eyniləşdirilməsi metodu ilə yanaşı аyаq və аyаqqаbı izinin еkspеrtizаsı, insаn diş, dоdаq və dırnаq izlərinin еkspеrtizаları, sındırmа аlət və vаsitələri izlərinin еkspеrtizаsı (mехаnоskоpik еkspеrtizа) ilə bağlı ətraflı məlumatlandırılmışlar.</span></p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; text-indent: 35.45pt;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 21.4667px; font-family: \'Times New Roman\', \'serif\';"><img style="box-sizing: border-box; border: 0px; vertical-align: middle; max-width: 100%; height: auto; margin: 5px; float: left;" src="http://www.supremecourt.nakhchivan.az/images/news/11.05.2022.JPG" alt="11.05.2022" width="300" height="200" />Qeyd olunmuşdur ki, trasologiya həmişə ən perspektivli b&ouml;lmə olmuşdur. Məhkəmə təcr&uuml;bəsinin təhlili g&ouml;stərir ki, cinayətlərin b&ouml;y&uuml;k əksəriyyəti cinayətkarın ətraf m&uuml;hitlə fəal qarşılıqlı əlaqədə olduğu zaman baş verir. Əvvəlcə kriminalist texnikanın formalaşması zamanı iz təlimi əsas və həlledici rol oynayırdı. Hazırda kriminalistik texnika trasologiyanın indiki konsepsiyasını, onun a&ccedil;ılmamış potensialını, təkmilləşdirilmiş &uuml;sullarını və izlərin aşkar edilməsi və təsbit edilməsi &uuml;zrə son metodları yalnız tədris fənni kimi təkmilləşdirmir, həm də bunun nəticəsi olaraq cinayətlərin aşkarlanmasının səmərəliliyini artırır. Cinayətkarlığın və onun dinamikasının artımının m&uuml;şahidə olunduğu son illərdə cinayət m&uuml;hakimə icraatında elm və texnikanın nailiyyətlərinin əsas bələd&ccedil;isi olan kriminalistika və məhkəmə ekspertizalarının formalaşmasına və təkmilləşdirilməsinə daha &ccedil;ox zərurət var.<span style="box-sizing: border-box; font-size: 14pt; line-height: 21.4667px;">&nbsp;<img style="box-sizing: border-box; border: 0px; vertical-align: middle; max-width: 100%; height: auto; margin: 5px; float: right;" src="http://www.supremecourt.nakhchivan.az/images/news/11.05.2022%20(4).JPG" alt="11.05.2022 (4)" width="300" height="200" /></span></span></p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; text-indent: 35.45pt;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 21.4667px; font-family: \'Times New Roman\', \'serif\';">Təlimin gedişində iştirak&ccedil;ıları maraqlandıran suallar cavablandırılmış, m&ouml;vzu ətrafında fikir m&uuml;badiləsi aparılmışdır.</span></p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; text-indent: 35.45pt;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 21.4667px; font-family: \'Times New Roman\', \'serif\';">Sonda trasoloji ekspertizaların tətbiq edildiyi Robert Şvartz cinayəti barədə &ldquo;İstintaq təcr&uuml;bəsi, izin sirri&rdquo; sənədli filmi n&uuml;mayiş olunub.</span></p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px 210px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;">&nbsp;</p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px 210px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;">&nbsp;</p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px 210px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 21.4667px; font-family: \'Times New Roman\', \'serif\';"><strong style="box-sizing: border-box;"><em style="box-sizing: border-box;">Nax&ccedil;ıvan Muxtar Respublikası</em></strong></span></p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px 210px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; outline: none !important;"><strong style="box-sizing: border-box;"><em style="box-sizing: border-box;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 21.4667px; font-family: \'Times New Roman\', \'serif\';">Ali Məhkəməsinin mətbuat xidməti</span></em></strong></p>',
+                'read_more' => 'Ardını oxu',
+                'created_at' => '2022-05-13 12:47:24',
+                'updated_at' => '2022-05-13 12:47:24',
+            ),
+        ));
+        
+        
+    }
+}
