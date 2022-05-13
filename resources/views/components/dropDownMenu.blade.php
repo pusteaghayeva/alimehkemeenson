@@ -12,7 +12,7 @@
                                 class="fas fa-home mr-1"></i>
                     </a>
                 @else
-                    <a href="{{$item->link()}}" class="nav-link dropdown-toggle fa-2x">{{$item->title}}
+                    <a href="{{$item->link()}}" class="nav-link dropdown-toggle fa-2x" target="{{$item->target}}" >{{$item->title}}
                     </a>
                 @endif
             </li>
