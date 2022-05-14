@@ -9,11 +9,9 @@ use TCG\Voyager\Traits\Translatable;
 
 class Apparatus extends Model
 {
-//    use HasFactory;
-//    protected $fillable = ['title', 'slug', 'link', 'college', 'status'];
 
     use HasFactory, Translatable;
-
+    protected $fillable = ['title', 'slug', 'link', 'college', 'status'];
     protected $translatable = ['title', 'slug',  'college', 'link'];
 
     public static function findBySlug($slug)

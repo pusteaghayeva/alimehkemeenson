@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Beynəlxalq hüquqi sənədlər')
+@section('title', $titlesTranslation["BeynəlxalqHüquqiSənədlər"])
 @section('content')
     <div class="first-down-menu container">
         <h2 class="first-dm-title text-center mt-5">

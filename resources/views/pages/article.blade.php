@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Məqalələr')
+@section('title', $titlesTranslation["Məqalələr"])
 @section('content')
 
     <div class="first-down-menu container">

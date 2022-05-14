@@ -11,7 +11,6 @@
                     <a class="cool-link text-uppercase" href="{{$constitution->link}}" target="_blank">
                         <img src="{{asset('storage/'.$constitution->image)}}" alt="">
                         {{$constitution->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
-
                     </a>
                 </li>
             @endforeach

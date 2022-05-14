@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Məhkəmə aparatı')
+@section('title', $titlesTranslation["MəhkəməAparatı"])
 @section('content')
 
     <div class='container apparatus'>
@@ -9,9 +9,7 @@
                     <div class='col-lg-12 structure-aparat'>
                         <a href="{{$apparate->link}}">
                             <button type='button' class='btn-lg btn-success'>
-                                                                {{$apparate->getTranslatedAttribute('title', $locale, 'fallbackLocale')}}
-
-{{--                                {{$apparate->title}}--}}
+                                {{$apparate->getTranslatedAttribute('title', $locale, 'fallbackLocale')}}
                             </button>
                         </a>
                     </div>
@@ -19,14 +17,12 @@
                     <div class='col-lg-3 structure-aparat'>
                         <a href="{{$apparate->link}}">
                             <button type='button' class='btn-lg btn-success'>
-                                                                {{$apparate->getTranslatedAttribute('title', $locale, 'fallbackLocale')}}
-{{--                                {{$apparate->title}}--}}
+                                {{$apparate->getTranslatedAttribute('title', $locale, 'fallbackLocale')}}
                             </button>
                         </a>
                     </div>
                 @endif
             @endforeach
-
         </div>
     </div>
 

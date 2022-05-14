@@ -1,5 +1,6 @@
 @extends('layouts.master')
-@section('title', 'Çıxışlar')
+@section('title', $titlesTranslation["Çıxışlar"])
+
 @section('content')
     <div class="speech">
         <div class="container">

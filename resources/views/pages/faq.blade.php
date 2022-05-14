@@ -1,5 +1,6 @@
 @extends('layouts.master')
-@section('title', 'Sual-cavab')
+@section('title', $titlesTranslation["Faq"])
+
 @section('content')
     <div class="faq">
             <h3 class="first-dm-title text-center  mt-5 mb-5 ">

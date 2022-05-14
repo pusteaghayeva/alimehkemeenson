@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Azərbaycan Respublikasının hüquqi aktları')
+@section('title', $titlesTranslation["AzərbaycanRespublikasınınHüquqiAktları"])
 @section('content')
     <div class="laws colleges">
         <h2 class="coll-title text-center">

@@ -1,6 +1,5 @@
 @extends('layouts.master')
-@section('title')
-{{--    {{$singlecourts[0]->title}}--}}
+@section('title', $titlesTranslation["AliMəhkəmə90"])
 @endsection
 @section('content')
     <div class="college container">

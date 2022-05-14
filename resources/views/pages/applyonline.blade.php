@@ -1,5 +1,5 @@
 @extends('layouts.master')
-{{--@section('title', 'Məhkəmə aparatı')--}}
+@section('title', $titlesTranslation["OnlaynMüraciət"])
 @section('content')
 
     <div class='container apparatus'>

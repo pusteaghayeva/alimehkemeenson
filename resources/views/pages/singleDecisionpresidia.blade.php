@@ -1,7 +1,6 @@
 @extends('layouts.master')
-@section('title')
-{{--    {{$singlenews[0]->title}}--}}
-@endsection
+@section('title', $titlesTranslation["RəyasətHeyətininQərarları"])
+
 @section('content')
     <section class="blog-area">
         <div class="container">

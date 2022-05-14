@@ -1,4 +1,5 @@
 @extends('layouts.master')
+@section('title', $titlesTranslation["AliMəhkəmə90"])
 @section('content')
     <div class="college container">
         <h2 class="first-dm-title text-center mt-5 mb-5">

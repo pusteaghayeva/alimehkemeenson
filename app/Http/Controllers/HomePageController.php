@@ -34,6 +34,8 @@ class HomePageController extends Controller
                 $titlesTranslation['NaxçıvanMrMəhkəmələri'] = "Courts of the Nakhchivan Autonomous Republic";
                 $titlesTranslation['AliMəhkəmə90'] = "Supreme Court-90";
                 $titlesTranslation['vətəndaşlarÜçün'] = "For citizens";
+                $titlesTranslation['NaxçıvanMuxtarRespublikasıAliMəhkəməsi'] = "Supreme Court of the Nakhchivan Autonomous Republic";
+
 
                 break;
             case "ru":
@@ -43,6 +45,7 @@ class HomePageController extends Controller
                 $titlesTranslation['NaxçıvanMrMəhkəmələri'] = "Суды Нахчыванской Автономной Республики";
                 $titlesTranslation['AliMəhkəmə90'] = "Верховный суд-90";
                 $titlesTranslation['vətəndaşlarÜçün'] = "Для граждан";
+                $titlesTranslation['NaxçıvanMuxtarRespublikasıAliMəhkəməsi'] = "Верховный Суд Нахчыванской Автономной Республики";
                 break;
             default :
                 $titlesTranslation['faydalıLinklər'] = "Faydalı Lİnklər";
@@ -51,6 +54,7 @@ class HomePageController extends Controller
                 $titlesTranslation['NaxçıvanMrMəhkəmələri'] = "Naxçıvan Muxtar Respublikası Məhkəmələri";
                 $titlesTranslation['AliMəhkəmə90'] = "Ali Məhkəmə-90";
                 $titlesTranslation['vətəndaşlarÜçün'] = "Vətəndaşlar Üçün";
+                $titlesTranslation['NaxçıvanMuxtarRespublikasıAliMəhkəməsi'] = "Naxçıvan Muxtar Respublikası Ali Məhkəməsi";
 
 
         }

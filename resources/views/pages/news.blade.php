@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Xəbərlər')
+@section('title', $titlesTranslation["Xəbərlər"])
 @section('content')
 
     <section class="blog-area pt-5 pb-5">

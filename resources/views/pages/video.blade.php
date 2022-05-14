@@ -1,6 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Video materiallar')
-
+@section('title', $titlesTranslation["VideoMateriallar"])
 @section('content')
     <div class="container">
         @if(!empty($videos[0]))

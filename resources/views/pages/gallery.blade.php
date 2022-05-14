@@ -1,5 +1,6 @@
 @extends('layouts.master')
-@section('title', 'Foto materiallar')
+@section('title', $titlesTranslation["FotoMateriallar"])
+
 @section('content')
 
     <section id="gallery">

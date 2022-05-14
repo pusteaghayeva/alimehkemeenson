@@ -1,7 +1,6 @@
 @extends('layouts.master')
-@section('title', 'Rəyasət heyətinin qərarları')
+@section('title', $titlesTranslation["RəyasətHeyətininQərarları"])
 @section('content')
-
     <div class="first-down-menu container">
         <h2 class="first-dm-title text-center mt-5">
             {{$titlesTranslation['RəyasətHeyətininQərarları']}}
@@ -11,9 +10,8 @@
                 <li>
                     <a class="cool-link"
                        href="{{route('singledecisionpresidia', ['singledecisionpresidia'=>$decisionpresidia->id])}}">
-                        <img src="./assets/img/decision-icon-17.jpg" alt="">
+                        <img src="{{asset('storage/'.$decisionpresidia->image)}}" alt="">
                         {{$decisionpresidia->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
-
                     </a>
                 </li>
             @endforeach

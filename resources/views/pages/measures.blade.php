@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Tədbirlər')
+@section('title', $titlesTranslation["Tədbirlər"])
 @section('content')
 
     <h2 class="first-dm-title text-center  mt-5 mb-5">

@@ -1,5 +1,6 @@
 @extends('layouts.master')
-@section('title', 'Nəşrlərin nümunələri')
+@section('title', $titlesTranslation["NəşrlərinNümunələri"])
+
 @section('content')
     <div class="publications">
         <div class="container">

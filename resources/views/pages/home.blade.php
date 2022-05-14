@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Naxçıvan Muxtar Respublikası Ali Məhkəməsi')
+@section('title', $titlesTranslation["NaxçıvanMuxtarRespublikasıAliMəhkəməsi"])
 @section('content')
     <!-- <main> -->
     <section class="carousel-three">

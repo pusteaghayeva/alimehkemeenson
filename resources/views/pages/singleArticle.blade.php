@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('title')
-    {{--    {{$singlenews[0]->title}}--}}
+
 @endsection
 @section('content')
 

@@ -68,5 +68,6 @@ class DatabaseSeeder extends Seeder
         $this->call(FromArtisanAdresTableSeeder::class);
         Schema::enableForeignKeyConstraints();
 
+        $this->call(FromArtisanFootersTableSeeder::class);
     }
 }
