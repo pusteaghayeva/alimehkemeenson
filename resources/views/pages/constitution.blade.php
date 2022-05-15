@@ -1,5 +1,5 @@
 @extends('layouts.master')
-{{--@section('title', 'Konstitusiya, Məcəllələr və Qanunlar')--}}
+@section('title', $titlesTranslation["Konstitusiya"])
 @section('content')
     <div class="first-down-menu container">
         <h2 class="first-dm-title text-center mt-5">

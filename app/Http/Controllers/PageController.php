@@ -287,8 +287,18 @@ class PageController extends Controller
     }
     public function singleappeal(Request $request) {
         $locale = Session::get('locale');
+        switch ($locale){
+            case "en":
+                $titlesTranslation['RəyasətHeyətininQərarları'] = "Decisions of the Presidium";
+                break;
+            case "ru":
+                $titlesTranslation['RəyasətHeyətininQərarları'] = "Решения Президиума";
+                break;
+            default :
+                $titlesTranslation['RəyasətHeyətininQərarları'] = "Rəyasət Heyətinin Qərarları";
+        }
         $singleappeals=Appeal::where('id', $request->singleappeal)->get();
-        return view('pages.singleAppeal', compact('singleappeals', 'locale'));
+        return view('pages.singleAppeal', compact('singleappeals', 'locale', 'titlesTranslation'));
     }
 
     public function electronlibrary(){
@@ -500,8 +510,18 @@ class PageController extends Controller
     }
     public function singlearticle(Request $request) {
         $locale = Session::get('locale');
+        switch ($locale){
+            case "en":
+                $titlesTranslation['Məqalələr'] = "Articles";
+                break;
+            case "ru":
+                $titlesTranslation['Məqalələr'] = "Статьи";
+                break;
+            default :
+                $titlesTranslation['Məqalələr'] = "Məqalələr";
+        }
         $singlearticles=Article::where('id', $request->singlearticle)->get();
-        return view('pages.singleArticle', compact('singlearticles', 'locale'));
+        return view('pages.singleArticle', compact('singlearticles', 'locale', 'titlesTranslation'));
     }
 
 
