@@ -14,6 +14,7 @@
         </div>
     </div>
 
+    <div class="text-center"> {{$exampledocuments->appends(request()->input())->links()}}</div>
 
 @endsection
 

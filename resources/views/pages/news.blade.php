@@ -32,7 +32,7 @@
                                 <h2 class="blog-title">
                                     <a href="{{route('singlenews', ['singlenews'=>$news_item->id])}}"
                                        class="text-justify">
-                                        {{$news_item->getTranslatedAttribute('title',  $locale, 'fallbackLocale')}}
+                                        {{mb_substr($news_item->getTranslatedAttribute('title', $locale, 'fallbackLocale'), 0, 160)}}
                                     </a>
                                 </h2>
                                 <p>

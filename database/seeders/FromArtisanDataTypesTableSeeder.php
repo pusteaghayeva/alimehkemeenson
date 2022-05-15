@@ -75,24 +75,6 @@ class FromArtisanDataTypesTableSeeder extends Seeder
             ),
             3 => 
             array (
-                'id' => 4,
-                'name' => 'languages',
-                'slug' => 'languages',
-                'display_name_singular' => 'Language',
-                'display_name_plural' => 'Languages',
-                'icon' => NULL,
-                'model_name' => 'App\\Models\\Language',
-                'policy_name' => NULL,
-                'controller' => 'App\\Http\\Controllers\\LanguageController',
-                'description' => NULL,
-                'generate_permissions' => 1,
-                'server_side' => 0,
-                'details' => '{"order_column":"id","order_display_column":null,"order_direction":"asc","default_search_key":null}',
-                'created_at' => '2022-04-28 12:04:31',
-                'updated_at' => '2022-04-28 12:04:31',
-            ),
-            4 => 
-            array (
                 'id' => 7,
                 'name' => 'contacts',
                 'slug' => 'contacts',
@@ -109,7 +91,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-04-28 18:34:28',
                 'updated_at' => '2022-05-11 08:59:13',
             ),
-            5 => 
+            4 => 
             array (
                 'id' => 13,
                 'name' => 'forpersons',
@@ -127,7 +109,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-04-29 06:03:24',
                 'updated_at' => '2022-05-11 09:00:23',
             ),
-            6 => 
+            5 => 
             array (
                 'id' => 14,
                 'name' => 'services',
@@ -145,7 +127,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-04-29 06:22:54',
                 'updated_at' => '2022-05-11 10:12:34',
             ),
-            7 => 
+            6 => 
             array (
                 'id' => 15,
                 'name' => 'nmrcourts',
@@ -163,7 +145,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-04-29 07:16:30',
                 'updated_at' => '2022-05-11 10:11:20',
             ),
-            8 => 
+            7 => 
             array (
                 'id' => 16,
                 'name' => 'langs',
@@ -181,7 +163,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-04-29 08:33:42',
                 'updated_at' => '2022-05-11 10:10:06',
             ),
-            9 => 
+            8 => 
             array (
                 'id' => 17,
                 'name' => 'usefullinks',
@@ -199,7 +181,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-04-29 08:45:16',
                 'updated_at' => '2022-05-11 10:13:20',
             ),
-            10 => 
+            9 => 
             array (
                 'id' => 19,
                 'name' => 'abouts',
@@ -217,7 +199,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-04-29 12:31:20',
                 'updated_at' => '2022-04-29 12:31:20',
             ),
-            11 => 
+            10 => 
             array (
                 'id' => 22,
                 'name' => 'pages',
@@ -235,7 +217,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-05 04:47:07',
                 'updated_at' => '2022-05-05 05:00:29',
             ),
-            12 => 
+            11 => 
             array (
                 'id' => 24,
                 'name' => 'faqs',
@@ -253,7 +235,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-05 12:28:37',
                 'updated_at' => '2022-05-10 19:14:57',
             ),
-            13 => 
+            12 => 
             array (
                 'id' => 25,
                 'name' => 'internationaldocuments',
@@ -271,7 +253,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-05 12:40:05',
                 'updated_at' => '2022-05-05 12:40:05',
             ),
-            14 => 
+            13 => 
             array (
                 'id' => 26,
                 'name' => 'legalacts',
@@ -289,7 +271,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-05 12:56:54',
                 'updated_at' => '2022-05-06 12:38:30',
             ),
-            15 => 
+            14 => 
             array (
                 'id' => 27,
                 'name' => 'decisionpresidia',
@@ -307,7 +289,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-05 13:21:00',
                 'updated_at' => '2022-05-10 13:27:31',
             ),
-            16 => 
+            15 => 
             array (
                 'id' => 28,
                 'name' => 'speeches',
@@ -325,7 +307,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-05 13:40:29',
                 'updated_at' => '2022-05-10 16:28:55',
             ),
-            17 => 
+            16 => 
             array (
                 'id' => 30,
                 'name' => 'reports',
@@ -343,7 +325,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-05 18:17:30',
                 'updated_at' => '2022-05-10 13:52:01',
             ),
-            18 => 
+            17 => 
             array (
                 'id' => 31,
                 'name' => 'galleries',
@@ -361,7 +343,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:07:19',
                 'updated_at' => '2022-05-05 19:07:19',
             ),
-            19 => 
+            18 => 
             array (
                 'id' => 32,
                 'name' => 'videos',
@@ -379,7 +361,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:13:05',
                 'updated_at' => '2022-05-05 19:13:05',
             ),
-            20 => 
+            19 => 
             array (
                 'id' => 33,
                 'name' => 'articles',
@@ -397,7 +379,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:17:26',
                 'updated_at' => '2022-05-11 05:56:32',
             ),
-            21 => 
+            20 => 
             array (
                 'id' => 35,
                 'name' => 'measures',
@@ -415,7 +397,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:25:26',
                 'updated_at' => '2022-05-10 17:09:14',
             ),
-            22 => 
+            21 => 
             array (
                 'id' => 36,
                 'name' => 'educationmaterials',
@@ -433,7 +415,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:47:45',
                 'updated_at' => '2022-05-10 17:00:28',
             ),
-            23 => 
+            22 => 
             array (
                 'id' => 37,
                 'name' => 'supremecourts',
@@ -451,7 +433,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-06 05:15:06',
                 'updated_at' => '2022-05-10 17:27:49',
             ),
-            24 => 
+            23 => 
             array (
                 'id' => 39,
                 'name' => 'appeals',
@@ -469,7 +451,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-06 08:33:52',
                 'updated_at' => '2022-05-10 17:34:19',
             ),
-            25 => 
+            24 => 
             array (
                 'id' => 40,
                 'name' => 'exampledocuments',
@@ -487,7 +469,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-06 10:17:00',
                 'updated_at' => '2022-05-06 10:23:02',
             ),
-            26 => 
+            25 => 
             array (
                 'id' => 41,
                 'name' => 'publications',
@@ -505,7 +487,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-06 11:05:09',
                 'updated_at' => '2022-05-06 11:06:55',
             ),
-            27 => 
+            26 => 
             array (
                 'id' => 42,
                 'name' => 'electronlibraries',
@@ -523,7 +505,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-06 11:20:45',
                 'updated_at' => '2022-05-10 18:03:25',
             ),
-            28 => 
+            27 => 
             array (
                 'id' => 43,
                 'name' => 'nmrelectronlibraries',
@@ -541,7 +523,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-06 12:16:56',
                 'updated_at' => '2022-05-06 12:16:56',
             ),
-            29 => 
+            28 => 
             array (
                 'id' => 44,
                 'name' => 'constitutions',
@@ -559,7 +541,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-06 12:54:30',
                 'updated_at' => '2022-05-06 12:54:30',
             ),
-            30 => 
+            29 => 
             array (
                 'id' => 45,
                 'name' => 'news',
@@ -577,7 +559,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-11 05:57:45',
                 'updated_at' => '2022-05-11 05:57:45',
             ),
-            31 => 
+            30 => 
             array (
                 'id' => 46,
                 'name' => 'applyonlines',
@@ -595,7 +577,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-11 07:50:54',
                 'updated_at' => '2022-05-11 07:50:54',
             ),
-            32 => 
+            31 => 
             array (
                 'id' => 47,
                 'name' => 'judicialapparats',
@@ -613,7 +595,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-12 05:39:56',
                 'updated_at' => '2022-05-12 05:39:56',
             ),
-            33 => 
+            32 => 
             array (
                 'id' => 48,
                 'name' => 'apparatuses',
@@ -631,7 +613,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-12 05:54:18',
                 'updated_at' => '2022-05-12 05:57:51',
             ),
-            34 => 
+            33 => 
             array (
                 'id' => 49,
                 'name' => 'titles',
@@ -649,25 +631,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-12 06:18:54',
                 'updated_at' => '2022-05-12 06:18:54',
             ),
-            35 => 
-            array (
-                'id' => 50,
-                'name' => 'translates',
-                'slug' => 'translates',
-                'display_name_singular' => 'Translate',
-                'display_name_plural' => 'Translates',
-                'icon' => 'voyager-book-download',
-                'model_name' => 'App\\Models\\Translate',
-                'policy_name' => NULL,
-                'controller' => NULL,
-                'description' => NULL,
-                'generate_permissions' => 1,
-                'server_side' => 0,
-                'details' => '{"order_column":"id","order_display_column":"key","order_direction":"desc","default_search_key":null,"scope":null}',
-                'created_at' => '2022-05-12 12:08:31',
-                'updated_at' => '2022-05-12 12:34:32',
-            ),
-            36 => 
+            34 => 
             array (
                 'id' => 51,
                 'name' => 'adres',
@@ -685,7 +649,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:05:22',
                 'updated_at' => '2022-05-12 13:32:16',
             ),
-            37 => 
+            35 => 
             array (
                 'id' => 52,
                 'name' => 'footers',
@@ -702,6 +666,24 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'details' => '{"order_column":"id","order_display_column":"title","order_direction":"desc","default_search_key":null}',
                 'created_at' => '2022-05-14 08:52:08',
                 'updated_at' => '2022-05-14 08:52:08',
+            ),
+            36 => 
+            array (
+                'id' => 53,
+                'name' => 'slidertodays',
+                'slug' => 'slidertodays',
+                'display_name_singular' => 'Slidertoday',
+                'display_name_plural' => 'Slidertodays',
+                'icon' => 'voyager-double-up',
+                'model_name' => 'App\\Models\\Slidertoday',
+                'policy_name' => NULL,
+                'controller' => NULL,
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":"id","order_display_column":"image","order_direction":"desc","default_search_key":null}',
+                'created_at' => '2022-05-16 06:27:42',
+                'updated_at' => '2022-05-16 06:27:42',
             ),
         ));
         

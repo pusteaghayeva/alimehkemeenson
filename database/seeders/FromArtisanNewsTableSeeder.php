@@ -73,9 +73,9 @@ class FromArtisanNewsTableSeeder extends Seeder
 <p>&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; text-indent: 35.45pt; outline: none !important;"><span style="box-sizing: border-box; outline: none !important; font-size: 14pt; line-height: 21.4667px; font-family: \'Times New Roman\', \'serif\';">Sonda trasoloji ekspertizaların tətbiq edildiyi Robert Şvartz cinayəti barədə &ldquo;İstintaq təcr&uuml;bəsi, izin sirri&rdquo; sənədli filmi n&uuml;mayiş olunub.</span></p>
 <p><span style="box-sizing: border-box; outline: none !important; font-size: 14pt; line-height: 21.4667px; font-family: \'Times New Roman\', \'serif\';">&nbsp;</span></p>',
-                'read_more' => 'nkj',
+                'read_more' => 'Ardını oxu',
                 'created_at' => '2022-05-13 12:21:00',
-                'updated_at' => '2022-05-13 12:47:59',
+                'updated_at' => '2022-05-16 07:49:06',
             ),
             3 => 
             array (

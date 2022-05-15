@@ -26,6 +26,13 @@ class FromArtisanGalleriesTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:08:00',
                 'updated_at' => '2022-05-05 19:08:00',
             ),
+            1 => 
+            array (
+                'id' => 2,
+                'image' => 'galleries\\May2022\\HN8kb4d27IvMtFBY4aTe.gif',
+                'created_at' => '2022-05-16 07:33:00',
+                'updated_at' => '2022-05-16 07:36:40',
+            ),
         ));
         
         

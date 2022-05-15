@@ -9,7 +9,7 @@
         @if(!$children)
             <li class="nav-item active">
                 @if($item->title == "home")
-                    <a href="{{$item->link()}}" class="nav-link dropdown-toggle fa-2x"><i
+                    <a href="{{route('home')}}" class="nav-link dropdown-toggle fa-2x"><i
                                 class="fas fa-home mr-1"></i>
                     </a>
                 @else
@@ -24,7 +24,7 @@
                             class=""></i></a>
                 <ul class="dropdown-menu" role="menu">
                     @foreach($children as $child)
-                        <li><a href="{{$child->route}}">
+                        <li><a href="{{$child->route}}" target="{{$item->target}}">
 {{--                                {{$child->title}}--}}
                                 {{$child->getTranslatedAttribute('title', $locale, 'fallbackLocale')}}
 

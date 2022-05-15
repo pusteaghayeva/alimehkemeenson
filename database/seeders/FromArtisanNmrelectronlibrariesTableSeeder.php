@@ -27,6 +27,14 @@ class FromArtisanNmrelectronlibrariesTableSeeder extends Seeder
                 'created_at' => '2022-05-06 12:17:45',
                 'updated_at' => '2022-05-06 12:17:45',
             ),
+            1 => 
+            array (
+                'id' => 2,
+                'image' => 'nmrelectronlibraries\\May2022\\61qyzYzXhJC6xVkMcj8S.jpeg',
+            'pdf' => '[{"download_link":"nmrelectronlibraries\\\\May2022\\\\aME0bExIJfv0OZYsILrl.pdf","original_name":"bx5H5FkXSF7Txl0k0RMd (2).pdf"}]',
+                'created_at' => '2022-05-16 07:43:00',
+                'updated_at' => '2022-05-16 07:46:04',
+            ),
         ));
         
         

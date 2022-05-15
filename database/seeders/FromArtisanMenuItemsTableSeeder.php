@@ -1237,22 +1237,6 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
             ),
             76 => 
             array (
-                'id' => 80,
-                'menu_id' => 1,
-                'title' => 'Dillər',
-                'url' => '',
-                'target' => '_self',
-                'icon_class' => NULL,
-                'color' => '#000000',
-                'parent_id' => NULL,
-                'order' => 7,
-                'created_at' => '2022-04-28 12:04:31',
-                'updated_at' => '2022-05-13 05:50:00',
-                'route' => 'voyager.languages.index',
-                'parameters' => 'null',
-            ),
-            77 => 
-            array (
                 'id' => 83,
                 'menu_id' => 1,
                 'title' => 'Əlaqə',
@@ -1267,7 +1251,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.contacts.index',
                 'parameters' => 'null',
             ),
-            78 => 
+            77 => 
             array (
                 'id' => 84,
                 'menu_id' => 1,
@@ -1283,7 +1267,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.forpersons.index',
                 'parameters' => 'null',
             ),
-            79 => 
+            78 => 
             array (
                 'id' => 85,
                 'menu_id' => 1,
@@ -1299,7 +1283,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.services.index',
                 'parameters' => 'null',
             ),
-            80 => 
+            79 => 
             array (
                 'id' => 86,
                 'menu_id' => 1,
@@ -1315,7 +1299,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.nmrcourts.index',
                 'parameters' => 'null',
             ),
-            81 => 
+            80 => 
             array (
                 'id' => 88,
                 'menu_id' => 1,
@@ -1331,11 +1315,11 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.usefullinks.index',
                 'parameters' => 'null',
             ),
-            82 => 
+            81 => 
             array (
                 'id' => 90,
                 'menu_id' => 7,
-                'title' => 'Tərtibat Və Proqramlaşdırma Naxçıvan muxtar respublikası rabitə və yeni texnologiyalar Nazirliyiaaa',
+                'title' => 'Tərtibat Və Proqramlaşdırma Naxçıvan muxtar respublikası rabitə və yeni texnologiyalar Nazirliyi',
                 'url' => 'http://rabite.nmr.az/',
                 'target' => '_blank',
                 'icon_class' => NULL,
@@ -1343,11 +1327,11 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'parent_id' => NULL,
                 'order' => 1,
                 'created_at' => '2022-04-29 10:21:49',
-                'updated_at' => '2022-05-14 12:37:53',
+                'updated_at' => '2022-05-16 10:26:14',
                 'route' => NULL,
                 'parameters' => '',
             ),
-            83 => 
+            82 => 
             array (
                 'id' => 93,
                 'menu_id' => 1,
@@ -1363,7 +1347,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.pages.index',
                 'parameters' => 'null',
             ),
-            84 => 
+            83 => 
             array (
                 'id' => 94,
                 'menu_id' => 1,
@@ -1379,7 +1363,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.faqs.index',
                 'parameters' => 'null',
             ),
-            85 => 
+            84 => 
             array (
                 'id' => 95,
                 'menu_id' => 1,
@@ -1395,7 +1379,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.internationaldocuments.index',
                 'parameters' => 'null',
             ),
-            86 => 
+            85 => 
             array (
                 'id' => 96,
                 'menu_id' => 1,
@@ -1411,7 +1395,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.legalacts.index',
                 'parameters' => 'null',
             ),
-            87 => 
+            86 => 
             array (
                 'id' => 97,
                 'menu_id' => 1,
@@ -1427,7 +1411,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.decisionpresidia.index',
                 'parameters' => 'null',
             ),
-            88 => 
+            87 => 
             array (
                 'id' => 98,
                 'menu_id' => 1,
@@ -1443,7 +1427,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.speeches.index',
                 'parameters' => 'null',
             ),
-            89 => 
+            88 => 
             array (
                 'id' => 99,
                 'menu_id' => 1,
@@ -1459,7 +1443,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.reports.index',
                 'parameters' => 'null',
             ),
-            90 => 
+            89 => 
             array (
                 'id' => 100,
                 'menu_id' => 1,
@@ -1475,7 +1459,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.galleries.index',
                 'parameters' => 'null',
             ),
-            91 => 
+            90 => 
             array (
                 'id' => 101,
                 'menu_id' => 1,
@@ -1491,7 +1475,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.videos.index',
                 'parameters' => 'null',
             ),
-            92 => 
+            91 => 
             array (
                 'id' => 102,
                 'menu_id' => 1,
@@ -1507,7 +1491,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.articles.index',
                 'parameters' => 'null',
             ),
-            93 => 
+            92 => 
             array (
                 'id' => 103,
                 'menu_id' => 1,
@@ -1523,7 +1507,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.measures.index',
                 'parameters' => 'null',
             ),
-            94 => 
+            93 => 
             array (
                 'id' => 104,
                 'menu_id' => 1,
@@ -1539,7 +1523,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.educationmaterials.index',
                 'parameters' => 'null',
             ),
-            95 => 
+            94 => 
             array (
                 'id' => 105,
                 'menu_id' => 1,
@@ -1555,7 +1539,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.supremecourts.index',
                 'parameters' => 'null',
             ),
-            96 => 
+            95 => 
             array (
                 'id' => 107,
                 'menu_id' => 1,
@@ -1571,7 +1555,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.appeals.index',
                 'parameters' => 'null',
             ),
-            97 => 
+            96 => 
             array (
                 'id' => 108,
                 'menu_id' => 1,
@@ -1587,7 +1571,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.exampledocuments.index',
                 'parameters' => 'null',
             ),
-            98 => 
+            97 => 
             array (
                 'id' => 109,
                 'menu_id' => 1,
@@ -1603,7 +1587,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.publications.index',
                 'parameters' => 'null',
             ),
-            99 => 
+            98 => 
             array (
                 'id' => 110,
                 'menu_id' => 1,
@@ -1619,7 +1603,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.electronlibraries.index',
                 'parameters' => 'null',
             ),
-            100 => 
+            99 => 
             array (
                 'id' => 111,
                 'menu_id' => 1,
@@ -1635,7 +1619,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.nmrelectronlibraries.index',
                 'parameters' => 'null',
             ),
-            101 => 
+            100 => 
             array (
                 'id' => 112,
                 'menu_id' => 1,
@@ -1651,7 +1635,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.constitutions.index',
                 'parameters' => 'null',
             ),
-            102 => 
+            101 => 
             array (
                 'id' => 113,
                 'menu_id' => 1,
@@ -1667,7 +1651,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.news.index',
                 'parameters' => 'null',
             ),
-            103 => 
+            102 => 
             array (
                 'id' => 114,
                 'menu_id' => 1,
@@ -1683,7 +1667,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.applyonlines.index',
                 'parameters' => 'null',
             ),
-            104 => 
+            103 => 
             array (
                 'id' => 116,
                 'menu_id' => 1,
@@ -1699,23 +1683,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.apparatuses.index',
                 'parameters' => 'null',
             ),
-            105 => 
-            array (
-                'id' => 118,
-                'menu_id' => 1,
-                'title' => 'Translates',
-                'url' => '',
-                'target' => '_self',
-                'icon_class' => 'voyager-book-download',
-                'color' => NULL,
-                'parent_id' => NULL,
-                'order' => 35,
-                'created_at' => '2022-05-12 12:08:31',
-                'updated_at' => '2022-05-13 19:18:29',
-                'route' => 'voyager.translates.index',
-                'parameters' => NULL,
-            ),
-            106 => 
+            104 => 
             array (
                 'id' => 119,
                 'menu_id' => 1,
@@ -1731,23 +1699,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.adres.index',
                 'parameters' => 'null',
             ),
-            107 => 
-            array (
-                'id' => 120,
-                'menu_id' => 1,
-                'title' => 'Footers',
-                'url' => '',
-                'target' => '_self',
-                'icon_class' => 'voyager-credit-cards',
-                'color' => NULL,
-                'parent_id' => NULL,
-                'order' => 37,
-                'created_at' => '2022-05-14 08:52:08',
-                'updated_at' => '2022-05-14 08:52:08',
-                'route' => 'voyager.footers.index',
-                'parameters' => NULL,
-            ),
-            108 => 
+            105 => 
             array (
                 'id' => 121,
                 'menu_id' => 8,
@@ -1763,7 +1715,7 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'route' => NULL,
                 'parameters' => '',
             ),
-            109 => 
+            106 => 
             array (
                 'id' => 122,
                 'menu_id' => 9,
@@ -1777,6 +1729,22 @@ class FromArtisanMenuItemsTableSeeder extends Seeder
                 'created_at' => '2022-05-14 13:02:22',
                 'updated_at' => '2022-05-14 13:02:22',
                 'route' => NULL,
+                'parameters' => NULL,
+            ),
+            107 => 
+            array (
+                'id' => 123,
+                'menu_id' => 1,
+                'title' => 'Slidertodays',
+                'url' => '',
+                'target' => '_self',
+                'icon_class' => 'voyager-double-up',
+                'color' => NULL,
+                'parent_id' => NULL,
+                'order' => 40,
+                'created_at' => '2022-05-16 06:27:42',
+                'updated_at' => '2022-05-16 06:27:42',
+                'route' => 'voyager.slidertodays.index',
                 'parameters' => NULL,
             ),
         ));

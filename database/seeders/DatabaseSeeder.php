@@ -69,5 +69,6 @@ class DatabaseSeeder extends Seeder
         Schema::enableForeignKeyConstraints();
 
         $this->call(FromArtisanFootersTableSeeder::class);
+        $this->call(FromArtisanSlidertodaysTableSeeder::class);
     }
 }

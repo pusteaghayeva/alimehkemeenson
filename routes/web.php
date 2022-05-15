@@ -40,6 +40,7 @@ Route::get('/singlenews', [PageController::class, 'singleNews'])->name('singlene
 Route::get('/exampledocuments',[PageController::class, 'exampledocument'])->name('exampledocuments');
 
 Route::get('/adres', [PageController::class, 'adres'])->name('adres');
+Route::get('/slidertoday', [PageController::class, 'slidertoday'])->name('slidertoday');
 
 Route::get('/appeal',[PageController::class, 'appeal'])->name('appeal');
 Route::get('/singleappeal', [PageController::class, 'singleappeal'])->name('singleappeal');

@@ -69,10 +69,10 @@ class FromArtisanApparatusesTableSeeder extends Seeder
                 'title' => 'Mülki kollegiya',
                 'slug' => 'mulki-kollegiya',
                 'link' => 'https://courts.gov.az/az/nakhchivansupreme/judge/Allahverdiyev-li-Krim-oglu_428',
-                'college' => '0',
+                'college' => '1',
                 'status' => 1,
                 'created_at' => '2022-05-12 06:00:00',
-                'updated_at' => '2022-05-15 18:16:41',
+                'updated_at' => '2022-05-16 05:37:58',
             ),
             5 => 
             array (
@@ -105,7 +105,7 @@ class FromArtisanApparatusesTableSeeder extends Seeder
                 'college' => '0',
                 'status' => 1,
                 'created_at' => '2022-05-12 06:01:00',
-                'updated_at' => '2022-05-12 10:27:40',
+                'updated_at' => '2022-05-16 05:37:42',
             ),
         ));
         

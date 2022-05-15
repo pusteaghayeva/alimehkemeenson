@@ -22,12 +22,12 @@ class FromArtisanMeasuresTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 1,
-                'image' => 'measures\\May2022\\rdHk6v3V7LnsD84loQYK.png',
+                'image' => 'measures\\May2022\\hJjWRFlduOvZsspSnW17.jpg',
                 'title' => 'Tədbirlər 1',
                 'slug' => 't-dbirl-r-1',
                 'content' => '<p>Tədbirlər1 content az</p>',
                 'created_at' => '2022-05-05 19:26:00',
-                'updated_at' => '2022-05-10 17:10:45',
+                'updated_at' => '2022-05-16 07:39:37',
             ),
         ));
         

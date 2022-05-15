@@ -8,6 +8,7 @@ use App\Models\Forpersons;
 use App\Models\Nmrcourt;
 use App\Models\Service;
 
+use App\Models\Slidertoday;
 use Illuminate\Http\Request;
 use App\Models\Contact;
 use Illuminate\Support\Facades\Session;
@@ -21,7 +22,7 @@ class HomePageController extends Controller
         $contacts = \App\Models\Contact::get();
         $forpersons = Forpersons::get();
         $services = Service::get();
-//        $footers = Footer::get();
+        $slidertodays = Slidertoday::get();
         $nmrcourts = Nmrcourt::where('status', 1)->get();
 
         $locale = Session::get('locale'); // ="en"
@@ -61,7 +62,7 @@ class HomePageController extends Controller
 
 
         $usefullinks = \App\Models\Usefullink::where('status', 1)->get();
-        return view('pages.home', compact('news','contacts', 'forpersons', 'services', 'nmrcourts', 'usefullinks', 'adres', 'locale','titlesTranslation'));
+        return view('pages.home', compact('news','contacts', 'forpersons', 'services', 'nmrcourts', 'usefullinks', 'adres', 'slidertodays', 'locale','titlesTranslation'));
     }
 
 }

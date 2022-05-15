@@ -9869,28 +9869,6 @@ class FromArtisanTranslationsTableSeeder extends Seeder
             ),
             304 => 
             array (
-                'id' => 809,
-                'table_name' => 'data_types',
-                'column_name' => 'display_name_singular',
-                'foreign_key' => 50,
-                'locale' => 'en',
-                'value' => 'Translate',
-                'created_at' => '2022-05-12 12:34:32',
-                'updated_at' => '2022-05-12 12:34:32',
-            ),
-            305 => 
-            array (
-                'id' => 810,
-                'table_name' => 'data_types',
-                'column_name' => 'display_name_plural',
-                'foreign_key' => 50,
-                'locale' => 'en',
-                'value' => 'Translates',
-                'created_at' => '2022-05-12 12:34:32',
-                'updated_at' => '2022-05-12 12:34:32',
-            ),
-            306 => 
-            array (
                 'id' => 811,
                 'table_name' => 'adres',
                 'column_name' => 'title',
@@ -9900,7 +9878,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:15:14',
                 'updated_at' => '2022-05-12 13:15:14',
             ),
-            307 => 
+            305 => 
             array (
                 'id' => 812,
                 'table_name' => 'adres',
@@ -9911,7 +9889,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:15:14',
                 'updated_at' => '2022-05-12 13:15:14',
             ),
-            308 => 
+            306 => 
             array (
                 'id' => 813,
                 'table_name' => 'adres',
@@ -9922,7 +9900,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:15:14',
                 'updated_at' => '2022-05-12 13:15:14',
             ),
-            309 => 
+            307 => 
             array (
                 'id' => 814,
                 'table_name' => 'adres',
@@ -9933,7 +9911,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:15:14',
                 'updated_at' => '2022-05-12 13:15:14',
             ),
-            310 => 
+            308 => 
             array (
                 'id' => 815,
                 'table_name' => 'adres',
@@ -9944,7 +9922,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:18:21',
                 'updated_at' => '2022-05-12 13:18:21',
             ),
-            311 => 
+            309 => 
             array (
                 'id' => 816,
                 'table_name' => 'adres',
@@ -9955,7 +9933,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:18:21',
                 'updated_at' => '2022-05-12 13:18:21',
             ),
-            312 => 
+            310 => 
             array (
                 'id' => 817,
                 'table_name' => 'adres',
@@ -9966,7 +9944,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:18:21',
                 'updated_at' => '2022-05-12 13:18:21',
             ),
-            313 => 
+            311 => 
             array (
                 'id' => 818,
                 'table_name' => 'adres',
@@ -9977,7 +9955,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:18:21',
                 'updated_at' => '2022-05-12 13:18:21',
             ),
-            314 => 
+            312 => 
             array (
                 'id' => 819,
                 'table_name' => 'adres',
@@ -9988,7 +9966,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:19:56',
                 'updated_at' => '2022-05-12 13:19:56',
             ),
-            315 => 
+            313 => 
             array (
                 'id' => 820,
                 'table_name' => 'adres',
@@ -9999,7 +9977,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:19:56',
                 'updated_at' => '2022-05-12 13:19:56',
             ),
-            316 => 
+            314 => 
             array (
                 'id' => 821,
                 'table_name' => 'adres',
@@ -10010,7 +9988,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:19:56',
                 'updated_at' => '2022-05-12 13:19:56',
             ),
-            317 => 
+            315 => 
             array (
                 'id' => 822,
                 'table_name' => 'adres',
@@ -10021,7 +9999,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:19:56',
                 'updated_at' => '2022-05-12 13:19:56',
             ),
-            318 => 
+            316 => 
             array (
                 'id' => 823,
                 'table_name' => 'adres',
@@ -10032,7 +10010,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:21:32',
                 'updated_at' => '2022-05-12 13:21:32',
             ),
-            319 => 
+            317 => 
             array (
                 'id' => 824,
                 'table_name' => 'adres',
@@ -10043,7 +10021,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:21:32',
                 'updated_at' => '2022-05-12 13:21:32',
             ),
-            320 => 
+            318 => 
             array (
                 'id' => 825,
                 'table_name' => 'adres',
@@ -10054,7 +10032,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:21:32',
                 'updated_at' => '2022-05-12 13:21:32',
             ),
-            321 => 
+            319 => 
             array (
                 'id' => 826,
                 'table_name' => 'adres',
@@ -10065,7 +10043,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:21:32',
                 'updated_at' => '2022-05-12 13:21:32',
             ),
-            322 => 
+            320 => 
             array (
                 'id' => 827,
                 'table_name' => 'data_rows',
@@ -10076,7 +10054,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:32:16',
                 'updated_at' => '2022-05-12 13:32:16',
             ),
-            323 => 
+            321 => 
             array (
                 'id' => 828,
                 'table_name' => 'data_rows',
@@ -10087,7 +10065,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:32:16',
                 'updated_at' => '2022-05-12 13:32:16',
             ),
-            324 => 
+            322 => 
             array (
                 'id' => 829,
                 'table_name' => 'data_rows',
@@ -10098,7 +10076,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:32:16',
                 'updated_at' => '2022-05-12 13:32:16',
             ),
-            325 => 
+            323 => 
             array (
                 'id' => 830,
                 'table_name' => 'data_rows',
@@ -10109,7 +10087,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:32:16',
                 'updated_at' => '2022-05-12 13:32:16',
             ),
-            326 => 
+            324 => 
             array (
                 'id' => 831,
                 'table_name' => 'data_rows',
@@ -10120,7 +10098,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:32:16',
                 'updated_at' => '2022-05-12 13:32:16',
             ),
-            327 => 
+            325 => 
             array (
                 'id' => 832,
                 'table_name' => 'data_rows',
@@ -10131,7 +10109,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:32:16',
                 'updated_at' => '2022-05-12 13:32:16',
             ),
-            328 => 
+            326 => 
             array (
                 'id' => 833,
                 'table_name' => 'data_rows',
@@ -10142,7 +10120,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:32:16',
                 'updated_at' => '2022-05-12 13:32:16',
             ),
-            329 => 
+            327 => 
             array (
                 'id' => 834,
                 'table_name' => 'data_rows',
@@ -10153,7 +10131,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:32:16',
                 'updated_at' => '2022-05-12 13:32:16',
             ),
-            330 => 
+            328 => 
             array (
                 'id' => 835,
                 'table_name' => 'data_types',
@@ -10164,7 +10142,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:32:16',
                 'updated_at' => '2022-05-12 13:32:16',
             ),
-            331 => 
+            329 => 
             array (
                 'id' => 836,
                 'table_name' => 'data_types',
@@ -10175,7 +10153,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:32:16',
                 'updated_at' => '2022-05-12 13:32:16',
             ),
-            332 => 
+            330 => 
             array (
                 'id' => 837,
                 'table_name' => 'menu_items',
@@ -10186,7 +10164,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:22:57',
                 'updated_at' => '2022-05-13 18:56:45',
             ),
-            333 => 
+            331 => 
             array (
                 'id' => 838,
                 'table_name' => 'menu_items',
@@ -10197,7 +10175,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:22:57',
                 'updated_at' => '2022-05-13 18:56:45',
             ),
-            334 => 
+            332 => 
             array (
                 'id' => 839,
                 'table_name' => 'menu_items',
@@ -10208,7 +10186,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:23:45',
                 'updated_at' => '2022-05-13 19:16:24',
             ),
-            335 => 
+            333 => 
             array (
                 'id' => 840,
                 'table_name' => 'menu_items',
@@ -10219,7 +10197,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:23:45',
                 'updated_at' => '2022-05-13 19:16:24',
             ),
-            336 => 
+            334 => 
             array (
                 'id' => 841,
                 'table_name' => 'menu_items',
@@ -10230,7 +10208,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:24:38',
                 'updated_at' => '2022-05-13 05:24:38',
             ),
-            337 => 
+            335 => 
             array (
                 'id' => 842,
                 'table_name' => 'menu_items',
@@ -10241,7 +10219,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:24:38',
                 'updated_at' => '2022-05-13 05:55:39',
             ),
-            338 => 
+            336 => 
             array (
                 'id' => 843,
                 'table_name' => 'menu_items',
@@ -10252,7 +10230,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:25:16',
                 'updated_at' => '2022-05-13 19:17:19',
             ),
-            339 => 
+            337 => 
             array (
                 'id' => 844,
                 'table_name' => 'menu_items',
@@ -10263,7 +10241,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:25:16',
                 'updated_at' => '2022-05-13 19:17:19',
             ),
-            340 => 
+            338 => 
             array (
                 'id' => 845,
                 'table_name' => 'menu_items',
@@ -10274,7 +10252,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:25:54',
                 'updated_at' => '2022-05-13 05:25:54',
             ),
-            341 => 
+            339 => 
             array (
                 'id' => 846,
                 'table_name' => 'menu_items',
@@ -10285,7 +10263,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:25:54',
                 'updated_at' => '2022-05-13 05:57:46',
             ),
-            342 => 
+            340 => 
             array (
                 'id' => 847,
                 'table_name' => 'menu_items',
@@ -10296,7 +10274,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:26:33',
                 'updated_at' => '2022-05-13 19:17:59',
             ),
-            343 => 
+            341 => 
             array (
                 'id' => 848,
                 'table_name' => 'menu_items',
@@ -10307,7 +10285,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:26:33',
                 'updated_at' => '2022-05-13 19:17:59',
             ),
-            344 => 
+            342 => 
             array (
                 'id' => 849,
                 'table_name' => 'menu_items',
@@ -10318,7 +10296,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:27:02',
                 'updated_at' => '2022-05-13 19:18:26',
             ),
-            345 => 
+            343 => 
             array (
                 'id' => 850,
                 'table_name' => 'menu_items',
@@ -10329,7 +10307,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:27:02',
                 'updated_at' => '2022-05-13 19:18:26',
             ),
-            346 => 
+            344 => 
             array (
                 'id' => 851,
                 'table_name' => 'menu_items',
@@ -10340,7 +10318,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:27:41',
                 'updated_at' => '2022-05-13 19:19:21',
             ),
-            347 => 
+            345 => 
             array (
                 'id' => 852,
                 'table_name' => 'menu_items',
@@ -10351,7 +10329,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:27:41',
                 'updated_at' => '2022-05-13 19:19:21',
             ),
-            348 => 
+            346 => 
             array (
                 'id' => 853,
                 'table_name' => 'menu_items',
@@ -10362,7 +10340,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:28:11',
                 'updated_at' => '2022-05-13 19:20:01',
             ),
-            349 => 
+            347 => 
             array (
                 'id' => 854,
                 'table_name' => 'menu_items',
@@ -10373,7 +10351,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:28:11',
                 'updated_at' => '2022-05-13 19:20:01',
             ),
-            350 => 
+            348 => 
             array (
                 'id' => 855,
                 'table_name' => 'menu_items',
@@ -10384,7 +10362,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:28:38',
                 'updated_at' => '2022-05-13 19:20:45',
             ),
-            351 => 
+            349 => 
             array (
                 'id' => 856,
                 'table_name' => 'menu_items',
@@ -10395,7 +10373,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:28:38',
                 'updated_at' => '2022-05-13 19:20:45',
             ),
-            352 => 
+            350 => 
             array (
                 'id' => 857,
                 'table_name' => 'menu_items',
@@ -10406,7 +10384,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:29:10',
                 'updated_at' => '2022-05-13 19:21:21',
             ),
-            353 => 
+            351 => 
             array (
                 'id' => 858,
                 'table_name' => 'menu_items',
@@ -10417,7 +10395,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:29:10',
                 'updated_at' => '2022-05-13 19:21:21',
             ),
-            354 => 
+            352 => 
             array (
                 'id' => 859,
                 'table_name' => 'menu_items',
@@ -10428,7 +10406,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:29:39',
                 'updated_at' => '2022-05-13 19:27:41',
             ),
-            355 => 
+            353 => 
             array (
                 'id' => 860,
                 'table_name' => 'menu_items',
@@ -10439,7 +10417,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:29:39',
                 'updated_at' => '2022-05-13 19:27:41',
             ),
-            356 => 
+            354 => 
             array (
                 'id' => 861,
                 'table_name' => 'menu_items',
@@ -10450,7 +10428,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:30:33',
                 'updated_at' => '2022-05-13 19:28:43',
             ),
-            357 => 
+            355 => 
             array (
                 'id' => 862,
                 'table_name' => 'menu_items',
@@ -10461,7 +10439,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:30:33',
                 'updated_at' => '2022-05-13 19:28:43',
             ),
-            358 => 
+            356 => 
             array (
                 'id' => 863,
                 'table_name' => 'menu_items',
@@ -10472,7 +10450,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:31:05',
                 'updated_at' => '2022-05-13 19:29:31',
             ),
-            359 => 
+            357 => 
             array (
                 'id' => 864,
                 'table_name' => 'menu_items',
@@ -10483,7 +10461,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:31:05',
                 'updated_at' => '2022-05-13 19:29:31',
             ),
-            360 => 
+            358 => 
             array (
                 'id' => 865,
                 'table_name' => 'menu_items',
@@ -10494,7 +10472,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:32:17',
                 'updated_at' => '2022-05-13 05:32:17',
             ),
-            361 => 
+            359 => 
             array (
                 'id' => 866,
                 'table_name' => 'menu_items',
@@ -10505,7 +10483,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:32:17',
                 'updated_at' => '2022-05-13 05:32:17',
             ),
-            362 => 
+            360 => 
             array (
                 'id' => 867,
                 'table_name' => 'menu_items',
@@ -10516,7 +10494,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:33:13',
                 'updated_at' => '2022-05-13 05:33:13',
             ),
-            363 => 
+            361 => 
             array (
                 'id' => 868,
                 'table_name' => 'menu_items',
@@ -10527,7 +10505,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:33:13',
                 'updated_at' => '2022-05-13 05:33:13',
             ),
-            364 => 
+            362 => 
             array (
                 'id' => 869,
                 'table_name' => 'menu_items',
@@ -10538,7 +10516,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:33:50',
                 'updated_at' => '2022-05-13 19:30:00',
             ),
-            365 => 
+            363 => 
             array (
                 'id' => 870,
                 'table_name' => 'menu_items',
@@ -10549,7 +10527,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:33:50',
                 'updated_at' => '2022-05-13 19:30:00',
             ),
-            366 => 
+            364 => 
             array (
                 'id' => 871,
                 'table_name' => 'menu_items',
@@ -10560,7 +10538,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:34:30',
                 'updated_at' => '2022-05-13 19:30:32',
             ),
-            367 => 
+            365 => 
             array (
                 'id' => 872,
                 'table_name' => 'menu_items',
@@ -10571,7 +10549,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:34:30',
                 'updated_at' => '2022-05-13 19:30:32',
             ),
-            368 => 
+            366 => 
             array (
                 'id' => 873,
                 'table_name' => 'menu_items',
@@ -10582,7 +10560,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:35:12',
                 'updated_at' => '2022-05-13 19:31:05',
             ),
-            369 => 
+            367 => 
             array (
                 'id' => 874,
                 'table_name' => 'menu_items',
@@ -10593,7 +10571,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:35:12',
                 'updated_at' => '2022-05-13 19:31:05',
             ),
-            370 => 
+            368 => 
             array (
                 'id' => 875,
                 'table_name' => 'menu_items',
@@ -10604,7 +10582,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:35:43',
                 'updated_at' => '2022-05-13 19:31:37',
             ),
-            371 => 
+            369 => 
             array (
                 'id' => 876,
                 'table_name' => 'menu_items',
@@ -10615,7 +10593,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:35:43',
                 'updated_at' => '2022-05-13 19:31:37',
             ),
-            372 => 
+            370 => 
             array (
                 'id' => 877,
                 'table_name' => 'menu_items',
@@ -10626,7 +10604,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:36:37',
                 'updated_at' => '2022-05-13 19:32:07',
             ),
-            373 => 
+            371 => 
             array (
                 'id' => 878,
                 'table_name' => 'menu_items',
@@ -10637,7 +10615,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:36:37',
                 'updated_at' => '2022-05-13 19:32:07',
             ),
-            374 => 
+            372 => 
             array (
                 'id' => 879,
                 'table_name' => 'menu_items',
@@ -10648,7 +10626,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:36:58',
                 'updated_at' => '2022-05-13 19:32:39',
             ),
-            375 => 
+            373 => 
             array (
                 'id' => 880,
                 'table_name' => 'menu_items',
@@ -10659,7 +10637,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:36:58',
                 'updated_at' => '2022-05-13 19:32:39',
             ),
-            376 => 
+            374 => 
             array (
                 'id' => 881,
                 'table_name' => 'menu_items',
@@ -10670,7 +10648,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:37:33',
                 'updated_at' => '2022-05-13 19:33:09',
             ),
-            377 => 
+            375 => 
             array (
                 'id' => 882,
                 'table_name' => 'menu_items',
@@ -10681,7 +10659,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:37:33',
                 'updated_at' => '2022-05-13 19:33:09',
             ),
-            378 => 
+            376 => 
             array (
                 'id' => 883,
                 'table_name' => 'menu_items',
@@ -10692,7 +10670,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:38:47',
                 'updated_at' => '2022-05-13 06:04:53',
             ),
-            379 => 
+            377 => 
             array (
                 'id' => 884,
                 'table_name' => 'menu_items',
@@ -10703,7 +10681,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:38:47',
                 'updated_at' => '2022-05-13 06:04:53',
             ),
-            380 => 
+            378 => 
             array (
                 'id' => 885,
                 'table_name' => 'menu_items',
@@ -10714,7 +10692,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:39:11',
                 'updated_at' => '2022-05-13 19:40:13',
             ),
-            381 => 
+            379 => 
             array (
                 'id' => 886,
                 'table_name' => 'menu_items',
@@ -10725,7 +10703,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:39:11',
                 'updated_at' => '2022-05-13 19:40:13',
             ),
-            382 => 
+            380 => 
             array (
                 'id' => 887,
                 'table_name' => 'menu_items',
@@ -10736,7 +10714,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:41:24',
                 'updated_at' => '2022-05-13 19:40:49',
             ),
-            383 => 
+            381 => 
             array (
                 'id' => 888,
                 'table_name' => 'menu_items',
@@ -10747,7 +10725,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:41:24',
                 'updated_at' => '2022-05-13 19:40:49',
             ),
-            384 => 
+            382 => 
             array (
                 'id' => 889,
                 'table_name' => 'menu_items',
@@ -10758,7 +10736,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:45:22',
                 'updated_at' => '2022-05-13 19:41:29',
             ),
-            385 => 
+            383 => 
             array (
                 'id' => 890,
                 'table_name' => 'menu_items',
@@ -10769,7 +10747,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:45:22',
                 'updated_at' => '2022-05-13 19:41:29',
             ),
-            386 => 
+            384 => 
             array (
                 'id' => 891,
                 'table_name' => 'menu_items',
@@ -10780,7 +10758,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:46:00',
                 'updated_at' => '2022-05-13 19:39:41',
             ),
-            387 => 
+            385 => 
             array (
                 'id' => 892,
                 'table_name' => 'menu_items',
@@ -10791,7 +10769,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:46:00',
                 'updated_at' => '2022-05-13 19:39:41',
             ),
-            388 => 
+            386 => 
             array (
                 'id' => 893,
                 'table_name' => 'menu_items',
@@ -10802,7 +10780,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:46:55',
                 'updated_at' => '2022-05-13 19:38:49',
             ),
-            389 => 
+            387 => 
             array (
                 'id' => 894,
                 'table_name' => 'menu_items',
@@ -10813,7 +10791,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:46:55',
                 'updated_at' => '2022-05-13 19:38:49',
             ),
-            390 => 
+            388 => 
             array (
                 'id' => 895,
                 'table_name' => 'menu_items',
@@ -10824,7 +10802,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:47:42',
                 'updated_at' => '2022-05-13 19:37:58',
             ),
-            391 => 
+            389 => 
             array (
                 'id' => 896,
                 'table_name' => 'menu_items',
@@ -10835,7 +10813,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:47:42',
                 'updated_at' => '2022-05-13 19:37:58',
             ),
-            392 => 
+            390 => 
             array (
                 'id' => 897,
                 'table_name' => 'menu_items',
@@ -10846,7 +10824,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:48:14',
                 'updated_at' => '2022-05-13 19:37:26',
             ),
-            393 => 
+            391 => 
             array (
                 'id' => 898,
                 'table_name' => 'menu_items',
@@ -10857,7 +10835,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:48:14',
                 'updated_at' => '2022-05-13 19:37:26',
             ),
-            394 => 
+            392 => 
             array (
                 'id' => 899,
                 'table_name' => 'menu_items',
@@ -10868,7 +10846,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:48:40',
                 'updated_at' => '2022-05-13 19:36:53',
             ),
-            395 => 
+            393 => 
             array (
                 'id' => 900,
                 'table_name' => 'menu_items',
@@ -10879,7 +10857,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:48:40',
                 'updated_at' => '2022-05-13 19:36:53',
             ),
-            396 => 
+            394 => 
             array (
                 'id' => 901,
                 'table_name' => 'menu_items',
@@ -10890,7 +10868,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:50:57',
                 'updated_at' => '2022-05-13 19:36:23',
             ),
-            397 => 
+            395 => 
             array (
                 'id' => 902,
                 'table_name' => 'menu_items',
@@ -10901,7 +10879,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:50:57',
                 'updated_at' => '2022-05-13 19:36:23',
             ),
-            398 => 
+            396 => 
             array (
                 'id' => 903,
                 'table_name' => 'menu_items',
@@ -10912,7 +10890,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:51:28',
                 'updated_at' => '2022-05-13 19:35:44',
             ),
-            399 => 
+            397 => 
             array (
                 'id' => 904,
                 'table_name' => 'menu_items',
@@ -10923,7 +10901,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:51:28',
                 'updated_at' => '2022-05-13 19:35:44',
             ),
-            400 => 
+            398 => 
             array (
                 'id' => 905,
                 'table_name' => 'menu_items',
@@ -10934,7 +10912,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:51:53',
                 'updated_at' => '2022-05-13 19:35:15',
             ),
-            401 => 
+            399 => 
             array (
                 'id' => 906,
                 'table_name' => 'menu_items',
@@ -10945,7 +10923,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:51:53',
                 'updated_at' => '2022-05-13 19:35:15',
             ),
-            402 => 
+            400 => 
             array (
                 'id' => 907,
                 'table_name' => 'menu_items',
@@ -10956,7 +10934,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:52:34',
                 'updated_at' => '2022-05-13 19:34:41',
             ),
-            403 => 
+            401 => 
             array (
                 'id' => 908,
                 'table_name' => 'menu_items',
@@ -10967,7 +10945,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:52:34',
                 'updated_at' => '2022-05-13 19:34:41',
             ),
-            404 => 
+            402 => 
             array (
                 'id' => 909,
                 'table_name' => 'menu_items',
@@ -10978,7 +10956,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:53:49',
                 'updated_at' => '2022-05-13 19:34:11',
             ),
-            405 => 
+            403 => 
             array (
                 'id' => 910,
                 'table_name' => 'menu_items',
@@ -10989,7 +10967,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:53:49',
                 'updated_at' => '2022-05-13 19:34:11',
             ),
-            406 => 
+            404 => 
             array (
                 'id' => 911,
                 'table_name' => 'menu_items',
@@ -11000,7 +10978,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:54:23',
                 'updated_at' => '2022-05-13 19:33:44',
             ),
-            407 => 
+            405 => 
             array (
                 'id' => 912,
                 'table_name' => 'menu_items',
@@ -11011,7 +10989,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 05:54:23',
                 'updated_at' => '2022-05-13 19:33:44',
             ),
-            408 => 
+            406 => 
             array (
                 'id' => 913,
                 'table_name' => 'translates',
@@ -11022,7 +11000,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 08:12:57',
                 'updated_at' => '2022-05-13 08:12:57',
             ),
-            409 => 
+            407 => 
             array (
                 'id' => 914,
                 'table_name' => 'translates',
@@ -11033,7 +11011,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 08:12:57',
                 'updated_at' => '2022-05-13 08:12:57',
             ),
-            410 => 
+            408 => 
             array (
                 'id' => 915,
                 'table_name' => 'news',
@@ -11044,7 +11022,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 12:05:06',
                 'updated_at' => '2022-05-13 12:05:06',
             ),
-            411 => 
+            409 => 
             array (
                 'id' => 922,
                 'table_name' => 'news',
@@ -11055,7 +11033,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 12:45:07',
                 'updated_at' => '2022-05-13 12:45:07',
             ),
-            412 => 
+            410 => 
             array (
                 'id' => 923,
                 'table_name' => 'news',
@@ -11066,7 +11044,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 12:45:07',
                 'updated_at' => '2022-05-13 12:45:07',
             ),
-            413 => 
+            411 => 
             array (
                 'id' => 924,
                 'table_name' => 'news',
@@ -11077,7 +11055,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 12:45:07',
                 'updated_at' => '2022-05-13 12:45:07',
             ),
-            414 => 
+            412 => 
             array (
                 'id' => 925,
                 'table_name' => 'news',
@@ -11088,7 +11066,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 12:45:33',
                 'updated_at' => '2022-05-13 12:45:33',
             ),
-            415 => 
+            413 => 
             array (
                 'id' => 926,
                 'table_name' => 'news',
@@ -11099,7 +11077,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 12:45:33',
                 'updated_at' => '2022-05-13 12:45:33',
             ),
-            416 => 
+            414 => 
             array (
                 'id' => 927,
                 'table_name' => 'news',
@@ -11110,7 +11088,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-13 12:45:33',
                 'updated_at' => '2022-05-13 12:45:33',
             ),
-            417 => 
+            415 => 
             array (
                 'id' => 928,
                 'table_name' => 'menu_items',
@@ -11121,7 +11099,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-14 12:53:55',
                 'updated_at' => '2022-05-14 12:53:55',
             ),
-            418 => 
+            416 => 
             array (
                 'id' => 929,
                 'table_name' => 'menu_items',
@@ -11132,7 +11110,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-14 12:53:55',
                 'updated_at' => '2022-05-14 12:53:55',
             ),
-            419 => 
+            417 => 
             array (
                 'id' => 930,
                 'table_name' => 'menu_items',
@@ -11143,7 +11121,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-14 13:02:22',
                 'updated_at' => '2022-05-14 13:02:22',
             ),
-            420 => 
+            418 => 
             array (
                 'id' => 931,
                 'table_name' => 'menu_items',
@@ -11154,7 +11132,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-14 13:02:22',
                 'updated_at' => '2022-05-14 13:02:22',
             ),
-            421 => 
+            419 => 
             array (
                 'id' => 932,
                 'table_name' => 'decisionpresidia',
@@ -11199,7 +11177,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-15 16:51:27',
                 'updated_at' => '2022-05-15 16:51:27',
             ),
-            422 => 
+            420 => 
             array (
                 'id' => 933,
                 'table_name' => 'decisionpresidia',
@@ -11248,7 +11226,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-15 16:51:42',
                 'updated_at' => '2022-05-15 16:51:42',
             ),
-            423 => 
+            421 => 
             array (
                 'id' => 934,
                 'table_name' => 'decisionpresidia',
@@ -11296,7 +11274,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-15 16:53:05',
                 'updated_at' => '2022-05-15 16:53:05',
             ),
-            424 => 
+            422 => 
             array (
                 'id' => 935,
                 'table_name' => 'news',
@@ -11307,7 +11285,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-15 18:15:36',
                 'updated_at' => '2022-05-15 18:15:36',
             ),
-            425 => 
+            423 => 
             array (
                 'id' => 936,
                 'table_name' => 'news',
@@ -11329,7 +11307,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-15 18:15:36',
                 'updated_at' => '2022-05-15 18:15:36',
             ),
-            426 => 
+            424 => 
             array (
                 'id' => 937,
                 'table_name' => 'news',
@@ -11340,7 +11318,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-15 18:15:36',
                 'updated_at' => '2022-05-15 18:15:36',
             ),
-            427 => 
+            425 => 
             array (
                 'id' => 938,
                 'table_name' => 'apparatuses',
@@ -11351,7 +11329,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-15 18:16:41',
                 'updated_at' => '2022-05-15 18:16:41',
             ),
-            428 => 
+            426 => 
             array (
                 'id' => 939,
                 'table_name' => 'apparatuses',
@@ -11362,7 +11340,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-15 18:16:41',
                 'updated_at' => '2022-05-15 18:16:41',
             ),
-            429 => 
+            427 => 
             array (
                 'id' => 940,
                 'table_name' => 'apparatuses',
@@ -11373,7 +11351,7 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-15 18:18:25',
                 'updated_at' => '2022-05-15 18:18:25',
             ),
-            430 => 
+            428 => 
             array (
                 'id' => 941,
                 'table_name' => 'apparatuses',

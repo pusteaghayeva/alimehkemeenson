@@ -16,7 +16,7 @@
             @endforeach
         </ul>
     </div>
-
+    <div class="text-center"> {{$constitutions->appends(request()->input())->links()}}</div>
 
 @endsection
 

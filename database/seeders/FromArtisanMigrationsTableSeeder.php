@@ -439,6 +439,12 @@ class FromArtisanMigrationsTableSeeder extends Seeder
                 'migration' => '2022_05_14_084053_create_footers_table',
                 'batch' => 22,
             ),
+            70 => 
+            array (
+                'id' => 71,
+                'migration' => '2022_05_16_061654_create_slidertodays_table',
+                'batch' => 23,
+            ),
         ));
         
         

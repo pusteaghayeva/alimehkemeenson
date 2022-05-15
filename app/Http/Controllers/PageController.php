@@ -187,7 +187,7 @@ class PageController extends Controller
             default :
                 $titlesTranslation['Xəbərlər'] = "Xəbərlər";
         }
-        $news = News::where('title', 'like', "%$search%")->orderBy('id', 'desc')->paginate(5);
+        $news = News::where('title', 'like', "%$search%")->orderBy('id', 'desc')->paginate(9);
         return view('pages.news', compact('news', 'locale', 'titlesTranslation'));
     }
 
@@ -235,7 +235,7 @@ class PageController extends Controller
             default :
                 $titlesTranslation['Konstitusiya'] = "Konstitusiya";
         }
-        $constitutions= Constitution ::orderBy('id', 'desc')->get();
+        $constitutions= Constitution ::orderBy('id', 'desc')->paginate(10);
         return view('pages.constitution', compact('constitutions', 'locale', 'titlesTranslation'));
     }
 
@@ -345,7 +345,7 @@ class PageController extends Controller
             default :
                 $titlesTranslation['SənədlərinNümunələri'] = "Sənədlərin nümunələri";
         }
-        $exampledocuments = Exampledocument::orderBy('id', 'desc')->get();
+        $exampledocuments = Exampledocument::orderBy('id', 'desc')->paginate(10);
         return view('pages.exampledocuments', compact('exampledocuments', 'locale', 'titlesTranslation'));
     }
 
@@ -441,7 +441,7 @@ class PageController extends Controller
             default :
                 $titlesTranslation['Faq'] = "Tez-tez verilən suallar";
         }
-        $faqs = Faq::get();
+        $faqs = Faq::paginate(10);
         return view('pages.faq', compact('faqs', 'locale', 'titlesTranslation'));
     }
 
@@ -538,7 +538,7 @@ class PageController extends Controller
             default :
                 $titlesTranslation['Hesabatlar'] = "Hesabatlar";
         }
-        $reports = Report:: orderBy('id', 'desc')->paginate(10);
+        $reports = Report:: orderBy('id', 'desc')->paginate(1);
         return view('pages.report', compact('reports', 'locale', 'titlesTranslation'));
     }
     public function singlereport(Request $request) {

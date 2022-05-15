@@ -20,6 +20,7 @@
         @endforeach
     </div>
 
+    <div class="text-center"> {{$faqs->appends(request()->input())->links()}}</div>
 
 
 

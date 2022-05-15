@@ -221,53 +221,13 @@ class FromArtisanPermissionsTableSeeder extends Seeder
             ),
             25 => 
             array (
-                'id' => 26,
-                'key' => 'browse_languages',
-                'table_name' => 'languages',
-                'created_at' => '2022-04-28 12:04:31',
-                'updated_at' => '2022-04-28 12:04:31',
-            ),
-            26 => 
-            array (
-                'id' => 27,
-                'key' => 'read_languages',
-                'table_name' => 'languages',
-                'created_at' => '2022-04-28 12:04:31',
-                'updated_at' => '2022-04-28 12:04:31',
-            ),
-            27 => 
-            array (
-                'id' => 28,
-                'key' => 'edit_languages',
-                'table_name' => 'languages',
-                'created_at' => '2022-04-28 12:04:31',
-                'updated_at' => '2022-04-28 12:04:31',
-            ),
-            28 => 
-            array (
-                'id' => 29,
-                'key' => 'add_languages',
-                'table_name' => 'languages',
-                'created_at' => '2022-04-28 12:04:31',
-                'updated_at' => '2022-04-28 12:04:31',
-            ),
-            29 => 
-            array (
-                'id' => 30,
-                'key' => 'delete_languages',
-                'table_name' => 'languages',
-                'created_at' => '2022-04-28 12:04:31',
-                'updated_at' => '2022-04-28 12:04:31',
-            ),
-            30 => 
-            array (
                 'id' => 41,
                 'key' => 'browse_contacts',
                 'table_name' => 'contacts',
                 'created_at' => '2022-04-28 18:34:28',
                 'updated_at' => '2022-04-28 18:34:28',
             ),
-            31 => 
+            26 => 
             array (
                 'id' => 42,
                 'key' => 'read_contacts',
@@ -275,7 +235,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-28 18:34:28',
                 'updated_at' => '2022-04-28 18:34:28',
             ),
-            32 => 
+            27 => 
             array (
                 'id' => 43,
                 'key' => 'edit_contacts',
@@ -283,7 +243,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-28 18:34:28',
                 'updated_at' => '2022-04-28 18:34:28',
             ),
-            33 => 
+            28 => 
             array (
                 'id' => 44,
                 'key' => 'add_contacts',
@@ -291,7 +251,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-28 18:34:28',
                 'updated_at' => '2022-04-28 18:34:28',
             ),
-            34 => 
+            29 => 
             array (
                 'id' => 45,
                 'key' => 'delete_contacts',
@@ -299,7 +259,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-28 18:34:28',
                 'updated_at' => '2022-04-28 18:34:28',
             ),
-            35 => 
+            30 => 
             array (
                 'id' => 46,
                 'key' => 'browse_forpersons',
@@ -307,7 +267,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 06:03:24',
                 'updated_at' => '2022-04-29 06:03:24',
             ),
-            36 => 
+            31 => 
             array (
                 'id' => 47,
                 'key' => 'read_forpersons',
@@ -315,7 +275,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 06:03:24',
                 'updated_at' => '2022-04-29 06:03:24',
             ),
-            37 => 
+            32 => 
             array (
                 'id' => 48,
                 'key' => 'edit_forpersons',
@@ -323,7 +283,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 06:03:24',
                 'updated_at' => '2022-04-29 06:03:24',
             ),
-            38 => 
+            33 => 
             array (
                 'id' => 49,
                 'key' => 'add_forpersons',
@@ -331,7 +291,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 06:03:24',
                 'updated_at' => '2022-04-29 06:03:24',
             ),
-            39 => 
+            34 => 
             array (
                 'id' => 50,
                 'key' => 'delete_forpersons',
@@ -339,7 +299,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 06:03:24',
                 'updated_at' => '2022-04-29 06:03:24',
             ),
-            40 => 
+            35 => 
             array (
                 'id' => 51,
                 'key' => 'browse_services',
@@ -347,7 +307,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 06:22:54',
                 'updated_at' => '2022-04-29 06:22:54',
             ),
-            41 => 
+            36 => 
             array (
                 'id' => 52,
                 'key' => 'read_services',
@@ -355,7 +315,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 06:22:54',
                 'updated_at' => '2022-04-29 06:22:54',
             ),
-            42 => 
+            37 => 
             array (
                 'id' => 53,
                 'key' => 'edit_services',
@@ -363,7 +323,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 06:22:54',
                 'updated_at' => '2022-04-29 06:22:54',
             ),
-            43 => 
+            38 => 
             array (
                 'id' => 54,
                 'key' => 'add_services',
@@ -371,7 +331,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 06:22:54',
                 'updated_at' => '2022-04-29 06:22:54',
             ),
-            44 => 
+            39 => 
             array (
                 'id' => 55,
                 'key' => 'delete_services',
@@ -379,7 +339,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 06:22:54',
                 'updated_at' => '2022-04-29 06:22:54',
             ),
-            45 => 
+            40 => 
             array (
                 'id' => 56,
                 'key' => 'browse_nmrcourts',
@@ -387,7 +347,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 07:16:30',
                 'updated_at' => '2022-04-29 07:16:30',
             ),
-            46 => 
+            41 => 
             array (
                 'id' => 57,
                 'key' => 'read_nmrcourts',
@@ -395,7 +355,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 07:16:30',
                 'updated_at' => '2022-04-29 07:16:30',
             ),
-            47 => 
+            42 => 
             array (
                 'id' => 58,
                 'key' => 'edit_nmrcourts',
@@ -403,7 +363,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 07:16:30',
                 'updated_at' => '2022-04-29 07:16:30',
             ),
-            48 => 
+            43 => 
             array (
                 'id' => 59,
                 'key' => 'add_nmrcourts',
@@ -411,7 +371,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 07:16:30',
                 'updated_at' => '2022-04-29 07:16:30',
             ),
-            49 => 
+            44 => 
             array (
                 'id' => 60,
                 'key' => 'delete_nmrcourts',
@@ -419,7 +379,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 07:16:30',
                 'updated_at' => '2022-04-29 07:16:30',
             ),
-            50 => 
+            45 => 
             array (
                 'id' => 61,
                 'key' => 'browse_langs',
@@ -427,7 +387,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 08:33:42',
                 'updated_at' => '2022-04-29 08:33:42',
             ),
-            51 => 
+            46 => 
             array (
                 'id' => 62,
                 'key' => 'read_langs',
@@ -435,7 +395,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 08:33:42',
                 'updated_at' => '2022-04-29 08:33:42',
             ),
-            52 => 
+            47 => 
             array (
                 'id' => 63,
                 'key' => 'edit_langs',
@@ -443,7 +403,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 08:33:42',
                 'updated_at' => '2022-04-29 08:33:42',
             ),
-            53 => 
+            48 => 
             array (
                 'id' => 64,
                 'key' => 'add_langs',
@@ -451,7 +411,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 08:33:42',
                 'updated_at' => '2022-04-29 08:33:42',
             ),
-            54 => 
+            49 => 
             array (
                 'id' => 65,
                 'key' => 'delete_langs',
@@ -459,7 +419,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 08:33:42',
                 'updated_at' => '2022-04-29 08:33:42',
             ),
-            55 => 
+            50 => 
             array (
                 'id' => 66,
                 'key' => 'browse_usefullinks',
@@ -467,7 +427,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 08:45:16',
                 'updated_at' => '2022-04-29 08:45:16',
             ),
-            56 => 
+            51 => 
             array (
                 'id' => 67,
                 'key' => 'read_usefullinks',
@@ -475,7 +435,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 08:45:16',
                 'updated_at' => '2022-04-29 08:45:16',
             ),
-            57 => 
+            52 => 
             array (
                 'id' => 68,
                 'key' => 'edit_usefullinks',
@@ -483,7 +443,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 08:45:16',
                 'updated_at' => '2022-04-29 08:45:16',
             ),
-            58 => 
+            53 => 
             array (
                 'id' => 69,
                 'key' => 'add_usefullinks',
@@ -491,7 +451,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 08:45:16',
                 'updated_at' => '2022-04-29 08:45:16',
             ),
-            59 => 
+            54 => 
             array (
                 'id' => 70,
                 'key' => 'delete_usefullinks',
@@ -499,7 +459,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 08:45:16',
                 'updated_at' => '2022-04-29 08:45:16',
             ),
-            60 => 
+            55 => 
             array (
                 'id' => 76,
                 'key' => 'browse_abouts',
@@ -507,7 +467,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 12:31:21',
                 'updated_at' => '2022-04-29 12:31:21',
             ),
-            61 => 
+            56 => 
             array (
                 'id' => 77,
                 'key' => 'read_abouts',
@@ -515,7 +475,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 12:31:21',
                 'updated_at' => '2022-04-29 12:31:21',
             ),
-            62 => 
+            57 => 
             array (
                 'id' => 78,
                 'key' => 'edit_abouts',
@@ -523,7 +483,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 12:31:21',
                 'updated_at' => '2022-04-29 12:31:21',
             ),
-            63 => 
+            58 => 
             array (
                 'id' => 79,
                 'key' => 'add_abouts',
@@ -531,7 +491,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 12:31:21',
                 'updated_at' => '2022-04-29 12:31:21',
             ),
-            64 => 
+            59 => 
             array (
                 'id' => 80,
                 'key' => 'delete_abouts',
@@ -539,7 +499,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-04-29 12:31:21',
                 'updated_at' => '2022-04-29 12:31:21',
             ),
-            65 => 
+            60 => 
             array (
                 'id' => 86,
                 'key' => 'browse_pages',
@@ -547,7 +507,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 04:47:07',
                 'updated_at' => '2022-05-05 04:47:07',
             ),
-            66 => 
+            61 => 
             array (
                 'id' => 87,
                 'key' => 'read_pages',
@@ -555,7 +515,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 04:47:07',
                 'updated_at' => '2022-05-05 04:47:07',
             ),
-            67 => 
+            62 => 
             array (
                 'id' => 88,
                 'key' => 'edit_pages',
@@ -563,7 +523,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 04:47:07',
                 'updated_at' => '2022-05-05 04:47:07',
             ),
-            68 => 
+            63 => 
             array (
                 'id' => 89,
                 'key' => 'add_pages',
@@ -571,7 +531,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 04:47:07',
                 'updated_at' => '2022-05-05 04:47:07',
             ),
-            69 => 
+            64 => 
             array (
                 'id' => 90,
                 'key' => 'delete_pages',
@@ -579,7 +539,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 04:47:07',
                 'updated_at' => '2022-05-05 04:47:07',
             ),
-            70 => 
+            65 => 
             array (
                 'id' => 91,
                 'key' => 'browse_faqs',
@@ -587,7 +547,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 12:28:37',
                 'updated_at' => '2022-05-05 12:28:37',
             ),
-            71 => 
+            66 => 
             array (
                 'id' => 92,
                 'key' => 'read_faqs',
@@ -595,7 +555,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 12:28:37',
                 'updated_at' => '2022-05-05 12:28:37',
             ),
-            72 => 
+            67 => 
             array (
                 'id' => 93,
                 'key' => 'edit_faqs',
@@ -603,7 +563,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 12:28:37',
                 'updated_at' => '2022-05-05 12:28:37',
             ),
-            73 => 
+            68 => 
             array (
                 'id' => 94,
                 'key' => 'add_faqs',
@@ -611,7 +571,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 12:28:37',
                 'updated_at' => '2022-05-05 12:28:37',
             ),
-            74 => 
+            69 => 
             array (
                 'id' => 95,
                 'key' => 'delete_faqs',
@@ -619,7 +579,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 12:28:37',
                 'updated_at' => '2022-05-05 12:28:37',
             ),
-            75 => 
+            70 => 
             array (
                 'id' => 96,
                 'key' => 'browse_internationaldocuments',
@@ -627,7 +587,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 12:40:05',
                 'updated_at' => '2022-05-05 12:40:05',
             ),
-            76 => 
+            71 => 
             array (
                 'id' => 97,
                 'key' => 'read_internationaldocuments',
@@ -635,7 +595,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 12:40:05',
                 'updated_at' => '2022-05-05 12:40:05',
             ),
-            77 => 
+            72 => 
             array (
                 'id' => 98,
                 'key' => 'edit_internationaldocuments',
@@ -643,7 +603,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 12:40:05',
                 'updated_at' => '2022-05-05 12:40:05',
             ),
-            78 => 
+            73 => 
             array (
                 'id' => 99,
                 'key' => 'add_internationaldocuments',
@@ -651,7 +611,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 12:40:05',
                 'updated_at' => '2022-05-05 12:40:05',
             ),
-            79 => 
+            74 => 
             array (
                 'id' => 100,
                 'key' => 'delete_internationaldocuments',
@@ -659,7 +619,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 12:40:05',
                 'updated_at' => '2022-05-05 12:40:05',
             ),
-            80 => 
+            75 => 
             array (
                 'id' => 101,
                 'key' => 'browse_legalacts',
@@ -667,7 +627,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 12:56:54',
                 'updated_at' => '2022-05-05 12:56:54',
             ),
-            81 => 
+            76 => 
             array (
                 'id' => 102,
                 'key' => 'read_legalacts',
@@ -675,7 +635,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 12:56:54',
                 'updated_at' => '2022-05-05 12:56:54',
             ),
-            82 => 
+            77 => 
             array (
                 'id' => 103,
                 'key' => 'edit_legalacts',
@@ -683,7 +643,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 12:56:54',
                 'updated_at' => '2022-05-05 12:56:54',
             ),
-            83 => 
+            78 => 
             array (
                 'id' => 104,
                 'key' => 'add_legalacts',
@@ -691,7 +651,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 12:56:54',
                 'updated_at' => '2022-05-05 12:56:54',
             ),
-            84 => 
+            79 => 
             array (
                 'id' => 105,
                 'key' => 'delete_legalacts',
@@ -699,7 +659,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 12:56:54',
                 'updated_at' => '2022-05-05 12:56:54',
             ),
-            85 => 
+            80 => 
             array (
                 'id' => 106,
                 'key' => 'browse_decisionpresidia',
@@ -707,7 +667,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 13:21:00',
                 'updated_at' => '2022-05-05 13:21:00',
             ),
-            86 => 
+            81 => 
             array (
                 'id' => 107,
                 'key' => 'read_decisionpresidia',
@@ -715,7 +675,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 13:21:00',
                 'updated_at' => '2022-05-05 13:21:00',
             ),
-            87 => 
+            82 => 
             array (
                 'id' => 108,
                 'key' => 'edit_decisionpresidia',
@@ -723,7 +683,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 13:21:00',
                 'updated_at' => '2022-05-05 13:21:00',
             ),
-            88 => 
+            83 => 
             array (
                 'id' => 109,
                 'key' => 'add_decisionpresidia',
@@ -731,7 +691,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 13:21:00',
                 'updated_at' => '2022-05-05 13:21:00',
             ),
-            89 => 
+            84 => 
             array (
                 'id' => 110,
                 'key' => 'delete_decisionpresidia',
@@ -739,7 +699,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 13:21:00',
                 'updated_at' => '2022-05-05 13:21:00',
             ),
-            90 => 
+            85 => 
             array (
                 'id' => 111,
                 'key' => 'browse_speeches',
@@ -747,7 +707,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 13:40:29',
                 'updated_at' => '2022-05-05 13:40:29',
             ),
-            91 => 
+            86 => 
             array (
                 'id' => 112,
                 'key' => 'read_speeches',
@@ -755,7 +715,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 13:40:29',
                 'updated_at' => '2022-05-05 13:40:29',
             ),
-            92 => 
+            87 => 
             array (
                 'id' => 113,
                 'key' => 'edit_speeches',
@@ -763,7 +723,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 13:40:29',
                 'updated_at' => '2022-05-05 13:40:29',
             ),
-            93 => 
+            88 => 
             array (
                 'id' => 114,
                 'key' => 'add_speeches',
@@ -771,7 +731,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 13:40:29',
                 'updated_at' => '2022-05-05 13:40:29',
             ),
-            94 => 
+            89 => 
             array (
                 'id' => 115,
                 'key' => 'delete_speeches',
@@ -779,7 +739,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 13:40:29',
                 'updated_at' => '2022-05-05 13:40:29',
             ),
-            95 => 
+            90 => 
             array (
                 'id' => 116,
                 'key' => 'browse_reports',
@@ -787,7 +747,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 18:17:30',
                 'updated_at' => '2022-05-05 18:17:30',
             ),
-            96 => 
+            91 => 
             array (
                 'id' => 117,
                 'key' => 'read_reports',
@@ -795,7 +755,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 18:17:30',
                 'updated_at' => '2022-05-05 18:17:30',
             ),
-            97 => 
+            92 => 
             array (
                 'id' => 118,
                 'key' => 'edit_reports',
@@ -803,7 +763,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 18:17:30',
                 'updated_at' => '2022-05-05 18:17:30',
             ),
-            98 => 
+            93 => 
             array (
                 'id' => 119,
                 'key' => 'add_reports',
@@ -811,7 +771,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 18:17:30',
                 'updated_at' => '2022-05-05 18:17:30',
             ),
-            99 => 
+            94 => 
             array (
                 'id' => 120,
                 'key' => 'delete_reports',
@@ -819,7 +779,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 18:17:30',
                 'updated_at' => '2022-05-05 18:17:30',
             ),
-            100 => 
+            95 => 
             array (
                 'id' => 121,
                 'key' => 'browse_galleries',
@@ -827,7 +787,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:07:19',
                 'updated_at' => '2022-05-05 19:07:19',
             ),
-            101 => 
+            96 => 
             array (
                 'id' => 122,
                 'key' => 'read_galleries',
@@ -835,7 +795,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:07:19',
                 'updated_at' => '2022-05-05 19:07:19',
             ),
-            102 => 
+            97 => 
             array (
                 'id' => 123,
                 'key' => 'edit_galleries',
@@ -843,7 +803,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:07:19',
                 'updated_at' => '2022-05-05 19:07:19',
             ),
-            103 => 
+            98 => 
             array (
                 'id' => 124,
                 'key' => 'add_galleries',
@@ -851,7 +811,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:07:19',
                 'updated_at' => '2022-05-05 19:07:19',
             ),
-            104 => 
+            99 => 
             array (
                 'id' => 125,
                 'key' => 'delete_galleries',
@@ -859,7 +819,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:07:19',
                 'updated_at' => '2022-05-05 19:07:19',
             ),
-            105 => 
+            100 => 
             array (
                 'id' => 126,
                 'key' => 'browse_videos',
@@ -867,7 +827,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:13:05',
                 'updated_at' => '2022-05-05 19:13:05',
             ),
-            106 => 
+            101 => 
             array (
                 'id' => 127,
                 'key' => 'read_videos',
@@ -875,7 +835,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:13:05',
                 'updated_at' => '2022-05-05 19:13:05',
             ),
-            107 => 
+            102 => 
             array (
                 'id' => 128,
                 'key' => 'edit_videos',
@@ -883,7 +843,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:13:05',
                 'updated_at' => '2022-05-05 19:13:05',
             ),
-            108 => 
+            103 => 
             array (
                 'id' => 129,
                 'key' => 'add_videos',
@@ -891,7 +851,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:13:05',
                 'updated_at' => '2022-05-05 19:13:05',
             ),
-            109 => 
+            104 => 
             array (
                 'id' => 130,
                 'key' => 'delete_videos',
@@ -899,7 +859,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:13:05',
                 'updated_at' => '2022-05-05 19:13:05',
             ),
-            110 => 
+            105 => 
             array (
                 'id' => 131,
                 'key' => 'browse_articles',
@@ -907,7 +867,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:17:26',
                 'updated_at' => '2022-05-05 19:17:26',
             ),
-            111 => 
+            106 => 
             array (
                 'id' => 132,
                 'key' => 'read_articles',
@@ -915,7 +875,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:17:26',
                 'updated_at' => '2022-05-05 19:17:26',
             ),
-            112 => 
+            107 => 
             array (
                 'id' => 133,
                 'key' => 'edit_articles',
@@ -923,7 +883,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:17:26',
                 'updated_at' => '2022-05-05 19:17:26',
             ),
-            113 => 
+            108 => 
             array (
                 'id' => 134,
                 'key' => 'add_articles',
@@ -931,7 +891,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:17:26',
                 'updated_at' => '2022-05-05 19:17:26',
             ),
-            114 => 
+            109 => 
             array (
                 'id' => 135,
                 'key' => 'delete_articles',
@@ -939,7 +899,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:17:26',
                 'updated_at' => '2022-05-05 19:17:26',
             ),
-            115 => 
+            110 => 
             array (
                 'id' => 136,
                 'key' => 'browse_measures',
@@ -947,7 +907,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:25:26',
                 'updated_at' => '2022-05-05 19:25:26',
             ),
-            116 => 
+            111 => 
             array (
                 'id' => 137,
                 'key' => 'read_measures',
@@ -955,7 +915,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:25:26',
                 'updated_at' => '2022-05-05 19:25:26',
             ),
-            117 => 
+            112 => 
             array (
                 'id' => 138,
                 'key' => 'edit_measures',
@@ -963,7 +923,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:25:26',
                 'updated_at' => '2022-05-05 19:25:26',
             ),
-            118 => 
+            113 => 
             array (
                 'id' => 139,
                 'key' => 'add_measures',
@@ -971,7 +931,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:25:26',
                 'updated_at' => '2022-05-05 19:25:26',
             ),
-            119 => 
+            114 => 
             array (
                 'id' => 140,
                 'key' => 'delete_measures',
@@ -979,7 +939,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:25:26',
                 'updated_at' => '2022-05-05 19:25:26',
             ),
-            120 => 
+            115 => 
             array (
                 'id' => 141,
                 'key' => 'browse_educationmaterials',
@@ -987,7 +947,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:47:45',
                 'updated_at' => '2022-05-05 19:47:45',
             ),
-            121 => 
+            116 => 
             array (
                 'id' => 142,
                 'key' => 'read_educationmaterials',
@@ -995,7 +955,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:47:45',
                 'updated_at' => '2022-05-05 19:47:45',
             ),
-            122 => 
+            117 => 
             array (
                 'id' => 143,
                 'key' => 'edit_educationmaterials',
@@ -1003,7 +963,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:47:45',
                 'updated_at' => '2022-05-05 19:47:45',
             ),
-            123 => 
+            118 => 
             array (
                 'id' => 144,
                 'key' => 'add_educationmaterials',
@@ -1011,7 +971,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:47:45',
                 'updated_at' => '2022-05-05 19:47:45',
             ),
-            124 => 
+            119 => 
             array (
                 'id' => 145,
                 'key' => 'delete_educationmaterials',
@@ -1019,7 +979,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-05 19:47:45',
                 'updated_at' => '2022-05-05 19:47:45',
             ),
-            125 => 
+            120 => 
             array (
                 'id' => 146,
                 'key' => 'browse_supremecourts',
@@ -1027,7 +987,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 05:15:06',
                 'updated_at' => '2022-05-06 05:15:06',
             ),
-            126 => 
+            121 => 
             array (
                 'id' => 147,
                 'key' => 'read_supremecourts',
@@ -1035,7 +995,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 05:15:06',
                 'updated_at' => '2022-05-06 05:15:06',
             ),
-            127 => 
+            122 => 
             array (
                 'id' => 148,
                 'key' => 'edit_supremecourts',
@@ -1043,7 +1003,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 05:15:06',
                 'updated_at' => '2022-05-06 05:15:06',
             ),
-            128 => 
+            123 => 
             array (
                 'id' => 149,
                 'key' => 'add_supremecourts',
@@ -1051,7 +1011,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 05:15:06',
                 'updated_at' => '2022-05-06 05:15:06',
             ),
-            129 => 
+            124 => 
             array (
                 'id' => 150,
                 'key' => 'delete_supremecourts',
@@ -1059,7 +1019,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 05:15:06',
                 'updated_at' => '2022-05-06 05:15:06',
             ),
-            130 => 
+            125 => 
             array (
                 'id' => 156,
                 'key' => 'browse_appeals',
@@ -1067,7 +1027,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 08:33:52',
                 'updated_at' => '2022-05-06 08:33:52',
             ),
-            131 => 
+            126 => 
             array (
                 'id' => 157,
                 'key' => 'read_appeals',
@@ -1075,7 +1035,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 08:33:52',
                 'updated_at' => '2022-05-06 08:33:52',
             ),
-            132 => 
+            127 => 
             array (
                 'id' => 158,
                 'key' => 'edit_appeals',
@@ -1083,7 +1043,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 08:33:52',
                 'updated_at' => '2022-05-06 08:33:52',
             ),
-            133 => 
+            128 => 
             array (
                 'id' => 159,
                 'key' => 'add_appeals',
@@ -1091,7 +1051,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 08:33:52',
                 'updated_at' => '2022-05-06 08:33:52',
             ),
-            134 => 
+            129 => 
             array (
                 'id' => 160,
                 'key' => 'delete_appeals',
@@ -1099,7 +1059,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 08:33:52',
                 'updated_at' => '2022-05-06 08:33:52',
             ),
-            135 => 
+            130 => 
             array (
                 'id' => 161,
                 'key' => 'browse_exampledocuments',
@@ -1107,7 +1067,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 10:17:00',
                 'updated_at' => '2022-05-06 10:17:00',
             ),
-            136 => 
+            131 => 
             array (
                 'id' => 162,
                 'key' => 'read_exampledocuments',
@@ -1115,7 +1075,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 10:17:00',
                 'updated_at' => '2022-05-06 10:17:00',
             ),
-            137 => 
+            132 => 
             array (
                 'id' => 163,
                 'key' => 'edit_exampledocuments',
@@ -1123,7 +1083,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 10:17:00',
                 'updated_at' => '2022-05-06 10:17:00',
             ),
-            138 => 
+            133 => 
             array (
                 'id' => 164,
                 'key' => 'add_exampledocuments',
@@ -1131,7 +1091,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 10:17:00',
                 'updated_at' => '2022-05-06 10:17:00',
             ),
-            139 => 
+            134 => 
             array (
                 'id' => 165,
                 'key' => 'delete_exampledocuments',
@@ -1139,7 +1099,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 10:17:00',
                 'updated_at' => '2022-05-06 10:17:00',
             ),
-            140 => 
+            135 => 
             array (
                 'id' => 166,
                 'key' => 'browse_publications',
@@ -1147,7 +1107,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 11:05:09',
                 'updated_at' => '2022-05-06 11:05:09',
             ),
-            141 => 
+            136 => 
             array (
                 'id' => 167,
                 'key' => 'read_publications',
@@ -1155,7 +1115,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 11:05:09',
                 'updated_at' => '2022-05-06 11:05:09',
             ),
-            142 => 
+            137 => 
             array (
                 'id' => 168,
                 'key' => 'edit_publications',
@@ -1163,7 +1123,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 11:05:09',
                 'updated_at' => '2022-05-06 11:05:09',
             ),
-            143 => 
+            138 => 
             array (
                 'id' => 169,
                 'key' => 'add_publications',
@@ -1171,7 +1131,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 11:05:09',
                 'updated_at' => '2022-05-06 11:05:09',
             ),
-            144 => 
+            139 => 
             array (
                 'id' => 170,
                 'key' => 'delete_publications',
@@ -1179,7 +1139,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 11:05:09',
                 'updated_at' => '2022-05-06 11:05:09',
             ),
-            145 => 
+            140 => 
             array (
                 'id' => 171,
                 'key' => 'browse_electronlibraries',
@@ -1187,7 +1147,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 11:20:45',
                 'updated_at' => '2022-05-06 11:20:45',
             ),
-            146 => 
+            141 => 
             array (
                 'id' => 172,
                 'key' => 'read_electronlibraries',
@@ -1195,7 +1155,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 11:20:45',
                 'updated_at' => '2022-05-06 11:20:45',
             ),
-            147 => 
+            142 => 
             array (
                 'id' => 173,
                 'key' => 'edit_electronlibraries',
@@ -1203,7 +1163,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 11:20:45',
                 'updated_at' => '2022-05-06 11:20:45',
             ),
-            148 => 
+            143 => 
             array (
                 'id' => 174,
                 'key' => 'add_electronlibraries',
@@ -1211,7 +1171,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 11:20:45',
                 'updated_at' => '2022-05-06 11:20:45',
             ),
-            149 => 
+            144 => 
             array (
                 'id' => 175,
                 'key' => 'delete_electronlibraries',
@@ -1219,7 +1179,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 11:20:45',
                 'updated_at' => '2022-05-06 11:20:45',
             ),
-            150 => 
+            145 => 
             array (
                 'id' => 176,
                 'key' => 'browse_nmrelectronlibraries',
@@ -1227,7 +1187,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 12:16:56',
                 'updated_at' => '2022-05-06 12:16:56',
             ),
-            151 => 
+            146 => 
             array (
                 'id' => 177,
                 'key' => 'read_nmrelectronlibraries',
@@ -1235,7 +1195,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 12:16:56',
                 'updated_at' => '2022-05-06 12:16:56',
             ),
-            152 => 
+            147 => 
             array (
                 'id' => 178,
                 'key' => 'edit_nmrelectronlibraries',
@@ -1243,7 +1203,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 12:16:56',
                 'updated_at' => '2022-05-06 12:16:56',
             ),
-            153 => 
+            148 => 
             array (
                 'id' => 179,
                 'key' => 'add_nmrelectronlibraries',
@@ -1251,7 +1211,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 12:16:56',
                 'updated_at' => '2022-05-06 12:16:56',
             ),
-            154 => 
+            149 => 
             array (
                 'id' => 180,
                 'key' => 'delete_nmrelectronlibraries',
@@ -1259,7 +1219,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 12:16:56',
                 'updated_at' => '2022-05-06 12:16:56',
             ),
-            155 => 
+            150 => 
             array (
                 'id' => 181,
                 'key' => 'browse_constitutions',
@@ -1267,7 +1227,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 12:54:31',
                 'updated_at' => '2022-05-06 12:54:31',
             ),
-            156 => 
+            151 => 
             array (
                 'id' => 182,
                 'key' => 'read_constitutions',
@@ -1275,7 +1235,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 12:54:31',
                 'updated_at' => '2022-05-06 12:54:31',
             ),
-            157 => 
+            152 => 
             array (
                 'id' => 183,
                 'key' => 'edit_constitutions',
@@ -1283,7 +1243,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 12:54:31',
                 'updated_at' => '2022-05-06 12:54:31',
             ),
-            158 => 
+            153 => 
             array (
                 'id' => 184,
                 'key' => 'add_constitutions',
@@ -1291,7 +1251,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 12:54:31',
                 'updated_at' => '2022-05-06 12:54:31',
             ),
-            159 => 
+            154 => 
             array (
                 'id' => 185,
                 'key' => 'delete_constitutions',
@@ -1299,7 +1259,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-06 12:54:31',
                 'updated_at' => '2022-05-06 12:54:31',
             ),
-            160 => 
+            155 => 
             array (
                 'id' => 186,
                 'key' => 'browse_news',
@@ -1307,7 +1267,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-11 05:57:45',
                 'updated_at' => '2022-05-11 05:57:45',
             ),
-            161 => 
+            156 => 
             array (
                 'id' => 187,
                 'key' => 'read_news',
@@ -1315,7 +1275,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-11 05:57:45',
                 'updated_at' => '2022-05-11 05:57:45',
             ),
-            162 => 
+            157 => 
             array (
                 'id' => 188,
                 'key' => 'edit_news',
@@ -1323,7 +1283,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-11 05:57:45',
                 'updated_at' => '2022-05-11 05:57:45',
             ),
-            163 => 
+            158 => 
             array (
                 'id' => 189,
                 'key' => 'add_news',
@@ -1331,7 +1291,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-11 05:57:45',
                 'updated_at' => '2022-05-11 05:57:45',
             ),
-            164 => 
+            159 => 
             array (
                 'id' => 190,
                 'key' => 'delete_news',
@@ -1339,7 +1299,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-11 05:57:45',
                 'updated_at' => '2022-05-11 05:57:45',
             ),
-            165 => 
+            160 => 
             array (
                 'id' => 191,
                 'key' => 'browse_applyonlines',
@@ -1347,7 +1307,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-11 07:50:54',
                 'updated_at' => '2022-05-11 07:50:54',
             ),
-            166 => 
+            161 => 
             array (
                 'id' => 192,
                 'key' => 'read_applyonlines',
@@ -1355,7 +1315,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-11 07:50:54',
                 'updated_at' => '2022-05-11 07:50:54',
             ),
-            167 => 
+            162 => 
             array (
                 'id' => 193,
                 'key' => 'edit_applyonlines',
@@ -1363,7 +1323,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-11 07:50:54',
                 'updated_at' => '2022-05-11 07:50:54',
             ),
-            168 => 
+            163 => 
             array (
                 'id' => 194,
                 'key' => 'add_applyonlines',
@@ -1371,7 +1331,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-11 07:50:54',
                 'updated_at' => '2022-05-11 07:50:54',
             ),
-            169 => 
+            164 => 
             array (
                 'id' => 195,
                 'key' => 'delete_applyonlines',
@@ -1379,7 +1339,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-11 07:50:54',
                 'updated_at' => '2022-05-11 07:50:54',
             ),
-            170 => 
+            165 => 
             array (
                 'id' => 196,
                 'key' => 'browse_judicialapparats',
@@ -1387,7 +1347,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 05:39:56',
                 'updated_at' => '2022-05-12 05:39:56',
             ),
-            171 => 
+            166 => 
             array (
                 'id' => 197,
                 'key' => 'read_judicialapparats',
@@ -1395,7 +1355,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 05:39:56',
                 'updated_at' => '2022-05-12 05:39:56',
             ),
-            172 => 
+            167 => 
             array (
                 'id' => 198,
                 'key' => 'edit_judicialapparats',
@@ -1403,7 +1363,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 05:39:56',
                 'updated_at' => '2022-05-12 05:39:56',
             ),
-            173 => 
+            168 => 
             array (
                 'id' => 199,
                 'key' => 'add_judicialapparats',
@@ -1411,7 +1371,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 05:39:56',
                 'updated_at' => '2022-05-12 05:39:56',
             ),
-            174 => 
+            169 => 
             array (
                 'id' => 200,
                 'key' => 'delete_judicialapparats',
@@ -1419,7 +1379,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 05:39:56',
                 'updated_at' => '2022-05-12 05:39:56',
             ),
-            175 => 
+            170 => 
             array (
                 'id' => 201,
                 'key' => 'browse_apparatuses',
@@ -1427,7 +1387,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 05:54:18',
                 'updated_at' => '2022-05-12 05:54:18',
             ),
-            176 => 
+            171 => 
             array (
                 'id' => 202,
                 'key' => 'read_apparatuses',
@@ -1435,7 +1395,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 05:54:18',
                 'updated_at' => '2022-05-12 05:54:18',
             ),
-            177 => 
+            172 => 
             array (
                 'id' => 203,
                 'key' => 'edit_apparatuses',
@@ -1443,7 +1403,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 05:54:18',
                 'updated_at' => '2022-05-12 05:54:18',
             ),
-            178 => 
+            173 => 
             array (
                 'id' => 204,
                 'key' => 'add_apparatuses',
@@ -1451,7 +1411,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 05:54:18',
                 'updated_at' => '2022-05-12 05:54:18',
             ),
-            179 => 
+            174 => 
             array (
                 'id' => 205,
                 'key' => 'delete_apparatuses',
@@ -1459,7 +1419,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 05:54:18',
                 'updated_at' => '2022-05-12 05:54:18',
             ),
-            180 => 
+            175 => 
             array (
                 'id' => 206,
                 'key' => 'browse_titles',
@@ -1467,7 +1427,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 06:18:54',
                 'updated_at' => '2022-05-12 06:18:54',
             ),
-            181 => 
+            176 => 
             array (
                 'id' => 207,
                 'key' => 'read_titles',
@@ -1475,7 +1435,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 06:18:54',
                 'updated_at' => '2022-05-12 06:18:54',
             ),
-            182 => 
+            177 => 
             array (
                 'id' => 208,
                 'key' => 'edit_titles',
@@ -1483,7 +1443,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 06:18:54',
                 'updated_at' => '2022-05-12 06:18:54',
             ),
-            183 => 
+            178 => 
             array (
                 'id' => 209,
                 'key' => 'add_titles',
@@ -1491,7 +1451,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 06:18:54',
                 'updated_at' => '2022-05-12 06:18:54',
             ),
-            184 => 
+            179 => 
             array (
                 'id' => 210,
                 'key' => 'delete_titles',
@@ -1499,47 +1459,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 06:18:54',
                 'updated_at' => '2022-05-12 06:18:54',
             ),
-            185 => 
-            array (
-                'id' => 211,
-                'key' => 'browse_translates',
-                'table_name' => 'translates',
-                'created_at' => '2022-05-12 12:08:31',
-                'updated_at' => '2022-05-12 12:08:31',
-            ),
-            186 => 
-            array (
-                'id' => 212,
-                'key' => 'read_translates',
-                'table_name' => 'translates',
-                'created_at' => '2022-05-12 12:08:31',
-                'updated_at' => '2022-05-12 12:08:31',
-            ),
-            187 => 
-            array (
-                'id' => 213,
-                'key' => 'edit_translates',
-                'table_name' => 'translates',
-                'created_at' => '2022-05-12 12:08:31',
-                'updated_at' => '2022-05-12 12:08:31',
-            ),
-            188 => 
-            array (
-                'id' => 214,
-                'key' => 'add_translates',
-                'table_name' => 'translates',
-                'created_at' => '2022-05-12 12:08:31',
-                'updated_at' => '2022-05-12 12:08:31',
-            ),
-            189 => 
-            array (
-                'id' => 215,
-                'key' => 'delete_translates',
-                'table_name' => 'translates',
-                'created_at' => '2022-05-12 12:08:31',
-                'updated_at' => '2022-05-12 12:08:31',
-            ),
-            190 => 
+            180 => 
             array (
                 'id' => 216,
                 'key' => 'browse_adres',
@@ -1547,7 +1467,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:05:22',
                 'updated_at' => '2022-05-12 13:05:22',
             ),
-            191 => 
+            181 => 
             array (
                 'id' => 217,
                 'key' => 'read_adres',
@@ -1555,7 +1475,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:05:22',
                 'updated_at' => '2022-05-12 13:05:22',
             ),
-            192 => 
+            182 => 
             array (
                 'id' => 218,
                 'key' => 'edit_adres',
@@ -1563,7 +1483,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:05:22',
                 'updated_at' => '2022-05-12 13:05:22',
             ),
-            193 => 
+            183 => 
             array (
                 'id' => 219,
                 'key' => 'add_adres',
@@ -1571,7 +1491,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:05:22',
                 'updated_at' => '2022-05-12 13:05:22',
             ),
-            194 => 
+            184 => 
             array (
                 'id' => 220,
                 'key' => 'delete_adres',
@@ -1579,7 +1499,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:05:22',
                 'updated_at' => '2022-05-12 13:05:22',
             ),
-            195 => 
+            185 => 
             array (
                 'id' => 221,
                 'key' => 'browse_footers',
@@ -1587,7 +1507,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-14 08:52:08',
                 'updated_at' => '2022-05-14 08:52:08',
             ),
-            196 => 
+            186 => 
             array (
                 'id' => 222,
                 'key' => 'read_footers',
@@ -1595,7 +1515,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-14 08:52:08',
                 'updated_at' => '2022-05-14 08:52:08',
             ),
-            197 => 
+            187 => 
             array (
                 'id' => 223,
                 'key' => 'edit_footers',
@@ -1603,7 +1523,7 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-14 08:52:08',
                 'updated_at' => '2022-05-14 08:52:08',
             ),
-            198 => 
+            188 => 
             array (
                 'id' => 224,
                 'key' => 'add_footers',
@@ -1611,13 +1531,53 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-14 08:52:08',
                 'updated_at' => '2022-05-14 08:52:08',
             ),
-            199 => 
+            189 => 
             array (
                 'id' => 225,
                 'key' => 'delete_footers',
                 'table_name' => 'footers',
                 'created_at' => '2022-05-14 08:52:08',
                 'updated_at' => '2022-05-14 08:52:08',
+            ),
+            190 => 
+            array (
+                'id' => 226,
+                'key' => 'browse_slidertodays',
+                'table_name' => 'slidertodays',
+                'created_at' => '2022-05-16 06:27:42',
+                'updated_at' => '2022-05-16 06:27:42',
+            ),
+            191 => 
+            array (
+                'id' => 227,
+                'key' => 'read_slidertodays',
+                'table_name' => 'slidertodays',
+                'created_at' => '2022-05-16 06:27:42',
+                'updated_at' => '2022-05-16 06:27:42',
+            ),
+            192 => 
+            array (
+                'id' => 228,
+                'key' => 'edit_slidertodays',
+                'table_name' => 'slidertodays',
+                'created_at' => '2022-05-16 06:27:42',
+                'updated_at' => '2022-05-16 06:27:42',
+            ),
+            193 => 
+            array (
+                'id' => 229,
+                'key' => 'add_slidertodays',
+                'table_name' => 'slidertodays',
+                'created_at' => '2022-05-16 06:27:42',
+                'updated_at' => '2022-05-16 06:27:42',
+            ),
+            194 => 
+            array (
+                'id' => 230,
+                'key' => 'delete_slidertodays',
+                'table_name' => 'slidertodays',
+                'created_at' => '2022-05-16 06:27:42',
+                'updated_at' => '2022-05-16 06:27:42',
             ),
         ));
         

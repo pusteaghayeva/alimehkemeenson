@@ -68,7 +68,7 @@
                             <a href="{{$forperson->link}}" target="_blank">
                                 <div class="cat-img-display">
                                     <h2 class="cat-title">
-                                    {{$forperson->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
+                                        {{$forperson->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
                                     </h2>
                                 </div>
                             </a>
@@ -151,46 +151,47 @@
         <h1 class="link_title ">{{$titlesTranslation['NaxçıvanBuGün']}}</h1>
         <p class="underline"></p>
         <div class="owl-carousel owl-theme p-0 ">
-
-            <div class="carousel-img ">
-                <img class="d-block img-nmr " src="assets/img/today1.gif " alt="First slide ">
-            </div>
-            <div class="carousel-img ">
-                <img class="d-block img-nmr " src="assets/img/today2.gif " alt="First slide ">
-            </div>
-            <div class="carousel-img ">
-                <img class="d-block img-nmr " src="assets/img/today3.gif " alt="First slide ">
-            </div>
-            <div class="carousel-img ">
-                <img class="d-block img-nmr " src="assets/img/today4.gif " alt="First slide ">
-            </div>
-            <div class="carousel-img ">
-                <img class="d-block img-nmr " src="assets/img/today5.gif " alt="First slide ">
-            </div>
-            <div class="carousel-img ">
-                <img class="d-block img-nmr " src="assets/img/today6.gif " alt="First slide ">
-            </div>
-            <div class="carousel-img ">
-                <img class="d-block img-nmr " src="assets/img/today7.gif " alt="First slide ">
-            </div>
-            <div class="carousel-img ">
-                <img class="d-block img-nmr " src="assets/img/today8.gif " alt="First slide ">
-            </div>
-            <div class="carousel-img ">
-                <img class="d-block img-nmr " src="assets/img/today9.gif " alt="First slide ">
-            </div>
-            <div class="carousel-img ">
-                <img class="d-block img-nmr " src="assets/img/today10.gif " alt="First slide ">
-            </div>
-            <div class="carousel-img ">
-                <img class="d-block img-nmr " src="assets/img/today12.gif " alt="First slide ">
-            </div>
-            <div class="carousel-img ">
-                <img class="d-block img-nmr " src="assets/img/today13.gif " alt="First slide ">
-            </div>
-            <div class="carousel-img ">
-                <img class="d-block img-nmr " src="assets/img/today14.gif " alt="First slide ">
-            </div>
+            @foreach($slidertodays as $slidertoday)
+                <div class="carousel-img ">
+                    <img class="d-block img-nmr " src="{{asset('storage/'.$slidertoday->image)}}" alt="First slide ">
+                </div>
+            @endforeach
+            {{--            <div class="carousel-img ">--}}
+            {{--                <img class="d-block img-nmr " src="assets/img/today2.gif " alt="First slide ">--}}
+            {{--            </div>--}}
+            {{--            <div class="carousel-img ">--}}
+            {{--                <img class="d-block img-nmr " src="assets/img/today3.gif " alt="First slide ">--}}
+            {{--            </div>--}}
+            {{--            <div class="carousel-img ">--}}
+            {{--                <img class="d-block img-nmr " src="assets/img/today4.gif " alt="First slide ">--}}
+            {{--            </div>--}}
+            {{--            <div class="carousel-img ">--}}
+            {{--                <img class="d-block img-nmr " src="assets/img/today5.gif " alt="First slide ">--}}
+            {{--            </div>--}}
+            {{--            <div class="carousel-img ">--}}
+            {{--                <img class="d-block img-nmr " src="assets/img/today6.gif " alt="First slide ">--}}
+            {{--            </div>--}}
+            {{--            <div class="carousel-img ">--}}
+            {{--                <img class="d-block img-nmr " src="assets/img/today7.gif " alt="First slide ">--}}
+            {{--            </div>--}}
+            {{--            <div class="carousel-img ">--}}
+            {{--                <img class="d-block img-nmr " src="assets/img/today8.gif " alt="First slide ">--}}
+            {{--            </div>--}}
+            {{--            <div class="carousel-img ">--}}
+            {{--                <img class="d-block img-nmr " src="assets/img/today9.gif " alt="First slide ">--}}
+            {{--            </div>--}}
+            {{--            <div class="carousel-img ">--}}
+            {{--                <img class="d-block img-nmr " src="assets/img/today10.gif " alt="First slide ">--}}
+            {{--            </div>--}}
+            {{--            <div class="carousel-img ">--}}
+            {{--                <img class="d-block img-nmr " src="assets/img/today12.gif " alt="First slide ">--}}
+            {{--            </div>--}}
+            {{--            <div class="carousel-img ">--}}
+            {{--                <img class="d-block img-nmr " src="assets/img/today13.gif " alt="First slide ">--}}
+            {{--            </div>--}}
+            {{--            <div class="carousel-img ">--}}
+            {{--                <img class="d-block img-nmr " src="assets/img/today14.gif " alt="First slide ">--}}
+            {{--            </div>--}}
         </div>
     </div>
 

@@ -25,13 +25,13 @@ class FromArtisanUsersTableSeeder extends Seeder
                 'role_id' => 1,
                 'name' => 'admin',
                 'email' => 'admin@admin.com',
-                'avatar' => 'users\\May2022\\5rVOBbtF1kgjtRdu78Iq.png',
+                'avatar' => 'users\\May2022\\aFKv3VWpX1Zo1FQosaRx.png',
                 'email_verified_at' => NULL,
                 'password' => '$2y$10$/q6dpHFbXM77fhLruVOolu1G2l2tbGQtau32BnzuDu5DasNUFXNZC',
                 'remember_token' => NULL,
                 'settings' => '{"locale":"az"}',
                 'created_at' => '2022-04-27 19:23:25',
-                'updated_at' => '2022-05-15 15:53:08',
+                'updated_at' => '2022-05-16 10:14:07',
             ),
         ));
         

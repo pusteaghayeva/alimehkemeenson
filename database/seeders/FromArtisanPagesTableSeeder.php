@@ -201,7 +201,7 @@ class FromArtisanPagesTableSeeder extends Seeder
                 'meta_keywords' => NULL,
                 'status' => 'ACTIVE',
                 'created_at' => '2022-05-05 08:38:00',
-                'updated_at' => '2022-05-10 05:56:55',
+                'updated_at' => '2022-05-16 07:28:33',
             ),
             4 => 
             array (

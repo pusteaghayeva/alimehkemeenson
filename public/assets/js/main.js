@@ -2,6 +2,10 @@
  * gallery menu
  */
 
+$(window).on('load', function () {
+    $("#cover").fadeOut(1750);
+
+});
 /*----- NAVBAR START----*/
 jQuery(function($) {
     "use strict";

@@ -43,6 +43,10 @@
 </head>
 
 <body>
+
+<div id="cover"> <span class="glyphicon glyphicon-refresh w3-spin preloader-Icon"></span>
+<img src="./assets/img/logo.png">
+</div>
 <!-- ======= Top Bar ======= -->
 <section id="topbar" class="d-flex align-items-center">
     <div class="container-fluid   d-flex justify-content-center justify-content-md-around">
