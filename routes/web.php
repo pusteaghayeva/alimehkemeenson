@@ -32,7 +32,9 @@ Route::get('/', [HomePageController::class, 'home'])->name('home');
 Route::get('/home',[HomePageController::class, 'home'])->name('home');
 //Route::get('/title', [PageController::class, 'title'])->name('title');
 
-Route::get('/apparatus', [PageController::class, 'apparatus'])->name('apparatus');
+Route::get('/apparats', [PageController::class, 'apparats'])->name('apparats');
+Route::get('/singleapparats', [PageController::class, 'singleapparats'])->name('singleapparats');
+
 Route::get('/supremecourt',[PageController::class, 'supremecourt'])->name('supremecourt');
 Route::get('/singlesupremecourt', [PageController::class, 'singlesupremecourt'])->name('singlesupremecourt');
 Route::get('/news', [PageController::class, 'news'])->name('news');

@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Apparats;
+use App\Models\Apparatus;
 use App\Models\Appeal;
 use App\Models\Applyonline;
 use App\Models\Article;
@@ -27,6 +29,7 @@ use App\Models\Photogallery;
 use App\Models\Publication;
 use App\Models\Report;
 use App\Models\rhdecision;
+use App\Models\SingleApparatus;
 use App\Models\Speech;
 use App\Models\Supremecourt;
 use App\Models\Title;
@@ -87,21 +90,45 @@ class PageController extends Controller
         return view('pages.titles', compact('adress'));
     }
 
-    public function apparatus(){
+    public function apparats(){
         $locale = Session::get('locale');
-        switch ($locale){
-            case "en":
-                $titlesTranslation['MəhkəməAparatı'] = "Judicial Office";
-                break;
-            case "ru":
-                $titlesTranslation['MəhkəməAparatı'] = "Судебная канцелярия";
-                break;
-            default :
-                $titlesTranslation['MəhkəməAparatı'] = "Məhkəmə Aparatı";
-        }
-         $apparatus = \App\Models\Apparatus::orderBy('id', 'desc')->get();
-        return view('pages.apparatus', compact('apparatus', 'locale', 'titlesTranslation'));
+//        switch ($locale){
+//            case "en":
+//                $titlesTranslation['MəhkəməAparatı'] = "Judicial Office";
+//                break;
+//            case "ru":
+//                $titlesTranslation['MəhkəməAparatı'] = "Судебная канцелярия";
+//                break;
+//            default :
+//                $titlesTranslation['MəhkəməAparatı'] = "Məhkəmə Aparatı";
+//        }
+         $apparats = \App\Models\Apparats::orderBy('id', 'desc')->get();
+        return view('pages.apparats', compact('apparats', 'locale'));
     }
+
+//    public function singleapparats(Request $request){
+//        $locale = Session::get('locale');
+//
+//        $singleapparats= Apparats::where('id', $request->singleapparats)->get();
+//        return view('pages.singleApparatus', compact('singleapparats', 'locale'));
+//    }
+
+    public function singleapparats(Request $request) {
+        $locale = Session::get('locale');
+//        switch ($locale){
+//            case "en":
+//                $titlesTranslation['Xəbərlər'] = "News";
+//                break;
+//            case "ru":
+//                $titlesTranslation['Xəbərlər'] = "Новости";
+//                break;
+//            default :
+//                $titlesTranslation['Xəbərlər'] = "Xəbərlər";
+//        }
+        $singleapparatss=Apparats::where('id', $request->singlenews)->get();
+        return view('pages.singleApparatus', compact('singleapparatss', 'locale'));
+    }
+
 
     public function supremecourt(){
         $locale = Session::get('locale');

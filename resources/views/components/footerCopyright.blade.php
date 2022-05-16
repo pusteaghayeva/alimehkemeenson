@@ -2,7 +2,6 @@
     <div class="copyright ">
         @foreach($items as $item)
             @php
-
                 $locale = Session::get('locale');
             @endphp
             <p class="copy-text ">
