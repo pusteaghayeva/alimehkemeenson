@@ -685,6 +685,42 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-16 06:27:42',
                 'updated_at' => '2022-05-16 06:27:42',
             ),
+            37 => 
+            array (
+                'id' => 54,
+                'name' => 'single_apparatuses',
+                'slug' => 'single-apparatuses',
+                'display_name_singular' => 'Single Apparatus',
+                'display_name_plural' => 'Single Apparatuses',
+                'icon' => 'voyager-people',
+                'model_name' => 'App\\Models\\SingleApparatus',
+                'policy_name' => NULL,
+                'controller' => NULL,
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":"id","order_display_column":"title","order_direction":"desc","default_search_key":null}',
+                'created_at' => '2022-05-17 16:13:48',
+                'updated_at' => '2022-05-17 16:13:48',
+            ),
+            38 => 
+            array (
+                'id' => 60,
+                'name' => 'apparats',
+                'slug' => 'apparats',
+                'display_name_singular' => 'Apparat',
+                'display_name_plural' => 'Apparats',
+                'icon' => 'voyager-credit-cards',
+                'model_name' => 'App\\Models\\Apparats',
+                'policy_name' => NULL,
+                'controller' => NULL,
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":"id","order_display_column":"title","order_direction":"desc","default_search_key":null}',
+                'created_at' => '2022-05-17 19:13:04',
+                'updated_at' => '2022-05-17 19:13:04',
+            ),
         ));
         
         

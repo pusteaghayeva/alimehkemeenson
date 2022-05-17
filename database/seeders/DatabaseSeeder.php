@@ -70,5 +70,6 @@ class DatabaseSeeder extends Seeder
 
         $this->call(FromArtisanFootersTableSeeder::class);
         $this->call(FromArtisanSlidertodaysTableSeeder::class);
+        $this->call(FromArtisanApparatsTableSeeder::class);
     }
 }

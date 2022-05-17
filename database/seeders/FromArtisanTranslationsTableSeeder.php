@@ -275,9 +275,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
             'column_name' => 'title',
             'foreign_key' => 3,
             'locale' => 'en',
-            'value' => 'The structure of the court',
+            'value' => 'Registry of the Court',
             'created_at' => '2022-05-10 05:47:37',
-            'updated_at' => '2022-05-10 05:47:37',
+            'updated_at' => '2022-05-17 15:47:00',
         ),
         13 => 
         array (
@@ -286,9 +286,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
             'column_name' => 'title',
             'foreign_key' => 3,
             'locale' => 'ru',
-            'value' => 'Структура суда',
+            'value' => 'Аппарат Верховного Суда',
             'created_at' => '2022-05-10 05:47:37',
-            'updated_at' => '2022-05-10 05:47:37',
+            'updated_at' => '2022-05-17 15:47:00',
         ),
         14 => 
         array (

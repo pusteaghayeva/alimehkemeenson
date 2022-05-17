@@ -1579,6 +1579,86 @@ class FromArtisanPermissionsTableSeeder extends Seeder
                 'created_at' => '2022-05-16 06:27:42',
                 'updated_at' => '2022-05-16 06:27:42',
             ),
+            195 => 
+            array (
+                'id' => 231,
+                'key' => 'browse_single_apparatuses',
+                'table_name' => 'single_apparatuses',
+                'created_at' => '2022-05-17 16:13:48',
+                'updated_at' => '2022-05-17 16:13:48',
+            ),
+            196 => 
+            array (
+                'id' => 232,
+                'key' => 'read_single_apparatuses',
+                'table_name' => 'single_apparatuses',
+                'created_at' => '2022-05-17 16:13:48',
+                'updated_at' => '2022-05-17 16:13:48',
+            ),
+            197 => 
+            array (
+                'id' => 233,
+                'key' => 'edit_single_apparatuses',
+                'table_name' => 'single_apparatuses',
+                'created_at' => '2022-05-17 16:13:48',
+                'updated_at' => '2022-05-17 16:13:48',
+            ),
+            198 => 
+            array (
+                'id' => 234,
+                'key' => 'add_single_apparatuses',
+                'table_name' => 'single_apparatuses',
+                'created_at' => '2022-05-17 16:13:48',
+                'updated_at' => '2022-05-17 16:13:48',
+            ),
+            199 => 
+            array (
+                'id' => 235,
+                'key' => 'delete_single_apparatuses',
+                'table_name' => 'single_apparatuses',
+                'created_at' => '2022-05-17 16:13:48',
+                'updated_at' => '2022-05-17 16:13:48',
+            ),
+            200 => 
+            array (
+                'id' => 246,
+                'key' => 'browse_apparats',
+                'table_name' => 'apparats',
+                'created_at' => '2022-05-17 19:13:05',
+                'updated_at' => '2022-05-17 19:13:05',
+            ),
+            201 => 
+            array (
+                'id' => 247,
+                'key' => 'read_apparats',
+                'table_name' => 'apparats',
+                'created_at' => '2022-05-17 19:13:05',
+                'updated_at' => '2022-05-17 19:13:05',
+            ),
+            202 => 
+            array (
+                'id' => 248,
+                'key' => 'edit_apparats',
+                'table_name' => 'apparats',
+                'created_at' => '2022-05-17 19:13:05',
+                'updated_at' => '2022-05-17 19:13:05',
+            ),
+            203 => 
+            array (
+                'id' => 249,
+                'key' => 'add_apparats',
+                'table_name' => 'apparats',
+                'created_at' => '2022-05-17 19:13:05',
+                'updated_at' => '2022-05-17 19:13:05',
+            ),
+            204 => 
+            array (
+                'id' => 250,
+                'key' => 'delete_apparats',
+                'table_name' => 'apparats',
+                'created_at' => '2022-05-17 19:13:05',
+                'updated_at' => '2022-05-17 19:13:05',
+            ),
         ));
         
         

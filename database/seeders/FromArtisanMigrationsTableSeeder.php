@@ -445,6 +445,30 @@ class FromArtisanMigrationsTableSeeder extends Seeder
                 'migration' => '2022_05_16_061654_create_slidertodays_table',
                 'batch' => 23,
             ),
+            71 => 
+            array (
+                'id' => 72,
+                'migration' => '2022_05_17_160201_create_single_apparatuses_table',
+                'batch' => 24,
+            ),
+            72 => 
+            array (
+                'id' => 73,
+                'migration' => '2022_05_17_183720_create_apparats_table',
+                'batch' => 25,
+            ),
+            73 => 
+            array (
+                'id' => 74,
+                'migration' => '2022_05_17_185546_create_apparats_table',
+                'batch' => 26,
+            ),
+            74 => 
+            array (
+                'id' => 75,
+                'migration' => '2022_05_17_190558_create_apparats_table',
+                'batch' => 27,
+            ),
         ));
         
         

@@ -123,7 +123,7 @@ class FromArtisanPagesTableSeeder extends Seeder
             array (
                 'id' => 3,
                 'author_id' => 6,
-                'title' => 'Məhkəmənin strukturu',
+                'title' => 'Məhkəmə aparatı',
                 'short_description' => '',
                 'body' => '<p><img src="http://127.0.0.1:8000/storage/pages/May2022/structure.png" alt="" width="1040" height="1271" /></p>',
                 'image' => NULL,
@@ -134,7 +134,7 @@ class FromArtisanPagesTableSeeder extends Seeder
                 'meta_keywords' => NULL,
                 'status' => 'ACTIVE',
                 'created_at' => '2022-05-05 07:37:00',
-                'updated_at' => '2022-05-10 05:47:37',
+                'updated_at' => '2022-05-17 15:47:00',
             ),
             3 => 
             array (
