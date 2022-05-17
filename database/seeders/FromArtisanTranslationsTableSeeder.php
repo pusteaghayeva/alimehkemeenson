@@ -26,9 +26,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 1,
                 'locale' => 'en',
-                'value' => 'General Information',
+                'value' => 'About the Court ',
                 'created_at' => '2022-05-10 05:27:38',
-                'updated_at' => '2022-05-10 05:36:31',
+                'updated_at' => '2022-05-19 08:33:17',
             ),
             1 => 
             array (
@@ -37,9 +37,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 1,
                 'locale' => 'ru',
-                'value' => 'Главная Информация',
+                'value' => 'О Суде',
                 'created_at' => '2022-05-10 05:27:38',
-                'updated_at' => '2022-05-10 05:27:38',
+                'updated_at' => '2022-05-19 08:33:17',
             ),
             2 => 
             array (
@@ -48,698 +48,649 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'body',
                 'foreign_key' => 1,
                 'locale' => 'en',
-                'value' => '<h3 class="second-title" style="box-sizing: border-box; margin: 20px 0px 10px; font-weight: 500; line-height: 1.4; font-size: 1.66rem; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; color: #333333; padding: 0px; text-align: justify;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">The Supreme Court of the Nakhchivan Autonomous Republic, as the court of appellate instance, hears cases on appeals and appellate protests against judicial acts on cases considered by the courts of first instance within its territorial jurisdiction. The Supreme Court of the Nakhchivan Autonomous Republic consists of a civil board, an administrative board, a commercial board and a criminal board.</span></span></h3>
-<h2 class="about-title-se" style="box-sizing: border-box; margin: 25px 0px; font-weight: 500; line-height: 1.1; font-size: 1.9rem; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; color: #333333; padding: 0px;"><span style="font-size: 14pt;">HISTORY OF THE SUPREME COURT OF NAKHCHIVAN MR</span></h2>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="font-size: 14pt;">The Supreme Court of the Nakhchivan Autonomous Republic has a special place in the judicial system of our country. The Law of the Republic of Azerbaijan on Courts and Judges of June 10, 1997 established the Supreme Court of Nakhchivan AR as a court of appellate instance. However, unlike other appellate courts, the Supreme Court of the Nakhchivan Autonomous Republic, in accordance with Article 52 of the Law on Courts and Judges, also acts as the supreme judicial body in the Nakhchivan Autonomous Republic and exercises its constitutional review powers under the Constitution of the Nakhchivan Autonomous Republic. Articles 16 and 44 of the Constitution of the Nakhchivan Autonomous Republic).</span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">The Supreme Court of the Nakhchivan Autonomous Republic has a long history, which is closely connected with the history of the Nakhchivan Autonomous Republic and Azerbaijan as a whole, and reflects the period in which the country and the autonomous republic lived at different times.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">&nbsp;</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">The process of establishing a judicial system, which began for the first time during the Democratic Republic of Azerbaijan (1918-1920), remained unfinished as a result of the collapse of the national government.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">&nbsp;</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">However, shortly after the establishment of the Soviet government, the reorganization of the judiciary began in Azerbaijan.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;">&nbsp;</p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">At the 2nd session of the Central Executive Committee of the Azerbaijan SSR held on December 9, 1922, the first Regulation "On the Judicial System of the Azerbaijan SSR" was adopted.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="font-size: 14pt;">On December 30, 1922, in connection with the establishment of the USSR, certain changes were made in the system of judicial bodies of the Azerbaijan SSR, as well as in other state structures. After the adoption of the law "On the basis of the judicial system of the allied republics of the USSR" on October 29, 1924, the Central Executive Committee of the Azerbaijan SSR transformed the Supreme Court of the Azerbaijan SSR into the Supreme Court of the Azerbaijan SSR by its law of January 3, 1925. The department operating in the MSSR was also renamed the branch of the Supreme Court in the Nakhchivan MSSR on October 3, 1925.</span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">The branch of the Supreme Court in the Nakhchivan Autonomous Soviet Socialist Republic functioned both as a court of first instance for criminal and civil cases within its jurisdiction, and as a supreme judicial body for the people\'s courts established in its territory until about mid-1934.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">&nbsp;</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">By the decision of the Central Election Commission and the Central Election Commission of the Azerbaijan SSR dated August 23, 1934, a number of changes were made to the Regulations regulating the issues of judicial system in the republic from July 6, 1927. One of these changes was the abolition of the branch of the Supreme Court of the Azerbaijan SSR operating in the Nakhchivan Autonomous Soviet Socialist Republic and the establishment of the Supreme Court of the Nakhchivan Autonomous Soviet Socialist Republic in its place.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">Established on this date, after the adoption of the new Constitution of the Azerbaijan SSR in 1937, the court was renamed the Supreme Court of the Nakhchivan Autonomous Soviet Socialist Republic. retained its functions as a court of higher instance, as well as exercising judicial control over the courts within its jurisdiction.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">&nbsp;</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">The new law "On the Judicial System in the Azerbaijan SSR", adopted on June 26, 1990, shortly before the collapse of the USSR, provided for some changes in this area.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">&nbsp;</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">However, the events that took place in the USSR at that time, including Azerbaijan, and most importantly, the acquisition of state independence of Azerbaijan on October 18, 1991, required a broader and more radical change in the judiciary and the rules of justice.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">&nbsp;</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">However, as in other areas, changes in the judicial system in those years were insufficient.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">However, with the return of national leader Heydar Aliyev to power in 1993, real conditions were created for these reforms, and under the direct leadership of President Heydar Aliyev, judicial reforms were launched that could ensure the formation of the Republic of Azerbaijan as an independent, legal state.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">&nbsp;</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">The basis of these reforms is the Constitution of the independent Republic of Azerbaijan, adopted by popular vote on November 12, 1995 under the leadership of Heydar Aliyev, and the Law of the Republic of Azerbaijan "On Courts and Judges" adopted on June 10, 1997.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">&nbsp;</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">The Law on Courts and Judges of 10 June 1997 established a three-tier judicial system in the Republic of Azerbaijan, and after the adoption of the relevant Codes, including the Civil Procedure and Criminal Procedure Codes of the Republic of Azerbaijan, this system became effective in September 2000. began to operate.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">According to the law, the place of the Supreme Court of Nakhchivan AR within this three-tier system was determined as both the court of first instance and the court of second instance.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">&nbsp;</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">In accordance with this appointment, the first instance panel on serious crimes within the Supreme Court, criminal cases and administrative offenses of district (city) courts operating in the territory of the autonomous republic, as well as civil cases have not entered into force. Appeals boards were set up in criminal and administrative cases, as well as in civil cases, to hear appeals and protests against decisions.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">According to the Decree of the President of the Republic of Azerbaijan dated June 17, 1999, the number of judges of the Supreme Court of Nakhchivan AR was set at 14 and from September 2000 to January 2003 the court was fully staffed with judges.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">&nbsp;</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">The activity of the Supreme Court of Nakhchivan AR, which was organized in this form since September 2000, and in general all judicial bodies of Azerbaijan, is a more progressive form of three-tier judicial system than in the Soviet period and until September 2000 in the Republic of Azerbaijan. proved.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">&nbsp;</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">However, on the one hand, the development processes in the Republic of Azerbaijan and the closer integration of the Republic of Azerbaijan into the European family and influential international organizations, on the other hand, the difficulties arising from the establishment of the Courts of Appeal and Economic Courts in Baku far from the regions.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">The problems with the location of these courts far from the regions were more pronounced in relation to the Nakhchivan Autonomous Republic.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">&nbsp;</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">Because, protests and appeals against the decisions of the Board of the Supreme Court of Nakhchivan AR, the Military Court of the Nakhchivan Autonomous Republic and the Economic Court of Nakhchivan AR, acting as courts of first instance, were considered by the Court of Appeal and the Economic Court of the Azerbaijan Republic. The blockade imposed by Armenia against the Nakhchivan Autonomous Republic created very serious obstacles for our citizens living in the autonomous republic to travel to Baku in connection with the cases considered in those courts.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">The Law of the Republic of Azerbaijan of December 30, 2005 on Amendments and Addenda to the Law on Courts and Judges and the Law of the Republic of Azerbaijan on Amendments and Addenda to Certain Legislative Acts of the Republic of Azerbaijan of June 16, 2007 As a result of the Decree of 19 January 2006 on the modernization of the judiciary, judicial reform rose to the next stage, during which the Supreme Court of the Nakhchivan Autonomous Republic underwent very serious and progressive changes.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">&nbsp;</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">With the entry into force of the Law of 16 June 2007 amending the Rules of Procedure on 16 July 2009, a separate Court for Grave Crimes was established in the Nakhchivan Autonomous Republic. board was abolished. At the same time, in addition to the existing Civil Chamber and the Criminal and Administrative Offenses Board, two other structures have been established in the Supreme Court - the Economic Disputes Chamber and the Military Courts Board.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">Following the establishment of new boards in July 2009, appeals and protests against decisions of the Military Court of the Nakhchivan Autonomous Republic (including cases related to serious crimes), as well as appeals against decisions of the Economic Court of the Nakhchivan Autonomous Republic, It is considered by the board on economic disputes. Complaints and protests against decisions of the Court of the Nakhchivan Autonomous Republic on Serious Crimes shall be considered by the Board on Criminal Cases and Administrative Offenses of the Supreme Court of the Nakhchivan Autonomous Republic.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">&nbsp;</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">These innovations preclude the Supreme Court from considering cases in the first instance and allow the Supreme Court to act solely as a court of appellate instance.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">At the same time, the innovations brought to the legislation did not affect the functions of the Supreme Court of the Nakhchivan Autonomous Republic related to the implementation of constitutional control in the autonomous republic, established by the Constitution of the Nakhchivan Autonomous Republic.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">&nbsp;</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">As a continuation of judicial legal reforms, in accordance with the Law of the Republic of Azerbaijan on Amendments and Addenda to the Laws of the Republic of Azerbaijan on Courts and Judges and the Judicial-Legal Council dated June 22, 2010, the boards of the Supreme Court of the Nakhchivan Autonomous Republic were renamed civil, administrative and economic. called the criminal board and the military board. According to the Law of the Republic of Azerbaijan &ldquo;On Amendments to the Law of the Republic of Azerbaijan&ldquo; On Courts and Judges &rdquo;dated July 9, 2019, the Supreme Court of the Nakhchivan Autonomous Republic consists of a civil board, a commercial board, an administrative board and a criminal board.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">The Presidium of the Supreme Court of the Autonomous Republic operates in accordance with Article 54 of the Law on Courts and Judges.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">&nbsp;</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">The Presidium consists of the Chairman of the Supreme Court, his Deputy and the Chairmen of the Board.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">&nbsp;</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">According to the law, the Presidium does not perform the function of justice and resolves other issues related to the functioning of the court within its jurisdiction, including the distribution of judges by boards, review of materials on generalization of judicial practice and analysis of court statistics, correct application of legislation Provides methodological assistance to district (city) courts of the Autonomous Republic, approves the regulations and composition of the Scientific Advisory Council under the Supreme Court of the Nakhchivan Autonomous Republic and resolves a number of other issues.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">&nbsp;</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">The Statute and composition of the Scientific Advisory Council were approved by the decision of the Presidium of the Supreme Court and the Council has been operating since 2004.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">Like other courts of the Nakhchivan Autonomous Republic, the Decree of the President of the Republic of Azerbaijan dated November 2, 2006 on the development of legal institutions in the Nakhchivan Autonomous Republic played an important role in organizing the activities of the Supreme Court at the level of modern requirements.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">&nbsp;</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">Implementation of this Decree was ensured in a short period of time in the Autonomous Republic and on November 29, 2007 a new administrative building of the Supreme Court was put into operation with the participation of the Chairman of the Supreme Assembly of the Nakhchivan Autonomous Republic.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">&nbsp;</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="color: #333333; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 18.6667px;">In this prominent building located in the center of Nakhchivan, the necessary conditions for the quality and efficiency of judges and court staff are provided at a high level.</span></span></p>
-<p class="about-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="font-size: 14pt;">On the one hand, innovations in the legislation, on the other hand, the attention paid to the issues of financial support of courts, including bringing the working conditions of judges and court staff to modern standards. serves to protect.</span></p>',
-            'created_at' => '2022-05-10 05:27:38',
-            'updated_at' => '2022-05-10 05:36:31',
-        ),
-        3 => 
-        array (
-            'id' => 4,
-            'table_name' => 'pages',
-            'column_name' => 'slug',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => 'about',
-            'created_at' => '2022-05-10 05:27:38',
-            'updated_at' => '2022-05-10 05:27:38',
-        ),
-        4 => 
-        array (
-            'id' => 5,
-            'table_name' => 'pages',
-            'column_name' => 'slug',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => 'glavnaya-informaciya',
-            'created_at' => '2022-05-10 05:27:38',
-            'updated_at' => '2022-05-10 05:27:38',
-        ),
-        5 => 
-        array (
-            'id' => 6,
-            'table_name' => 'pages',
-            'column_name' => 'body',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => '<p>&Uuml;mumi məlumat rus</p>',
-            'created_at' => '2022-05-10 05:29:07',
-            'updated_at' => '2022-05-10 05:36:31',
-        ),
-        6 => 
-        array (
-            'id' => 7,
-            'table_name' => 'pages',
-            'column_name' => 'title',
-            'foreign_key' => 2,
-            'locale' => 'en',
-            'value' => 'Chairman of the court',
-            'created_at' => '2022-05-10 05:45:36',
-            'updated_at' => '2022-05-10 05:45:36',
-        ),
-        7 => 
-        array (
-            'id' => 8,
-            'table_name' => 'pages',
-            'column_name' => 'title',
-            'foreign_key' => 2,
-            'locale' => 'ru',
-            'value' => 'Председатель суда',
-            'created_at' => '2022-05-10 05:45:36',
-            'updated_at' => '2022-05-10 05:45:36',
-        ),
-        8 => 
-        array (
-            'id' => 9,
-            'table_name' => 'pages',
-            'column_name' => 'body',
-            'foreign_key' => 2,
-            'locale' => 'en',
-            'value' => '<h2 style="box-sizing: border-box; font-family: Arial, sans-serif; font-weight: normal; line-height: 15.808px; color: #000000; margin: 0px 0px 8px; font-size: 20.4px; padding: 20px 0px 8px; text-rendering: optimizelegibility;"><strong style="box-sizing: border-box; line-height: 15.808px;"><img style="box-sizing: border-box; border: 0px; vertical-align: middle; max-width: 100%; height: auto; margin: 5px; float: left;" src="http://www.supremecourt.nakhchivan.az/images/news/Sedr%202018.png" alt="Sedr 2018" /></strong></h2>
+                'value' => '<p class="MsoNormal" style="margin-bottom: 7.5pt; text-align: justify; line-height: normal; background: white;"><strong><span style="font-size: 14pt;"><em><span style="font-family: Arial, sans-serif; color: black;">Supreme Court of the Nakhchivan Autonomous Republic hears, as a court of appeal, appeals and appeal protests made under court acts on the cases heard by the courts of first instance assigned to its territorial jurisdiction. Supreme Court of the Nakhchivan Autonomous Republic is comprised of a civil board, administrative-economical board, criminal board and military board.</span></em></span></strong></p>
+<p class="MsoNormal" style="margin-bottom: 7.5pt; text-align: left; line-height: normal; background: white;"><span style="font-size: 12pt;"><strong><em><span style="font-family: Arial, sans-serif; color: black;">HİSTORY</span></em></strong></span></p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 15.808px;"><span style="box-sizing: border-box; font-family: arial, helvetica, sans-serif; font-size: 12pt;"><img style="box-sizing: border-box; border: 0px; vertical-align: middle; max-width: 100%; height: auto; line-height: 1.3em; float: right; margin: 10px;" src="http://127.0.0.1:8000/storage/pages/May2022/mel1.gif" alt="" width="302" height="227" border="0" /></span></p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; outline: none !important;"><span style="font-family: \'Times New Roman\', serif; font-size: 14pt; text-indent: 37.7953px;">A Head Court was established in Nakhchivan Autonomous SSR with the decision of the Presidium of the Central Executive Committee of Azerbaijan SSR on 3 October 1925. The court which was called differently at different periods was called the Supreme Court of Nakhchivan Autonomous SSR since 1937 and subsequently did not go through any serious re-structuring, and retained the functions to hear cases assigned to it as a court of first and second instance, also carrying out court supervision over the courts in its competence. With the adoption of the new Constitution of USSR in 1977, it became necessary to revise the legislation which determined the activity of the judiciary of Azerbaijan SSR, and as a result a new Law &ldquo;on the Judicial structure of Azerbaijan SSR&rdquo; was adopted on 16 June 1981. That Law also expanded further the powers of the Supreme Court of Nakhchivan Autonomous SSR.</span></p>
+<p class="MsoNormal" style="margin-bottom: 0cm; margin-top: 0cm; mso-margin-bottom-alt: 10.0pt; mso-margin-top-alt: 0cm; mso-add-space: auto; text-align: justify; text-indent: 1.0cm; line-height: normal; background: white;"><span style="color: black; font-family: \'Times New Roman\', serif; font-size: 14pt; text-indent: 1cm;">In order to ensure that justice is done in accordance with best international practices in the Republic of Azerbaijan and to strengthen further the independent judicial power, a Law of the Republic of Azerbaijan &ldquo;on Courts and Judges&rdquo; was adopted on 10 June 1997. Chpater 10 of the law contains stipulations solely about the regulation of the status of the Supreme Court of Nakhchivan Autonomous Republic. The law determines the composition of the Supreme Court, Presidium and powers of the collegiums of the Supreme Court. The law regulates the composition of the Supreme Court, Presidium, the powers and other related issues as regards the collegiums of the Supreme Court.</span></p>
+<p class="MsoNormal" style="margin-bottom: 7.5pt; text-align: justify; text-indent: 1.0cm; line-height: normal; background: white;"><span style="font-size: 14pt;"><span style="font-family: \'Times New Roman\', serif; color: black;"><img style="box-sizing: border-box; border: 0px; vertical-align: middle; max-width: 100%; height: auto; font-family: arial, helvetica, sans-serif; font-size: 16px; text-indent: 0px; float: left; margin: 10px;" src="http://127.0.0.1:8000/storage/pages/May2022/AliMehkeme2.gif" alt="" width="302" border="0" /><span style="font-size: 14pt; text-indent: 1cm;">The Law of the Republic of Azerbaijan dated 22 June 2010 on making amendments to the laws of the Republic of Azerbaijan "on Courts and judges" and "on Judicial Legal Council" replaced the names of the collegiums on civil cases, and cases related to economic disputes, criminal cases and cases of administrative offenses, as well as cases related to military courts which function under the Supreme Court of Nakhchivan Autonomous Republic, respectively with the phrases civil, administrative, criminal and commercial collegium.</span></span></span></p>
+<p class="MsoNormal" style="margin-bottom: 7.5pt; text-align: justify; text-indent: 1.0cm; line-height: normal; background: white;"><span style="font-size: 14pt; font-family: \'Times New Roman\', serif; color: black;">The Supreme Court of Nakhchivan Autonomous Republic has been publishing its Bulletin since 2006. The Bulletin provides information to the public about the events held by the Supreme Court and decisions made by it, statistical data about the activities of the court, judges, as well as information for those who practice law on new normative legal acts, in particular those of Nakhchivan Autonomous Republic, including news of legal practices and resident practice of the European Commission of Human Rights.</span></p>
+<p>&nbsp;</p>',
+                'created_at' => '2022-05-10 05:27:38',
+                'updated_at' => '2022-05-19 08:33:17',
+            ),
+            3 => 
+            array (
+                'id' => 4,
+                'table_name' => 'pages',
+                'column_name' => 'slug',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => 'about',
+                'created_at' => '2022-05-10 05:27:38',
+                'updated_at' => '2022-05-10 05:27:38',
+            ),
+            4 => 
+            array (
+                'id' => 5,
+                'table_name' => 'pages',
+                'column_name' => 'slug',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => 'glavnaya-informaciya',
+                'created_at' => '2022-05-10 05:27:38',
+                'updated_at' => '2022-05-10 05:27:38',
+            ),
+            5 => 
+            array (
+                'id' => 6,
+                'table_name' => 'pages',
+                'column_name' => 'body',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => '<p class="MsoNormal" style="margin-bottom: 7.5pt; margin-top: 0cm; mso-margin-bottom-alt: 10.0pt; mso-margin-top-alt: 0cm; mso-add-space: auto; text-align: justify; text-indent: 1.0cm; line-height: 11.85pt; background: white;"><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif; color: black;">3 октября 1925-го года решением Правления Центрального Исполнительного Комитета Азербайджанской ССР был создан Главный суд Нахчыванской АСРР. После этого, на различных этапах именуясь по-разному, а с 1937-го года именуемый Верховный Суд Нахчыванской АРР, этот суд в последующие периоды не претерпел структурных изменений и сохранил функции рассмотрения отнесенных к нему дел в качестве суда первой и верхней инстанции, а также осуществление надзора над судами, находящимися в сфере его деятельности.</span></p>
+<p class="MsoNormal" style="margin-bottom: 0cm; margin-top: 0cm; mso-margin-bottom-alt: 10.0pt; mso-margin-top-alt: 0cm; mso-add-space: auto; text-align: justify; text-indent: 1.0cm; line-height: 11.85pt; background: white;"><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif; color: black;">В связи с принятием в 1977-м году новой Конституции, возникла также необходимость изменить определяющее систему судебных органов Азербайджанской ССР законодательство, в результате, 16 июня 1981-го года был принят новый Закон &laquo;О судебной структуре Азербайджанской ССР&raquo;. Данный закон еще больше расширил полномочия Верховного Суда Нахчыванской АССР.</span></p>
+<p class="MsoNormal" style="margin-bottom: 0cm; margin-top: 0cm; mso-margin-bottom-alt: 10.0pt; mso-margin-top-alt: 0cm; mso-add-space: auto; text-align: justify; text-indent: 1.0cm; line-height: 11.85pt; background: white;"><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif; color: black;">С целью обеспечения в Азербайджанской Республике справедливого суда на основе передового опыта, тоесть еще большего укрепления независимой судебной власти, 10 июня 1997-го года был принят Закон Азербайджанской Республики &laquo;О Судах и Судьях&raquo;, X глава этого закона в целом посвящена регулированию статуса Верховного Суда Нахчыванской Автономной Республики. В Законе разъяснены состав Верховного Суда, Правление, полномочия коллегий Верховного суда. В Законе регулируются состав Верховного Суда, Правление, полномочия коллегий Верховного суда и иные связанные вопросы.</span></p>
+<p class="MsoNormal" style="margin-bottom: 0cm; margin-top: 0cm; mso-margin-bottom-alt: 10.0pt; mso-margin-top-alt: 0cm; mso-add-space: auto; text-align: justify; text-indent: 1.0cm; line-height: 11.85pt; background: white;"><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif; color: black;">Законом Азербайджанской Республики от 22 июня 2010-го года относительно внесения изменений и дополнений в законы Азербайджанской Республики &laquo;О Судах и Судьях&raquo; &laquo;О Судебно-Юридическом Совете&raquo; заменены названия функционирующих в составе Верховного Совета Нахчыванской Автономной Республики коллегии по гражданским делам, по делам относительно экономических споров, по уголовным делам и по делам по административным нарушениям и по делам военных судов, соответственно выражениям были заменены на гражданскую, административную, уголовную и коммерческую коллегии.</span></p>
+<p class="MsoNormal" style="margin-bottom: 0cm; margin-top: 0cm; mso-margin-bottom-alt: 10.0pt; mso-margin-top-alt: 0cm; mso-add-space: auto; text-align: justify; text-indent: 1.0cm; line-height: 11.85pt; background: white;"><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif;"><span style="color: black;">С 2006-го года Верховный Суд Нахчыванской Автономной Республики издает свой бюллетень. Посредством бюллетеня до сведения общества доводятся проводимые Верховным Советом мероприятия, статистические сведения о судебной деятельности, судьи, а также иные работающие в правовой сфере лица знакомятся с новыми нормативно-правовыми актами, в особенности нормативно-правовыми актами Нахчыванской Автономной Республики, а также новости юридической практики, в том числе резидентной практикой Европейского Суда по Правам Человека.</span></span></p>',
+                'created_at' => '2022-05-10 05:29:07',
+                'updated_at' => '2022-05-19 08:33:17',
+            ),
+            6 => 
+            array (
+                'id' => 7,
+                'table_name' => 'pages',
+                'column_name' => 'title',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => 'Chairman of the court',
+                'created_at' => '2022-05-10 05:45:36',
+                'updated_at' => '2022-05-10 05:45:36',
+            ),
+            7 => 
+            array (
+                'id' => 8,
+                'table_name' => 'pages',
+                'column_name' => 'title',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => 'Председатель суда',
+                'created_at' => '2022-05-10 05:45:36',
+                'updated_at' => '2022-05-10 05:45:36',
+            ),
+            8 => 
+            array (
+                'id' => 9,
+                'table_name' => 'pages',
+                'column_name' => 'body',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => '<h2 style="box-sizing: border-box; font-family: Arial, sans-serif; font-weight: normal; line-height: 15.808px; color: #000000; margin: 0px 0px 8px; font-size: 20.4px; padding: 20px 0px 8px; text-rendering: optimizelegibility;"><strong style="box-sizing: border-box; line-height: 15.808px;"><img style="box-sizing: border-box; border: 0px; vertical-align: middle; max-width: 100%; height: auto; margin: 5px; float: left;" src="http://www.supremecourt.nakhchivan.az/images/news/Sedr%202018.png" alt="Sedr 2018" /></strong></h2>
+<p class="MsoNormal" style="margin-bottom: 7.5pt; line-height: 11.85pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">&nbsp;</p>
+<p class="MsoNormal" style="margin-bottom: 7.5pt; line-height: 11.85pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-size: 14pt;"><span style="font-family: Arial, sans-serif; color: black;">&nbsp;<strong>&nbsp;&nbsp;</strong></span><strong><em><span style="font-family: \'Times New Roman\', serif; color: black;">Gasim Aliyev</span></em></strong></span></p>
+<p class="MsoNormal" style="margin-bottom: 7.5pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-size: 14pt;"><strong><em><span style="font-family: \'Times New Roman\', serif; color: black;">&nbsp; President, Supreme Court of Nakhchivan AR</span></em></strong></span></p>
+<p class="MsoNormal" style="margin-bottom: 7.5pt; line-height: 11.85pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-size: 14pt; font-family: Arial, sans-serif; color: black;">&nbsp;</span></p>
+<p class="MsoNormal" style="margin-bottom: 7.5pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-size: 14pt;"><strong><em><span style="font-family: \'Times New Roman\', serif; color: black;">Year of birth:</span></em></strong><em><span style="font-family: \'Times New Roman\', serif; color: black;">&nbsp;1971</span></em></span></p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;">&nbsp;</p>
+<p class="MsoNormal" style="margin-bottom: 7.5pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-size: 14pt;"><em><span style="font-family: \'Times New Roman\', serif; color: black;">&nbsp;<strong>Education:</strong>&nbsp;</span></em><em><span style="font-family: \'Times New Roman\', serif;">1999&nbsp; Gafgaz University, Law Faculty</span></em></span></p>
+<p class="MsoNormal" style="margin-bottom: 7.5pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">&nbsp;</p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;">&nbsp;</p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;">&nbsp;</p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;">&nbsp;</p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;">&nbsp;</p>
+<p class="MsoNormal" style="margin-bottom: 7.5pt; background: white; text-align: center;"><span style="font-size: 14pt;"><strong><em><span style="font-family: \'Times New Roman\', serif; color: black;">Work Experience</span></em></strong></span></p>
+<p class="MsoNormal" style="margin-bottom: 7.5pt; background: white; text-align: left;"><span style="font-size: 14pt; line-height: 115%; font-family: \'Times New Roman\', serif; color: black;">1995 &ndash; 1996&nbsp; &nbsp; &nbsp; &nbsp;Secretary, Sharur District Prosecutor&rsquo;s Office</span></p>
+<p class="MsoNormal" style="margin-bottom: 7.5pt; background: white; text-align: left;"><span style="font-size: 14pt; line-height: 115%; font-family: \'Times New Roman\', serif; color: black;">1996 &ndash; 2003&nbsp; &nbsp; &nbsp; &nbsp;Chief clerk, Sharur District Prosecutor&rsquo;s Office</span></p>
+<p class="MsoNormal" style="margin-bottom: 7.5pt; background: white; text-align: left;"><span style="font-size: 14pt; line-height: 115%; font-family: \'Times New Roman\', serif; color: black;">2003 &ndash; 2007&nbsp; &nbsp; &nbsp; &nbsp;Judge, Nakhchivan Autonomous Republic&rsquo;s Sadarak District Court</span></p>
+<p class="MsoNormal" style="margin-bottom: 7.5pt; background: white; text-align: left;"><span style="font-size: 14pt; line-height: 115%; font-family: \'Times New Roman\', serif; color: black;">2007 &ndash; 2008&nbsp; &nbsp; &nbsp; &nbsp;President, Nakhchivan Autonomous Republic&rsquo;s Military Court</span></p>
+<p class="MsoNormal" style="margin-bottom: 7.5pt; background: white; text-align: left;"><span style="font-size: 14pt; line-height: 115%; font-family: \'Times New Roman\', serif; color: black;">2008 &ndash; 2018&nbsp; &nbsp; &nbsp; &nbsp;President, Nakhchivan Autonomous Republic&rsquo;s Military Court</span></p>
+<p class="MsoNormal" style="margin-bottom: 7.5pt; background: white; text-align: left;"><span style="font-size: 14pt; line-height: 115%; font-family: \'Times New Roman\', serif; color: black;">2018&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Judge, Supreme Court of Nakhchivan AR</span></p>
+<p class="MsoNormal" style="margin-bottom: 7.5pt; line-height: 150%; background: white; text-align: left;"><span style="font-size: 14pt;"><span style="line-height: 150%; font-family: \'Times New Roman\', serif; color: black;">2018 &ndash;&nbsp;</span><span style="line-height: 150%; font-family: \'Times New Roman\', serif; color: black;">Ongoing</span><span style="line-height: 150%; font-family: \'Times New Roman\', serif; color: black;">&nbsp; &nbsp; President, Supreme Court of Nakhchivan AR<br />2018 &ndash;&nbsp;</span><span style="line-height: 150%; font-family: \'Times New Roman\', serif; color: black;">Ongoing</span><span style="line-height: 150%; font-family: \'Times New Roman\', serif; color: black;">&nbsp; &nbsp; Member of Judical-Legal Council&nbsp;&nbsp;</span></span></p>',
+                'created_at' => '2022-05-10 05:45:36',
+                'updated_at' => '2022-05-19 08:37:54',
+            ),
+            9 => 
+            array (
+                'id' => 10,
+                'table_name' => 'pages',
+                'column_name' => 'body',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => '<h2 style="box-sizing: border-box; font-family: Arial, sans-serif; font-weight: normal; line-height: 15.808px; color: #000000; margin: 0px 0px 8px; font-size: 20.4px; padding: 20px 0px 8px; text-rendering: optimizelegibility;"><strong style="box-sizing: border-box; line-height: 15.808px;"><img style="box-sizing: border-box; border: 0px; vertical-align: middle; max-width: 100%; height: auto; margin: 5px; float: left;" src="http://www.supremecourt.nakhchivan.az/images/news/Sedr%202018.png" alt="Sedr 2018" /></strong></h2>
 <p style="box-sizing: border-box; margin: 0px 0px 6pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;"><strong><span style="box-sizing: border-box; font-size: 14pt;">Əliyev Qasım Vəli oğlu</span></strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 6pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;"><span style="box-sizing: border-box;"><span style="box-sizing: border-box; font-size: 10pt; line-height: 15.3333px;"><span style="color: #000000; font-family: Arial, sans-serif;"><span style="font-size: 18.6667px;"><strong>Chairman of the Supreme Court of the Nakhchivan Autonomous Republic</strong></span></span><br style="box-sizing: border-box;" /></span></span></p>
+<p class="MsoNormal" style="margin-bottom: 7.5pt; line-height: 11.85pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-size: 14pt;"><strong><span style="font-family: Arial, sans-serif; color: black;">&nbsp;</span></strong><strong><em><span style="font-family: \'Times New Roman\', serif; color: black;">Алиев Гасым</span></em></strong></span></p>
+<p class="MsoNormal" style="margin-bottom: 7.5pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-size: 14pt;"><strong><em><span style="font-family: \'Times New Roman\', serif; color: black;">&nbsp;Председатель Верховного Суда Нахчыванской Автономной Республики</span></em></strong></span></p>
+<p class="MsoNormal" style="margin-bottom: 7.5pt; line-height: 11.85pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-size: 14pt; font-family: Arial, sans-serif; color: black;">&nbsp;</span></p>
+<p class="MsoNormal" style="margin-bottom: 7.5pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-size: 14pt;"><strong><em><span style="font-family: \'Times New Roman\', serif; color: black;">Год рождения:</span></em></strong><em><span style="font-family: \'Times New Roman\', serif; color: black;">&nbsp;1971</span></em></span></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;"><span style="font-size: 14pt;"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box;">&nbsp;Year of birth:</span></strong><span style="box-sizing: border-box;">&nbsp;&nbsp;1971</span></span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;"><span style="font-size: 14pt;"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box;">&nbsp;Education: </span></strong><span style="box-sizing: border-box;">1999, Caucasus University. Law faculty</span></span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial; text-align: center;"><span style="font-size: 18pt;"><strong style="box-sizing: border-box;">Work experience:</strong></span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;"><span style="box-sizing: border-box; font-size: 10pt; line-height: 15.3333px;"><span style="box-sizing: border-box; color: #444444; font-family: \'Helvetica Neue\', \'Lucida Grande\', Helvetica, Arial, Verdana, sans-serif; font-size: 14px;">&nbsp;</span></span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 0.0001pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 20.4px;"><span style="box-sizing: border-box; font-size: 10pt; line-height: 20px;">&nbsp;<span style="font-size: 14pt;">1995 &ndash; 1996&nbsp; &nbsp; Secretary of the Sharur District Prosecutor\'s Office</span></span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 0.0001pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 20.4px;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;">&nbsp;1996 &ndash; 2003&nbsp; &nbsp; &nbsp;Head of the office at the Sharur District Prosecutor\'s Office</span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 0.0001pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 20.4px;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;">&nbsp;2003 &ndash; 2007&nbsp; &nbsp;Judge of Sadarak District Court of Nakhchivan Autonomous Republic</span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 0.0001pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 20.4px;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;">&nbsp;2007 &ndash; 2008&nbsp; &nbsp; &nbsp;Chairman of the Military Court of the Nakhchivan Autonomous Republic</span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 0.0001pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 20.4px;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;">&nbsp;2008 - 2018 &nbsp;&nbsp;&nbsp;&nbsp; Chairman of the Military Court of the Nakhchivan Autonomous Republic</span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 0.0001pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 20.4px;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;">&nbsp;2018 h/h &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chairman of the Supreme Court of the Nakhchivan Autonomous Republic</span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 0.0001pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 20.4px;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;">&nbsp;2018 h/h &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Member of the Judicial-Legal Council</span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 0.0001pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 20.4px;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;">&nbsp;2018 - h/h&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span style="color: #000000; font-family: Arial, sans-serif;"><span style="font-size: 18.6667px;">Member of the Board of the Public Union (Association) of General Judges of the Republic of Azerbaijan</span></span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 0.0001pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 20.4px;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;">&nbsp;2018 -h/h&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span style="color: #000000; font-family: Arial, sans-serif;"><span style="font-size: 18.6667px;">Member of the Board of the Union of Judges\' Associations of the Republic of Azerbaijan</span></span></p>',
-            'created_at' => '2022-05-10 05:45:36',
-            'updated_at' => '2022-05-10 05:45:36',
-        ),
-        9 => 
-        array (
-            'id' => 10,
-            'table_name' => 'pages',
-            'column_name' => 'body',
-            'foreign_key' => 2,
-            'locale' => 'ru',
-            'value' => '<h2 style="box-sizing: border-box; font-family: Arial, sans-serif; font-weight: normal; line-height: 15.808px; color: #000000; margin: 0px 0px 8px; font-size: 20.4px; padding: 20px 0px 8px; text-rendering: optimizelegibility;"><strong style="box-sizing: border-box; line-height: 15.808px;"><img style="box-sizing: border-box; border: 0px; vertical-align: middle; max-width: 100%; height: auto; margin: 5px; float: left;" src="http://www.supremecourt.nakhchivan.az/images/news/Sedr%202018.png" alt="Sedr 2018" /></strong></h2>
-<p style="box-sizing: border-box; margin: 0px 0px 6pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;"><strong><span style="box-sizing: border-box; font-size: 14pt;">Əliyev Qasım Vəli oğlu</span></strong></p>
-<p style="box-sizing: border-box; margin: 0px 0px 6pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;"><span style="box-sizing: border-box;"><span style="box-sizing: border-box; font-size: 10pt; line-height: 15.3333px;"><span style="color: #000000; font-family: Arial, sans-serif;"><span style="font-size: 18.6667px;"><strong>Председатель Верховного суда Нахчыванской Автономной Республики</strong></span></span><br style="box-sizing: border-box;" /><br style="box-sizing: border-box;" /></span></span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;"><span style="font-size: 14pt;"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box;">Год рождения:</span></strong><span style="box-sizing: border-box;">&nbsp;&nbsp;1971</span></span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;"><span style="font-size: 14pt;"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box;">&nbsp;Образование: </span></strong><span style="box-sizing: border-box;">1999, Кавказский университет. Юридический факультет</span></span></p>
+<p class="MsoNormal" style="margin-bottom: 7.5pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-size: 14pt;"><em><span style="font-family: \'Times New Roman\', serif; color: black;">&nbsp;<strong>Образование:</strong>&nbsp;</span></em><em><span style="font-family: \'Times New Roman\', serif;">1999&nbsp; Университет Гафгаз, юридический факультет</span></em></span></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial; text-align: center;"><span style="font-size: 18pt;"><strong style="box-sizing: border-box;">Опыт работы:</strong></span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;"><span style="box-sizing: border-box; font-size: 10pt; line-height: 15.3333px;"><span style="box-sizing: border-box; color: #444444; font-family: \'Helvetica Neue\', \'Lucida Grande\', Helvetica, Arial, Verdana, sans-serif; font-size: 14px;">&nbsp;</span></span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 0.0001pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 20.4px;"><span style="box-sizing: border-box; font-size: 10pt; line-height: 20px;">&nbsp;<span style="font-size: 14pt;">1995 &ndash; 1996&nbsp; &nbsp; &nbsp;Секретарь Шарурской районной прокуратуры</span></span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 0.0001pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 20.4px;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;">&nbsp;1996 &ndash; 2003&nbsp; &nbsp; Начальник отдела Шарурской районной прокуратуры</span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 0.0001pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 20.4px;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;">&nbsp;2003 &ndash; 2007&nbsp; &nbsp; &nbsp;Судья Садаракского районного суда Нахчыванской Автономной Республики</span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 0.0001pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 20.4px;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;">&nbsp;2007 &ndash; 2008&nbsp; &nbsp;Председатель Военного суда Нахчыванской Автономной Республики</span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 0.0001pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 20.4px;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;">&nbsp;2008 - 2018 &nbsp;&nbsp;&nbsp;&nbsp;Председатель Военного суда Нахчыванской Автономной Республики</span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 0.0001pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 20.4px;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;">&nbsp;2018 h/h &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Председатель Верховного суда Нахчыванской Автономной Республики</span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 0.0001pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 20.4px;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;">2018 ч/ч&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Член Судебно-правового совета</span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 0.0001pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 20.4px;"><span style="color: #000000; font-family: Arial, sans-serif;"><span style="font-size: 18.6667px;">2018 г. - ч/ч Член Правления Общественного Союза (Ассоциации) генеральных судей Азербайджанской Республики</span></span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 7.5pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 11.85pt; background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial;">&nbsp;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 0.0001pt; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; line-height: 20.4px;"><span style="color: #000000; font-family: Arial, sans-serif;"><span style="font-size: 18.6667px;">2018 -ч/ч Член Правления Союза Ассоциаций Судей Азербайджанской Республики</span></span></p>',
-            'created_at' => '2022-05-10 05:45:36',
-            'updated_at' => '2022-05-10 05:45:36',
-        ),
-        10 => 
-        array (
-            'id' => 11,
-            'table_name' => 'pages',
-            'column_name' => 'slug',
-            'foreign_key' => 2,
-            'locale' => 'en',
-            'value' => 'college',
-            'created_at' => '2022-05-10 05:45:36',
-            'updated_at' => '2022-05-10 05:45:36',
-        ),
-        11 => 
-        array (
-            'id' => 12,
-            'table_name' => 'pages',
-            'column_name' => 'slug',
-            'foreign_key' => 2,
-            'locale' => 'ru',
-            'value' => 'predsedatel-suda',
-            'created_at' => '2022-05-10 05:45:36',
-            'updated_at' => '2022-05-10 05:45:36',
-        ),
-        12 => 
-        array (
-            'id' => 13,
-            'table_name' => 'pages',
-            'column_name' => 'title',
-            'foreign_key' => 3,
-            'locale' => 'en',
-            'value' => 'Registry of the Court',
-            'created_at' => '2022-05-10 05:47:37',
-            'updated_at' => '2022-05-17 15:47:00',
-        ),
-        13 => 
-        array (
-            'id' => 14,
-            'table_name' => 'pages',
-            'column_name' => 'title',
-            'foreign_key' => 3,
-            'locale' => 'ru',
-            'value' => 'Аппарат Верховного Суда',
-            'created_at' => '2022-05-10 05:47:37',
-            'updated_at' => '2022-05-17 15:47:00',
-        ),
-        14 => 
-        array (
-            'id' => 15,
-            'table_name' => 'pages',
-            'column_name' => 'body',
-            'foreign_key' => 3,
-            'locale' => 'en',
-            'value' => '<p><img src="http://127.0.0.1:8000/storage/pages/May2022/structure.png" alt="" width="1040" height="1271" /></p>',
-            'created_at' => '2022-05-10 05:47:37',
-            'updated_at' => '2022-05-10 19:40:25',
-        ),
-        15 => 
-        array (
-            'id' => 16,
-            'table_name' => 'pages',
-            'column_name' => 'body',
-            'foreign_key' => 3,
-            'locale' => 'ru',
-            'value' => '<p><img src="http://127.0.0.1:8000/storage/pages/May2022/structure.png" alt="" width="1040" height="1271" /></p>',
-            'created_at' => '2022-05-10 05:47:37',
-            'updated_at' => '2022-05-10 05:47:37',
-        ),
-        16 => 
-        array (
-            'id' => 17,
-            'table_name' => 'pages',
-            'column_name' => 'slug',
-            'foreign_key' => 3,
-            'locale' => 'en',
-            'value' => 'the-structure-of-the-court',
-            'created_at' => '2022-05-10 05:47:37',
-            'updated_at' => '2022-05-10 05:47:37',
-        ),
-        17 => 
-        array (
-            'id' => 18,
-            'table_name' => 'pages',
-            'column_name' => 'slug',
-            'foreign_key' => 3,
-            'locale' => 'ru',
-            'value' => 'struktura-suda',
-            'created_at' => '2022-05-10 05:47:37',
-            'updated_at' => '2022-05-10 05:47:37',
-        ),
-        18 => 
-        array (
-            'id' => 19,
-            'table_name' => 'pages',
-            'column_name' => 'title',
-            'foreign_key' => 6,
-            'locale' => 'en',
-            'value' => 'Contact',
-            'created_at' => '2022-05-10 05:56:55',
-            'updated_at' => '2022-05-10 06:01:05',
-        ),
-        19 => 
-        array (
-            'id' => 20,
-            'table_name' => 'pages',
-            'column_name' => 'title',
-            'foreign_key' => 6,
-            'locale' => 'ru',
-            'value' => 'Контакт',
-            'created_at' => '2022-05-10 05:56:55',
-            'updated_at' => '2022-05-10 05:56:55',
-        ),
-        20 => 
-        array (
-            'id' => 21,
-            'table_name' => 'pages',
-            'column_name' => 'body',
-            'foreign_key' => 6,
-            'locale' => 'en',
-        'value' => '<table class="table table-hover" style="caption-side: bottom; border-collapse: collapse; border-spacing: 0px; margin: 0px 0px 20px; padding: 0px; --bs-table-bg: transparent; --bs-table-striped-color: #212529; --bs-table-striped-bg: rgba(0, 0, 0, 0.05); --bs-table-active-color: #212529; --bs-table-active-bg: rgba(0, 0, 0, 0.1); --bs-table-hover-color: #212529; --bs-table-hover-bg: rgba(0, 0, 0, 0.075); width: 1110px; color: #212529; vertical-align: top; border-color: #dee2e6; max-width: 100%; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; height: 336px;">
+<p class="MsoNormal" style="margin-bottom: 7.5pt; background: white;"><span style="font-size: 14pt;"><strong><em><span style="line-height: 115%; font-family: \'Times New Roman\', serif; color: black;">Опыт работы</span></em></strong></span></p>
+<p class="MsoNormal" style="text-align: justify;"><span style="font-family: \'Times New Roman\', serif; color: black; font-size: 14pt;">1995 &ndash; 1996<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Секретарь Прокуратуры Шарурского района</span></p>
+<p class="MsoNormal" style="text-align: justify;"><span style="font-family: \'Times New Roman\', serif; color: black; font-size: 14pt;">1996 &ndash; 2003<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Начальник канцелярии Прокуратуры Шарурского района</span></p>
+<p class="MsoNormal" style="text-align: justify;"><span style="font-family: \'Times New Roman\', serif; color: black; font-size: 14pt;">2003 &ndash; 2007<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Судья Садаракского Районного Суда Нахчыванской Автономной Республики</span></p>
+<p class="MsoNormal" style="text-align: justify;"><span style="font-family: \'Times New Roman\', serif; color: black; font-size: 14pt;">2007 &ndash; 2018<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Председатель Военного Суда Нахчыванской Автономной Республики</span></p>
+<p class="MsoNormal" style="text-align: justify;"><span style="font-family: \'Times New Roman\', serif; color: black; font-size: 14pt;">2018 - по н. в.<span>&nbsp;&nbsp;</span>Председатель Верховного Суда Нахчыванской Автономной Республики</span></p>
+<p class="MsoNormal" style="text-align: justify;"><span style="font-family: \'Times New Roman\', serif; color: black; font-size: 14pt;">2018 - по н. в.</span></p>
+<p class="MsoNormal" style="text-align: justify;"><span style="font-family: \'Times New Roman\', serif; color: black; font-size: 14pt;">2018 - по н. в.</span></p>',
+                'created_at' => '2022-05-10 05:45:36',
+                'updated_at' => '2022-05-19 08:37:54',
+            ),
+            10 => 
+            array (
+                'id' => 11,
+                'table_name' => 'pages',
+                'column_name' => 'slug',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => 'college',
+                'created_at' => '2022-05-10 05:45:36',
+                'updated_at' => '2022-05-10 05:45:36',
+            ),
+            11 => 
+            array (
+                'id' => 12,
+                'table_name' => 'pages',
+                'column_name' => 'slug',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => 'predsedatel-suda',
+                'created_at' => '2022-05-10 05:45:36',
+                'updated_at' => '2022-05-10 05:45:36',
+            ),
+            12 => 
+            array (
+                'id' => 13,
+                'table_name' => 'pages',
+                'column_name' => 'title',
+                'foreign_key' => 3,
+                'locale' => 'en',
+                'value' => 'Registry of the Court',
+                'created_at' => '2022-05-10 05:47:37',
+                'updated_at' => '2022-05-17 15:47:00',
+            ),
+            13 => 
+            array (
+                'id' => 14,
+                'table_name' => 'pages',
+                'column_name' => 'title',
+                'foreign_key' => 3,
+                'locale' => 'ru',
+                'value' => 'Аппарат Верховного Суда',
+                'created_at' => '2022-05-10 05:47:37',
+                'updated_at' => '2022-05-17 15:47:00',
+            ),
+            14 => 
+            array (
+                'id' => 15,
+                'table_name' => 'pages',
+                'column_name' => 'body',
+                'foreign_key' => 3,
+                'locale' => 'en',
+                'value' => '<p><img src="http://127.0.0.1:8000/storage/pages/May2022/structure.png" alt="" width="1040" height="1271" /></p>',
+                'created_at' => '2022-05-10 05:47:37',
+                'updated_at' => '2022-05-10 19:40:25',
+            ),
+            15 => 
+            array (
+                'id' => 16,
+                'table_name' => 'pages',
+                'column_name' => 'body',
+                'foreign_key' => 3,
+                'locale' => 'ru',
+                'value' => '<p><img src="http://127.0.0.1:8000/storage/pages/May2022/structure.png" alt="" width="1040" height="1271" /></p>',
+                'created_at' => '2022-05-10 05:47:37',
+                'updated_at' => '2022-05-10 05:47:37',
+            ),
+            16 => 
+            array (
+                'id' => 17,
+                'table_name' => 'pages',
+                'column_name' => 'slug',
+                'foreign_key' => 3,
+                'locale' => 'en',
+                'value' => 'the-structure-of-the-court',
+                'created_at' => '2022-05-10 05:47:37',
+                'updated_at' => '2022-05-10 05:47:37',
+            ),
+            17 => 
+            array (
+                'id' => 18,
+                'table_name' => 'pages',
+                'column_name' => 'slug',
+                'foreign_key' => 3,
+                'locale' => 'ru',
+                'value' => 'struktura-suda',
+                'created_at' => '2022-05-10 05:47:37',
+                'updated_at' => '2022-05-10 05:47:37',
+            ),
+            18 => 
+            array (
+                'id' => 19,
+                'table_name' => 'pages',
+                'column_name' => 'title',
+                'foreign_key' => 6,
+                'locale' => 'en',
+                'value' => 'Contact',
+                'created_at' => '2022-05-10 05:56:55',
+                'updated_at' => '2022-05-10 06:01:05',
+            ),
+            19 => 
+            array (
+                'id' => 20,
+                'table_name' => 'pages',
+                'column_name' => 'title',
+                'foreign_key' => 6,
+                'locale' => 'ru',
+                'value' => 'Контакт',
+                'created_at' => '2022-05-10 05:56:55',
+                'updated_at' => '2022-05-10 05:56:55',
+            ),
+            20 => 
+            array (
+                'id' => 21,
+                'table_name' => 'pages',
+                'column_name' => 'body',
+                'foreign_key' => 6,
+                'locale' => 'en',
+            'value' => '<table class="table table-hover" style="caption-side: bottom; border-collapse: collapse; border-spacing: 0px; margin: 0px 0px 20px; padding: 0px; --bs-table-bg: transparent; --bs-table-striped-color: #212529; --bs-table-striped-bg: rgba(0, 0, 0, 0.05); --bs-table-active-color: #212529; --bs-table-active-bg: rgba(0, 0, 0, 0.1); --bs-table-hover-color: #212529; --bs-table-hover-bg: rgba(0, 0, 0, 0.075); width: 1110px; color: #212529; vertical-align: top; border-color: #dee2e6; max-width: 100%; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; height: 336px;">
 <thead style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px; vertical-align: bottom;">
 <tr style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px;">
-<th class="table-title th-font common bg-gradient" style="box-sizing: border-box; text-align: left; border-width: 0px 0px 2px; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; line-height: 1.42857; font-size: 16px; font-style: italic; background-image: var(--bs-gradient)  !important; height: 63px; width: 580.562px; border-color: initial inherit currentcolor inherit; border-style: initial solid solid solid;" scope="col">Structural units receiving applications</th>
-<th class="table-title" style="box-sizing: border-box; text-align: left; border-width: 0px 0px 2px; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; line-height: 1.42857; font-size: 16px; font-style: italic; height: 63px; width: 232.969px; border-color: initial inherit currentcolor inherit; border-style: initial solid solid solid;" scope="col">Persons responsible for communication</th>
-<th class="table-title common" style="box-sizing: border-box; text-align: left; border-width: 0px 0px 2px; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; line-height: 1.42857; font-size: 16px; font-style: italic; height: 63px; width: 264.135px; border-color: initial inherit currentcolor inherit; border-style: initial solid solid solid;" scope="col">Contact phone numbers</th>
+<th class="table-title th-font common bg-gradient" style="box-sizing: border-box; text-align: left; border-width: 0px 0px 2px; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; line-height: 1.42857; font-size: 16px; font-style: italic; height: 63px; width: 570.792px; background-image: var(--bs-gradient)  !important;" scope="col"><strong><span style="background-color: #ffffff; font-size: 12pt;"><span style="font-family: Arial, sans-serif; color: #555555; background-color: #ffffff;">Appeals are received</span></span></strong></th>
+<th class="table-title" style="box-sizing: border-box; text-align: left; border-width: 0px 0px 2px; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; line-height: 1.42857; font-size: 16px; font-style: italic; height: 63px; width: 229.99px;" scope="col"><strong><span style="font-size: 12pt;"><span style="font-family: Arial, sans-serif; color: #555555;">Responsible persons for the contact</span></span></strong></th>
+<th class="table-title common" style="box-sizing: border-box; text-align: left; border-width: 0px 0px 2px; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; line-height: 1.42857; font-size: 16px; font-style: italic; height: 63px; width: 260.219px;" scope="col"><span style="background-color: #ffffff; font-size: 12pt;"><strong style="color: #686868; font-style: normal; text-align: -webkit-center; background-color: #ffffff;"><span style="font-family: Arial, sans-serif; color: #555555; background-color: #ffffff;">Telephone</span><em><span style="font-family: Arial, sans-serif; color: #555555; background-color: #ffffff;">&nbsp;number</span></em></strong></span></th>
 </tr>
 </thead>
 <tbody style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px; vertical-align: inherit;">
 <tr style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px;">
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 37px; width: 580.562px; border-color: #dddddd inherit inherit inherit;">Office of the Supreme Court of Nakhchivan AR</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 37px; width: 232.969px; border-color: #dddddd inherit inherit inherit;">Chief of staff</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 37px; width: 264.135px; border-color: #dddddd inherit inherit inherit;">545-01-55</td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 37px; width: 570.792px;"><span style="color: #000000; font-family: Arial, sans-serif; font-size: 12pt; text-align: -webkit-center;">Administration of The Court</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 37px; width: 229.99px;"><span style="font-size: 12pt;">Chief of staff</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 37px; width: 260.219px;"><span style="font-size: 12pt;">545-01-55</span></td>
 </tr>
 <tr style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px;">
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 580.562px; border-color: #dddddd inherit inherit inherit;">General Department</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 232.969px; border-color: #dddddd inherit inherit inherit;">Branch Manager</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 264.135px; border-color: #dddddd inherit inherit inherit;">544-61-76</td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 570.792px;"><span style="color: #000000; font-family: Arial, sans-serif; font-size: 12pt; text-align: -webkit-center;">General Department</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 229.99px;"><span style="font-size: 12pt;">Branch Manager</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 260.219px;"><span style="font-size: 12pt;">544-61-76</span></td>
 </tr>
 <tr style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px;">
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 580.562px; border-color: #dddddd inherit inherit inherit;">Department of reception of citizens and consideration of letters</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 232.969px; border-color: #dddddd inherit inherit inherit;">Branch Manager</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 264.135px; border-color: #dddddd inherit inherit inherit;">544-61-77</td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 570.792px;"><span style="font-size: 12pt;">Department of reception of citizens and consideration of letters</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 229.99px;"><span style="font-size: 12pt;">Branch Manager</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 260.219px;"><span style="font-size: 12pt;">544-61-77</span></td>
 </tr>
 <tr style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px;">
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 56px; width: 580.562px; border-color: #dddddd inherit inherit inherit;">Department of Generalization of Judicial Practice and Analysis of Court Statistics</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 56px; width: 232.969px; border-color: #dddddd inherit inherit inherit;">Branch Manager</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 56px; width: 264.135px; border-color: #dddddd inherit inherit inherit;">544-61-77</td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 56px; width: 570.792px;"><span style="font-size: 12pt;">Department of Generalization of Judicial Practice and Analysis of Court Statistics</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 56px; width: 229.99px;"><span style="font-size: 12pt;">Branch Manager</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 56px; width: 260.219px;"><span style="font-size: 12pt;">544-61-77</span></td>
 </tr>
 <tr style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px;">
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 580.562px; border-color: #dddddd inherit inherit inherit;">Analytical and Legislative Systematization Department</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 232.969px; border-color: #dddddd inherit inherit inherit;">Branch Manager</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 264.135px; border-color: #dddddd inherit inherit inherit;">544-61-76</td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 570.792px;"><span style="font-size: 12pt;">Analytical and Legislative Systematization Department</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 229.99px;"><span style="font-size: 12pt;">Branch Manager</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 260.219px;"><span style="font-size: 12pt;">544-61-76</span></td>
 </tr>
 <tr style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px;">
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 580.562px; border-color: #dddddd inherit inherit inherit;">Department of Executive Officers</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 232.969px; border-color: #dddddd inherit inherit inherit;">Branch Manager</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 264.135px; border-color: #dddddd inherit inherit inherit;">544-61-75</td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 570.792px;"><span style="font-size: 12pt;">Department of Executive Officers</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 229.99px;"><span style="font-size: 12pt;">Branch Manager</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 260.219px;"><span style="font-size: 12pt;">544-61-75</span></td>
 </tr>
 <tr style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px;">
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 580.562px; border-color: #dddddd inherit inherit inherit;">Press Service</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 232.969px; border-color: #dddddd inherit inherit inherit;">Senior Consultant</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 264.135px; border-color: #dddddd inherit inherit inherit;">544-61-75</td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 570.792px;"><span style="font-size: 12pt;">Press Service</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 229.99px;"><span style="font-size: 12pt;">Senior Consultant</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 260.219px;"><span style="font-size: 12pt;">544-61-75</span></td>
 </tr>
 </tbody>
 </table>
-<div class="alert alert-light w-100 m-auto text-center" style="box-sizing: border-box; padding: 15px; position: relative; border: 1px solid transparent; border-radius: 4px; color: #818182; background-color: #fefefe; width: 1110px; text-align: center; text-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px; box-shadow: rgba(255, 255, 255, 0.25) 0px 1px 0px inset, rgba(0, 0, 0, 0.05) 0px 1px 2px; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; margin: auto !important auto !important 20px auto !important;" role="alert"><span style="color: #686868; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 16px;"><strong>Address: Nakhchivan city, AZ 7000, Ataturk street 19</strong></span></span><br />
+<div class="alert alert-light w-100 m-auto text-center" style="box-sizing: border-box; padding: 15px; position: relative; border: 1px solid transparent; border-radius: 4px; color: #818182; background-color: #fefefe; width: 1110px; text-align: center; text-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px; box-shadow: rgba(255, 255, 255, 0.25) 0px 1px 0px inset, rgba(0, 0, 0, 0.05) 0px 1px 2px; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; margin: auto !important auto !important 20px auto !important;" role="alert"><span style="color: #686868; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; font-size: 12pt;">&nbsp;</span></div>
+<div class="alert alert-light w-100 m-auto text-center" style="box-sizing: border-box; padding: 15px; position: relative; border: 1px solid transparent; border-radius: 4px; color: #818182; background-color: #fefefe; width: 1110px; text-align: center; text-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px; box-shadow: rgba(255, 255, 255, 0.25) 0px 1px 0px inset, rgba(0, 0, 0, 0.05) 0px 1px 2px; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; margin: auto !important auto !important 20px auto !important;" role="alert">&nbsp;</div>
+<div class="alert alert-light w-100 m-auto text-center" style="box-sizing: border-box; padding: 15px; position: relative; border: 1px solid transparent; border-radius: 4px; color: #818182; background-color: #fefefe; width: 1110px; text-align: center; text-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px; box-shadow: rgba(255, 255, 255, 0.25) 0px 1px 0px inset, rgba(0, 0, 0, 0.05) 0px 1px 2px; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; margin: auto !important auto !important 20px auto !important;" role="alert"><span style="color: #686868; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; font-size: 12pt;"><strong>Address: Nakhchivan city, AZ 7000, Ataturk street 19</strong></span><br />
 <p style="box-sizing: border-box; margin: 0px; padding: 0px;"><span style="font-size: 12pt;">Phone: (036) 544-61-77</span></p>
-<p style="box-sizing: border-box; margin: 5px 0px 0px; padding: 0px;"><span style="font-size: 12pt;"><a class="alert-link" style="box-sizing: border-box; background-color: transparent; color: #686868; text-decoration-line: none; margin: 0px; padding: 0px; font-weight: bold;">Fax: </a>(036) 550-12-77</span></p>
+<p style="box-sizing: border-box; margin: 5px 0px 0px; padding: 0px;"><span style="font-size: 12pt;"><a class="alert-link" style="box-sizing: border-box; background-color: transparent; color: #686868; text-decoration-line: none; margin: 0px; padding: 0px; font-weight: bold;">Fax:&nbsp;</a>(036) 550-12-77</span></p>
 <p style="box-sizing: border-box; margin: 5px 0px 0px; padding: 0px;"><span style="font-size: 12pt;"><a class="alert-link" style="box-sizing: border-box; background-color: transparent; color: #686868; text-decoration-line: none; margin: 0px; padding: 0px; font-weight: bold;" href="file:///C:/Users/Asus/Pictures/AliM%C9%99hk%C9%99m%C9%99Hazirda/contact.html#">E-mail:&nbsp;</a>alimehkeme@nakhchivan.az</span></p>
 </div>',
-            'created_at' => '2022-05-10 05:56:55',
-            'updated_at' => '2022-05-10 06:01:05',
-        ),
-        21 => 
-        array (
-            'id' => 22,
-            'table_name' => 'pages',
-            'column_name' => 'body',
-            'foreign_key' => 6,
-            'locale' => 'ru',
-        'value' => '<table class="table table-hover" style="border-color: #dee2e6; caption-side: bottom; border-collapse: collapse; border-spacing: 0px; margin: 0px 0px 20px; padding: 0px; --bs-table-bg: transparent; --bs-table-striped-color: #212529; --bs-table-striped-bg: rgba(0, 0, 0, 0.05); --bs-table-active-color: #212529; --bs-table-active-bg: rgba(0, 0, 0, 0.1); --bs-table-hover-color: #212529; --bs-table-hover-bg: rgba(0, 0, 0, 0.075); width: 1110px; color: #212529; vertical-align: top; max-width: 100%; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; height: 336px;">
+                'created_at' => '2022-05-10 05:56:55',
+                'updated_at' => '2022-05-19 08:36:36',
+            ),
+            21 => 
+            array (
+                'id' => 22,
+                'table_name' => 'pages',
+                'column_name' => 'body',
+                'foreign_key' => 6,
+                'locale' => 'ru',
+            'value' => '<table class="table table-hover" style="border-color: #dee2e6; caption-side: bottom; border-collapse: collapse; border-spacing: 0px; margin: 0px 0px 20px; padding: 0px; --bs-table-bg: transparent; --bs-table-striped-color: #212529; --bs-table-striped-bg: rgba(0, 0, 0, 0.05); --bs-table-active-color: #212529; --bs-table-active-bg: rgba(0, 0, 0, 0.1); --bs-table-hover-color: #212529; --bs-table-hover-bg: rgba(0, 0, 0, 0.075); width: 1110px; color: #212529; vertical-align: top; max-width: 100%; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; height: 336px;">
 <thead style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px; vertical-align: bottom;">
-<tr style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px;">
-<th class="table-title th-font common bg-gradient" style="box-sizing: border-box; text-align: left; border-width: 0px 0px 2px; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; line-height: 1.42857; font-size: 16px; font-style: italic; background-image: var(--bs-gradient)  !important; height: 63px; width: 580.562px; border-color: initial inherit currentcolor inherit; border-style: initial solid solid solid;" scope="col">Структурные подразделения, принимающие заявки</th>
-<th class="table-title" style="box-sizing: border-box; text-align: left; border-width: 0px 0px 2px; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; line-height: 1.42857; font-size: 16px; font-style: italic; height: 63px; width: 232.969px; border-color: initial inherit currentcolor inherit; border-style: initial solid solid solid;" scope="col">Лица, ответственные за связь</th>
-<th class="table-title common" style="box-sizing: border-box; text-align: left; border-width: 0px 0px 2px; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; line-height: 1.42857; font-size: 16px; font-style: italic; height: 63px; width: 264.135px; border-color: initial inherit currentcolor inherit; border-style: initial solid solid solid;" scope="col">Контактные телефоны</th>
+<tr style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px; height: 63px;">
+<th class="table-title th-font common bg-gradient" style="box-sizing: border-box; text-align: left; border-width: 0px 0px 2px; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; line-height: 1.42857; font-size: 16px; font-style: italic; height: 63px; width: 580.896px; background-image: var(--bs-gradient)  !important;" scope="col"><span style="font-family: \'arial black\', sans-serif; font-size: 12pt; color: #000000;"><strong><em><span style="line-height: 115%;">Структурные подразделения</span></em></strong></span></th>
+<th class="table-title" style="box-sizing: border-box; text-align: left; border-width: 0px 0px 2px; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; line-height: 1.42857; font-size: 16px; font-style: italic; height: 63px; width: 232.344px;" scope="col"><span style="font-size: 12pt; color: #000000;"><span style="line-height: 115%; font-family: Arial, sans-serif;">Лица, ответственные за связь</span></span></th>
+<th class="table-title common" style="box-sizing: border-box; text-align: left; border-width: 0px 0px 2px; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; line-height: 1.42857; font-size: 16px; font-style: italic; height: 63px; width: 264.427px;" scope="col"><span style="color: #000000;"><strong><span style="font-size: 12pt;"><span style="line-height: 115%; font-family: Arial, sans-serif;">Телефон</span></span></strong></span></th>
 </tr>
 </thead>
 <tbody style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px; vertical-align: inherit;">
-<tr style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px;">
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 37px; width: 580.562px; border-color: #dddddd inherit inherit inherit;">Аппарат Верховного Суда Нахчыванской АР</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 37px; width: 232.969px; border-color: #dddddd inherit inherit inherit;">Начальник штаба</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 37px; width: 264.135px; border-color: #dddddd inherit inherit inherit;">545-01-55</td>
+<tr style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px; height: 37px;">
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 37px; width: 580.896px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif; color: #000000;">Аппарат Суда</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 37px; width: 232.344px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif; color: #000000;">Начальник аппарата администрации</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 37px; width: 264.427px;"><span style="color: #000000;">545-01-55</span></td>
 </tr>
-<tr style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px;">
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 580.562px; border-color: #dddddd inherit inherit inherit;"><span>Общий отдел&nbsp;</span></td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 232.969px; border-color: #dddddd inherit inherit inherit;">Начальник отдела</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 264.135px; border-color: #dddddd inherit inherit inherit;">544-61-76</td>
+<tr style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px; height: 36px;">
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 580.896px;"><span style="color: #000000; font-size: 12pt;">Общий отдел&nbsp;</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 232.344px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif; color: #000000;">Глава департамента</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 264.427px;"><span style="color: #000000;">544-61-76</span></td>
 </tr>
-<tr style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px;">
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 580.562px; border-color: #dddddd inherit inherit inherit;">Отдел приема граждан и рассмотрения писем</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 232.969px; border-color: #dddddd inherit inherit inherit;">Начальник отдела</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 264.135px; border-color: #dddddd inherit inherit inherit;">544-61-77</td>
+<tr style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px; height: 36px;">
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 580.896px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif; color: #000000;">Отдел приема граждан и рассмотрения писем</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 232.344px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif; color: #000000;">Глава департамента</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 264.427px;"><span style="color: #000000;">544-61-77</span></td>
 </tr>
-<tr style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px;">
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 56px; width: 580.562px; border-color: #dddddd inherit inherit inherit;">Отдел обобщения судебной практики и анализа судебной статистики</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 56px; width: 232.969px; border-color: #dddddd inherit inherit inherit;">Начальник отдела</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 56px; width: 264.135px; border-color: #dddddd inherit inherit inherit;">544-61-77</td>
+<tr style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px; height: 56px;">
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 56px; width: 580.896px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif; color: #000000;">Отдел обобщения судебной практики и анализа судебной статистики</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 56px; width: 232.344px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif; color: #000000;">Глава департамента</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 56px; width: 264.427px;"><span style="color: #000000;">544-61-77</span></td>
 </tr>
-<tr style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px;">
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 580.562px; border-color: #dddddd inherit inherit inherit;">Отдел аналитической и законодательной систематизации</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 232.969px; border-color: #dddddd inherit inherit inherit;">Начальник отдела</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 264.135px; border-color: #dddddd inherit inherit inherit;">544-61-76</td>
+<tr style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px; height: 36px;">
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 580.896px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif; color: #000000;">Отдел аналитики и систематизации законодательства</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 232.344px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif; color: #000000;">Глава департамента</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 264.427px;"><span style="color: #000000;">544-61-76</span></td>
 </tr>
-<tr style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px;">
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 580.562px; border-color: #dddddd inherit inherit inherit;">Департамент исполнительных директоров</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 232.969px; border-color: #dddddd inherit inherit inherit;">Начальник отдела</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 264.135px; border-color: #dddddd inherit inherit inherit;">544-61-75</td>
+<tr style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px; height: 36px;">
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 580.896px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif; color: #000000;">Отдел судебных приставов</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 232.344px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif; color: #000000;">Глава департамента</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 264.427px;"><span style="color: #000000;">544-61-75</span></td>
 </tr>
-<tr style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px;">
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 580.562px; border-color: #dddddd inherit inherit inherit;">Пресс-служба</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 232.969px; border-color: #dddddd inherit inherit inherit;">Старший консультант</td>
-<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 264.135px; border-color: #dddddd inherit inherit inherit;">544-61-75</td>
+<tr style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px; height: 36px;">
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 580.896px;"><span style="color: #000000; font-size: 12pt;">Пресс-служба</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 232.344px;"><span style="color: #000000; font-size: 12pt;">Старший консультант</span></td>
+<td style="box-sizing: border-box; border-width: 1px 0px; border-style: solid; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 36px; width: 264.427px;"><span style="color: #000000;">544-61-75</span></td>
 </tr>
 </tbody>
 </table>
-<div class="alert alert-light w-100 m-auto text-center" style="box-sizing: border-box; padding: 15px; position: relative; border: 1px solid transparent; border-radius: 4px; color: #818182; background-color: #fefefe; width: 1110px; text-align: center; text-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px; box-shadow: rgba(255, 255, 255, 0.25) 0px 1px 0px inset, rgba(0, 0, 0, 0.05) 0px 1px 2px; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; margin: auto !important auto !important 20px auto !important;" role="alert"><span style="color: #686868; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 16px;"><strong>Адрес: город Нахчыван, AZ 7000, улица Ататюрка 19</strong></span></span><br />
-<p style="box-sizing: border-box; margin: 0px; padding: 0px;"><span style="font-size: 12pt;">Телефон: (036) 544-61-77</span></p>
-<p style="box-sizing: border-box; margin: 5px 0px 0px; padding: 0px;"><span style="color: #686868; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 16px;"><strong>Факс: (036) 550-12-77</strong></span></span></p>
-<p style="box-sizing: border-box; margin: 5px 0px 0px; padding: 0px;"><span style="color: #686868; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 16px;"><strong>Электронная почта: alimehkeme@nakhchivan.az</strong></span></span></p>
+<div class="alert alert-light w-100 m-auto text-center" style="box-sizing: border-box; padding: 15px; position: relative; border: 1px solid transparent; border-radius: 4px; color: #818182; background-color: #fefefe; width: 1110px; text-align: center; text-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px; box-shadow: rgba(255, 255, 255, 0.25) 0px 1px 0px inset, rgba(0, 0, 0, 0.05) 0px 1px 2px; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; margin: auto !important auto !important 20px auto !important;" role="alert"><span style="color: #000000; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="font-size: 16px;"><strong>Адрес: город Нахчыван, AZ 7000, улица Ататюрка 19</strong></span></span><br />
+<p style="box-sizing: border-box; margin: 0px; padding: 0px;"><span style="font-size: 12pt; color: #000000;"><strong>Телефон</strong>: (036) 544-61-77</span></p>
+<p style="box-sizing: border-box; margin: 5px 0px 0px; padding: 0px;"><span style="color: #000000; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="font-size: 16px;"><strong>Факс: (036) 550-12-77</strong></span></span></p>
+<p style="box-sizing: border-box; margin: 5px 0px 0px; padding: 0px;"><span style="color: #000000; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="font-size: 16px;"><strong>Электронная почта: alimehkeme@nakhchivan.az</strong></span></span></p>
 </div>',
-            'created_at' => '2022-05-10 05:56:55',
-            'updated_at' => '2022-05-10 05:56:55',
-        ),
-        22 => 
-        array (
-            'id' => 23,
-            'table_name' => 'pages',
-            'column_name' => 'slug',
-            'foreign_key' => 6,
-            'locale' => 'en',
-            'value' => 'contact',
-            'created_at' => '2022-05-10 05:56:55',
-            'updated_at' => '2022-05-10 05:56:55',
-        ),
-        23 => 
-        array (
-            'id' => 24,
-            'table_name' => 'pages',
-            'column_name' => 'slug',
-            'foreign_key' => 6,
-            'locale' => 'ru',
-            'value' => 'kontakt',
-            'created_at' => '2022-05-10 05:56:55',
-            'updated_at' => '2022-05-10 05:56:55',
-        ),
-        24 => 
-        array (
-            'id' => 25,
-            'table_name' => 'pages',
-            'column_name' => 'title',
-            'foreign_key' => 7,
-            'locale' => 'en',
-            'value' => 'Admission schedule',
-            'created_at' => '2022-05-10 06:06:59',
-            'updated_at' => '2022-05-10 06:06:59',
-        ),
-        25 => 
-        array (
-            'id' => 26,
-            'table_name' => 'pages',
-            'column_name' => 'title',
-            'foreign_key' => 7,
-            'locale' => 'ru',
-            'value' => 'График приема',
-            'created_at' => '2022-05-10 06:06:59',
-            'updated_at' => '2022-05-10 06:06:59',
-        ),
-        26 => 
-        array (
-            'id' => 27,
-            'table_name' => 'pages',
-            'column_name' => 'body',
-            'foreign_key' => 7,
-            'locale' => 'en',
-            'value' => '<div class="first-down-title" style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 1.8rem; text-align: center; font-weight: bold; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;">
-<p style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px;"><span style="font-size: 14pt;">NAX&Ccedil;IVAN MUXTAR RESPUBLİKASI ALİ MƏHKƏMƏSİNDƏ</span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px;"><span style="font-size: 14pt;">QƏBULUN TƏŞKİL EDİLMƏSİ HAQQINDA MƏLUMAT</span></p>
+                'created_at' => '2022-05-10 05:56:55',
+                'updated_at' => '2022-05-19 08:36:36',
+            ),
+            22 => 
+            array (
+                'id' => 23,
+                'table_name' => 'pages',
+                'column_name' => 'slug',
+                'foreign_key' => 6,
+                'locale' => 'en',
+                'value' => 'contact',
+                'created_at' => '2022-05-10 05:56:55',
+                'updated_at' => '2022-05-10 05:56:55',
+            ),
+            23 => 
+            array (
+                'id' => 24,
+                'table_name' => 'pages',
+                'column_name' => 'slug',
+                'foreign_key' => 6,
+                'locale' => 'ru',
+                'value' => 'kontakt',
+                'created_at' => '2022-05-10 05:56:55',
+                'updated_at' => '2022-05-10 05:56:55',
+            ),
+            24 => 
+            array (
+                'id' => 25,
+                'table_name' => 'pages',
+                'column_name' => 'title',
+                'foreign_key' => 7,
+                'locale' => 'en',
+                'value' => 'Reception graphic',
+                'created_at' => '2022-05-10 06:06:59',
+                'updated_at' => '2022-05-19 08:35:21',
+            ),
+            25 => 
+            array (
+                'id' => 26,
+                'table_name' => 'pages',
+                'column_name' => 'title',
+                'foreign_key' => 7,
+                'locale' => 'ru',
+                'value' => 'График приема',
+                'created_at' => '2022-05-10 06:06:59',
+                'updated_at' => '2022-05-10 06:06:59',
+            ),
+            26 => 
+            array (
+                'id' => 27,
+                'table_name' => 'pages',
+                'column_name' => 'body',
+                'foreign_key' => 7,
+                'locale' => 'en',
+                'value' => '<div class="first-down-title" style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 1.8rem; text-align: center; font-weight: bold; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;">
+<p class="MsoNormal" style="margin: 0cm 0cm 7.5pt 7.5pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;" align="center"><span style="font-size: 12pt;"><strong><span style="font-family: Arial, sans-serif; color: black;">INFORMATION ABOUT RECEPTION DAYS</span></strong></span></p>
+<p class="MsoNormal" style="margin-bottom: 7.5pt; text-align: justify; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-size: 12pt; font-family: Arial, sans-serif; color: black;">Appeals were received by the civil servants of the department of Reception of Citizens and Examination of Letters of Supreme Court &nbsp;from 9.00 to 18.00 in the reception room of the court on working days, as well the persons lodging complaint were informed about their rights and duties concidered by the law.</span></p>
 </div>
-<p class="first-item" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.6rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="font-size: 12pt;">Nax&ccedil;ıvan Muxtar Respublikası Ali Məhkəməsi Aparatının Vətəndaşların qəbulu, və məktublara baxılması ş&ouml;bəsinin iş&ccedil;iləri tərəfindən hər iş g&uuml;n&uuml; saat 9.00-dan 18.00-dək məhkəmənin qəbul otağında m&uuml;raciətlər qəbul olunur, eləcə də şəxslərin ilkin qəbulu aparılır, m&uuml;raciət edən şəxslərə şikayət vermə qaydaları, h&uuml;quq və vəzifələri izah olunur.</span></p>
-<p class="item-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="font-size: 12pt;">Məhkəmənin sədri və digər vəzifəli şəxslər tərəfindən vətəndaşların qəbulu aşağıdakı qrafik &uuml;zrə həyata ke&ccedil;irilir.</span></p>
-<table class="table table-bordered reception_days mt-5" style="caption-side: bottom; border-collapse: collapse; border-spacing: 0px; padding: 0px; --bs-table-bg: transparent; --bs-table-striped-color: #212529; --bs-table-striped-bg: rgba(0, 0, 0, 0.05); --bs-table-active-color: #212529; --bs-table-active-bg: rgba(0, 0, 0, 0.1); --bs-table-hover-color: #212529; --bs-table-hover-bg: rgba(0, 0, 0, 0.075); width: 1110px; color: #212529; vertical-align: top; border: 1px solid #dddddd; max-width: 100%; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; margin: 3rem !important 0px 20px 0px;">
+<table class="table table-bordered reception_days mt-5" style="caption-side: bottom; border-collapse: collapse; border-spacing: 0px; padding: 0px; --bs-table-bg: transparent; --bs-table-striped-color: #212529; --bs-table-striped-bg: rgba(0, 0, 0, 0.05); --bs-table-active-color: #212529; --bs-table-active-bg: rgba(0, 0, 0, 0.1); --bs-table-hover-color: #212529; --bs-table-hover-bg: rgba(0, 0, 0, 0.075); width: 1110px; color: #212529; vertical-align: top; border: 1px solid #dddddd; max-width: 100%; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; height: 635px;">
 <thead style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px; vertical-align: bottom;">
 <tr style="box-sizing: border-box; border-style: solid; border-width: 1px 0px; margin: 0px; padding: 0px;">
-<th style="box-sizing: border-box; text-align: left; border-top: 0px; border-right: 1px solid #dddddd; border-bottom: 2px solid currentcolor; border-left: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; border-image: initial; line-height: 1.42857;" scope="col">&nbsp;</th>
-<th style="box-sizing: border-box; text-align: left; border-top: 0px; border-right: 1px solid #dddddd; border-bottom: 2px solid currentcolor; border-left: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; border-image: initial; line-height: 1.42857;" scope="col">Vətəndaşı qəbul etməli olan şəxsin vəzifəsi</th>
-<th style="box-sizing: border-box; text-align: left; border-top: 0px; border-right: 1px solid #dddddd; border-bottom: 2px solid currentcolor; border-left: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; border-image: initial; line-height: 1.42857;" scope="col">Vəzifəli şəxsin soyadı, adı və atasının adı</th>
-<th style="box-sizing: border-box; text-align: left; border-top: 0px; border-right: 1px solid #dddddd; border-bottom: 2px solid currentcolor; border-left: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; border-image: initial; line-height: 1.42857;" scope="col">Qəbul g&uuml;nləri</th>
-<th style="box-sizing: border-box; text-align: left; border-top: 0px; border-right: 1px solid #dddddd; border-bottom: 2px solid currentcolor; border-left: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; border-image: initial; line-height: 1.42857;" scope="col">Qəbul saatı</th>
+<th style="box-sizing: border-box; text-align: left; border-width: 0px 1px 2px; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; border-image: initial; line-height: 1.42857; height: 63px; width: 32.1979px; border-color: initial #dddddd currentcolor #dddddd; border-style: initial solid solid solid;" scope="col">&nbsp;</th>
+<th style="box-sizing: border-box; text-align: left; border-width: 0px 1px 2px; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; border-image: initial; line-height: 1.42857; height: 63px; width: 399.719px; border-color: initial #dddddd currentcolor #dddddd; border-style: initial solid solid solid;" scope="col"><span style="font-size: 12pt;"><strong><span style="line-height: 115%; font-family: Arial, sans-serif;">Position of the officials who receive citizens</span></strong></span></th>
+<th style="box-sizing: border-box; text-align: left; border-width: 0px 1px 2px; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; border-image: initial; line-height: 1.42857; height: 63px; width: 323.073px; border-color: initial #dddddd currentcolor #dddddd; border-style: initial solid solid solid;" scope="col"><span style="font-size: 12pt;"><strong><span style="line-height: 115%; font-family: Arial, sans-serif;">Surname, Name, Patronymic name&nbsp;<br />of the officials</span></strong></span></th>
+<th style="box-sizing: border-box; text-align: left; border-width: 0px 1px 2px; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; border-image: initial; line-height: 1.42857; height: 63px; width: 153.51px; border-color: initial #dddddd currentcolor #dddddd; border-style: initial solid solid solid;" scope="col"><span style="font-size: 12pt;"><strong><span style="line-height: 115%; font-family: Arial, sans-serif;">Reception days</span></strong></span></th>
+<th style="box-sizing: border-box; text-align: left; border-width: 0px 1px 2px; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; border-image: initial; line-height: 1.42857; height: 63px; width: 152.5px; border-color: initial #dddddd currentcolor #dddddd; border-style: initial solid solid solid;" scope="col"><span style="font-size: 12pt;"><strong><span style="line-height: 115%; font-family: Arial, sans-serif;">Reception hour</span></strong></span></th>
 </tr>
 </thead>
 <tbody style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px; vertical-align: inherit;">
 <tr style="box-sizing: border-box; border-style: solid; border-width: 1px 0px; margin: 0px; padding: 0px;">
-<th style="box-sizing: border-box; text-align: left; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857;" scope="row">1</th>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Nax&ccedil;ıvan MR Ali Məhkəməsinin sədri</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Əliyev Qasım Vəli oğlu</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Hər ayın I və III həftəsinin beşinci g&uuml;nləri</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">10:00-12:00<br style="box-sizing: border-box; margin: 0px; padding: 0px;" />16:00-18:00</td>
+<th style="box-sizing: border-box; text-align: left; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; height: 63px; width: 32.1979px;" scope="row"><span style="font-size: 12pt;">1</span></th>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 63px; width: 399.719px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">The Chairman of Supreme Court</span></td>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 63px; width: 323.073px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">Aliyev Gasim Vali&nbsp;</span></td>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 63px; width: 153.51px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">Monday<br />Wednesday&nbsp;</span></td>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 63px; width: 152.5px;"><span style="font-size: 12pt;">10:00-12:00</span><br style="box-sizing: border-box; margin: 0px; padding: 0px;" /><span style="font-size: 12pt;">16:00-18:00</span></td>
 </tr>
 <tr style="box-sizing: border-box; border-style: solid; border-width: 1px 0px; margin: 0px; padding: 0px;">
-<th style="box-sizing: border-box; text-align: left; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857;" scope="row">2</th>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Nax&ccedil;ıvan MR Ali Məhkəməsinin sədr m&uuml;avini</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Novruzov Əsgər Novruz oğlu</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Hər ayın II və IV həftəsinin beşinci g&uuml;nləri</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">10:00-12:00<br style="box-sizing: border-box; margin: 0px; padding: 0px;" />16:00-18:00</td>
+<th style="box-sizing: border-box; text-align: left; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; height: 69px; width: 32.1979px;" scope="row"><span style="font-size: 12pt;">2</span></th>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 69px; width: 399.719px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">The Deputy Chairman of the Court</span></td>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 69px; width: 323.073px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">Novruzov Asgar Novruz</span></td>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 69px; width: 153.51px;">
+<p class="MsoNormal" style="margin-bottom: 0cm; line-height: normal; text-align: left;" align="center"><span style="font-size: 12pt; font-family: Arial, sans-serif;">Tuesday</span></p>
+<span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">Thursday</span></td>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 69px; width: 152.5px;"><span style="font-size: 12pt;">10:00-12:00</span><br style="box-sizing: border-box; margin: 0px; padding: 0px;" /><span style="font-size: 12pt;">16:00-18:00</span></td>
 </tr>
 <tr style="box-sizing: border-box; border-style: solid; border-width: 1px 0px; margin: 0px; padding: 0px;">
-<th style="box-sizing: border-box; text-align: left; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857;" scope="row">2</th>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">M&uuml;lki kollegiyanın sədri vəzifəsini icra edən</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Allahverdiyev Əli Kərim oğlu</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">iş g&uuml;nləri</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">09:00-11:00<br style="box-sizing: border-box; margin: 0px; padding: 0px;" />16:00-18:00</td>
+<th style="box-sizing: border-box; text-align: left; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; height: 62px; width: 32.1979px;" scope="row"><span style="font-size: 12pt;">3</span></th>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 62px; width: 399.719px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">The chief of Civil board</span></td>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 62px; width: 323.073px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">Allahverdiyev Ali Karim</span></td>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 62px; width: 153.51px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">working days</span></td>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 62px; width: 152.5px;"><span style="font-size: 12pt;">09:00-11:00</span><br style="box-sizing: border-box; margin: 0px; padding: 0px;" /><span style="font-size: 12pt;">16:00-18:00</span></td>
 </tr>
 <tr style="box-sizing: border-box; border-style: solid; border-width: 1px 0px; margin: 0px; padding: 0px;">
-<th style="box-sizing: border-box; text-align: left; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857;" scope="row">3</th>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">İnzibati kollegiyanın sədri vəzifəsini icra edən</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Qurbanov Yusifəli S&uuml;leyman oğlu</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">iş g&uuml;nləri</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">09:00-11:00<br style="box-sizing: border-box; margin: 0px; padding: 0px;" />16:00-18:00</td>
+<th style="box-sizing: border-box; text-align: left; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; height: 62px; width: 32.1979px;" scope="row"><span style="font-size: 12pt;">4</span></th>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 62px; width: 399.719px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">The chief of Administrative board</span></td>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 62px; width: 323.073px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">Gurbanov Yusifali Suleyman</span></td>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 62px; width: 153.51px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">working days</span></td>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 62px; width: 152.5px;"><span style="font-size: 12pt;">09:00-11:00</span><br style="box-sizing: border-box; margin: 0px; padding: 0px;" /><span style="font-size: 12pt;">16:00-18:00</span></td>
 </tr>
 <tr style="box-sizing: border-box; border-style: solid; border-width: 1px 0px; margin: 0px; padding: 0px;">
-<th style="box-sizing: border-box; text-align: left; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857;" scope="row">4</th>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Cinayət kollegiyasının sədri</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Mirzəyev İlqar Məhərrəm oğlu</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">iş g&uuml;nləri</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">09:00-11:00<br style="box-sizing: border-box; margin: 0px; padding: 0px;" />16:00-18:00</td>
+<th style="box-sizing: border-box; text-align: left; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; height: 62px; width: 32.1979px;" scope="row"><span style="font-size: 12pt;">5</span></th>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 62px; width: 399.719px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">The chief of Criminal board</span></td>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 62px; width: 323.073px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">Mirzayev Ilgar Maharram</span></td>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 62px; width: 153.51px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">working days</span></td>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 62px; width: 152.5px;"><span style="font-size: 12pt;">09:00-11:00</span><br style="box-sizing: border-box; margin: 0px; padding: 0px;" /><span style="font-size: 12pt;">16:00-18:00</span></td>
 </tr>
 <tr style="box-sizing: border-box; border-style: solid; border-width: 1px 0px; margin: 0px; padding: 0px;">
-<th style="box-sizing: border-box; text-align: left; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857;" scope="row">5</th>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Kommersiya kollegiyanın sədri</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Xıdırov Əhliman Mehman oğlu</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">iş g&uuml;nləri</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">09:00-11:00<br style="box-sizing: border-box; margin: 0px; padding: 0px;" />16:00-18:00</td>
+<th style="box-sizing: border-box; text-align: left; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; height: 62px; width: 32.1979px;" scope="row"><span style="font-size: 12pt;">6</span></th>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 62px; width: 399.719px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">The chief of Commercial board</span></td>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 62px; width: 323.073px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">Khidirov Ahliman Mehman&nbsp;</span></td>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 62px; width: 153.51px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">working days</span></td>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 62px; width: 152.5px;"><span style="font-size: 12pt;">09:00-11:00</span><br style="box-sizing: border-box; margin: 0px; padding: 0px;" /><span style="font-size: 12pt;">16:00-18:00</span></td>
 </tr>
 <tr style="box-sizing: border-box; border-style: solid; border-width: 1px 0px; margin: 0px; padding: 0px;">
-<th style="box-sizing: border-box; text-align: left; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857;" scope="row">6</th>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Aparat rəhbəri</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Qaybalıyev V&uuml;sal Rəhim oğlu</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">iş g&uuml;nləri</td>
+<th style="box-sizing: border-box; text-align: left; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; height: 39px; width: 32.1979px;" scope="row"><span style="font-size: 12pt;">7</span></th>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 39px; width: 399.719px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">The chief of Administration staff</span></td>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 39px; width: 323.073px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">Gaybaliyev Vusal Rahim</span></td>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 62px; width: 153.51px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">working days</span></td>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 63px; width: 152.5px;"><span style="font-size: 12pt;">10:00-12:00</span><br style="box-sizing: border-box; margin: 0px; padding: 0px;" /><span style="font-size: 12pt;">16:00-18:00</span></td>
 </tr>
 <tr style="box-sizing: border-box; border-style: solid; border-width: 1px 0px; margin: 0px; padding: 0px;">
-<th style="box-sizing: border-box; text-align: left; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857;" scope="row">7</th>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Ş&ouml;bə m&uuml;dirləri</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Qurbanova G&uuml;lay Əjdər qızı,<br style="box-sizing: border-box; margin: 0px; padding: 0px;" />Bayramova Cahan Gəray qızı,<br style="box-sizing: border-box; margin: 0px; padding: 0px;" />Əliyev Oruc Əli oğlu,<br style="box-sizing: border-box; margin: 0px; padding: 0px;" />Vəliyev Yunis Əziz oğlu.</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">iş g&uuml;nləri</td>
+<th style="box-sizing: border-box; text-align: left; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; height: 153px; width: 32.1979px;" scope="row"><span style="font-size: 12pt;">8</span></th>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 153px; width: 399.719px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">The heads of departments</span></td>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 153px; width: 323.073px;">
+<p class="MsoNormal" style="margin-bottom: 0cm; line-height: normal; text-align: left;" align="center"><span style="font-size: 12pt;"><span style="font-family: Arial, sans-serif; color: black;">Gurbanova Gulay Ajdar</span><span style="font-family: Arial, sans-serif;">,</span></span></p>
+<p class="MsoNormal" style="margin-bottom: 0cm; line-height: normal; text-align: left;" align="center"><span style="font-size: 12pt;"><span style="font-family: \'Times New Roman\', serif;">&nbsp;</span><span style="font-family: Arial, sans-serif; background-color: var(--bs-table-bg);">Bayramova Jahan Garay,</span></span></p>
+<p class="MsoNormal" style="margin-bottom: 0cm; line-height: normal; text-align: left;" align="center"><span style="font-size: 12pt;"><span style="font-family: \'Times New Roman\', serif;">&nbsp;</span><span style="font-family: Arial, sans-serif; background-color: var(--bs-table-bg);">Aliyev Oruj Ali</span><span style="font-family: Arial, sans-serif; background-color: var(--bs-table-bg); color: black;">,</span></span></p>
+<p class="MsoNormal" style="margin-bottom: 0cm; line-height: normal; text-align: left;" align="center"><span style="font-size: 12pt;"><span style="font-family: \'Times New Roman\', serif;">&nbsp;</span><span style="font-family: Arial, sans-serif; background-color: var(--bs-table-bg);">Valiyev Yunis Aziz.</span></span></p>
+</td>
+<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px; height: 153px; width: 153.51px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">working days</span></td>
 </tr>
 </tbody>
 </table>',
-            'created_at' => '2022-05-10 06:06:59',
-            'updated_at' => '2022-05-10 06:06:59',
-        ),
-        27 => 
-        array (
-            'id' => 28,
-            'table_name' => 'pages',
-            'column_name' => 'body',
-            'foreign_key' => 7,
-            'locale' => 'ru',
-            'value' => '<div class="first-down-title" style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 1.8rem; text-align: center; font-weight: bold; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;">
-<p style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px;"><span style="font-size: 14pt;">NAX&Ccedil;IVAN MUXTAR RESPUBLİKASI ALİ MƏHKƏMƏSİNDƏ</span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px;"><span style="font-size: 14pt;">QƏBULUN TƏŞKİL EDİLMƏSİ HAQQINDA MƏLUMAT</span></p>
+                'created_at' => '2022-05-10 06:06:59',
+                'updated_at' => '2022-05-19 08:35:21',
+            ),
+            27 => 
+            array (
+                'id' => 28,
+                'table_name' => 'pages',
+                'column_name' => 'body',
+                'foreign_key' => 7,
+                'locale' => 'ru',
+                'value' => '<div class="first-down-title" style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 1.8rem; text-align: center; font-weight: bold; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;">
+<p class="MsoNormal" style="margin-bottom: 7.5pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;" align="center"><span style="font-size: 14pt;"><strong><span style="font-family: Arial, sans-serif;">ИНФОРМАЦИЯ О ГРАФИКЕ ПРИЕМА</span></strong></span></p>
 </div>
-<p class="first-item" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.6rem; text-align: justify; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="font-size: 12pt;">Nax&ccedil;ıvan Muxtar Respublikası Ali Məhkəməsi Aparatının Vətəndaşların qəbulu, və məktublara baxılması ş&ouml;bəsinin iş&ccedil;iləri tərəfindən hər iş g&uuml;n&uuml; saat 9.00-dan 18.00-dək məhkəmənin qəbul otağında m&uuml;raciətlər qəbul olunur, eləcə də şəxslərin ilkin qəbulu aparılır, m&uuml;raciət edən şəxslərə şikayət vermə qaydaları, h&uuml;quq və vəzifələri izah olunur.</span></p>
-<p class="item-text" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 1.65rem; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="font-size: 12pt;">Məhkəmənin sədri və digər vəzifəli şəxslər tərəfindən vətəndaşların qəbulu aşağıdakı qrafik &uuml;zrə həyata ke&ccedil;irilir.</span></p>
-<table class="table table-bordered reception_days mt-5" style="caption-side: bottom; border-collapse: collapse; border-spacing: 0px; padding: 0px; --bs-table-bg: transparent; --bs-table-striped-color: #212529; --bs-table-striped-bg: rgba(0, 0, 0, 0.05); --bs-table-active-color: #212529; --bs-table-active-bg: rgba(0, 0, 0, 0.1); --bs-table-hover-color: #212529; --bs-table-hover-bg: rgba(0, 0, 0, 0.075); width: 1110px; color: #212529; vertical-align: top; border: 1px solid #dddddd; max-width: 100%; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; margin: 3rem !important 0px 20px 0px;">
+<table class="table table-bordered reception_days mt-5" style="border-style: solid; border-color: #dddddd; caption-side: bottom; border-collapse: collapse; border-spacing: 0px; padding: 0px; --bs-table-bg: transparent; --bs-table-striped-color: #212529; --bs-table-striped-bg: rgba(0, 0, 0, 0.05); --bs-table-active-color: #212529; --bs-table-active-bg: rgba(0, 0, 0, 0.1); --bs-table-hover-color: #212529; --bs-table-hover-bg: rgba(0, 0, 0, 0.075); width: 1110px; color: #212529; vertical-align: top; max-width: 100%; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; height: 524px;">
 <thead style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px; vertical-align: bottom;">
 <tr style="box-sizing: border-box; border-style: solid; border-width: 1px 0px; margin: 0px; padding: 0px;">
-<th style="box-sizing: border-box; text-align: left; border-top: 0px; border-right: 1px solid #dddddd; border-bottom: 2px solid currentcolor; border-left: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; border-image: initial; line-height: 1.42857;" scope="col">&nbsp;</th>
-<th style="box-sizing: border-box; text-align: left; border-top: 0px; border-right: 1px solid #dddddd; border-bottom: 2px solid currentcolor; border-left: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; border-image: initial; line-height: 1.42857;" scope="col">Vətəndaşı qəbul etməli olan şəxsin vəzifəsi</th>
-<th style="box-sizing: border-box; text-align: left; border-top: 0px; border-right: 1px solid #dddddd; border-bottom: 2px solid currentcolor; border-left: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; border-image: initial; line-height: 1.42857;" scope="col">Vəzifəli şəxsin soyadı, adı və atasının adı</th>
-<th style="box-sizing: border-box; text-align: left; border-top: 0px; border-right: 1px solid #dddddd; border-bottom: 2px solid currentcolor; border-left: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; border-image: initial; line-height: 1.42857;" scope="col">Qəbul g&uuml;nləri</th>
-<th style="box-sizing: border-box; text-align: left; border-top: 0px; border-right: 1px solid #dddddd; border-bottom: 2px solid currentcolor; border-left: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; border-image: initial; line-height: 1.42857;" scope="col">Qəbul saatı</th>
+<th style="border-top-width: 0px; border-bottom-width: 2px; box-sizing: border-box; text-align: left; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; line-height: 1.42857; width: 25px; height: 55px;" scope="col">&nbsp;</th>
+<th style="border-top-width: 0px; border-bottom-width: 2px; box-sizing: border-box; text-align: left; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; line-height: 1.42857; width: 339px; height: 55px;" scope="col"><span style="font-size: 12pt;"><strong><span style="line-height: 115%; font-family: Arial, sans-serif;">Должность должностных лиц, принимающих граждан</span></strong></span></th>
+<th style="border-top-width: 0px; border-bottom-width: 2px; box-sizing: border-box; text-align: left; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; line-height: 1.42857; width: 272px; height: 55px;" scope="col">
+<p class="MsoNormal" style="margin-bottom: 7.5pt; margin-top: 0cm; mso-margin-bottom-alt: 10.0pt; mso-margin-top-alt: 0cm; mso-add-space: auto; text-align: center; line-height: normal;" align="center"><span style="font-size: 12pt;"><strong><span style="font-family: Arial, sans-serif;">Фамилия, имя, отчество</span></strong></span></p>
+<span style="font-size: 12pt;"><strong><span style="line-height: 115%; font-family: Arial, sans-serif;">чиновников</span></strong></span></th>
+<th style="border-top-width: 0px; border-bottom-width: 2px; box-sizing: border-box; text-align: left; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; line-height: 1.42857; width: 317px; height: 55px;" scope="col"><span style="font-size: 12pt;"><strong><span style="line-height: 115%; font-family: Arial, sans-serif;">Приемные дни</span></strong></span></th>
+<th style="border-top-width: 0px; border-bottom-width: 2px; box-sizing: border-box; text-align: left; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: bottom; line-height: 1.42857; width: 108px; height: 55px;" scope="col"><span style="font-size: 12pt;"><strong><span style="line-height: 115%; font-family: Arial, sans-serif;">Время приема</span></strong></span></th>
 </tr>
 </thead>
 <tbody style="box-sizing: border-box; border-style: solid; border-width: 0px; margin: 0px; padding: 0px; vertical-align: inherit;">
 <tr style="box-sizing: border-box; border-style: solid; border-width: 1px 0px; margin: 0px; padding: 0px;">
-<th style="box-sizing: border-box; text-align: left; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857;" scope="row">1</th>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Nax&ccedil;ıvan MR Ali Məhkəməsinin sədri</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Əliyev Qasım Vəli oğlu</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Hər ayın I və III həftəsinin beşinci g&uuml;nləri</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">10:00-12:00<br style="box-sizing: border-box; margin: 0px; padding: 0px;" />16:00-18:00</td>
+<th style="border-style: solid; border-color: #dddddd; box-sizing: border-box; text-align: left; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 25px; height: 57px;" scope="row"><span style="font-size: 12pt;">1</span></th>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 339px; height: 57px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">Председатель Верховного Суда</span></td>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 272px; height: 57px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">Алиев Гасым Вали оглу</span></td>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 317px; height: 57px;">
+<p class="MsoNormal" style="margin-bottom: 7.5pt; margin-top: 0cm; mso-margin-bottom-alt: 10.0pt; mso-margin-top-alt: 0cm; mso-add-space: auto; text-align: center; line-height: normal;" align="center"><span style="font-size: 12pt;"><span style="font-family: Arial, sans-serif;">Понедельник,&nbsp;</span><span style="font-family: Arial, sans-serif; background-color: var(--bs-table-bg);">Среда</span></span></p>
+</td>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 108px; height: 57px;"><span style="font-size: 12pt;">10:00-12:00</span><br style="box-sizing: border-box; margin: 0px; padding: 0px;" /><span style="font-size: 12pt;">16:00-18:00</span></td>
 </tr>
 <tr style="box-sizing: border-box; border-style: solid; border-width: 1px 0px; margin: 0px; padding: 0px;">
-<th style="box-sizing: border-box; text-align: left; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857;" scope="row">2</th>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Nax&ccedil;ıvan MR Ali Məhkəməsinin sədr m&uuml;avini</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Novruzov Əsgər Novruz oğlu</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Hər ayın II və IV həftəsinin beşinci g&uuml;nləri</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">10:00-12:00<br style="box-sizing: border-box; margin: 0px; padding: 0px;" />16:00-18:00</td>
+<th style="border-style: solid; border-color: #dddddd; box-sizing: border-box; text-align: left; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 25px; height: 56px;" scope="row"><span style="font-size: 12pt;">2</span></th>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 339px; height: 56px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">Заместитель председателя Суда</span></td>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 272px; height: 56px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">Новрузов Асгяр Новруз оглу</span></td>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 317px; height: 56px;">
+<p class="MsoNormal" style="margin-bottom: 0cm; text-align: center; line-height: normal;" align="center"><span style="font-size: 12pt;"><span style="font-family: Arial, sans-serif;">Вторник,&nbsp;</span><span style="font-family: Arial, sans-serif; background-color: var(--bs-table-bg);">Четверг</span></span></p>
+</td>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 108px; height: 56px;"><span style="font-size: 12pt;">10:00-12:00</span><br style="box-sizing: border-box; margin: 0px; padding: 0px;" /><span style="font-size: 12pt;">16:00-18:00</span></td>
 </tr>
 <tr style="box-sizing: border-box; border-style: solid; border-width: 1px 0px; margin: 0px; padding: 0px;">
-<th style="box-sizing: border-box; text-align: left; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857;" scope="row">2</th>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">M&uuml;lki kollegiyanın sədri vəzifəsini icra edən</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Allahverdiyev Əli Kərim oğlu</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">iş g&uuml;nləri</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">09:00-11:00<br style="box-sizing: border-box; margin: 0px; padding: 0px;" />16:00-18:00</td>
+<th style="border-style: solid; border-color: #dddddd; box-sizing: border-box; text-align: left; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 25px; height: 56px;" scope="row"><span style="font-size: 12pt;">3</span></th>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 339px; height: 56px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">Председатель гражданской коллегии</span></td>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 272px; height: 56px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">Аллахвердиев Али Кeрим оглу</span></td>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 317px; height: 56px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">рабочие дни</span></td>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 108px; height: 56px;"><span style="font-size: 12pt;">09:00-11:00</span><br style="box-sizing: border-box; margin: 0px; padding: 0px;" /><span style="font-size: 12pt;">16:00-18:00</span></td>
 </tr>
 <tr style="box-sizing: border-box; border-style: solid; border-width: 1px 0px; margin: 0px; padding: 0px;">
-<th style="box-sizing: border-box; text-align: left; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857;" scope="row">3</th>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">İnzibati kollegiyanın sədri vəzifəsini icra edən</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Qurbanov Yusifəli S&uuml;leyman oğlu</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">iş g&uuml;nləri</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">09:00-11:00<br style="box-sizing: border-box; margin: 0px; padding: 0px;" />16:00-18:00</td>
+<th style="border-style: solid; border-color: #dddddd; box-sizing: border-box; text-align: left; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 25px; height: 56px;" scope="row"><span style="font-size: 12pt;">4</span></th>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 339px; height: 56px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">Председатель административной коллегии</span></td>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 272px; height: 56px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">Гурбанов Юсифали Сулейман оглу</span></td>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 317px; height: 56px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">рабочие дни</span></td>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 108px; height: 56px;"><span style="font-size: 12pt;">09:00-11:00</span><br style="box-sizing: border-box; margin: 0px; padding: 0px;" /><span style="font-size: 12pt;">16:00-18:00</span></td>
 </tr>
 <tr style="box-sizing: border-box; border-style: solid; border-width: 1px 0px; margin: 0px; padding: 0px;">
-<th style="box-sizing: border-box; text-align: left; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857;" scope="row">4</th>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Cinayət kollegiyasının sədri</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Mirzəyev İlqar Məhərrəm oğlu</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">iş g&uuml;nləri</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">09:00-11:00<br style="box-sizing: border-box; margin: 0px; padding: 0px;" />16:00-18:00</td>
+<th style="border-style: solid; border-color: #dddddd; box-sizing: border-box; text-align: left; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 25px; height: 56px;" scope="row"><span style="font-size: 12pt;">5</span></th>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 339px; height: 56px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">Председатель уголовной коллегии</span></td>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 272px; height: 56px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">Mирзаев Ильгар Магеррам оглу</span></td>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 317px; height: 56px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">рабочие дни</span></td>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 108px; height: 56px;"><span style="font-size: 12pt;">09:00-11:00</span><br style="box-sizing: border-box; margin: 0px; padding: 0px;" /><span style="font-size: 12pt;">16:00-18:00</span></td>
 </tr>
 <tr style="box-sizing: border-box; border-style: solid; border-width: 1px 0px; margin: 0px; padding: 0px;">
-<th style="box-sizing: border-box; text-align: left; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857;" scope="row">5</th>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Kommersiya kollegiyanın sədri</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Xıdırov Əhliman Mehman oğlu</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">iş g&uuml;nləri</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">09:00-11:00<br style="box-sizing: border-box; margin: 0px; padding: 0px;" />16:00-18:00</td>
+<th style="border-style: solid; border-color: #dddddd; box-sizing: border-box; text-align: left; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 25px; height: 56px;" scope="row"><span style="font-size: 12pt;">6</span></th>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 339px; height: 56px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">Председатель коммерческой коллегии</span></td>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 272px; height: 56px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">Хыдыров Ахлиман Мехман оглу</span></td>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 317px; height: 56px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">рабочие дни</span></td>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 108px; height: 56px;"><span style="font-size: 12pt;">09:00-11:00</span><br style="box-sizing: border-box; margin: 0px; padding: 0px;" /><span style="font-size: 12pt;">16:00-18:00</span></td>
 </tr>
 <tr style="box-sizing: border-box; border-style: solid; border-width: 1px 0px; margin: 0px; padding: 0px;">
-<th style="box-sizing: border-box; text-align: left; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857;" scope="row">6</th>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Aparat rəhbəri</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Qaybalıyev V&uuml;sal Rəhim oğlu</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">iş g&uuml;nləri</td>
+<th style="border-style: solid; border-color: #dddddd; box-sizing: border-box; text-align: left; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 25px; height: 36px;" scope="row"><span style="font-size: 12pt;">7</span></th>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 339px; height: 36px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">Начальник аппарата администрации</span></td>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 272px; height: 36px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">Гайбалиев Вюсал Рагим оглы</span></td>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 317px; height: 36px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">рабочие дни</span></td>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 108px; height: 56px;"><span style="font-size: 12pt;">09:00-11:00</span><br style="box-sizing: border-box; margin: 0px; padding: 0px;" /><span style="font-size: 12pt;">16:00-18:00</span></td>
 </tr>
 <tr style="box-sizing: border-box; border-style: solid; border-width: 1px 0px; margin: 0px; padding: 0px;">
-<th style="box-sizing: border-box; text-align: left; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857;" scope="row">7</th>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Ş&ouml;bə m&uuml;dirləri</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">Qurbanova G&uuml;lay Əjdər qızı,<br style="box-sizing: border-box; margin: 0px; padding: 0px;" />Bayramova Cahan Gəray qızı,<br style="box-sizing: border-box; margin: 0px; padding: 0px;" />Əliyev Oruc Əli oğlu,<br style="box-sizing: border-box; margin: 0px; padding: 0px;" />Vəliyev Yunis Əziz oğlu.</td>
-<td style="box-sizing: border-box; border: 1px solid #dddddd; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; font-size: 14px;">iş g&uuml;nləri</td>
+<th style="border-style: solid; border-color: #dddddd; box-sizing: border-box; text-align: left; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 25px; height: 96px;" scope="row"><span style="font-size: 12pt;">8</span></th>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 339px; height: 96px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">Руководители отделов</span></td>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 272px; height: 96px;">
+<p class="MsoNormal" style="margin-bottom: 0cm; text-align: center; line-height: normal;" align="center"><span style="font-size: 12pt;"><span style="font-family: Arial, sans-serif; color: black;">Гурбанова Гулай Аждар кызы</span><span style="font-family: Arial, sans-serif;">,</span></span></p>
+<p class="MsoNormal" style="margin-bottom: 0cm; text-align: center; line-height: normal;" align="center"><span style="font-size: 12pt;"><span style="font-family: \'Times New Roman\', serif;">&nbsp;</span><span style="font-family: Arial, sans-serif; background-color: var(--bs-table-bg);">Байрамова Джахан Гарай кызы,</span></span></p>
+<p class="MsoNormal" style="margin-bottom: 0cm; text-align: center; line-height: normal;" align="center"><span style="font-size: 12pt;"><span style="font-family: \'Times New Roman\', serif;">&nbsp;</span><span style="background-color: var(--bs-table-bg); font-family: Arial, sans-serif;">Алиев Орудж Али оглы</span><span style="background-color: var(--bs-table-bg); font-family: Arial, sans-serif; color: black;">,</span></span></p>
+<p class="MsoNormal" style="margin-bottom: 0cm; text-align: center; line-height: normal;" align="center"><span style="font-size: 12pt;"><span style="font-family: \'Times New Roman\', serif;">&nbsp;</span><span style="font-family: Arial, sans-serif; background-color: var(--bs-table-bg);">Валиев Юнис Азиз оглы.</span></span></p>
+</td>
+<td style="font-size: 14px; border-style: solid; border-color: #dddddd; box-sizing: border-box; padding: 8px; margin: 0px; background-color: var(--bs-table-bg); box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg); vertical-align: top; line-height: 1.42857; width: 317px; height: 96px;"><span style="font-size: 12pt; line-height: 115%; font-family: Arial, sans-serif;">рабочие дни</span></td>
 </tr>
 </tbody>
 </table>',
-            'created_at' => '2022-05-10 06:06:59',
-            'updated_at' => '2022-05-10 06:06:59',
-        ),
-        28 => 
-        array (
-            'id' => 29,
-            'table_name' => 'pages',
-            'column_name' => 'slug',
-            'foreign_key' => 7,
-            'locale' => 'en',
-            'value' => 'reception_days',
-            'created_at' => '2022-05-10 06:06:59',
-            'updated_at' => '2022-05-11 06:13:36',
-        ),
-        29 => 
-        array (
-            'id' => 30,
-            'table_name' => 'pages',
-            'column_name' => 'slug',
-            'foreign_key' => 7,
-            'locale' => 'ru',
-            'value' => 'reception_days',
-            'created_at' => '2022-05-10 06:06:59',
-            'updated_at' => '2022-05-11 06:13:36',
-        ),
-        30 => 
-        array (
-            'id' => 31,
-            'table_name' => 'pages',
-            'column_name' => 'title',
-            'foreign_key' => 8,
-            'locale' => 'en',
-            'value' => 'Rules of writing a letter to the Supreme Court of Nakhchivan AR',
-            'created_at' => '2022-05-10 06:08:10',
-            'updated_at' => '2022-05-10 06:08:10',
-        ),
-        31 => 
-        array (
-            'id' => 32,
-            'table_name' => 'pages',
-            'column_name' => 'title',
-            'foreign_key' => 8,
-            'locale' => 'ru',
-            'value' => 'Правила написания письма в Верховный суд Нахчыванской АР',
-            'created_at' => '2022-05-10 06:08:10',
-            'updated_at' => '2022-05-10 06:08:10',
-        ),
-        32 => 
-        array (
-            'id' => 33,
-            'table_name' => 'pages',
-            'column_name' => 'body',
-            'foreign_key' => 8,
-            'locale' => 'en',
-            'value' => '<p class="letter-title text-center" style="box-sizing: border-box; margin: 34px 0px; padding: 0px; text-align: center; font-size: 24px; font-weight: normal; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="font-size: 14pt;"><span style="text-align: justify;">NAX&Ccedil;IVAN MUXTAR RESPUBLİKASI ALİ MƏHKƏMƏSİNİN &Uuml;NVANINA ELEKTRON FORMADA M&Uuml;RACİƏT G&Ouml;NDƏRMƏZDƏN ƏVVƏL, XAHİŞ EDİRİK QAYDALARLA TANIŞ OLUN:</span></span></p>
+                'created_at' => '2022-05-10 06:06:59',
+                'updated_at' => '2022-05-19 08:35:21',
+            ),
+            28 => 
+            array (
+                'id' => 29,
+                'table_name' => 'pages',
+                'column_name' => 'slug',
+                'foreign_key' => 7,
+                'locale' => 'en',
+                'value' => 'reception_days',
+                'created_at' => '2022-05-10 06:06:59',
+                'updated_at' => '2022-05-11 06:13:36',
+            ),
+            29 => 
+            array (
+                'id' => 30,
+                'table_name' => 'pages',
+                'column_name' => 'slug',
+                'foreign_key' => 7,
+                'locale' => 'ru',
+                'value' => 'reception_days',
+                'created_at' => '2022-05-10 06:06:59',
+                'updated_at' => '2022-05-11 06:13:36',
+            ),
+            30 => 
+            array (
+                'id' => 31,
+                'table_name' => 'pages',
+                'column_name' => 'title',
+                'foreign_key' => 8,
+                'locale' => 'en',
+                'value' => 'Rules of writing a letter to the Supreme Court of Nakhchivan AR',
+                'created_at' => '2022-05-10 06:08:10',
+                'updated_at' => '2022-05-10 06:08:10',
+            ),
+            31 => 
+            array (
+                'id' => 32,
+                'table_name' => 'pages',
+                'column_name' => 'title',
+                'foreign_key' => 8,
+                'locale' => 'ru',
+                'value' => 'Правила написания письма в Верховный суд Нахчыванской АР',
+                'created_at' => '2022-05-10 06:08:10',
+                'updated_at' => '2022-05-10 06:08:10',
+            ),
+            32 => 
+            array (
+                'id' => 33,
+                'table_name' => 'pages',
+                'column_name' => 'body',
+                'foreign_key' => 8,
+                'locale' => 'en',
+                'value' => '<p class="letter-title text-center" style="box-sizing: border-box; margin: 34px 0px; padding: 0px; text-align: center; font-size: 24px; font-weight: normal; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="font-size: 14pt;"><span style="text-align: justify;">NAX&Ccedil;IVAN MUXTAR RESPUBLİKASI ALİ MƏHKƏMƏSİNİN &Uuml;NVANINA ELEKTRON FORMADA M&Uuml;RACİƏT G&Ouml;NDƏRMƏZDƏN ƏVVƏL, XAHİŞ EDİRİK QAYDALARLA TANIŞ OLUN:</span></span></p>
 <div class="letter-first text-justify" style="box-sizing: border-box; margin: 0px; padding: 0px; text-align: justify; font-size: 15px; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 12pt;">1.Nax&ccedil;ıvan Muxtar Respublikası Ali Məhkəməsinin rəsmi internet səhifəsi vasitəsi ilə elektron formada g&ouml;ndərilmiş m&uuml;raciətlər Nax&ccedil;ıvan Muxtar Respublikası Ali Məhkəməsinin &Uuml;mumi ş&ouml;bəsinə daxil olur və &rdquo;Vətəndaşların m&uuml;raciətləri haqqında&rdquo; Azərbaycan Respublikasının 2015-ci il 30 sentyabr tarixli, 1308-IVQ n&ouml;mrəli Qanununa, habelə Azərbaycan Respublikası Prezidentinin 2016-cı il 23 iyun tarixli, 950 n&ouml;mrəli Fərmanı ilə təsdiq edilmiş &ldquo;D&ouml;vlət və bələdiyyə orqanlarında, d&ouml;vlət və ya bələdiyyə m&uuml;lkiyyətində olan və ya paylarının (səhmlərinin) nəzarət zərfi d&ouml;vlətə və ya bələdiyyəyə məxsus olan h&uuml;quqi şəxslərdə və b&uuml;dcə təşkilatlarında vətəndaşların m&uuml;raciətləri ilə bağlı karg&uuml;zarlığın aparılması Qaydası&rdquo;na uyğun olaraq qeydiyyata alınır və baxılır.</span><br style="box-sizing: border-box; margin: 0px; padding: 0px;" /><span style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 12pt;">2.Mətni yazmazdan əvvəl nəzərdə tutulmuş formanın d&uuml;zg&uuml;n cavablandırılması vacibdir.</span><br style="box-sizing: border-box; margin: 0px; padding: 0px;" /><span style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 12pt;">3.Mətn m&uuml;tləq yazıldığı dilin əlifbası ilə tərtib olunmalıdır, b&uuml;t&ouml;vl&uuml;kdə b&ouml;y&uuml;k və ya ki&ccedil;ik hərflərlə yazılmamalı, c&uuml;mlələrə b&ouml;l&uuml;nməli, durğu işarələrindən istifadə qaydalarına riayət edilməlidir.</span><br style="box-sizing: border-box; margin: 0px; padding: 0px;" /><span style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 12pt;">4.M&uuml;raciət aydın və səlis c&uuml;mlələrlə yazılmalıdır.</span><br style="box-sizing: border-box; margin: 0px; padding: 0px;" /><span style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 12pt;">5.M&uuml;raciət edərkən etika qaydaları g&ouml;zlənilməlidir. Nəzakətsiz ifadələr işlədildikdə və ya m&uuml;əllif &ouml;z&uuml; barədə məlumatları dəqiq g&ouml;stərmədikdə m&uuml;raciətə cavab verilmir.</span><br style="box-sizing: border-box; margin: 0px; padding: 0px;" /><span style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 12pt;">6.H&ouml;rmətli internet səhifəsi istifadə&ccedil;iləri! B&ouml;y&uuml;k informasiya axınının işlənməsi x&uuml;susiyyətlərini nəzərə alaraq, xahiş edirik bəzi məhdudiyyətlərə h&ouml;rmətlə yanaşasınız:</span>
 <ul style="box-sizing: border-box; padding: 0px; margin: 0px;">
 <li style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 13px; list-style: circle;"><span style="font-size: 12pt;">Bir mənbədən elektron məlumatın g&ouml;ndərilməsinin vaxtı serverin y&uuml;klənməsindən asılı olaraq 1-5 dəqiqə ilə məhdudlaşır.</span></li>
@@ -748,17 +699,17 @@ class FromArtisanTranslationsTableSeeder extends Seeder
 </ul>
 </div>
 <p class="location" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 16px; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;">Nax&ccedil;ıvan şəhəri, AZ 7000, Atat&uuml;rk k&uuml;&ccedil;əsi 19, Nax&ccedil;ıvan Muxtar Respublikası Ali Məhkəməsi.</p>',
-            'created_at' => '2022-05-10 06:08:10',
-            'updated_at' => '2022-05-10 06:08:10',
-        ),
-        33 => 
-        array (
-            'id' => 34,
-            'table_name' => 'pages',
-            'column_name' => 'body',
-            'foreign_key' => 8,
-            'locale' => 'ru',
-            'value' => '<p class="letter-title text-center" style="box-sizing: border-box; margin: 34px 0px; padding: 0px; text-align: center; font-size: 24px; font-weight: normal; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="font-size: 14pt;"><span style="text-align: justify;">NAX&Ccedil;IVAN MUXTAR RESPUBLİKASI ALİ MƏHKƏMƏSİNİN &Uuml;NVANINA ELEKTRON FORMADA M&Uuml;RACİƏT G&Ouml;NDƏRMƏZDƏN ƏVVƏL, XAHİŞ EDİRİK QAYDALARLA TANIŞ OLUN:</span></span></p>
+                'created_at' => '2022-05-10 06:08:10',
+                'updated_at' => '2022-05-10 06:08:10',
+            ),
+            33 => 
+            array (
+                'id' => 34,
+                'table_name' => 'pages',
+                'column_name' => 'body',
+                'foreign_key' => 8,
+                'locale' => 'ru',
+                'value' => '<p class="letter-title text-center" style="box-sizing: border-box; margin: 34px 0px; padding: 0px; text-align: center; font-size: 24px; font-weight: normal; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="font-size: 14pt;"><span style="text-align: justify;">NAX&Ccedil;IVAN MUXTAR RESPUBLİKASI ALİ MƏHKƏMƏSİNİN &Uuml;NVANINA ELEKTRON FORMADA M&Uuml;RACİƏT G&Ouml;NDƏRMƏZDƏN ƏVVƏL, XAHİŞ EDİRİK QAYDALARLA TANIŞ OLUN:</span></span></p>
 <div class="letter-first text-justify" style="box-sizing: border-box; margin: 0px; padding: 0px; text-align: justify; font-size: 15px; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;"><span style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 12pt;">1.Nax&ccedil;ıvan Muxtar Respublikası Ali Məhkəməsinin rəsmi internet səhifəsi vasitəsi ilə elektron formada g&ouml;ndərilmiş m&uuml;raciətlər Nax&ccedil;ıvan Muxtar Respublikası Ali Məhkəməsinin &Uuml;mumi ş&ouml;bəsinə daxil olur və &rdquo;Vətəndaşların m&uuml;raciətləri haqqında&rdquo; Azərbaycan Respublikasının 2015-ci il 30 sentyabr tarixli, 1308-IVQ n&ouml;mrəli Qanununa, habelə Azərbaycan Respublikası Prezidentinin 2016-cı il 23 iyun tarixli, 950 n&ouml;mrəli Fərmanı ilə təsdiq edilmiş &ldquo;D&ouml;vlət və bələdiyyə orqanlarında, d&ouml;vlət və ya bələdiyyə m&uuml;lkiyyətində olan və ya paylarının (səhmlərinin) nəzarət zərfi d&ouml;vlətə və ya bələdiyyəyə məxsus olan h&uuml;quqi şəxslərdə və b&uuml;dcə təşkilatlarında vətəndaşların m&uuml;raciətləri ilə bağlı karg&uuml;zarlığın aparılması Qaydası&rdquo;na uyğun olaraq qeydiyyata alınır və baxılır.</span><br style="box-sizing: border-box; margin: 0px; padding: 0px;" /><span style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 12pt;">2.Mətni yazmazdan əvvəl nəzərdə tutulmuş formanın d&uuml;zg&uuml;n cavablandırılması vacibdir.</span><br style="box-sizing: border-box; margin: 0px; padding: 0px;" /><span style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 12pt;">3.Mətn m&uuml;tləq yazıldığı dilin əlifbası ilə tərtib olunmalıdır, b&uuml;t&ouml;vl&uuml;kdə b&ouml;y&uuml;k və ya ki&ccedil;ik hərflərlə yazılmamalı, c&uuml;mlələrə b&ouml;l&uuml;nməli, durğu işarələrindən istifadə qaydalarına riayət edilməlidir.</span><br style="box-sizing: border-box; margin: 0px; padding: 0px;" /><span style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 12pt;">4.M&uuml;raciət aydın və səlis c&uuml;mlələrlə yazılmalıdır.</span><br style="box-sizing: border-box; margin: 0px; padding: 0px;" /><span style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 12pt;">5.M&uuml;raciət edərkən etika qaydaları g&ouml;zlənilməlidir. Nəzakətsiz ifadələr işlədildikdə və ya m&uuml;əllif &ouml;z&uuml; barədə məlumatları dəqiq g&ouml;stərmədikdə m&uuml;raciətə cavab verilmir.</span><br style="box-sizing: border-box; margin: 0px; padding: 0px;" /><span style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 12pt;">6.H&ouml;rmətli internet səhifəsi istifadə&ccedil;iləri! B&ouml;y&uuml;k informasiya axınının işlənməsi x&uuml;susiyyətlərini nəzərə alaraq, xahiş edirik bəzi məhdudiyyətlərə h&ouml;rmətlə yanaşasınız:</span>
 <ul style="box-sizing: border-box; padding: 0px; margin: 0px;">
 <li style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 13px; list-style: circle;"><span style="font-size: 12pt;">Bir mənbədən elektron məlumatın g&ouml;ndərilməsinin vaxtı serverin y&uuml;klənməsindən asılı olaraq 1-5 dəqiqə ilə məhdudlaşır.</span></li>
@@ -767,1136 +718,1136 @@ class FromArtisanTranslationsTableSeeder extends Seeder
 </ul>
 </div>
 <p class="location" style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; font-size: 16px; color: #333333; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;">Nax&ccedil;ıvan şəhəri, AZ 7000, Atat&uuml;rk k&uuml;&ccedil;əsi 19, Nax&ccedil;ıvan Muxtar Respublikası Ali Məhkəməsi.</p>',
-            'created_at' => '2022-05-10 06:08:10',
-            'updated_at' => '2022-05-10 06:08:10',
-        ),
-        34 => 
-        array (
-            'id' => 35,
-            'table_name' => 'pages',
-            'column_name' => 'slug',
-            'foreign_key' => 8,
-            'locale' => 'en',
-            'value' => 'rules-of-writing-a-letter-to-the-supreme-court-of-nakhchivan-ar',
-            'created_at' => '2022-05-10 06:08:10',
-            'updated_at' => '2022-05-10 06:08:10',
-        ),
-        35 => 
-        array (
-            'id' => 36,
-            'table_name' => 'pages',
-            'column_name' => 'slug',
-            'foreign_key' => 8,
-            'locale' => 'ru',
-            'value' => 'pravila-napisaniya-pisma-v-verhovnyj-sud-nahchyvanskoj-ar',
-            'created_at' => '2022-05-10 06:08:10',
-            'updated_at' => '2022-05-10 06:08:10',
-        ),
-        36 => 
-        array (
-            'id' => 37,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 23,
-            'locale' => 'en',
-            'value' => 'Judges',
-            'created_at' => '2022-05-10 07:31:28',
-            'updated_at' => '2022-05-10 08:32:04',
-        ),
-        37 => 
-        array (
-            'id' => 38,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 52,
-            'locale' => 'en',
-            'value' => 'Президиум',
-            'created_at' => '2022-05-10 08:16:03',
-            'updated_at' => '2022-05-11 10:18:00',
-        ),
-        38 => 
-        array (
-            'id' => 39,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 56,
-            'locale' => 'en',
-            'value' => 'Judges',
-            'created_at' => '2022-05-10 08:16:12',
-            'updated_at' => '2022-05-11 10:18:34',
-        ),
-        39 => 
-        array (
-            'id' => 40,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 64,
-            'locale' => 'en',
-            'value' => 'Judicial acts',
-            'created_at' => '2022-05-10 08:18:10',
-            'updated_at' => '2022-05-11 10:25:32',
-        ),
-        40 => 
-        array (
-            'id' => 41,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 65,
-            'locale' => 'en',
-            'value' => 'Decisions of the European Court of Human Rights',
-            'created_at' => '2022-05-10 08:18:56',
-            'updated_at' => '2022-05-11 10:26:07',
-        ),
-        41 => 
-        array (
-            'id' => 42,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 66,
-            'locale' => 'en',
-            'value' => 'News',
-            'created_at' => '2022-05-10 08:19:48',
-            'updated_at' => '2022-05-11 10:27:20',
-        ),
-        42 => 
-        array (
-            'id' => 43,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 67,
-            'locale' => 'en',
-            'value' => 'Reports',
-            'created_at' => '2022-05-10 08:20:19',
-            'updated_at' => '2022-05-11 10:27:53',
-        ),
-        43 => 
-        array (
-            'id' => 44,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 68,
-            'locale' => 'en',
-            'value' => 'Speeches',
-            'created_at' => '2022-05-10 08:20:50',
-            'updated_at' => '2022-05-11 10:28:54',
-        ),
-        44 => 
-        array (
-            'id' => 45,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 69,
-            'locale' => 'en',
-            'value' => 'Photo materials',
-            'created_at' => '2022-05-10 08:21:15',
-            'updated_at' => '2022-05-11 10:29:28',
-        ),
-        45 => 
-        array (
-            'id' => 46,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 70,
-            'locale' => 'en',
-            'value' => 'Video materials',
-            'created_at' => '2022-05-10 08:21:41',
-            'updated_at' => '2022-05-11 10:30:05',
-        ),
-        46 => 
-        array (
-            'id' => 47,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 71,
-            'locale' => 'en',
-            'value' => 'Articles',
-            'created_at' => '2022-05-10 08:22:01',
-            'updated_at' => '2022-05-11 10:30:39',
-        ),
-        47 => 
-        array (
-            'id' => 48,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 72,
-            'locale' => 'en',
-            'value' => 'Question and answer',
-            'created_at' => '2022-05-10 08:22:25',
-            'updated_at' => '2022-05-11 10:31:47',
-        ),
-        48 => 
-        array (
-            'id' => 49,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 73,
-            'locale' => 'en',
-            'value' => 'Educational materials',
-            'created_at' => '2022-05-10 08:22:50',
-            'updated_at' => '2022-05-11 10:32:42',
-        ),
-        49 => 
-        array (
-            'id' => 50,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 74,
-            'locale' => 'en',
-            'value' => 'Events',
-            'created_at' => '2022-05-10 08:23:09',
-            'updated_at' => '2022-05-11 10:33:22',
-        ),
-        50 => 
-        array (
-            'id' => 51,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 46,
-            'locale' => 'en',
-            'value' => 'Court',
-            'created_at' => '2022-05-10 08:26:15',
-            'updated_at' => '2022-05-10 08:26:15',
-        ),
-        51 => 
-        array (
-            'id' => 52,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 46,
-            'locale' => 'ru',
-            'value' => 'Суд',
-            'created_at' => '2022-05-10 08:26:15',
-            'updated_at' => '2022-05-10 08:26:15',
-        ),
-        52 => 
-        array (
-            'id' => 53,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 18,
-            'locale' => 'en',
-            'value' => 'Court',
-            'created_at' => '2022-05-10 08:27:18',
-            'updated_at' => '2022-05-10 08:27:18',
-        ),
-        53 => 
-        array (
-            'id' => 54,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 18,
-            'locale' => 'ru',
-            'value' => 'Суд',
-            'created_at' => '2022-05-10 08:27:18',
-            'updated_at' => '2022-05-10 08:27:18',
-        ),
-        54 => 
-        array (
-            'id' => 55,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 17,
-            'locale' => 'en',
-            'value' => 'home',
-            'created_at' => '2022-05-10 08:28:28',
-            'updated_at' => '2022-05-10 08:29:58',
-        ),
-        55 => 
-        array (
-            'id' => 56,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 17,
-            'locale' => 'ru',
-            'value' => 'home',
-            'created_at' => '2022-05-10 08:28:28',
-            'updated_at' => '2022-05-10 08:29:58',
-        ),
-        56 => 
-        array (
-            'id' => 57,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 20,
-            'locale' => 'en',
-            'value' => 'General Information',
-            'created_at' => '2022-05-10 08:29:11',
-            'updated_at' => '2022-05-10 08:29:11',
-        ),
-        57 => 
-        array (
-            'id' => 58,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 20,
-            'locale' => 'ru',
-            'value' => 'Главная Информация',
-            'created_at' => '2022-05-10 08:29:11',
-            'updated_at' => '2022-05-10 08:29:11',
-        ),
-        58 => 
-        array (
-            'id' => 59,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 21,
-            'locale' => 'en',
-            'value' => 'Chairman of the court',
-            'created_at' => '2022-05-10 08:30:43',
-            'updated_at' => '2022-05-10 08:30:43',
-        ),
-        59 => 
-        array (
-            'id' => 60,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 21,
-            'locale' => 'ru',
-            'value' => 'председатель суда',
-            'created_at' => '2022-05-10 08:30:43',
-            'updated_at' => '2022-05-10 08:30:43',
-        ),
-        60 => 
-        array (
-            'id' => 61,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 22,
-            'locale' => 'en',
-            'value' => 'Presidium',
-            'created_at' => '2022-05-10 08:31:25',
-            'updated_at' => '2022-05-10 08:31:25',
-        ),
-        61 => 
-        array (
-            'id' => 62,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 22,
-            'locale' => 'ru',
-            'value' => 'Президиум',
-            'created_at' => '2022-05-10 08:31:25',
-            'updated_at' => '2022-05-10 08:31:25',
-        ),
-        62 => 
-        array (
-            'id' => 63,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 23,
-            'locale' => 'ru',
-            'value' => 'Cудьи',
-            'created_at' => '2022-05-10 08:32:04',
-            'updated_at' => '2022-05-10 08:32:04',
-        ),
-        63 => 
-        array (
-            'id' => 64,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 24,
-            'locale' => 'en',
-            'value' => 'The structure of the court',
-            'created_at' => '2022-05-10 08:32:39',
-            'updated_at' => '2022-05-10 08:32:39',
-        ),
-        64 => 
-        array (
-            'id' => 65,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 24,
-            'locale' => 'ru',
-            'value' => 'Структура суда',
-            'created_at' => '2022-05-10 08:32:39',
-            'updated_at' => '2022-05-10 08:32:39',
-        ),
-        65 => 
-        array (
-            'id' => 66,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 25,
-            'locale' => 'en',
-            'value' => 'Judicial apparatus',
-            'created_at' => '2022-05-10 08:33:11',
-            'updated_at' => '2022-05-10 08:33:11',
-        ),
-        66 => 
-        array (
-            'id' => 67,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 25,
-            'locale' => 'ru',
-            'value' => 'Судебный аппарат',
-            'created_at' => '2022-05-10 08:33:11',
-            'updated_at' => '2022-05-10 08:33:11',
-        ),
-        67 => 
-        array (
-            'id' => 68,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 26,
-            'locale' => 'en',
-            'value' => 'Supreme Court - 90',
-            'created_at' => '2022-05-10 08:33:49',
-            'updated_at' => '2022-05-10 08:33:49',
-        ),
-        68 => 
-        array (
-            'id' => 69,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 26,
-            'locale' => 'ru',
-            'value' => 'Верховный суд - 90',
-            'created_at' => '2022-05-10 08:33:49',
-            'updated_at' => '2022-05-10 08:33:49',
-        ),
-        69 => 
-        array (
-            'id' => 70,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 19,
-            'locale' => 'en',
-            'value' => 'Legal acts',
-            'created_at' => '2022-05-10 08:34:30',
-            'updated_at' => '2022-05-10 08:34:30',
-        ),
-        70 => 
-        array (
-            'id' => 71,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 19,
-            'locale' => 'ru',
-            'value' => 'Правовые акты',
-            'created_at' => '2022-05-10 08:34:30',
-            'updated_at' => '2022-05-10 08:34:30',
-        ),
-        71 => 
-        array (
-            'id' => 72,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 27,
-            'locale' => 'en',
-            'value' => 'Legal acts of the Republic of Azerbaijan',
-            'created_at' => '2022-05-10 08:35:58',
-            'updated_at' => '2022-05-10 08:35:58',
-        ),
-        72 => 
-        array (
-            'id' => 73,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 27,
-            'locale' => 'ru',
-            'value' => 'Правовые акты Азербайджанской Республики',
-            'created_at' => '2022-05-10 08:35:58',
-            'updated_at' => '2022-05-10 08:35:58',
-        ),
-        73 => 
-        array (
-            'id' => 74,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 28,
-            'locale' => 'en',
-            'value' => 'Legal acts of the Nakhchivan Autonomous Republic',
-            'created_at' => '2022-05-10 08:36:40',
-            'updated_at' => '2022-05-10 08:36:40',
-        ),
-        74 => 
-        array (
-            'id' => 75,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 28,
-            'locale' => 'ru',
-            'value' => 'Правовые акты Нахчыванской Автономной Республики',
-            'created_at' => '2022-05-10 08:36:40',
-            'updated_at' => '2022-05-10 08:36:40',
-        ),
-        75 => 
-        array (
-            'id' => 76,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 29,
-            'locale' => 'en',
-            'value' => 'International legal documents',
-            'created_at' => '2022-05-10 08:37:18',
-            'updated_at' => '2022-05-10 08:37:18',
-        ),
-        76 => 
-        array (
-            'id' => 77,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 29,
-            'locale' => 'ru',
-            'value' => 'Международно-правовые документы',
-            'created_at' => '2022-05-10 08:37:18',
-            'updated_at' => '2022-05-10 08:37:18',
-        ),
-        77 => 
-        array (
-            'id' => 78,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 30,
-            'locale' => 'en',
-            'value' => 'Court documents',
-            'created_at' => '2022-05-10 08:37:50',
-            'updated_at' => '2022-05-10 08:37:50',
-        ),
-        78 => 
-        array (
-            'id' => 79,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 30,
-            'locale' => 'ru',
-            'value' => 'Судебные документы',
-            'created_at' => '2022-05-10 08:37:50',
-            'updated_at' => '2022-05-10 08:37:50',
-        ),
-        79 => 
-        array (
-            'id' => 80,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 31,
-            'locale' => 'en',
-            'value' => 'Decisions of the presidium',
-            'created_at' => '2022-05-10 08:38:29',
-            'updated_at' => '2022-05-10 08:38:29',
-        ),
-        80 => 
-        array (
-            'id' => 81,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 31,
-            'locale' => 'ru',
-            'value' => 'Решения президиума',
-            'created_at' => '2022-05-10 08:38:29',
-            'updated_at' => '2022-05-10 08:38:29',
-        ),
-        81 => 
-        array (
-            'id' => 82,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 32,
-            'locale' => 'en',
-            'value' => 'Judicial acts',
-            'created_at' => '2022-05-10 08:39:10',
-            'updated_at' => '2022-05-10 08:39:10',
-        ),
-        82 => 
-        array (
-            'id' => 83,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 32,
-            'locale' => 'ru',
-            'value' => 'Судебные акты',
-            'created_at' => '2022-05-10 08:39:10',
-            'updated_at' => '2022-05-10 08:39:10',
-        ),
-        83 => 
-        array (
-            'id' => 84,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 33,
-            'locale' => 'en',
-            'value' => 'Decisions of the European Court of Human Rights',
-            'created_at' => '2022-05-10 08:39:42',
-            'updated_at' => '2022-05-10 08:39:42',
-        ),
-        84 => 
-        array (
-            'id' => 85,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 33,
-            'locale' => 'ru',
-            'value' => 'Решения Европейского суда по правам человека',
-            'created_at' => '2022-05-10 08:39:42',
-            'updated_at' => '2022-05-10 08:39:42',
-        ),
-        85 => 
-        array (
-            'id' => 86,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 34,
-            'locale' => 'en',
-            'value' => 'Press Service',
-            'created_at' => '2022-05-10 08:40:14',
-            'updated_at' => '2022-05-10 08:40:14',
-        ),
-        86 => 
-        array (
-            'id' => 87,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 34,
-            'locale' => 'ru',
-            'value' => 'Пресс-служба',
-            'created_at' => '2022-05-10 08:40:14',
-            'updated_at' => '2022-05-10 08:40:14',
-        ),
-        87 => 
-        array (
-            'id' => 88,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 35,
-            'locale' => 'en',
-            'value' => 'News',
-            'created_at' => '2022-05-10 08:40:46',
-            'updated_at' => '2022-05-10 08:40:46',
-        ),
-        88 => 
-        array (
-            'id' => 89,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 35,
-            'locale' => 'ru',
-            'value' => 'Новости',
-            'created_at' => '2022-05-10 08:40:46',
-            'updated_at' => '2022-05-10 08:40:46',
-        ),
-        89 => 
-        array (
-            'id' => 90,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 36,
-            'locale' => 'en',
-            'value' => 'Reports',
-            'created_at' => '2022-05-10 08:41:17',
-            'updated_at' => '2022-05-10 08:41:17',
-        ),
-        90 => 
-        array (
-            'id' => 91,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 36,
-            'locale' => 'ru',
-            'value' => 'Отчеты',
-            'created_at' => '2022-05-10 08:41:17',
-            'updated_at' => '2022-05-10 08:41:17',
-        ),
-        91 => 
-        array (
-            'id' => 92,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 37,
-            'locale' => 'en',
-            'value' => 'Speeches',
-            'created_at' => '2022-05-10 08:41:47',
-            'updated_at' => '2022-05-10 08:41:47',
-        ),
-        92 => 
-        array (
-            'id' => 93,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 37,
-            'locale' => 'ru',
-            'value' => 'Выступления',
-            'created_at' => '2022-05-10 08:41:47',
-            'updated_at' => '2022-05-10 08:41:47',
-        ),
-        93 => 
-        array (
-            'id' => 94,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 38,
-            'locale' => 'en',
-            'value' => 'Photo materials',
-            'created_at' => '2022-05-10 08:42:18',
-            'updated_at' => '2022-05-10 08:42:18',
-        ),
-        94 => 
-        array (
-            'id' => 95,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 38,
-            'locale' => 'ru',
-            'value' => 'Фотоматериалы',
-            'created_at' => '2022-05-10 08:42:18',
-            'updated_at' => '2022-05-10 08:42:18',
-        ),
-        95 => 
-        array (
-            'id' => 96,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 39,
-            'locale' => 'en',
-            'value' => 'Video materials',
-            'created_at' => '2022-05-10 08:42:48',
-            'updated_at' => '2022-05-10 08:42:48',
-        ),
-        96 => 
-        array (
-            'id' => 97,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 39,
-            'locale' => 'ru',
-            'value' => 'Видео материалы',
-            'created_at' => '2022-05-10 08:42:48',
-            'updated_at' => '2022-05-10 08:42:48',
-        ),
-        97 => 
-        array (
-            'id' => 98,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 40,
-            'locale' => 'en',
-            'value' => 'Articles',
-            'created_at' => '2022-05-10 08:43:21',
-            'updated_at' => '2022-05-10 08:43:21',
-        ),
-        98 => 
-        array (
-            'id' => 99,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 40,
-            'locale' => 'ru',
-            'value' => 'Статьи',
-            'created_at' => '2022-05-10 08:43:21',
-            'updated_at' => '2022-05-10 08:43:21',
-        ),
-        99 => 
-        array (
-            'id' => 100,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 41,
-            'locale' => 'en',
-            'value' => 'LEGAL EDUCATION',
-            'created_at' => '2022-05-10 08:43:55',
-            'updated_at' => '2022-05-10 08:43:55',
-        ),
-        100 => 
-        array (
-            'id' => 101,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 41,
-            'locale' => 'ru',
-            'value' => 'ЮРИДИЧЕСКОЕ ОБРАЗОВАНИЕ',
-            'created_at' => '2022-05-10 08:43:55',
-            'updated_at' => '2022-05-10 08:43:55',
-        ),
-        101 => 
-        array (
-            'id' => 102,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 42,
-            'locale' => 'en',
-            'value' => 'Question and answer',
-            'created_at' => '2022-05-10 08:44:29',
-            'updated_at' => '2022-05-10 08:44:29',
-        ),
-        102 => 
-        array (
-            'id' => 103,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 42,
-            'locale' => 'ru',
-            'value' => 'Вопрос и ответ',
-            'created_at' => '2022-05-10 08:44:29',
-            'updated_at' => '2022-05-10 08:44:29',
-        ),
-        103 => 
-        array (
-            'id' => 104,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 43,
-            'locale' => 'en',
-            'value' => 'Educational materials',
-            'created_at' => '2022-05-10 08:45:01',
-            'updated_at' => '2022-05-10 08:45:01',
-        ),
-        104 => 
-        array (
-            'id' => 105,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 43,
-            'locale' => 'ru',
-            'value' => 'Образовательные материалы',
-            'created_at' => '2022-05-10 08:45:01',
-            'updated_at' => '2022-05-10 08:45:01',
-        ),
-        105 => 
-        array (
-            'id' => 106,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 44,
-            'locale' => 'en',
-            'value' => 'Events',
-            'created_at' => '2022-05-10 08:45:32',
-            'updated_at' => '2022-05-10 08:45:32',
-        ),
-        106 => 
-        array (
-            'id' => 107,
-            'table_name' => 'menu_items',
-            'column_name' => 'title',
-            'foreign_key' => 44,
-            'locale' => 'ru',
-            'value' => 'События',
-            'created_at' => '2022-05-10 08:45:32',
-            'updated_at' => '2022-05-10 08:45:32',
-        ),
-        107 => 
-        array (
-            'id' => 108,
-            'table_name' => 'news',
-            'column_name' => 'title',
-            'foreign_key' => 2,
-            'locale' => 'en',
-            'value' => 'The Supreme Court of the Nakhchivan Autonomous Republic has completed a five-day training for students on "Actual issues of family law."',
-            'created_at' => '2022-05-10 10:26:50',
-            'updated_at' => '2022-05-10 13:44:48',
-        ),
-        108 => 
-        array (
-            'id' => 109,
-            'table_name' => 'news',
-            'column_name' => 'slug',
-            'foreign_key' => 2,
-            'locale' => 'en',
-            'value' => 'the-supreme-court-of-the-nakhchivan-autonomous-republic-has-completed-a-five-day-training-for-students-on-actual-issues-of-family-law',
-            'created_at' => '2022-05-10 10:26:50',
-            'updated_at' => '2022-05-10 13:44:48',
-        ),
-        109 => 
-        array (
-            'id' => 110,
-            'table_name' => 'news',
-            'column_name' => 'title',
-            'foreign_key' => 2,
-            'locale' => 'ru',
-            'value' => 'В Верховном суде Нахчыванской Автономной Республики завершился пятидневный тренинг для студентов на тему «Актуальные вопросы семейного права».',
-            'created_at' => '2022-05-10 10:27:08',
-            'updated_at' => '2022-05-10 13:44:48',
-        ),
-        110 => 
-        array (
-            'id' => 111,
-            'table_name' => 'news',
-            'column_name' => 'slug',
-            'foreign_key' => 2,
-            'locale' => 'ru',
-            'value' => 'v-verhovnom-sude-nahchyvanskoj-avtonomnoj-respubliki-zavershilsya-pyatidnevnyj-trening-dlya-studentov-na-temu-aktualnye-voprosy-semejnogo-prava',
-            'created_at' => '2022-05-10 10:27:08',
-            'updated_at' => '2022-05-10 13:44:48',
-        ),
-        111 => 
-        array (
-            'id' => 112,
-            'table_name' => 'news',
-            'column_name' => 'content',
-            'foreign_key' => 2,
-            'locale' => 'en',
-            'value' => '<p>content en</p>',
-            'created_at' => '2022-05-10 10:30:18',
-            'updated_at' => '2022-05-10 13:48:43',
-        ),
-        112 => 
-        array (
-            'id' => 113,
-            'table_name' => 'news',
-            'column_name' => 'content',
-            'foreign_key' => 2,
-            'locale' => 'ru',
-            'value' => '<p>content ru</p>',
-            'created_at' => '2022-05-10 10:30:18',
-            'updated_at' => '2022-05-10 13:48:43',
-        ),
-        113 => 
-        array (
-            'id' => 114,
-            'table_name' => 'faqs',
-            'column_name' => 'title',
-            'foreign_key' => 3,
-            'locale' => 'en',
-            'value' => 'Frequently Asked Questions',
-            'created_at' => '2022-05-10 11:14:38',
-            'updated_at' => '2022-05-10 11:23:37',
-        ),
-        114 => 
-        array (
-            'id' => 115,
-            'table_name' => 'faqs',
-            'column_name' => 'title',
-            'foreign_key' => 3,
-            'locale' => 'ru',
-            'value' => 'Часто задаваемые вопросы',
-            'created_at' => '2022-05-10 11:14:38',
-            'updated_at' => '2022-05-10 11:23:37',
-        ),
-        115 => 
-        array (
-            'id' => 116,
-            'table_name' => 'faqs',
-            'column_name' => 'content',
-            'foreign_key' => 3,
-            'locale' => 'en',
-            'value' => '<h2 style="margin: 0px 0px 10px; padding: 0px; font-weight: 400; font-family: DauphinPlain; font-size: 24px; line-height: 24px; color: #000000;">Where can I get some?</h2>
+                'created_at' => '2022-05-10 06:08:10',
+                'updated_at' => '2022-05-10 06:08:10',
+            ),
+            34 => 
+            array (
+                'id' => 35,
+                'table_name' => 'pages',
+                'column_name' => 'slug',
+                'foreign_key' => 8,
+                'locale' => 'en',
+                'value' => 'rules-of-writing-a-letter-to-the-supreme-court-of-nakhchivan-ar',
+                'created_at' => '2022-05-10 06:08:10',
+                'updated_at' => '2022-05-10 06:08:10',
+            ),
+            35 => 
+            array (
+                'id' => 36,
+                'table_name' => 'pages',
+                'column_name' => 'slug',
+                'foreign_key' => 8,
+                'locale' => 'ru',
+                'value' => 'pravila-napisaniya-pisma-v-verhovnyj-sud-nahchyvanskoj-ar',
+                'created_at' => '2022-05-10 06:08:10',
+                'updated_at' => '2022-05-10 06:08:10',
+            ),
+            36 => 
+            array (
+                'id' => 37,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 23,
+                'locale' => 'en',
+                'value' => 'Judges',
+                'created_at' => '2022-05-10 07:31:28',
+                'updated_at' => '2022-05-10 08:32:04',
+            ),
+            37 => 
+            array (
+                'id' => 38,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 52,
+                'locale' => 'en',
+                'value' => 'Президиум',
+                'created_at' => '2022-05-10 08:16:03',
+                'updated_at' => '2022-05-11 10:18:00',
+            ),
+            38 => 
+            array (
+                'id' => 39,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 56,
+                'locale' => 'en',
+                'value' => 'Judges',
+                'created_at' => '2022-05-10 08:16:12',
+                'updated_at' => '2022-05-11 10:18:34',
+            ),
+            39 => 
+            array (
+                'id' => 40,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 64,
+                'locale' => 'en',
+                'value' => 'Judicial acts',
+                'created_at' => '2022-05-10 08:18:10',
+                'updated_at' => '2022-05-11 10:25:32',
+            ),
+            40 => 
+            array (
+                'id' => 41,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 65,
+                'locale' => 'en',
+                'value' => 'Decisions of the European Court of Human Rights',
+                'created_at' => '2022-05-10 08:18:56',
+                'updated_at' => '2022-05-11 10:26:07',
+            ),
+            41 => 
+            array (
+                'id' => 42,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 66,
+                'locale' => 'en',
+                'value' => 'News',
+                'created_at' => '2022-05-10 08:19:48',
+                'updated_at' => '2022-05-11 10:27:20',
+            ),
+            42 => 
+            array (
+                'id' => 43,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 67,
+                'locale' => 'en',
+                'value' => 'Reports',
+                'created_at' => '2022-05-10 08:20:19',
+                'updated_at' => '2022-05-11 10:27:53',
+            ),
+            43 => 
+            array (
+                'id' => 44,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 68,
+                'locale' => 'en',
+                'value' => 'Speeches',
+                'created_at' => '2022-05-10 08:20:50',
+                'updated_at' => '2022-05-11 10:28:54',
+            ),
+            44 => 
+            array (
+                'id' => 45,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 69,
+                'locale' => 'en',
+                'value' => 'Photo materials',
+                'created_at' => '2022-05-10 08:21:15',
+                'updated_at' => '2022-05-11 10:29:28',
+            ),
+            45 => 
+            array (
+                'id' => 46,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 70,
+                'locale' => 'en',
+                'value' => 'Video materials',
+                'created_at' => '2022-05-10 08:21:41',
+                'updated_at' => '2022-05-11 10:30:05',
+            ),
+            46 => 
+            array (
+                'id' => 47,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 71,
+                'locale' => 'en',
+                'value' => 'Articles',
+                'created_at' => '2022-05-10 08:22:01',
+                'updated_at' => '2022-05-11 10:30:39',
+            ),
+            47 => 
+            array (
+                'id' => 48,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 72,
+                'locale' => 'en',
+                'value' => 'Question and answer',
+                'created_at' => '2022-05-10 08:22:25',
+                'updated_at' => '2022-05-11 10:31:47',
+            ),
+            48 => 
+            array (
+                'id' => 49,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 73,
+                'locale' => 'en',
+                'value' => 'Educational materials',
+                'created_at' => '2022-05-10 08:22:50',
+                'updated_at' => '2022-05-11 10:32:42',
+            ),
+            49 => 
+            array (
+                'id' => 50,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 74,
+                'locale' => 'en',
+                'value' => 'Events',
+                'created_at' => '2022-05-10 08:23:09',
+                'updated_at' => '2022-05-11 10:33:22',
+            ),
+            50 => 
+            array (
+                'id' => 51,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 46,
+                'locale' => 'en',
+                'value' => 'Court',
+                'created_at' => '2022-05-10 08:26:15',
+                'updated_at' => '2022-05-10 08:26:15',
+            ),
+            51 => 
+            array (
+                'id' => 52,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 46,
+                'locale' => 'ru',
+                'value' => 'Суд',
+                'created_at' => '2022-05-10 08:26:15',
+                'updated_at' => '2022-05-10 08:26:15',
+            ),
+            52 => 
+            array (
+                'id' => 53,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 18,
+                'locale' => 'en',
+                'value' => 'Court',
+                'created_at' => '2022-05-10 08:27:18',
+                'updated_at' => '2022-05-10 08:27:18',
+            ),
+            53 => 
+            array (
+                'id' => 54,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 18,
+                'locale' => 'ru',
+                'value' => 'Суд',
+                'created_at' => '2022-05-10 08:27:18',
+                'updated_at' => '2022-05-10 08:27:18',
+            ),
+            54 => 
+            array (
+                'id' => 55,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 17,
+                'locale' => 'en',
+                'value' => 'home',
+                'created_at' => '2022-05-10 08:28:28',
+                'updated_at' => '2022-05-10 08:29:58',
+            ),
+            55 => 
+            array (
+                'id' => 56,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 17,
+                'locale' => 'ru',
+                'value' => 'home',
+                'created_at' => '2022-05-10 08:28:28',
+                'updated_at' => '2022-05-10 08:29:58',
+            ),
+            56 => 
+            array (
+                'id' => 57,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 20,
+                'locale' => 'en',
+                'value' => 'General Information',
+                'created_at' => '2022-05-10 08:29:11',
+                'updated_at' => '2022-05-10 08:29:11',
+            ),
+            57 => 
+            array (
+                'id' => 58,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 20,
+                'locale' => 'ru',
+                'value' => 'Главная Информация',
+                'created_at' => '2022-05-10 08:29:11',
+                'updated_at' => '2022-05-10 08:29:11',
+            ),
+            58 => 
+            array (
+                'id' => 59,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 21,
+                'locale' => 'en',
+                'value' => 'Chairman of the court',
+                'created_at' => '2022-05-10 08:30:43',
+                'updated_at' => '2022-05-10 08:30:43',
+            ),
+            59 => 
+            array (
+                'id' => 60,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 21,
+                'locale' => 'ru',
+                'value' => 'председатель суда',
+                'created_at' => '2022-05-10 08:30:43',
+                'updated_at' => '2022-05-10 08:30:43',
+            ),
+            60 => 
+            array (
+                'id' => 61,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 22,
+                'locale' => 'en',
+                'value' => 'Presidium',
+                'created_at' => '2022-05-10 08:31:25',
+                'updated_at' => '2022-05-10 08:31:25',
+            ),
+            61 => 
+            array (
+                'id' => 62,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 22,
+                'locale' => 'ru',
+                'value' => 'Президиум',
+                'created_at' => '2022-05-10 08:31:25',
+                'updated_at' => '2022-05-10 08:31:25',
+            ),
+            62 => 
+            array (
+                'id' => 63,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 23,
+                'locale' => 'ru',
+                'value' => 'Cудьи',
+                'created_at' => '2022-05-10 08:32:04',
+                'updated_at' => '2022-05-10 08:32:04',
+            ),
+            63 => 
+            array (
+                'id' => 64,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 24,
+                'locale' => 'en',
+                'value' => 'The structure of the court',
+                'created_at' => '2022-05-10 08:32:39',
+                'updated_at' => '2022-05-10 08:32:39',
+            ),
+            64 => 
+            array (
+                'id' => 65,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 24,
+                'locale' => 'ru',
+                'value' => 'Структура суда',
+                'created_at' => '2022-05-10 08:32:39',
+                'updated_at' => '2022-05-10 08:32:39',
+            ),
+            65 => 
+            array (
+                'id' => 66,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 25,
+                'locale' => 'en',
+                'value' => 'Judicial apparatus',
+                'created_at' => '2022-05-10 08:33:11',
+                'updated_at' => '2022-05-10 08:33:11',
+            ),
+            66 => 
+            array (
+                'id' => 67,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 25,
+                'locale' => 'ru',
+                'value' => 'Судебный аппарат',
+                'created_at' => '2022-05-10 08:33:11',
+                'updated_at' => '2022-05-10 08:33:11',
+            ),
+            67 => 
+            array (
+                'id' => 68,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 26,
+                'locale' => 'en',
+                'value' => 'Supreme Court - 90',
+                'created_at' => '2022-05-10 08:33:49',
+                'updated_at' => '2022-05-10 08:33:49',
+            ),
+            68 => 
+            array (
+                'id' => 69,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 26,
+                'locale' => 'ru',
+                'value' => 'Верховный суд - 90',
+                'created_at' => '2022-05-10 08:33:49',
+                'updated_at' => '2022-05-10 08:33:49',
+            ),
+            69 => 
+            array (
+                'id' => 70,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 19,
+                'locale' => 'en',
+                'value' => 'Legal acts',
+                'created_at' => '2022-05-10 08:34:30',
+                'updated_at' => '2022-05-10 08:34:30',
+            ),
+            70 => 
+            array (
+                'id' => 71,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 19,
+                'locale' => 'ru',
+                'value' => 'Правовые акты',
+                'created_at' => '2022-05-10 08:34:30',
+                'updated_at' => '2022-05-10 08:34:30',
+            ),
+            71 => 
+            array (
+                'id' => 72,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 27,
+                'locale' => 'en',
+                'value' => 'Legal acts of the Republic of Azerbaijan',
+                'created_at' => '2022-05-10 08:35:58',
+                'updated_at' => '2022-05-10 08:35:58',
+            ),
+            72 => 
+            array (
+                'id' => 73,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 27,
+                'locale' => 'ru',
+                'value' => 'Правовые акты Азербайджанской Республики',
+                'created_at' => '2022-05-10 08:35:58',
+                'updated_at' => '2022-05-10 08:35:58',
+            ),
+            73 => 
+            array (
+                'id' => 74,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 28,
+                'locale' => 'en',
+                'value' => 'Legal acts of the Nakhchivan Autonomous Republic',
+                'created_at' => '2022-05-10 08:36:40',
+                'updated_at' => '2022-05-10 08:36:40',
+            ),
+            74 => 
+            array (
+                'id' => 75,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 28,
+                'locale' => 'ru',
+                'value' => 'Правовые акты Нахчыванской Автономной Республики',
+                'created_at' => '2022-05-10 08:36:40',
+                'updated_at' => '2022-05-10 08:36:40',
+            ),
+            75 => 
+            array (
+                'id' => 76,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 29,
+                'locale' => 'en',
+                'value' => 'International legal documents',
+                'created_at' => '2022-05-10 08:37:18',
+                'updated_at' => '2022-05-10 08:37:18',
+            ),
+            76 => 
+            array (
+                'id' => 77,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 29,
+                'locale' => 'ru',
+                'value' => 'Международно-правовые документы',
+                'created_at' => '2022-05-10 08:37:18',
+                'updated_at' => '2022-05-10 08:37:18',
+            ),
+            77 => 
+            array (
+                'id' => 78,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 30,
+                'locale' => 'en',
+                'value' => 'Court documents',
+                'created_at' => '2022-05-10 08:37:50',
+                'updated_at' => '2022-05-10 08:37:50',
+            ),
+            78 => 
+            array (
+                'id' => 79,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 30,
+                'locale' => 'ru',
+                'value' => 'Судебные документы',
+                'created_at' => '2022-05-10 08:37:50',
+                'updated_at' => '2022-05-10 08:37:50',
+            ),
+            79 => 
+            array (
+                'id' => 80,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 31,
+                'locale' => 'en',
+                'value' => 'Decisions of the presidium',
+                'created_at' => '2022-05-10 08:38:29',
+                'updated_at' => '2022-05-10 08:38:29',
+            ),
+            80 => 
+            array (
+                'id' => 81,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 31,
+                'locale' => 'ru',
+                'value' => 'Решения президиума',
+                'created_at' => '2022-05-10 08:38:29',
+                'updated_at' => '2022-05-10 08:38:29',
+            ),
+            81 => 
+            array (
+                'id' => 82,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 32,
+                'locale' => 'en',
+                'value' => 'Judicial acts',
+                'created_at' => '2022-05-10 08:39:10',
+                'updated_at' => '2022-05-10 08:39:10',
+            ),
+            82 => 
+            array (
+                'id' => 83,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 32,
+                'locale' => 'ru',
+                'value' => 'Судебные акты',
+                'created_at' => '2022-05-10 08:39:10',
+                'updated_at' => '2022-05-10 08:39:10',
+            ),
+            83 => 
+            array (
+                'id' => 84,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 33,
+                'locale' => 'en',
+                'value' => 'Decisions of the European Court of Human Rights',
+                'created_at' => '2022-05-10 08:39:42',
+                'updated_at' => '2022-05-10 08:39:42',
+            ),
+            84 => 
+            array (
+                'id' => 85,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 33,
+                'locale' => 'ru',
+                'value' => 'Решения Европейского суда по правам человека',
+                'created_at' => '2022-05-10 08:39:42',
+                'updated_at' => '2022-05-10 08:39:42',
+            ),
+            85 => 
+            array (
+                'id' => 86,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 34,
+                'locale' => 'en',
+                'value' => 'Press Service',
+                'created_at' => '2022-05-10 08:40:14',
+                'updated_at' => '2022-05-10 08:40:14',
+            ),
+            86 => 
+            array (
+                'id' => 87,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 34,
+                'locale' => 'ru',
+                'value' => 'Пресс-служба',
+                'created_at' => '2022-05-10 08:40:14',
+                'updated_at' => '2022-05-10 08:40:14',
+            ),
+            87 => 
+            array (
+                'id' => 88,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 35,
+                'locale' => 'en',
+                'value' => 'News',
+                'created_at' => '2022-05-10 08:40:46',
+                'updated_at' => '2022-05-10 08:40:46',
+            ),
+            88 => 
+            array (
+                'id' => 89,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 35,
+                'locale' => 'ru',
+                'value' => 'Новости',
+                'created_at' => '2022-05-10 08:40:46',
+                'updated_at' => '2022-05-10 08:40:46',
+            ),
+            89 => 
+            array (
+                'id' => 90,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 36,
+                'locale' => 'en',
+                'value' => 'Reports',
+                'created_at' => '2022-05-10 08:41:17',
+                'updated_at' => '2022-05-10 08:41:17',
+            ),
+            90 => 
+            array (
+                'id' => 91,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 36,
+                'locale' => 'ru',
+                'value' => 'Отчеты',
+                'created_at' => '2022-05-10 08:41:17',
+                'updated_at' => '2022-05-10 08:41:17',
+            ),
+            91 => 
+            array (
+                'id' => 92,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 37,
+                'locale' => 'en',
+                'value' => 'Speeches',
+                'created_at' => '2022-05-10 08:41:47',
+                'updated_at' => '2022-05-10 08:41:47',
+            ),
+            92 => 
+            array (
+                'id' => 93,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 37,
+                'locale' => 'ru',
+                'value' => 'Выступления',
+                'created_at' => '2022-05-10 08:41:47',
+                'updated_at' => '2022-05-10 08:41:47',
+            ),
+            93 => 
+            array (
+                'id' => 94,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 38,
+                'locale' => 'en',
+                'value' => 'Photo materials',
+                'created_at' => '2022-05-10 08:42:18',
+                'updated_at' => '2022-05-10 08:42:18',
+            ),
+            94 => 
+            array (
+                'id' => 95,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 38,
+                'locale' => 'ru',
+                'value' => 'Фотоматериалы',
+                'created_at' => '2022-05-10 08:42:18',
+                'updated_at' => '2022-05-10 08:42:18',
+            ),
+            95 => 
+            array (
+                'id' => 96,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 39,
+                'locale' => 'en',
+                'value' => 'Video materials',
+                'created_at' => '2022-05-10 08:42:48',
+                'updated_at' => '2022-05-10 08:42:48',
+            ),
+            96 => 
+            array (
+                'id' => 97,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 39,
+                'locale' => 'ru',
+                'value' => 'Видео материалы',
+                'created_at' => '2022-05-10 08:42:48',
+                'updated_at' => '2022-05-10 08:42:48',
+            ),
+            97 => 
+            array (
+                'id' => 98,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 40,
+                'locale' => 'en',
+                'value' => 'Articles',
+                'created_at' => '2022-05-10 08:43:21',
+                'updated_at' => '2022-05-10 08:43:21',
+            ),
+            98 => 
+            array (
+                'id' => 99,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 40,
+                'locale' => 'ru',
+                'value' => 'Статьи',
+                'created_at' => '2022-05-10 08:43:21',
+                'updated_at' => '2022-05-10 08:43:21',
+            ),
+            99 => 
+            array (
+                'id' => 100,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 41,
+                'locale' => 'en',
+                'value' => 'LEGAL EDUCATION',
+                'created_at' => '2022-05-10 08:43:55',
+                'updated_at' => '2022-05-10 08:43:55',
+            ),
+            100 => 
+            array (
+                'id' => 101,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 41,
+                'locale' => 'ru',
+                'value' => 'ЮРИДИЧЕСКОЕ ОБРАЗОВАНИЕ',
+                'created_at' => '2022-05-10 08:43:55',
+                'updated_at' => '2022-05-10 08:43:55',
+            ),
+            101 => 
+            array (
+                'id' => 102,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 42,
+                'locale' => 'en',
+                'value' => 'Question and answer',
+                'created_at' => '2022-05-10 08:44:29',
+                'updated_at' => '2022-05-10 08:44:29',
+            ),
+            102 => 
+            array (
+                'id' => 103,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 42,
+                'locale' => 'ru',
+                'value' => 'Вопрос и ответ',
+                'created_at' => '2022-05-10 08:44:29',
+                'updated_at' => '2022-05-10 08:44:29',
+            ),
+            103 => 
+            array (
+                'id' => 104,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 43,
+                'locale' => 'en',
+                'value' => 'Educational materials',
+                'created_at' => '2022-05-10 08:45:01',
+                'updated_at' => '2022-05-10 08:45:01',
+            ),
+            104 => 
+            array (
+                'id' => 105,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 43,
+                'locale' => 'ru',
+                'value' => 'Образовательные материалы',
+                'created_at' => '2022-05-10 08:45:01',
+                'updated_at' => '2022-05-10 08:45:01',
+            ),
+            105 => 
+            array (
+                'id' => 106,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 44,
+                'locale' => 'en',
+                'value' => 'Events',
+                'created_at' => '2022-05-10 08:45:32',
+                'updated_at' => '2022-05-10 08:45:32',
+            ),
+            106 => 
+            array (
+                'id' => 107,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 44,
+                'locale' => 'ru',
+                'value' => 'События',
+                'created_at' => '2022-05-10 08:45:32',
+                'updated_at' => '2022-05-10 08:45:32',
+            ),
+            107 => 
+            array (
+                'id' => 108,
+                'table_name' => 'news',
+                'column_name' => 'title',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => 'The Supreme Court of the Nakhchivan Autonomous Republic has completed a five-day training for students on "Actual issues of family law."',
+                'created_at' => '2022-05-10 10:26:50',
+                'updated_at' => '2022-05-10 13:44:48',
+            ),
+            108 => 
+            array (
+                'id' => 109,
+                'table_name' => 'news',
+                'column_name' => 'slug',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => 'the-supreme-court-of-the-nakhchivan-autonomous-republic-has-completed-a-five-day-training-for-students-on-actual-issues-of-family-law',
+                'created_at' => '2022-05-10 10:26:50',
+                'updated_at' => '2022-05-10 13:44:48',
+            ),
+            109 => 
+            array (
+                'id' => 110,
+                'table_name' => 'news',
+                'column_name' => 'title',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => 'В Верховном суде Нахчыванской Автономной Республики завершился пятидневный тренинг для студентов на тему «Актуальные вопросы семейного права».',
+                'created_at' => '2022-05-10 10:27:08',
+                'updated_at' => '2022-05-10 13:44:48',
+            ),
+            110 => 
+            array (
+                'id' => 111,
+                'table_name' => 'news',
+                'column_name' => 'slug',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => 'v-verhovnom-sude-nahchyvanskoj-avtonomnoj-respubliki-zavershilsya-pyatidnevnyj-trening-dlya-studentov-na-temu-aktualnye-voprosy-semejnogo-prava',
+                'created_at' => '2022-05-10 10:27:08',
+                'updated_at' => '2022-05-10 13:44:48',
+            ),
+            111 => 
+            array (
+                'id' => 112,
+                'table_name' => 'news',
+                'column_name' => 'content',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => '<p>content en</p>',
+                'created_at' => '2022-05-10 10:30:18',
+                'updated_at' => '2022-05-10 13:48:43',
+            ),
+            112 => 
+            array (
+                'id' => 113,
+                'table_name' => 'news',
+                'column_name' => 'content',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => '<p>content ru</p>',
+                'created_at' => '2022-05-10 10:30:18',
+                'updated_at' => '2022-05-10 13:48:43',
+            ),
+            113 => 
+            array (
+                'id' => 114,
+                'table_name' => 'faqs',
+                'column_name' => 'title',
+                'foreign_key' => 3,
+                'locale' => 'en',
+                'value' => 'Frequently Asked Questions',
+                'created_at' => '2022-05-10 11:14:38',
+                'updated_at' => '2022-05-10 11:23:37',
+            ),
+            114 => 
+            array (
+                'id' => 115,
+                'table_name' => 'faqs',
+                'column_name' => 'title',
+                'foreign_key' => 3,
+                'locale' => 'ru',
+                'value' => 'Часто задаваемые вопросы',
+                'created_at' => '2022-05-10 11:14:38',
+                'updated_at' => '2022-05-10 11:23:37',
+            ),
+            115 => 
+            array (
+                'id' => 116,
+                'table_name' => 'faqs',
+                'column_name' => 'content',
+                'foreign_key' => 3,
+                'locale' => 'en',
+                'value' => '<h2 style="margin: 0px 0px 10px; padding: 0px; font-weight: 400; font-family: DauphinPlain; font-size: 24px; line-height: 24px; color: #000000;">Where can I get some?</h2>
 <p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; color: #000000; font-family: \'Open Sans\', Arial, sans-serif;">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn\'t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
 <p>&nbsp;</p>',
-            'created_at' => '2022-05-10 11:14:38',
-            'updated_at' => '2022-05-10 11:14:38',
-        ),
-        116 => 
-        array (
-            'id' => 117,
-            'table_name' => 'faqs',
-            'column_name' => 'content',
-            'foreign_key' => 3,
-            'locale' => 'ru',
-            'value' => '<p>Где я могу получить это?</p>
+                'created_at' => '2022-05-10 11:14:38',
+                'updated_at' => '2022-05-10 11:14:38',
+            ),
+            116 => 
+            array (
+                'id' => 117,
+                'table_name' => 'faqs',
+                'column_name' => 'content',
+                'foreign_key' => 3,
+                'locale' => 'ru',
+                'value' => '<p>Где я могу получить это?</p>
 <p>Есть много вариантов переходов Лорема Ипсума, но большинство из них подверглись некоторым изменениям с помощью введенного юмора или случайных слов, которые кажутся неубедительными. Если вы собираетесь использовать ссылку Lorem Ipsum, вам нужно убедиться, что в середине текста скрыто что-то смущающее. Все генераторы Lorem Ipsum в Интернете имеют тенденцию дублировать предопределенные части, когда это необходимо, и это первый настоящий генератор в Интернете. Он использует словарь из более чем 200 латинских слов, чтобы создать разумно выглядящий Lorem Ipsum, и комбинирует несколько типовых структур предложений. Таким образом, созданный Lorem Ipsum всегда свободен от повторов, привнесенного юмора или нехарактерных слов и так далее. это бесплатно.</p>',
-            'created_at' => '2022-05-10 11:21:40',
-            'updated_at' => '2022-05-10 11:23:37',
-        ),
-        117 => 
-        array (
-            'id' => 118,
-            'table_name' => 'faqs',
-            'column_name' => 'title',
-            'foreign_key' => 2,
-            'locale' => 'en',
-            'value' => 'Where does it come from? Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,',
-            'created_at' => '2022-05-10 11:26:18',
-            'updated_at' => '2022-05-10 11:26:18',
-        ),
-        118 => 
-        array (
-            'id' => 119,
-            'table_name' => 'faqs',
-            'column_name' => 'title',
-            'foreign_key' => 2,
-            'locale' => 'ru',
-            'value' => 'Где я могу получить это?  Есть много вариантов переходов Лорема Ипсума, но большинство из них подверглись некоторым изменениям с помощью введенного юмора или случайных слов, которые кажутся неубедительными.',
-            'created_at' => '2022-05-10 11:26:18',
-            'updated_at' => '2022-05-10 11:26:18',
-        ),
-        119 => 
-        array (
-            'id' => 120,
-            'table_name' => 'faqs',
-            'column_name' => 'content',
-            'foreign_key' => 2,
-            'locale' => 'en',
-            'value' => '<h2 style="margin: 0px 0px 10px; padding: 0px; font-weight: 400; font-family: DauphinPlain; font-size: 24px; line-height: 24px; color: #000000;">Where does it come from?</h2>
+                'created_at' => '2022-05-10 11:21:40',
+                'updated_at' => '2022-05-10 11:23:37',
+            ),
+            117 => 
+            array (
+                'id' => 118,
+                'table_name' => 'faqs',
+                'column_name' => 'title',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => 'Where does it come from? Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,',
+                'created_at' => '2022-05-10 11:26:18',
+                'updated_at' => '2022-05-10 11:26:18',
+            ),
+            118 => 
+            array (
+                'id' => 119,
+                'table_name' => 'faqs',
+                'column_name' => 'title',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => 'Где я могу получить это?  Есть много вариантов переходов Лорема Ипсума, но большинство из них подверглись некоторым изменениям с помощью введенного юмора или случайных слов, которые кажутся неубедительными.',
+                'created_at' => '2022-05-10 11:26:18',
+                'updated_at' => '2022-05-10 11:26:18',
+            ),
+            119 => 
+            array (
+                'id' => 120,
+                'table_name' => 'faqs',
+                'column_name' => 'content',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => '<h2 style="margin: 0px 0px 10px; padding: 0px; font-weight: 400; font-family: DauphinPlain; font-size: 24px; line-height: 24px; color: #000000;">Where does it come from?</h2>
 <p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; color: #000000; font-family: \'Open Sans\', Arial, sans-serif;">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
 <p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; color: #000000; font-family: \'Open Sans\', Arial, sans-serif;">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>',
-            'created_at' => '2022-05-10 11:26:18',
-            'updated_at' => '2022-05-10 11:26:18',
-        ),
-        120 => 
-        array (
-            'id' => 121,
-            'table_name' => 'faqs',
-            'column_name' => 'content',
-            'foreign_key' => 2,
-            'locale' => 'ru',
-            'value' => '<p>Где я могу получить это?</p>
+                'created_at' => '2022-05-10 11:26:18',
+                'updated_at' => '2022-05-10 11:26:18',
+            ),
+            120 => 
+            array (
+                'id' => 121,
+                'table_name' => 'faqs',
+                'column_name' => 'content',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => '<p>Где я могу получить это?</p>
 <p>Есть много вариантов переходов Лорема Ипсума, но большинство из них подверглись некоторым изменениям с помощью введенного юмора или случайных слов, которые кажутся неубедительными. Если вы собираетесь использовать ссылку Lorem Ipsum, вам нужно убедиться, что в середине текста скрыто что-то смущающее. Все генераторы Lorem Ipsum в Интернете имеют тенденцию дублировать предопределенные части, когда это необходимо, и это первый настоящий генератор в Интернете. Он использует словарь из более чем 200 латинских слов, чтобы создать разумно выглядящий Lorem Ipsum, и комбинирует несколько типовых структур предложений. Таким образом, созданный Lorem Ipsum всегда свободен от повторов, привнесенного юмора или нехарактерных слов и так далее. это бесплатно.</p>',
-            'created_at' => '2022-05-10 11:26:18',
-            'updated_at' => '2022-05-10 11:26:18',
-        ),
-        121 => 
-        array (
-            'id' => 122,
-            'table_name' => 'faqs',
-            'column_name' => 'title',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => 'Where can I get some?',
-            'created_at' => '2022-05-10 11:27:26',
-            'updated_at' => '2022-05-10 11:27:26',
-        ),
-        122 => 
-        array (
-            'id' => 123,
-            'table_name' => 'faqs',
-            'column_name' => 'title',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => 'Где я могу получить это?',
-            'created_at' => '2022-05-10 11:27:26',
-            'updated_at' => '2022-05-10 11:27:26',
-        ),
-        123 => 
-        array (
-            'id' => 124,
-            'table_name' => 'faqs',
-            'column_name' => 'content',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => '<p>Where can I get some?</p>
+                'created_at' => '2022-05-10 11:26:18',
+                'updated_at' => '2022-05-10 11:26:18',
+            ),
+            121 => 
+            array (
+                'id' => 122,
+                'table_name' => 'faqs',
+                'column_name' => 'title',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => 'Where can I get some?',
+                'created_at' => '2022-05-10 11:27:26',
+                'updated_at' => '2022-05-10 11:27:26',
+            ),
+            122 => 
+            array (
+                'id' => 123,
+                'table_name' => 'faqs',
+                'column_name' => 'title',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => 'Где я могу получить это?',
+                'created_at' => '2022-05-10 11:27:26',
+                'updated_at' => '2022-05-10 11:27:26',
+            ),
+            123 => 
+            array (
+                'id' => 124,
+                'table_name' => 'faqs',
+                'column_name' => 'content',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => '<p>Where can I get some?</p>
 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words which don\'t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn\'t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humor, or non-characteristic words etc.</p>',
-            'created_at' => '2022-05-10 11:27:26',
-            'updated_at' => '2022-05-10 11:27:26',
-        ),
-        124 => 
-        array (
-            'id' => 125,
-            'table_name' => 'faqs',
-            'column_name' => 'content',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => '<p>Где я могу получить это?</p>
+                'created_at' => '2022-05-10 11:27:26',
+                'updated_at' => '2022-05-10 11:27:26',
+            ),
+            124 => 
+            array (
+                'id' => 125,
+                'table_name' => 'faqs',
+                'column_name' => 'content',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => '<p>Где я могу получить это?</p>
 <p>Есть много вариантов переходов Лорема Ипсума, но большинство из них подверглись некоторым изменениям с помощью введенного юмора или случайных слов, которые кажутся неубедительными. Если вы собираетесь использовать ссылку Lorem Ipsum, вам нужно убедиться, что в середине текста скрыто что-то смущающее. Все генераторы Lorem Ipsum в Интернете имеют тенденцию дублировать предопределенные части, когда это необходимо, и это первый настоящий генератор в Интернете. Он использует словарь из более чем 200 латинских слов, чтобы создать разумно выглядящий Lorem Ipsum, и комбинирует несколько типовых структур предложений. Таким образом, созданный Lorem Ipsum всегда свободен от повторов, привнесенного юмора или нехарактерных слов и так далее. это бесплатно.</p>',
-            'created_at' => '2022-05-10 11:27:26',
-            'updated_at' => '2022-05-10 11:27:26',
-        ),
-        125 => 
-        array (
-            'id' => 126,
-            'table_name' => 'supremecourts',
-            'column_name' => 'title',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => 'Supreme Court of the Nakhchivan Autonomous Republic - 90',
-            'created_at' => '2022-05-10 12:18:52',
-            'updated_at' => '2022-05-10 12:18:52',
-        ),
-        126 => 
-        array (
-            'id' => 127,
-            'table_name' => 'supremecourts',
-            'column_name' => 'title',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => 'Верховный суд Нахчыванской Автономной Республики - 90',
-            'created_at' => '2022-05-10 12:18:52',
-            'updated_at' => '2022-05-10 12:18:52',
-        ),
-        127 => 
-        array (
-            'id' => 128,
-            'table_name' => 'supremecourts',
-            'column_name' => 'slug',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => 'supreme-court-of-the-nakhchivan-autonomous-republic-90',
-            'created_at' => '2022-05-10 12:18:52',
-            'updated_at' => '2022-05-10 12:18:52',
-        ),
-        128 => 
-        array (
-            'id' => 129,
-            'table_name' => 'supremecourts',
-            'column_name' => 'slug',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => 'verhovnyj-sud-nahchyvanskoj-avtonomnoj-respubliki-90',
-            'created_at' => '2022-05-10 12:18:52',
-            'updated_at' => '2022-05-10 12:18:52',
-        ),
-        129 => 
-        array (
-            'id' => 130,
-            'table_name' => 'supremecourts',
-            'column_name' => 'content',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => '<p>Content en</p>',
-            'created_at' => '2022-05-10 12:18:52',
-            'updated_at' => '2022-05-10 12:18:52',
-        ),
-        130 => 
-        array (
-            'id' => 131,
-            'table_name' => 'supremecourts',
-            'column_name' => 'content',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => '<p>Content ru</p>',
-            'created_at' => '2022-05-10 12:18:52',
-            'updated_at' => '2022-05-10 12:18:52',
-        ),
-        131 => 
-        array (
-            'id' => 132,
-            'table_name' => 'supremecourts',
-            'column_name' => 'title',
-            'foreign_key' => 2,
-            'locale' => 'en',
-            'value' => 'Order of the Chairman of the Supreme Assembly of the Nakhchivan Autonomous Republic',
-            'created_at' => '2022-05-10 12:21:32',
-            'updated_at' => '2022-05-10 12:21:32',
-        ),
-        132 => 
-        array (
-            'id' => 133,
-            'table_name' => 'supremecourts',
-            'column_name' => 'title',
-            'foreign_key' => 2,
-            'locale' => 'ru',
-            'value' => 'Распоряжение Председателя Верховного Собрания Нахчыванской Автономной Республики',
-            'created_at' => '2022-05-10 12:21:32',
-            'updated_at' => '2022-05-10 12:21:32',
-        ),
-        133 => 
-        array (
-            'id' => 134,
-            'table_name' => 'supremecourts',
-            'column_name' => 'slug',
-            'foreign_key' => 2,
-            'locale' => 'en',
-            'value' => 'order-of-the-chairman-of-the-supreme-assembly-of-the-nakhchivan-autonomous-republic',
-            'created_at' => '2022-05-10 12:21:32',
-            'updated_at' => '2022-05-10 12:21:32',
-        ),
-        134 => 
-        array (
-            'id' => 135,
-            'table_name' => 'supremecourts',
-            'column_name' => 'slug',
-            'foreign_key' => 2,
-            'locale' => 'ru',
-            'value' => 'rasporyazhenie-predsedatelya-verhovnogo-sobraniya-nahchyvanskoj-avtonomnoj-respubliki',
-            'created_at' => '2022-05-10 12:21:32',
-            'updated_at' => '2022-05-10 12:21:32',
-        ),
-        135 => 
-        array (
-            'id' => 136,
-            'table_name' => 'supremecourts',
-            'column_name' => 'content',
-            'foreign_key' => 2,
-            'locale' => 'en',
-            'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; text-align: center; color: #000000; font-family: Arial, sans-serif; font-size: 15.6px; text-indent: 1cm;"><span style="color: #000000; font-family: Times New Roman, serif;"><span style="font-size: 21.3333px;"><strong>Order of the Chairman of the Supreme Assembly of the Nakhchivan Autonomous Republic on awarding employees of the Supreme Court of the Nakhchivan Autonomous Republic</strong></span></span></p>
+                'created_at' => '2022-05-10 11:27:26',
+                'updated_at' => '2022-05-10 11:27:26',
+            ),
+            125 => 
+            array (
+                'id' => 126,
+                'table_name' => 'supremecourts',
+                'column_name' => 'title',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => 'Supreme Court of the Nakhchivan Autonomous Republic - 90',
+                'created_at' => '2022-05-10 12:18:52',
+                'updated_at' => '2022-05-10 12:18:52',
+            ),
+            126 => 
+            array (
+                'id' => 127,
+                'table_name' => 'supremecourts',
+                'column_name' => 'title',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => 'Верховный суд Нахчыванской Автономной Республики - 90',
+                'created_at' => '2022-05-10 12:18:52',
+                'updated_at' => '2022-05-10 12:18:52',
+            ),
+            127 => 
+            array (
+                'id' => 128,
+                'table_name' => 'supremecourts',
+                'column_name' => 'slug',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => 'supreme-court-of-the-nakhchivan-autonomous-republic-90',
+                'created_at' => '2022-05-10 12:18:52',
+                'updated_at' => '2022-05-10 12:18:52',
+            ),
+            128 => 
+            array (
+                'id' => 129,
+                'table_name' => 'supremecourts',
+                'column_name' => 'slug',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => 'verhovnyj-sud-nahchyvanskoj-avtonomnoj-respubliki-90',
+                'created_at' => '2022-05-10 12:18:52',
+                'updated_at' => '2022-05-10 12:18:52',
+            ),
+            129 => 
+            array (
+                'id' => 130,
+                'table_name' => 'supremecourts',
+                'column_name' => 'content',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => '<p>Content en</p>',
+                'created_at' => '2022-05-10 12:18:52',
+                'updated_at' => '2022-05-10 12:18:52',
+            ),
+            130 => 
+            array (
+                'id' => 131,
+                'table_name' => 'supremecourts',
+                'column_name' => 'content',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => '<p>Content ru</p>',
+                'created_at' => '2022-05-10 12:18:52',
+                'updated_at' => '2022-05-10 12:18:52',
+            ),
+            131 => 
+            array (
+                'id' => 132,
+                'table_name' => 'supremecourts',
+                'column_name' => 'title',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => 'Order of the Chairman of the Supreme Assembly of the Nakhchivan Autonomous Republic',
+                'created_at' => '2022-05-10 12:21:32',
+                'updated_at' => '2022-05-10 12:21:32',
+            ),
+            132 => 
+            array (
+                'id' => 133,
+                'table_name' => 'supremecourts',
+                'column_name' => 'title',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => 'Распоряжение Председателя Верховного Собрания Нахчыванской Автономной Республики',
+                'created_at' => '2022-05-10 12:21:32',
+                'updated_at' => '2022-05-10 12:21:32',
+            ),
+            133 => 
+            array (
+                'id' => 134,
+                'table_name' => 'supremecourts',
+                'column_name' => 'slug',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => 'order-of-the-chairman-of-the-supreme-assembly-of-the-nakhchivan-autonomous-republic',
+                'created_at' => '2022-05-10 12:21:32',
+                'updated_at' => '2022-05-10 12:21:32',
+            ),
+            134 => 
+            array (
+                'id' => 135,
+                'table_name' => 'supremecourts',
+                'column_name' => 'slug',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => 'rasporyazhenie-predsedatelya-verhovnogo-sobraniya-nahchyvanskoj-avtonomnoj-respubliki',
+                'created_at' => '2022-05-10 12:21:32',
+                'updated_at' => '2022-05-10 12:21:32',
+            ),
+            135 => 
+            array (
+                'id' => 136,
+                'table_name' => 'supremecourts',
+                'column_name' => 'content',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; text-align: center; color: #000000; font-family: Arial, sans-serif; font-size: 15.6px; text-indent: 1cm;"><span style="color: #000000; font-family: Times New Roman, serif;"><span style="font-size: 21.3333px;"><strong>Order of the Chairman of the Supreme Assembly of the Nakhchivan Autonomous Republic on awarding employees of the Supreme Court of the Nakhchivan Autonomous Republic</strong></span></span></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; text-align: center; color: #000000; font-family: Arial, sans-serif; font-size: 15.6px; text-indent: 1cm;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 15.6px; text-align: justify; text-indent: 1cm; line-height: 20.4px;"><span style="box-sizing: border-box; font-size: 13pt; line-height: 24px; font-family: \'Times New Roman\', serif;">Guided by paragraph 21 of Part II of Article 5 of the Constitution of the Nakhchivan Autonomous Republic <span style="box-sizing: border-box; font-weight: bold;">I decide:</span></span></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 15.6px; text-align: justify; text-indent: 1cm; line-height: 20.4px;"><span style="box-sizing: border-box; font-size: 13pt; line-height: 24px; font-family: \'Times New Roman\', serif;">For effective activities in the judiciary and civil service in the Nakhchivan Autonomous Republic:</span></p>
@@ -1907,72 +1858,72 @@ class FromArtisanTranslationsTableSeeder extends Seeder
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 15.6px; text-align: right;"><span style="box-sizing: border-box; font-weight: bold;"><span style="box-sizing: border-box; font-size: 13pt; line-height: 18.4px; font-family: \'Times New Roman\', serif;">Vasif TALIBOV</span></span></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 15.6px; text-align: right;"><span style="box-sizing: border-box; font-weight: bold;"><span style="box-sizing: border-box; font-size: 13pt; line-height: 18.4px; font-family: \'Times New Roman\', serif;">Chairman of the Supreme Assembly of the Nakhchivan Autonomous Republic</span></span></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 15.6px; text-align: right;"><em style="box-sizing: border-box;"><span style="box-sizing: border-box; font-size: 13pt; line-height: 18.4px; font-family: \'Times New Roman\', serif;">Nakhchivan city, October 2, 2015</span></em></p>',
-            'created_at' => '2022-05-10 12:21:32',
-            'updated_at' => '2022-05-10 12:21:32',
-        ),
-        136 => 
-        array (
-            'id' => 137,
-            'table_name' => 'supremecourts',
-            'column_name' => 'content',
-            'foreign_key' => 2,
-            'locale' => 'ru',
-            'value' => '<p>Content ru</p>',
-            'created_at' => '2022-05-10 12:21:32',
-            'updated_at' => '2022-05-10 12:21:32',
-        ),
-        137 => 
-        array (
-            'id' => 138,
-            'table_name' => 'supremecourts',
-            'column_name' => 'title',
-            'foreign_key' => 3,
-            'locale' => 'en',
-            'value' => 'HONORARY DECREE OF THE SUPREME ASSEMBLY OF THE NAKHCHIVAN AUTONOMOUS REPUBLIC',
-            'created_at' => '2022-05-10 12:22:29',
-            'updated_at' => '2022-05-10 12:22:29',
-        ),
-        138 => 
-        array (
-            'id' => 139,
-            'table_name' => 'supremecourts',
-            'column_name' => 'title',
-            'foreign_key' => 3,
-            'locale' => 'ru',
-            'value' => 'ПОЧЕТНЫЙ ДЕКРЕТ ВЕРХОВНОГО СОБРАНИЯ НАХЧЫВАНСКОЙ АВТОНОМНОЙ РЕСПУБЛИКИ',
-            'created_at' => '2022-05-10 12:22:29',
-            'updated_at' => '2022-05-10 12:22:29',
-        ),
-        139 => 
-        array (
-            'id' => 140,
-            'table_name' => 'supremecourts',
-            'column_name' => 'slug',
-            'foreign_key' => 3,
-            'locale' => 'en',
-            'value' => 'honorary-decree-of-the-supreme-assembly-of-the-nakhchivan-autonomous-republic',
-            'created_at' => '2022-05-10 12:22:29',
-            'updated_at' => '2022-05-10 12:22:29',
-        ),
-        140 => 
-        array (
-            'id' => 141,
-            'table_name' => 'supremecourts',
-            'column_name' => 'slug',
-            'foreign_key' => 3,
-            'locale' => 'ru',
-            'value' => 'pochetnyj-dekret-verhovnogo-sobraniya-nahchyvanskoj-avtonomnoj-respubliki',
-            'created_at' => '2022-05-10 12:22:29',
-            'updated_at' => '2022-05-10 12:22:29',
-        ),
-        141 => 
-        array (
-            'id' => 142,
-            'table_name' => 'supremecourts',
-            'column_name' => 'content',
-            'foreign_key' => 3,
-            'locale' => 'en',
-            'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #333333; font-family: \'Times New Roman\', serif; text-align: center;"><img class="decree-img" style="box-sizing: border-box; border: 0px; vertical-align: middle; width: 150px; height: 160px;" src="http://alimehkemetest.nakhchivan.az/storage/courts/January2022/gerb.png" alt="" /></p>
+                'created_at' => '2022-05-10 12:21:32',
+                'updated_at' => '2022-05-10 12:21:32',
+            ),
+            136 => 
+            array (
+                'id' => 137,
+                'table_name' => 'supremecourts',
+                'column_name' => 'content',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => '<p>Content ru</p>',
+                'created_at' => '2022-05-10 12:21:32',
+                'updated_at' => '2022-05-10 12:21:32',
+            ),
+            137 => 
+            array (
+                'id' => 138,
+                'table_name' => 'supremecourts',
+                'column_name' => 'title',
+                'foreign_key' => 3,
+                'locale' => 'en',
+                'value' => 'HONORARY DECREE OF THE SUPREME ASSEMBLY OF THE NAKHCHIVAN AUTONOMOUS REPUBLIC',
+                'created_at' => '2022-05-10 12:22:29',
+                'updated_at' => '2022-05-10 12:22:29',
+            ),
+            138 => 
+            array (
+                'id' => 139,
+                'table_name' => 'supremecourts',
+                'column_name' => 'title',
+                'foreign_key' => 3,
+                'locale' => 'ru',
+                'value' => 'ПОЧЕТНЫЙ ДЕКРЕТ ВЕРХОВНОГО СОБРАНИЯ НАХЧЫВАНСКОЙ АВТОНОМНОЙ РЕСПУБЛИКИ',
+                'created_at' => '2022-05-10 12:22:29',
+                'updated_at' => '2022-05-10 12:22:29',
+            ),
+            139 => 
+            array (
+                'id' => 140,
+                'table_name' => 'supremecourts',
+                'column_name' => 'slug',
+                'foreign_key' => 3,
+                'locale' => 'en',
+                'value' => 'honorary-decree-of-the-supreme-assembly-of-the-nakhchivan-autonomous-republic',
+                'created_at' => '2022-05-10 12:22:29',
+                'updated_at' => '2022-05-10 12:22:29',
+            ),
+            140 => 
+            array (
+                'id' => 141,
+                'table_name' => 'supremecourts',
+                'column_name' => 'slug',
+                'foreign_key' => 3,
+                'locale' => 'ru',
+                'value' => 'pochetnyj-dekret-verhovnogo-sobraniya-nahchyvanskoj-avtonomnoj-respubliki',
+                'created_at' => '2022-05-10 12:22:29',
+                'updated_at' => '2022-05-10 12:22:29',
+            ),
+            141 => 
+            array (
+                'id' => 142,
+                'table_name' => 'supremecourts',
+                'column_name' => 'content',
+                'foreign_key' => 3,
+                'locale' => 'en',
+                'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #333333; font-family: \'Times New Roman\', serif; text-align: center;"><img class="decree-img" style="box-sizing: border-box; border: 0px; vertical-align: middle; width: 150px; height: 160px;" src="http://alimehkemetest.nakhchivan.az/storage/courts/January2022/gerb.png" alt="" /></p>
 <div class="decree-info" style="box-sizing: border-box; color: #333333; font-family: \'Times New Roman\', serif; text-align: center;">
 <h1 class="decree-title" style="box-sizing: border-box; font-size: 30px; margin: 30px 0px; line-height: 1.1; font-family: inherit; color: #548dd4;">NAX&Ccedil;IVAN MUXTAR RESPUBLİKASI<br style="box-sizing: border-box;" />ALİ MƏCLİSİNİN</h1>
 <h1 class="decree-titles" style="box-sizing: border-box; font-size: 36px; margin: 30px 0px; font-weight: 500; line-height: 1.1; font-family: inherit; color: #ff0000;">FƏXRİ FƏRMANI<br style="box-sizing: border-box;" />№ 48</h1>
@@ -1981,1986 +1932,1986 @@ class FromArtisanTranslationsTableSeeder extends Seeder
 <p class="decree-endblack" style="box-sizing: border-box; margin: 0px 50px 10px 0px; font-size: 20px; text-align: right;">NAX&Ccedil;IVAN MUXTAR RESPUBLİKASI<br style="box-sizing: border-box;" />ALİ MƏCLİSİNİN SƏDRİ: VASİF TALIBOV</p>
 <p class="decree-endblack end" style="box-sizing: border-box; margin: 0px 50px 10px 0px; text-align: right;">02 oktyabr 2015-ci il</p>
 </div>',
-            'created_at' => '2022-05-10 12:22:29',
-            'updated_at' => '2022-05-10 12:22:29',
-        ),
-        142 => 
-        array (
-            'id' => 143,
-            'table_name' => 'supremecourts',
-            'column_name' => 'content',
-            'foreign_key' => 3,
-            'locale' => 'ru',
-            'value' => '<p>Content ru</p>',
-            'created_at' => '2022-05-10 12:22:29',
-            'updated_at' => '2022-05-10 12:22:29',
-        ),
-        143 => 
-        array (
-            'id' => 144,
-            'table_name' => 'legalacts',
-            'column_name' => 'title',
-            'foreign_key' => 6,
-            'locale' => 'en',
-            'value' => 'Constitution, Codes and Laws',
-            'created_at' => '2022-05-10 12:37:21',
-            'updated_at' => '2022-05-10 12:37:21',
-        ),
-        144 => 
-        array (
-            'id' => 145,
-            'table_name' => 'legalacts',
-            'column_name' => 'title',
-            'foreign_key' => 6,
-            'locale' => 'ru',
-            'value' => 'Конституция, кодексы и законы',
-            'created_at' => '2022-05-10 12:37:21',
-            'updated_at' => '2022-05-10 12:37:21',
-        ),
-        145 => 
-        array (
-            'id' => 146,
-            'table_name' => 'legalacts',
-            'column_name' => 'link',
-            'foreign_key' => 6,
-            'locale' => 'en',
-            'value' => '\\constitution',
-            'created_at' => '2022-05-10 12:37:21',
-            'updated_at' => '2022-05-10 12:37:21',
-        ),
-        146 => 
-        array (
-            'id' => 147,
-            'table_name' => 'legalacts',
-            'column_name' => 'slug',
-            'foreign_key' => 6,
-            'locale' => 'en',
-            'value' => 'constitution-codes-and-laws',
-            'created_at' => '2022-05-10 12:37:21',
-            'updated_at' => '2022-05-10 12:37:21',
-        ),
-        147 => 
-        array (
-            'id' => 148,
-            'table_name' => 'legalacts',
-            'column_name' => 'slug',
-            'foreign_key' => 6,
-            'locale' => 'ru',
-            'value' => 'konstituciya-kodeksy-i-zakony',
-            'created_at' => '2022-05-10 12:37:21',
-            'updated_at' => '2022-05-10 12:37:21',
-        ),
-        148 => 
-        array (
-            'id' => 149,
-            'table_name' => 'legalacts',
-            'column_name' => 'title',
-            'foreign_key' => 5,
-            'locale' => 'en',
-            'value' => 'Decrees and Orders',
-            'created_at' => '2022-05-10 12:39:08',
-            'updated_at' => '2022-05-10 12:39:08',
-        ),
-        149 => 
-        array (
-            'id' => 150,
-            'table_name' => 'legalacts',
-            'column_name' => 'title',
-            'foreign_key' => 5,
-            'locale' => 'ru',
-            'value' => 'Указы и распоряжения',
-            'created_at' => '2022-05-10 12:39:08',
-            'updated_at' => '2022-05-10 12:39:08',
-        ),
-        150 => 
-        array (
-            'id' => 151,
-            'table_name' => 'legalacts',
-            'column_name' => 'slug',
-            'foreign_key' => 5,
-            'locale' => 'en',
-            'value' => 'decrees-and-orders',
-            'created_at' => '2022-05-10 12:39:08',
-            'updated_at' => '2022-05-10 12:39:08',
-        ),
-        151 => 
-        array (
-            'id' => 152,
-            'table_name' => 'legalacts',
-            'column_name' => 'slug',
-            'foreign_key' => 5,
-            'locale' => 'ru',
-            'value' => 'ukazy-i-rasporyazheniya',
-            'created_at' => '2022-05-10 12:39:08',
-            'updated_at' => '2022-05-10 12:39:08',
-        ),
-        152 => 
-        array (
-            'id' => 153,
-            'table_name' => 'legalacts',
-            'column_name' => 'title',
-            'foreign_key' => 4,
-            'locale' => 'en',
-            'value' => 'Decisions of the Milli Majlis',
-            'created_at' => '2022-05-10 12:39:57',
-            'updated_at' => '2022-05-10 12:39:57',
-        ),
-        153 => 
-        array (
-            'id' => 154,
-            'table_name' => 'legalacts',
-            'column_name' => 'title',
-            'foreign_key' => 4,
-            'locale' => 'ru',
-            'value' => 'Решения Милли Меджлиса',
-            'created_at' => '2022-05-10 12:39:57',
-            'updated_at' => '2022-05-10 12:39:57',
-        ),
-        154 => 
-        array (
-            'id' => 155,
-            'table_name' => 'legalacts',
-            'column_name' => 'slug',
-            'foreign_key' => 4,
-            'locale' => 'en',
-            'value' => 'decisions-of-the-milli-majlis',
-            'created_at' => '2022-05-10 12:39:57',
-            'updated_at' => '2022-05-10 12:39:57',
-        ),
-        155 => 
-        array (
-            'id' => 156,
-            'table_name' => 'legalacts',
-            'column_name' => 'slug',
-            'foreign_key' => 4,
-            'locale' => 'ru',
-            'value' => 'resheniya-milli-medzhlisa',
-            'created_at' => '2022-05-10 12:39:57',
-            'updated_at' => '2022-05-10 12:39:57',
-        ),
-        156 => 
-        array (
-            'id' => 157,
-            'table_name' => 'legalacts',
-            'column_name' => 'title',
-            'foreign_key' => 3,
-            'locale' => 'en',
-            'value' => 'Decisions of the Constitutional Court',
-            'created_at' => '2022-05-10 12:40:48',
-            'updated_at' => '2022-05-10 12:40:48',
-        ),
-        157 => 
-        array (
-            'id' => 158,
-            'table_name' => 'legalacts',
-            'column_name' => 'title',
-            'foreign_key' => 3,
-            'locale' => 'ru',
-            'value' => 'Решения Конституционного суда',
-            'created_at' => '2022-05-10 12:40:48',
-            'updated_at' => '2022-05-10 12:40:48',
-        ),
-        158 => 
-        array (
-            'id' => 159,
-            'table_name' => 'legalacts',
-            'column_name' => 'slug',
-            'foreign_key' => 3,
-            'locale' => 'en',
-            'value' => 'decisions-of-the-constitutional-court',
-            'created_at' => '2022-05-10 12:40:48',
-            'updated_at' => '2022-05-10 12:40:48',
-        ),
-        159 => 
-        array (
-            'id' => 160,
-            'table_name' => 'legalacts',
-            'column_name' => 'slug',
-            'foreign_key' => 3,
-            'locale' => 'ru',
-            'value' => 'resheniya-konstitucionnogo-suda',
-            'created_at' => '2022-05-10 12:40:48',
-            'updated_at' => '2022-05-10 12:40:48',
-        ),
-        160 => 
-        array (
-            'id' => 161,
-            'table_name' => 'legalacts',
-            'column_name' => 'title',
-            'foreign_key' => 2,
-            'locale' => 'en',
-            'value' => 'Plenum Decisions of the Supreme Court',
-            'created_at' => '2022-05-10 12:41:38',
-            'updated_at' => '2022-05-10 12:41:38',
-        ),
-        161 => 
-        array (
-            'id' => 162,
-            'table_name' => 'legalacts',
-            'column_name' => 'title',
-            'foreign_key' => 2,
-            'locale' => 'ru',
-            'value' => 'Решения Пленума Верховного Суда',
-            'created_at' => '2022-05-10 12:41:38',
-            'updated_at' => '2022-05-10 12:41:38',
-        ),
-        162 => 
-        array (
-            'id' => 163,
-            'table_name' => 'legalacts',
-            'column_name' => 'slug',
-            'foreign_key' => 2,
-            'locale' => 'en',
-            'value' => 'plenum-decisions-of-the-supreme-court',
-            'created_at' => '2022-05-10 12:41:38',
-            'updated_at' => '2022-05-10 12:41:38',
-        ),
-        163 => 
-        array (
-            'id' => 164,
-            'table_name' => 'legalacts',
-            'column_name' => 'slug',
-            'foreign_key' => 2,
-            'locale' => 'ru',
-            'value' => 'resheniya-plenuma-verhovnogo-suda',
-            'created_at' => '2022-05-10 12:41:38',
-            'updated_at' => '2022-05-10 12:41:38',
-        ),
-        164 => 
-        array (
-            'id' => 165,
-            'table_name' => 'legalacts',
-            'column_name' => 'title',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => 'Legal acts of the Nakhchivan Autonomous Republic',
-            'created_at' => '2022-05-10 12:42:20',
-            'updated_at' => '2022-05-10 12:42:20',
-        ),
-        165 => 
-        array (
-            'id' => 166,
-            'table_name' => 'legalacts',
-            'column_name' => 'title',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => 'Правовые акты Нахчыванской Автономной Республики',
-            'created_at' => '2022-05-10 12:42:20',
-            'updated_at' => '2022-05-10 12:42:20',
-        ),
-        166 => 
-        array (
-            'id' => 167,
-            'table_name' => 'legalacts',
-            'column_name' => 'slug',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => 'legal-acts-of-the-nakhchivan-autonomous-republic',
-            'created_at' => '2022-05-10 12:42:20',
-            'updated_at' => '2022-05-10 12:42:20',
-        ),
-        167 => 
-        array (
-            'id' => 168,
-            'table_name' => 'legalacts',
-            'column_name' => 'slug',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => 'pravovye-akty-nahchyvanskoj-avtonomnoj-respubliki',
-            'created_at' => '2022-05-10 12:42:20',
-            'updated_at' => '2022-05-10 12:42:20',
-        ),
-        168 => 
-        array (
-            'id' => 169,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 35,
-            'locale' => 'en',
-            'value' => 'CONSTITUTION OF THE REPUBLIC OF AZERBAIJAN',
-            'created_at' => '2022-05-10 12:49:45',
-            'updated_at' => '2022-05-10 12:49:45',
-        ),
-        169 => 
-        array (
-            'id' => 170,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 35,
-            'locale' => 'ru',
-            'value' => 'КОНСТИТУЦИЯ АЗЕРБАЙДЖАНСКОЙ РЕСПУБЛИКИ',
-            'created_at' => '2022-05-10 12:49:45',
-            'updated_at' => '2022-05-10 12:49:45',
-        ),
-        170 => 
-        array (
-            'id' => 171,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 35,
-            'locale' => 'en',
-            'value' => 'constitution-of-the-republic-of-azerbaijan',
-            'created_at' => '2022-05-10 12:49:45',
-            'updated_at' => '2022-05-10 12:49:45',
-        ),
-        171 => 
-        array (
-            'id' => 172,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 35,
-            'locale' => 'ru',
-            'value' => 'konstituciya-azerbajdzhanskoj-respubliki',
-            'created_at' => '2022-05-10 12:49:45',
-            'updated_at' => '2022-05-10 12:49:45',
-        ),
-        172 => 
-        array (
-            'id' => 173,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 34,
-            'locale' => 'en',
-            'value' => 'Constitution of the Nakhchivan Autonomous Republic',
-            'created_at' => '2022-05-10 12:50:34',
-            'updated_at' => '2022-05-10 12:50:34',
-        ),
-        173 => 
-        array (
-            'id' => 174,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 34,
-            'locale' => 'ru',
-            'value' => 'Конституция Нахчыванской Автономной Республики',
-            'created_at' => '2022-05-10 12:50:34',
-            'updated_at' => '2022-05-10 12:50:34',
-        ),
-        174 => 
-        array (
-            'id' => 175,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 34,
-            'locale' => 'en',
-            'value' => 'constitution-of-the-nakhchivan-autonomous-republic',
-            'created_at' => '2022-05-10 12:50:34',
-            'updated_at' => '2022-05-10 12:50:34',
-        ),
-        175 => 
-        array (
-            'id' => 176,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 34,
-            'locale' => 'ru',
-            'value' => 'konstituciya-nahchyvanskoj-avtonomnoj-respubliki',
-            'created_at' => '2022-05-10 12:50:34',
-            'updated_at' => '2022-05-10 12:50:34',
-        ),
-        176 => 
-        array (
-            'id' => 177,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 33,
-            'locale' => 'en',
-            'value' => 'FAMILY CODE',
-            'created_at' => '2022-05-10 12:51:13',
-            'updated_at' => '2022-05-10 12:51:13',
-        ),
-        177 => 
-        array (
-            'id' => 178,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 33,
-            'locale' => 'ru',
-            'value' => 'СЕМЕЙНЫЙ КОДЕКС',
-            'created_at' => '2022-05-10 12:51:13',
-            'updated_at' => '2022-05-10 12:51:13',
-        ),
-        178 => 
-        array (
-            'id' => 179,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 33,
-            'locale' => 'en',
-            'value' => 'family-code',
-            'created_at' => '2022-05-10 12:51:13',
-            'updated_at' => '2022-05-10 12:51:13',
-        ),
-        179 => 
-        array (
-            'id' => 180,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 33,
-            'locale' => 'ru',
-            'value' => 'semejnyj-kodeks',
-            'created_at' => '2022-05-10 12:51:13',
-            'updated_at' => '2022-05-10 12:51:13',
-        ),
-        180 => 
-        array (
-            'id' => 181,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 32,
-            'locale' => 'en',
-            'value' => 'CRIMINAL CODE',
-            'created_at' => '2022-05-10 12:51:50',
-            'updated_at' => '2022-05-10 12:51:50',
-        ),
-        181 => 
-        array (
-            'id' => 182,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 32,
-            'locale' => 'ru',
-            'value' => 'УГОЛОВНЫЙ КОДЕКС',
-            'created_at' => '2022-05-10 12:51:50',
-            'updated_at' => '2022-05-10 12:51:50',
-        ),
-        182 => 
-        array (
-            'id' => 183,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 32,
-            'locale' => 'en',
-            'value' => 'criminal-code',
-            'created_at' => '2022-05-10 12:51:50',
-            'updated_at' => '2022-05-10 12:51:50',
-        ),
-        183 => 
-        array (
-            'id' => 184,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 32,
-            'locale' => 'ru',
-            'value' => 'ugolovnyj-kodeks',
-            'created_at' => '2022-05-10 12:51:50',
-            'updated_at' => '2022-05-10 12:51:50',
-        ),
-        184 => 
-        array (
-            'id' => 185,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 31,
-            'locale' => 'en',
-            'value' => 'CRIMINAL PROCEDURAL CODE',
-            'created_at' => '2022-05-10 12:52:26',
-            'updated_at' => '2022-05-10 12:52:26',
-        ),
-        185 => 
-        array (
-            'id' => 186,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 31,
-            'locale' => 'ru',
-            'value' => 'УГОЛОВНО-ПРОЦЕССУАЛЬНЫЙ КОДЕКС',
-            'created_at' => '2022-05-10 12:52:26',
-            'updated_at' => '2022-05-10 12:52:26',
-        ),
-        186 => 
-        array (
-            'id' => 187,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 31,
-            'locale' => 'en',
-            'value' => 'criminal-procedural-code',
-            'created_at' => '2022-05-10 12:52:26',
-            'updated_at' => '2022-05-10 12:52:26',
-        ),
-        187 => 
-        array (
-            'id' => 188,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 31,
-            'locale' => 'ru',
-            'value' => 'ugolovno-processualnyj-kodeks',
-            'created_at' => '2022-05-10 12:52:26',
-            'updated_at' => '2022-05-10 12:52:26',
-        ),
-        188 => 
-        array (
-            'id' => 189,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 30,
-            'locale' => 'en',
-            'value' => 'EXECUTION CODE OF PENALTIES',
-            'created_at' => '2022-05-10 12:53:03',
-            'updated_at' => '2022-05-10 12:53:03',
-        ),
-        189 => 
-        array (
-            'id' => 190,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 30,
-            'locale' => 'ru',
-            'value' => 'ИСПОЛНИТЕЛЬНЫЙ КОДЕКС ШТРАФОВ',
-            'created_at' => '2022-05-10 12:53:03',
-            'updated_at' => '2022-05-10 12:53:03',
-        ),
-        190 => 
-        array (
-            'id' => 191,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 30,
-            'locale' => 'en',
-            'value' => 'execution-code-of-penalties',
-            'created_at' => '2022-05-10 12:53:03',
-            'updated_at' => '2022-05-10 12:53:03',
-        ),
-        191 => 
-        array (
-            'id' => 192,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 30,
-            'locale' => 'ru',
-            'value' => 'ispolnitelnyj-kodeks-shtrafov',
-            'created_at' => '2022-05-10 12:53:03',
-            'updated_at' => '2022-05-10 12:53:03',
-        ),
-        192 => 
-        array (
-            'id' => 193,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 29,
-            'locale' => 'en',
-            'value' => 'LABOR CODE',
-            'created_at' => '2022-05-10 12:53:41',
-            'updated_at' => '2022-05-10 12:53:41',
-        ),
-        193 => 
-        array (
-            'id' => 194,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 29,
-            'locale' => 'ru',
-            'value' => 'ТРУДОВОЙ КОДЕКС',
-            'created_at' => '2022-05-10 12:53:41',
-            'updated_at' => '2022-05-10 12:53:41',
-        ),
-        194 => 
-        array (
-            'id' => 195,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 29,
-            'locale' => 'en',
-            'value' => 'labor-code',
-            'created_at' => '2022-05-10 12:53:41',
-            'updated_at' => '2022-05-10 12:53:41',
-        ),
-        195 => 
-        array (
-            'id' => 196,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 29,
-            'locale' => 'ru',
-            'value' => 'trudovoj-kodeks',
-            'created_at' => '2022-05-10 12:53:41',
-            'updated_at' => '2022-05-10 12:53:41',
-        ),
-        196 => 
-        array (
-            'id' => 197,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 28,
-            'locale' => 'en',
-            'value' => 'CUSTOMS CODE',
-            'created_at' => '2022-05-10 12:54:16',
-            'updated_at' => '2022-05-10 12:54:16',
-        ),
-        197 => 
-        array (
-            'id' => 198,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 28,
-            'locale' => 'ru',
-            'value' => 'ТАМОЖЕННЫЙ КОДЕКС',
-            'created_at' => '2022-05-10 12:54:16',
-            'updated_at' => '2022-05-10 12:54:16',
-        ),
-        198 => 
-        array (
-            'id' => 199,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 28,
-            'locale' => 'en',
-            'value' => 'customs-code',
-            'created_at' => '2022-05-10 12:54:16',
-            'updated_at' => '2022-05-10 12:54:16',
-        ),
-        199 => 
-        array (
-            'id' => 200,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 28,
-            'locale' => 'ru',
-            'value' => 'tamozhennyj-kodeks',
-            'created_at' => '2022-05-10 12:54:16',
-            'updated_at' => '2022-05-10 12:54:16',
-        ),
-        200 => 
-        array (
-            'id' => 201,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 27,
-            'locale' => 'en',
-            'value' => 'THE CODE OF ADMINISTRATIVE OFFENCES',
-            'created_at' => '2022-05-10 12:54:56',
-            'updated_at' => '2022-05-10 12:54:56',
-        ),
-        201 => 
-        array (
-            'id' => 202,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 27,
-            'locale' => 'ru',
-            'value' => 'КОДЕКС ОБ АДМИНИСТРАТИВНЫХ ПРАВОНАРУШЕНИЯХ',
-            'created_at' => '2022-05-10 12:54:56',
-            'updated_at' => '2022-05-10 12:54:56',
-        ),
-        202 => 
-        array (
-            'id' => 203,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 27,
-            'locale' => 'en',
-            'value' => 'the-code-of-administrative-offences',
-            'created_at' => '2022-05-10 12:54:56',
-            'updated_at' => '2022-05-10 12:54:56',
-        ),
-        203 => 
-        array (
-            'id' => 204,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 27,
-            'locale' => 'ru',
-            'value' => 'kodeks-ob-administrativnyh-pravonarusheniyah',
-            'created_at' => '2022-05-10 12:54:56',
-            'updated_at' => '2022-05-10 12:54:56',
-        ),
-        204 => 
-        array (
-            'id' => 205,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 26,
-            'locale' => 'en',
-            'value' => 'ADMINISTRATIVE PROCEDURAL CODE',
-            'created_at' => '2022-05-10 12:55:54',
-            'updated_at' => '2022-05-10 12:55:54',
-        ),
-        205 => 
-        array (
-            'id' => 206,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 26,
-            'locale' => 'ru',
-            'value' => 'АДМИНИСТРАТИВНО-ПРОЦЕССУАЛЬНЫЙ КОДЕКС',
-            'created_at' => '2022-05-10 12:55:54',
-            'updated_at' => '2022-05-10 12:55:54',
-        ),
-        206 => 
-        array (
-            'id' => 207,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 26,
-            'locale' => 'en',
-            'value' => 'administrative-procedural-code',
-            'created_at' => '2022-05-10 12:55:54',
-            'updated_at' => '2022-05-10 12:55:54',
-        ),
-        207 => 
-        array (
-            'id' => 208,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 26,
-            'locale' => 'ru',
-            'value' => 'administrativno-processualnyj-kodeks',
-            'created_at' => '2022-05-10 12:55:54',
-            'updated_at' => '2022-05-10 12:55:54',
-        ),
-        208 => 
-        array (
-            'id' => 209,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 25,
-            'locale' => 'en',
-            'value' => 'FOREST CODE',
-            'created_at' => '2022-05-10 13:08:10',
-            'updated_at' => '2022-05-10 13:08:10',
-        ),
-        209 => 
-        array (
-            'id' => 210,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 25,
-            'locale' => 'ru',
-            'value' => 'ЛЕСНОЙ КОДЕКС',
-            'created_at' => '2022-05-10 13:08:10',
-            'updated_at' => '2022-05-10 13:08:10',
-        ),
-        210 => 
-        array (
-            'id' => 211,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 25,
-            'locale' => 'en',
-            'value' => 'forest-code',
-            'created_at' => '2022-05-10 13:08:10',
-            'updated_at' => '2022-05-10 13:08:10',
-        ),
-        211 => 
-        array (
-            'id' => 212,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 25,
-            'locale' => 'ru',
-            'value' => 'lesnoj-kodeks',
-            'created_at' => '2022-05-10 13:08:10',
-            'updated_at' => '2022-05-10 13:08:10',
-        ),
-        212 => 
-        array (
-            'id' => 213,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 24,
-            'locale' => 'en',
-            'value' => 'HOUSING CODE',
-            'created_at' => '2022-05-10 13:08:53',
-            'updated_at' => '2022-05-10 13:08:53',
-        ),
-        213 => 
-        array (
-            'id' => 214,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 24,
-            'locale' => 'ru',
-            'value' => 'ЖИЛИЩНЫЙ КОДЕКС',
-            'created_at' => '2022-05-10 13:08:53',
-            'updated_at' => '2022-05-10 13:08:53',
-        ),
-        214 => 
-        array (
-            'id' => 215,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 24,
-            'locale' => 'en',
-            'value' => 'housing-code',
-            'created_at' => '2022-05-10 13:08:53',
-            'updated_at' => '2022-05-10 13:08:53',
-        ),
-        215 => 
-        array (
-            'id' => 216,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 24,
-            'locale' => 'ru',
-            'value' => 'zhilishnyj-kodeks',
-            'created_at' => '2022-05-10 13:08:53',
-            'updated_at' => '2022-05-10 13:08:53',
-        ),
-        216 => 
-        array (
-            'id' => 217,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 23,
-            'locale' => 'en',
-            'value' => 'MIGRATION CODE',
-            'created_at' => '2022-05-10 13:09:35',
-            'updated_at' => '2022-05-10 13:09:35',
-        ),
-        217 => 
-        array (
-            'id' => 218,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 23,
-            'locale' => 'ru',
-            'value' => 'КОД МИГРАЦИИ',
-            'created_at' => '2022-05-10 13:09:35',
-            'updated_at' => '2022-05-10 13:09:35',
-        ),
-        218 => 
-        array (
-            'id' => 219,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 23,
-            'locale' => 'en',
-            'value' => 'migration-code',
-            'created_at' => '2022-05-10 13:09:35',
-            'updated_at' => '2022-05-10 13:09:35',
-        ),
-        219 => 
-        array (
-            'id' => 220,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 23,
-            'locale' => 'ru',
-            'value' => 'kod-migracii',
-            'created_at' => '2022-05-10 13:09:35',
-            'updated_at' => '2022-05-10 13:09:35',
-        ),
-        220 => 
-        array (
-            'id' => 221,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 22,
-            'locale' => 'en',
-            'value' => 'CIVIL CODE',
-            'created_at' => '2022-05-10 13:10:13',
-            'updated_at' => '2022-05-10 13:10:13',
-        ),
-        221 => 
-        array (
-            'id' => 222,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 22,
-            'locale' => 'ru',
-            'value' => 'ГРАЖДАНСКИЙ КОДЕКС',
-            'created_at' => '2022-05-10 13:10:13',
-            'updated_at' => '2022-05-10 13:10:13',
-        ),
-        222 => 
-        array (
-            'id' => 223,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 22,
-            'locale' => 'en',
-            'value' => 'civil-code',
-            'created_at' => '2022-05-10 13:10:13',
-            'updated_at' => '2022-05-10 13:10:13',
-        ),
-        223 => 
-        array (
-            'id' => 224,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 22,
-            'locale' => 'ru',
-            'value' => 'grazhdanskij-kodeks',
-            'created_at' => '2022-05-10 13:10:13',
-            'updated_at' => '2022-05-10 13:10:13',
-        ),
-        224 => 
-        array (
-            'id' => 225,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 16,
-            'locale' => 'en',
-            'value' => 'LAND CODE',
-            'created_at' => '2022-05-10 13:10:51',
-            'updated_at' => '2022-05-10 13:10:51',
-        ),
-        225 => 
-        array (
-            'id' => 226,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 16,
-            'locale' => 'ru',
-            'value' => 'ЗЕМЕЛЬНЫЙ КОДЕКС',
-            'created_at' => '2022-05-10 13:10:51',
-            'updated_at' => '2022-05-10 13:10:51',
-        ),
-        226 => 
-        array (
-            'id' => 227,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 16,
-            'locale' => 'en',
-            'value' => 'land-code',
-            'created_at' => '2022-05-10 13:10:51',
-            'updated_at' => '2022-05-10 13:10:51',
-        ),
-        227 => 
-        array (
-            'id' => 228,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 16,
-            'locale' => 'ru',
-            'value' => 'zemelnyj-kodeks',
-            'created_at' => '2022-05-10 13:10:51',
-            'updated_at' => '2022-05-10 13:10:51',
-        ),
-        228 => 
-        array (
-            'id' => 229,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 17,
-            'locale' => 'en',
-            'value' => 'COMMERCIAL SHIPPING CODE',
-            'created_at' => '2022-05-10 13:11:29',
-            'updated_at' => '2022-05-10 13:11:29',
-        ),
-        229 => 
-        array (
-            'id' => 230,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 17,
-            'locale' => 'ru',
-            'value' => 'КОММЕРЧЕСКИЙ КОД ДОСТАВКИ',
-            'created_at' => '2022-05-10 13:11:29',
-            'updated_at' => '2022-05-10 13:11:29',
-        ),
-        230 => 
-        array (
-            'id' => 231,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 17,
-            'locale' => 'en',
-            'value' => 'commercial-shipping-code',
-            'created_at' => '2022-05-10 13:11:29',
-            'updated_at' => '2022-05-10 13:11:29',
-        ),
-        231 => 
-        array (
-            'id' => 232,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 17,
-            'locale' => 'ru',
-            'value' => 'kommercheskij-kod-dostavki',
-            'created_at' => '2022-05-10 13:11:29',
-            'updated_at' => '2022-05-10 13:11:29',
-        ),
-        232 => 
-        array (
-            'id' => 233,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 18,
-            'locale' => 'en',
-            'value' => 'URBAN PLANNING AND CONSTRUCTION CODE',
-            'created_at' => '2022-05-10 13:12:12',
-            'updated_at' => '2022-05-10 13:12:12',
-        ),
-        233 => 
-        array (
-            'id' => 234,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 18,
-            'locale' => 'ru',
-            'value' => 'ГРАДОСТРОИТЕЛЬНЫЙ НОРМ ПЛАНИРОВАНИЯ И СТРОИТЕЛЬСТВА',
-            'created_at' => '2022-05-10 13:12:12',
-            'updated_at' => '2022-05-10 13:12:12',
-        ),
-        234 => 
-        array (
-            'id' => 235,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 18,
-            'locale' => 'en',
-            'value' => 'urban-planning-and-construction-code',
-            'created_at' => '2022-05-10 13:12:12',
-            'updated_at' => '2022-05-10 13:12:12',
-        ),
-        235 => 
-        array (
-            'id' => 236,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 18,
-            'locale' => 'ru',
-            'value' => 'gradostroitelnyj-norm-planirovaniya-i-stroitelstva',
-            'created_at' => '2022-05-10 13:12:12',
-            'updated_at' => '2022-05-10 13:12:12',
-        ),
-        236 => 
-        array (
-            'id' => 237,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 19,
-            'locale' => 'en',
-            'value' => 'WATER CODE',
-            'created_at' => '2022-05-10 13:12:48',
-            'updated_at' => '2022-05-10 13:12:48',
-        ),
-        237 => 
-        array (
-            'id' => 238,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 19,
-            'locale' => 'ru',
-            'value' => 'ВОДНЫЙ КОД',
-            'created_at' => '2022-05-10 13:12:48',
-            'updated_at' => '2022-05-10 13:12:48',
-        ),
-        238 => 
-        array (
-            'id' => 239,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 19,
-            'locale' => 'en',
-            'value' => 'water-code',
-            'created_at' => '2022-05-10 13:12:48',
-            'updated_at' => '2022-05-10 13:12:48',
-        ),
-        239 => 
-        array (
-            'id' => 240,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 19,
-            'locale' => 'ru',
-            'value' => 'vodnyj-kod',
-            'created_at' => '2022-05-10 13:12:48',
-            'updated_at' => '2022-05-10 13:12:48',
-        ),
-        240 => 
-        array (
-            'id' => 241,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 20,
-            'locale' => 'en',
-            'value' => 'ELECTION CODE',
-            'created_at' => '2022-05-10 13:13:23',
-            'updated_at' => '2022-05-10 13:13:23',
-        ),
-        241 => 
-        array (
-            'id' => 242,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 20,
-            'locale' => 'ru',
-            'value' => 'ИЗБИРАТЕЛЬНЫЙ КОДЕКС',
-            'created_at' => '2022-05-10 13:13:23',
-            'updated_at' => '2022-05-10 13:13:23',
-        ),
-        242 => 
-        array (
-            'id' => 243,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 20,
-            'locale' => 'en',
-            'value' => 'election-code',
-            'created_at' => '2022-05-10 13:13:23',
-            'updated_at' => '2022-05-10 13:13:23',
-        ),
-        243 => 
-        array (
-            'id' => 244,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 20,
-            'locale' => 'ru',
-            'value' => 'izbiratelnyj-kodeks',
-            'created_at' => '2022-05-10 13:13:23',
-            'updated_at' => '2022-05-10 13:13:23',
-        ),
-        244 => 
-        array (
-            'id' => 245,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 21,
-            'locale' => 'en',
-            'value' => 'CODE OF CIVIL PROCEDURE',
-            'created_at' => '2022-05-10 13:13:57',
-            'updated_at' => '2022-05-10 13:13:57',
-        ),
-        245 => 
-        array (
-            'id' => 246,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 21,
-            'locale' => 'ru',
-            'value' => 'ГРАЖДАНСКИЙ ПРОЦЕССУАЛЬНЫЙ КОДЕКС',
-            'created_at' => '2022-05-10 13:13:57',
-            'updated_at' => '2022-05-10 13:13:57',
-        ),
-        246 => 
-        array (
-            'id' => 247,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 21,
-            'locale' => 'en',
-            'value' => 'code-of-civil-procedure',
-            'created_at' => '2022-05-10 13:13:57',
-            'updated_at' => '2022-05-10 13:13:57',
-        ),
-        247 => 
-        array (
-            'id' => 248,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 21,
-            'locale' => 'ru',
-            'value' => 'grazhdanskij-processualnyj-kodeks',
-            'created_at' => '2022-05-10 13:13:57',
-            'updated_at' => '2022-05-10 13:13:57',
-        ),
-        248 => 
-        array (
-            'id' => 249,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 15,
-            'locale' => 'en',
-            'value' => 'TAX CODE',
-            'created_at' => '2022-05-10 13:14:48',
-            'updated_at' => '2022-05-10 13:14:48',
-        ),
-        249 => 
-        array (
-            'id' => 250,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 15,
-            'locale' => 'ru',
-            'value' => 'НАЛОГОВЫЙ КОДЕКС',
-            'created_at' => '2022-05-10 13:14:48',
-            'updated_at' => '2022-05-10 13:14:48',
-        ),
-        250 => 
-        array (
-            'id' => 251,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 15,
-            'locale' => 'en',
-            'value' => 'tax-code',
-            'created_at' => '2022-05-10 13:14:48',
-            'updated_at' => '2022-05-10 13:14:48',
-        ),
-        251 => 
-        array (
-            'id' => 252,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 15,
-            'locale' => 'ru',
-            'value' => 'nalogovyj-kodeks',
-            'created_at' => '2022-05-10 13:14:48',
-            'updated_at' => '2022-05-10 13:14:48',
-        ),
-        252 => 
-        array (
-            'id' => 253,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 14,
-            'locale' => 'en',
-            'value' => 'Constitutional Law of the Republic of Azerbaijan on Normative Legal Acts',
-            'created_at' => '2022-05-10 13:15:24',
-            'updated_at' => '2022-05-10 13:15:24',
-        ),
-        253 => 
-        array (
-            'id' => 254,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 14,
-            'locale' => 'ru',
-            'value' => 'Конституционный закон Азербайджанской Республики о нормативных правовых актах',
-            'created_at' => '2022-05-10 13:15:24',
-            'updated_at' => '2022-05-10 13:15:24',
-        ),
-        254 => 
-        array (
-            'id' => 255,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 14,
-            'locale' => 'en',
-            'value' => 'constitutional-law-of-the-republic-of-azerbaijan-on-normative-legal-acts',
-            'created_at' => '2022-05-10 13:15:24',
-            'updated_at' => '2022-05-10 13:15:24',
-        ),
-        255 => 
-        array (
-            'id' => 256,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 14,
-            'locale' => 'ru',
-            'value' => 'konstitucionnyj-zakon-azerbajdzhanskoj-respubliki-o-normativnyh-pravovyh-aktah',
-            'created_at' => '2022-05-10 13:15:24',
-            'updated_at' => '2022-05-10 13:15:24',
-        ),
-        256 => 
-        array (
-            'id' => 257,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 13,
-            'locale' => 'en',
-            'value' => 'Law of the Republic of Azerbaijan on the Constitutional Court',
-            'created_at' => '2022-05-10 13:16:00',
-            'updated_at' => '2022-05-10 13:16:00',
-        ),
-        257 => 
-        array (
-            'id' => 258,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 13,
-            'locale' => 'ru',
-            'value' => 'Закон Азербайджанской Республики о Конституционном Суде',
-            'created_at' => '2022-05-10 13:16:00',
-            'updated_at' => '2022-05-10 13:16:00',
-        ),
-        258 => 
-        array (
-            'id' => 259,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 13,
-            'locale' => 'en',
-            'value' => 'law-of-the-republic-of-azerbaijan-on-the-constitutional-court',
-            'created_at' => '2022-05-10 13:16:00',
-            'updated_at' => '2022-05-10 13:16:00',
-        ),
-        259 => 
-        array (
-            'id' => 260,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 13,
-            'locale' => 'ru',
-            'value' => 'zakon-azerbajdzhanskoj-respubliki-o-konstitucionnom-sude',
-            'created_at' => '2022-05-10 13:16:00',
-            'updated_at' => '2022-05-10 13:16:00',
-        ),
-        260 => 
-        array (
-            'id' => 261,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 12,
-            'locale' => 'en',
-            'value' => 'Law of the Republic of Azerbaijan on the Judicial-Legal Council',
-            'created_at' => '2022-05-10 13:16:48',
-            'updated_at' => '2022-05-10 13:16:48',
-        ),
-        261 => 
-        array (
-            'id' => 262,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 12,
-            'locale' => 'ru',
-            'value' => 'Закон Азербайджанской Республики о Судебно-правовом совете',
-            'created_at' => '2022-05-10 13:16:48',
-            'updated_at' => '2022-05-10 13:16:48',
-        ),
-        262 => 
-        array (
-            'id' => 263,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 12,
-            'locale' => 'en',
-            'value' => 'law-of-the-republic-of-azerbaijan-on-the-judicial-legal-council',
-            'created_at' => '2022-05-10 13:16:48',
-            'updated_at' => '2022-05-10 13:16:48',
-        ),
-        263 => 
-        array (
-            'id' => 264,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 12,
-            'locale' => 'ru',
-            'value' => 'zakon-azerbajdzhanskoj-respubliki-o-sudebno-pravovom-sovete',
-            'created_at' => '2022-05-10 13:16:48',
-            'updated_at' => '2022-05-10 13:16:48',
-        ),
-        264 => 
-        array (
-            'id' => 265,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 11,
-            'locale' => 'en',
-            'value' => 'Law of the Republic of Azerbaijan on Courts and Judges',
-            'created_at' => '2022-05-10 13:17:33',
-            'updated_at' => '2022-05-10 13:17:33',
-        ),
-        265 => 
-        array (
-            'id' => 266,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 11,
-            'locale' => 'ru',
-            'value' => 'Закон Азербайджанской Республики о судах и судьях',
-            'created_at' => '2022-05-10 13:17:33',
-            'updated_at' => '2022-05-10 13:17:33',
-        ),
-        266 => 
-        array (
-            'id' => 267,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 11,
-            'locale' => 'en',
-            'value' => 'law-of-the-republic-of-azerbaijan-on-courts-and-judges',
-            'created_at' => '2022-05-10 13:17:33',
-            'updated_at' => '2022-05-10 13:17:33',
-        ),
-        267 => 
-        array (
-            'id' => 268,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 11,
-            'locale' => 'ru',
-            'value' => 'zakon-azerbajdzhanskoj-respubliki-o-sudah-i-sudyah',
-            'created_at' => '2022-05-10 13:17:33',
-            'updated_at' => '2022-05-10 13:17:33',
-        ),
-        268 => 
-        array (
-            'id' => 269,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 10,
-            'locale' => 'en',
-            'value' => 'Law of the Republic of Azerbaijan on Civil Service',
-            'created_at' => '2022-05-10 13:18:12',
-            'updated_at' => '2022-05-10 13:18:12',
-        ),
-        269 => 
-        array (
-            'id' => 270,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 10,
-            'locale' => 'ru',
-            'value' => 'Закон Азербайджанской Республики о государственной службе',
-            'created_at' => '2022-05-10 13:18:12',
-            'updated_at' => '2022-05-10 13:18:12',
-        ),
-        270 => 
-        array (
-            'id' => 271,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 10,
-            'locale' => 'en',
-            'value' => 'law-of-the-republic-of-azerbaijan-on-civil-service',
-            'created_at' => '2022-05-10 13:18:12',
-            'updated_at' => '2022-05-10 13:18:12',
-        ),
-        271 => 
-        array (
-            'id' => 272,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 10,
-            'locale' => 'ru',
-            'value' => 'zakon-azerbajdzhanskoj-respubliki-o-gosudarstvennoj-sluzhbe',
-            'created_at' => '2022-05-10 13:18:12',
-            'updated_at' => '2022-05-10 13:18:12',
-        ),
-        272 => 
-        array (
-            'id' => 273,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 9,
-            'locale' => 'en',
-            'value' => 'Law of the Republic of Azerbaijan on Executive Officers',
-            'created_at' => '2022-05-10 13:18:51',
-            'updated_at' => '2022-05-10 13:18:51',
-        ),
-        273 => 
-        array (
-            'id' => 274,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 9,
-            'locale' => 'ru',
-            'value' => 'Закон Азербайджанской Республики об исполнительных должностных лицах',
-            'created_at' => '2022-05-10 13:18:51',
-            'updated_at' => '2022-05-10 13:18:51',
-        ),
-        274 => 
-        array (
-            'id' => 275,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 9,
-            'locale' => 'en',
-            'value' => 'law-of-the-republic-of-azerbaijan-on-executive-officers',
-            'created_at' => '2022-05-10 13:18:51',
-            'updated_at' => '2022-05-10 13:18:51',
-        ),
-        275 => 
-        array (
-            'id' => 276,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 9,
-            'locale' => 'ru',
-            'value' => 'zakon-azerbajdzhanskoj-respubliki-ob-ispolnitelnyh-dolzhnostnyh-licah',
-            'created_at' => '2022-05-10 13:18:51',
-            'updated_at' => '2022-05-10 13:18:51',
-        ),
-        276 => 
-        array (
-            'id' => 277,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 7,
-            'locale' => 'en',
-            'value' => 'Law of the Republic of Azerbaijan on State Duty',
-            'created_at' => '2022-05-10 13:19:33',
-            'updated_at' => '2022-05-10 13:19:33',
-        ),
-        277 => 
-        array (
-            'id' => 278,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 7,
-            'locale' => 'ru',
-            'value' => 'Закон Азербайджанской Республики о государственной пошлине',
-            'created_at' => '2022-05-10 13:19:33',
-            'updated_at' => '2022-05-10 13:19:33',
-        ),
-        278 => 
-        array (
-            'id' => 279,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 7,
-            'locale' => 'en',
-            'value' => 'law-of-the-republic-of-azerbaijan-on-state-duty',
-            'created_at' => '2022-05-10 13:19:33',
-            'updated_at' => '2022-05-10 13:19:33',
-        ),
-        279 => 
-        array (
-            'id' => 280,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 7,
-            'locale' => 'ru',
-            'value' => 'zakon-azerbajdzhanskoj-respubliki-o-gosudarstvennoj-poshline',
-            'created_at' => '2022-05-10 13:19:33',
-            'updated_at' => '2022-05-10 13:19:33',
-        ),
-        280 => 
-        array (
-            'id' => 281,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 6,
-            'locale' => 'en',
-            'value' => 'Instructions on clerical work in the courts of the Republic of Azerbaijan',
-            'created_at' => '2022-05-10 13:20:10',
-            'updated_at' => '2022-05-10 13:20:10',
-        ),
-        281 => 
-        array (
-            'id' => 282,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 6,
-            'locale' => 'ru',
-            'value' => 'Инструкция по делопроизводству в судах Азербайджанской Республики',
-            'created_at' => '2022-05-10 13:20:10',
-            'updated_at' => '2022-05-10 13:20:10',
-        ),
-        282 => 
-        array (
-            'id' => 283,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 6,
-            'locale' => 'en',
-            'value' => 'instructions-on-clerical-work-in-the-courts-of-the-republic-of-azerbaijan',
-            'created_at' => '2022-05-10 13:20:10',
-            'updated_at' => '2022-05-10 13:20:10',
-        ),
-        283 => 
-        array (
-            'id' => 284,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 6,
-            'locale' => 'ru',
-            'value' => 'instrukciya-po-deloproizvodstvu-v-sudah-azerbajdzhanskoj-respubliki',
-            'created_at' => '2022-05-10 13:20:10',
-            'updated_at' => '2022-05-10 13:20:10',
-        ),
-        284 => 
-        array (
-            'id' => 285,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 8,
-            'locale' => 'en',
-            'value' => 'Law of the Republic of Azerbaijan on Enforcement',
-            'created_at' => '2022-05-10 13:21:05',
-            'updated_at' => '2022-05-10 13:21:05',
-        ),
-        285 => 
-        array (
-            'id' => 286,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 8,
-            'locale' => 'ru',
-            'value' => 'Закон Азербайджанской Республики об исполнении',
-            'created_at' => '2022-05-10 13:21:05',
-            'updated_at' => '2022-05-10 13:21:05',
-        ),
-        286 => 
-        array (
-            'id' => 287,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 8,
-            'locale' => 'en',
-            'value' => 'law-of-the-republic-of-azerbaijan-on-enforcement',
-            'created_at' => '2022-05-10 13:21:05',
-            'updated_at' => '2022-05-10 13:21:05',
-        ),
-        287 => 
-        array (
-            'id' => 288,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 8,
-            'locale' => 'ru',
-            'value' => 'zakon-azerbajdzhanskoj-respubliki-ob-ispolnenii',
-            'created_at' => '2022-05-10 13:21:05',
-            'updated_at' => '2022-05-10 13:21:05',
-        ),
-        288 => 
-        array (
-            'id' => 289,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 5,
-            'locale' => 'en',
-            'value' => 'Decrees and Orders',
-            'created_at' => '2022-05-10 13:21:44',
-            'updated_at' => '2022-05-10 13:21:44',
-        ),
-        289 => 
-        array (
-            'id' => 290,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 5,
-            'locale' => 'ru',
-            'value' => 'Указы и распоряжения',
-            'created_at' => '2022-05-10 13:21:44',
-            'updated_at' => '2022-05-10 13:21:44',
-        ),
-        290 => 
-        array (
-            'id' => 291,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 5,
-            'locale' => 'en',
-            'value' => 'decrees-and-orders',
-            'created_at' => '2022-05-10 13:21:44',
-            'updated_at' => '2022-05-10 13:21:44',
-        ),
-        291 => 
-        array (
-            'id' => 292,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 5,
-            'locale' => 'ru',
-            'value' => 'ukazy-i-rasporyazheniya',
-            'created_at' => '2022-05-10 13:21:44',
-            'updated_at' => '2022-05-10 13:21:44',
-        ),
-        292 => 
-        array (
-            'id' => 293,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 4,
-            'locale' => 'en',
-            'value' => 'Decisions of the Milli Majlis',
-            'created_at' => '2022-05-10 13:22:23',
-            'updated_at' => '2022-05-10 13:22:23',
-        ),
-        293 => 
-        array (
-            'id' => 294,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 4,
-            'locale' => 'ru',
-            'value' => 'Решения Милли Меджлиса',
-            'created_at' => '2022-05-10 13:22:23',
-            'updated_at' => '2022-05-10 13:22:23',
-        ),
-        294 => 
-        array (
-            'id' => 295,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 4,
-            'locale' => 'en',
-            'value' => 'decisions-of-the-milli-majlis',
-            'created_at' => '2022-05-10 13:22:23',
-            'updated_at' => '2022-05-10 13:22:23',
-        ),
-        295 => 
-        array (
-            'id' => 296,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 4,
-            'locale' => 'ru',
-            'value' => 'resheniya-milli-medzhlisa',
-            'created_at' => '2022-05-10 13:22:23',
-            'updated_at' => '2022-05-10 13:22:23',
-        ),
-        296 => 
-        array (
-            'id' => 297,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 3,
-            'locale' => 'en',
-            'value' => 'Decisions of the Constitutional Court',
-            'created_at' => '2022-05-10 13:22:59',
-            'updated_at' => '2022-05-10 13:22:59',
-        ),
-        297 => 
-        array (
-            'id' => 298,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 3,
-            'locale' => 'ru',
-            'value' => 'Решения Конституционного суда',
-            'created_at' => '2022-05-10 13:22:59',
-            'updated_at' => '2022-05-10 13:22:59',
-        ),
-        298 => 
-        array (
-            'id' => 299,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 3,
-            'locale' => 'en',
-            'value' => 'decisions-of-the-constitutional-court',
-            'created_at' => '2022-05-10 13:22:59',
-            'updated_at' => '2022-05-10 13:22:59',
-        ),
-        299 => 
-        array (
-            'id' => 300,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 3,
-            'locale' => 'ru',
-            'value' => 'resheniya-konstitucionnogo-suda',
-            'created_at' => '2022-05-10 13:22:59',
-            'updated_at' => '2022-05-10 13:22:59',
-        ),
-        300 => 
-        array (
-            'id' => 301,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 2,
-            'locale' => 'en',
-            'value' => 'Plenum Decisions of the Supreme Court',
-            'created_at' => '2022-05-10 13:23:40',
-            'updated_at' => '2022-05-10 13:23:40',
-        ),
-        301 => 
-        array (
-            'id' => 302,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 2,
-            'locale' => 'ru',
-            'value' => 'Решения Пленума Верховного Суда',
-            'created_at' => '2022-05-10 13:23:40',
-            'updated_at' => '2022-05-10 13:23:40',
-        ),
-        302 => 
-        array (
-            'id' => 303,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 2,
-            'locale' => 'en',
-            'value' => 'plenum-decisions-of-the-supreme-court',
-            'created_at' => '2022-05-10 13:23:40',
-            'updated_at' => '2022-05-10 13:23:40',
-        ),
-        303 => 
-        array (
-            'id' => 304,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 2,
-            'locale' => 'ru',
-            'value' => 'resheniya-plenuma-verhovnogo-suda',
-            'created_at' => '2022-05-10 13:23:40',
-            'updated_at' => '2022-05-10 13:23:40',
-        ),
-        304 => 
-        array (
-            'id' => 305,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => 'Legal acts of the Nakhchivan Autonomous Republic',
-            'created_at' => '2022-05-10 13:24:20',
-            'updated_at' => '2022-05-10 13:24:20',
-        ),
-        305 => 
-        array (
-            'id' => 306,
-            'table_name' => 'constitutions',
-            'column_name' => 'title',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => 'Правовые акты Нахчыванской Автономной Республики',
-            'created_at' => '2022-05-10 13:24:20',
-            'updated_at' => '2022-05-10 13:24:20',
-        ),
-        306 => 
-        array (
-            'id' => 307,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => 'legal-acts-of-the-nakhchivan-autonomous-republic',
-            'created_at' => '2022-05-10 13:24:20',
-            'updated_at' => '2022-05-10 13:24:20',
-        ),
-        307 => 
-        array (
-            'id' => 308,
-            'table_name' => 'constitutions',
-            'column_name' => 'slug',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => 'pravovye-akty-nahchyvanskoj-avtonomnoj-respubliki',
-            'created_at' => '2022-05-10 13:24:20',
-            'updated_at' => '2022-05-10 13:24:20',
-        ),
-        308 => 
-        array (
-            'id' => 309,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 120,
-            'locale' => 'en',
-            'value' => 'Id',
-            'created_at' => '2022-05-10 13:27:31',
-            'updated_at' => '2022-05-10 13:27:31',
-        ),
-        309 => 
-        array (
-            'id' => 310,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 121,
-            'locale' => 'en',
-            'value' => 'Image',
-            'created_at' => '2022-05-10 13:27:31',
-            'updated_at' => '2022-05-10 13:27:31',
-        ),
-        310 => 
-        array (
-            'id' => 311,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 122,
-            'locale' => 'en',
-            'value' => 'Title',
-            'created_at' => '2022-05-10 13:27:31',
-            'updated_at' => '2022-05-10 13:27:31',
-        ),
-        311 => 
-        array (
-            'id' => 312,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 123,
-            'locale' => 'en',
-            'value' => 'Slug',
-            'created_at' => '2022-05-10 13:27:31',
-            'updated_at' => '2022-05-10 13:27:31',
-        ),
-        312 => 
-        array (
-            'id' => 313,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 124,
-            'locale' => 'en',
-            'value' => 'Content',
-            'created_at' => '2022-05-10 13:27:31',
-            'updated_at' => '2022-05-10 13:27:31',
-        ),
-        313 => 
-        array (
-            'id' => 314,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 125,
-            'locale' => 'en',
-            'value' => 'Created At',
-            'created_at' => '2022-05-10 13:27:31',
-            'updated_at' => '2022-05-10 13:27:31',
-        ),
-        314 => 
-        array (
-            'id' => 315,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 126,
-            'locale' => 'en',
-            'value' => 'Updated At',
-            'created_at' => '2022-05-10 13:27:31',
-            'updated_at' => '2022-05-10 13:27:31',
-        ),
-        315 => 
-        array (
-            'id' => 316,
-            'table_name' => 'data_types',
-            'column_name' => 'display_name_singular',
-            'foreign_key' => 27,
-            'locale' => 'en',
-            'value' => 'Decisionpresidium',
-            'created_at' => '2022-05-10 13:27:31',
-            'updated_at' => '2022-05-10 13:27:31',
-        ),
-        316 => 
-        array (
-            'id' => 317,
-            'table_name' => 'data_types',
-            'column_name' => 'display_name_plural',
-            'foreign_key' => 27,
-            'locale' => 'en',
-            'value' => 'Decisionpresidia',
-            'created_at' => '2022-05-10 13:27:31',
-            'updated_at' => '2022-05-10 13:27:31',
-        ),
-        317 => 
-        array (
-            'id' => 318,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 13,
-            'locale' => 'en',
-            'value' => 'Decision N1 2015',
-            'created_at' => '2022-05-10 13:28:29',
-            'updated_at' => '2022-05-10 13:28:29',
-        ),
-        318 => 
-        array (
-            'id' => 319,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 13,
-            'locale' => 'ru',
-            'value' => 'Решение №1 2015 г.',
-            'created_at' => '2022-05-10 13:28:29',
-            'updated_at' => '2022-05-10 13:28:29',
-        ),
-        319 => 
-        array (
-            'id' => 320,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 13,
-            'locale' => 'en',
-            'value' => 'decision-n1-2015',
-            'created_at' => '2022-05-10 13:28:29',
-            'updated_at' => '2022-05-10 13:28:29',
-        ),
-        320 => 
-        array (
-            'id' => 321,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 13,
-            'locale' => 'ru',
-            'value' => 'reshenie-1-2015-g',
-            'created_at' => '2022-05-10 13:28:29',
-            'updated_at' => '2022-05-10 13:28:29',
-        ),
-        321 => 
-        array (
-            'id' => 322,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'content',
-            'foreign_key' => 13,
-            'locale' => 'en',
-            'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center; line-height: 20.4px;"><strong style="box-sizing: border-box;">NАХ&Ccedil;IVАN &nbsp;MUХTАR &nbsp;RЕSPUBL</strong><strong style="box-sizing: border-box;">İKАSI En</strong></p>
+                'created_at' => '2022-05-10 12:22:29',
+                'updated_at' => '2022-05-10 12:22:29',
+            ),
+            142 => 
+            array (
+                'id' => 143,
+                'table_name' => 'supremecourts',
+                'column_name' => 'content',
+                'foreign_key' => 3,
+                'locale' => 'ru',
+                'value' => '<p>Content ru</p>',
+                'created_at' => '2022-05-10 12:22:29',
+                'updated_at' => '2022-05-10 12:22:29',
+            ),
+            143 => 
+            array (
+                'id' => 144,
+                'table_name' => 'legalacts',
+                'column_name' => 'title',
+                'foreign_key' => 6,
+                'locale' => 'en',
+                'value' => 'Constitution, Codes and Laws',
+                'created_at' => '2022-05-10 12:37:21',
+                'updated_at' => '2022-05-10 12:37:21',
+            ),
+            144 => 
+            array (
+                'id' => 145,
+                'table_name' => 'legalacts',
+                'column_name' => 'title',
+                'foreign_key' => 6,
+                'locale' => 'ru',
+                'value' => 'Конституция, кодексы и законы',
+                'created_at' => '2022-05-10 12:37:21',
+                'updated_at' => '2022-05-10 12:37:21',
+            ),
+            145 => 
+            array (
+                'id' => 146,
+                'table_name' => 'legalacts',
+                'column_name' => 'link',
+                'foreign_key' => 6,
+                'locale' => 'en',
+                'value' => '\\constitution',
+                'created_at' => '2022-05-10 12:37:21',
+                'updated_at' => '2022-05-10 12:37:21',
+            ),
+            146 => 
+            array (
+                'id' => 147,
+                'table_name' => 'legalacts',
+                'column_name' => 'slug',
+                'foreign_key' => 6,
+                'locale' => 'en',
+                'value' => 'constitution-codes-and-laws',
+                'created_at' => '2022-05-10 12:37:21',
+                'updated_at' => '2022-05-10 12:37:21',
+            ),
+            147 => 
+            array (
+                'id' => 148,
+                'table_name' => 'legalacts',
+                'column_name' => 'slug',
+                'foreign_key' => 6,
+                'locale' => 'ru',
+                'value' => 'konstituciya-kodeksy-i-zakony',
+                'created_at' => '2022-05-10 12:37:21',
+                'updated_at' => '2022-05-10 12:37:21',
+            ),
+            148 => 
+            array (
+                'id' => 149,
+                'table_name' => 'legalacts',
+                'column_name' => 'title',
+                'foreign_key' => 5,
+                'locale' => 'en',
+                'value' => 'Decrees and Orders',
+                'created_at' => '2022-05-10 12:39:08',
+                'updated_at' => '2022-05-10 12:39:08',
+            ),
+            149 => 
+            array (
+                'id' => 150,
+                'table_name' => 'legalacts',
+                'column_name' => 'title',
+                'foreign_key' => 5,
+                'locale' => 'ru',
+                'value' => 'Указы и распоряжения',
+                'created_at' => '2022-05-10 12:39:08',
+                'updated_at' => '2022-05-10 12:39:08',
+            ),
+            150 => 
+            array (
+                'id' => 151,
+                'table_name' => 'legalacts',
+                'column_name' => 'slug',
+                'foreign_key' => 5,
+                'locale' => 'en',
+                'value' => 'decrees-and-orders',
+                'created_at' => '2022-05-10 12:39:08',
+                'updated_at' => '2022-05-10 12:39:08',
+            ),
+            151 => 
+            array (
+                'id' => 152,
+                'table_name' => 'legalacts',
+                'column_name' => 'slug',
+                'foreign_key' => 5,
+                'locale' => 'ru',
+                'value' => 'ukazy-i-rasporyazheniya',
+                'created_at' => '2022-05-10 12:39:08',
+                'updated_at' => '2022-05-10 12:39:08',
+            ),
+            152 => 
+            array (
+                'id' => 153,
+                'table_name' => 'legalacts',
+                'column_name' => 'title',
+                'foreign_key' => 4,
+                'locale' => 'en',
+                'value' => 'Decisions of the Milli Majlis',
+                'created_at' => '2022-05-10 12:39:57',
+                'updated_at' => '2022-05-10 12:39:57',
+            ),
+            153 => 
+            array (
+                'id' => 154,
+                'table_name' => 'legalacts',
+                'column_name' => 'title',
+                'foreign_key' => 4,
+                'locale' => 'ru',
+                'value' => 'Решения Милли Меджлиса',
+                'created_at' => '2022-05-10 12:39:57',
+                'updated_at' => '2022-05-10 12:39:57',
+            ),
+            154 => 
+            array (
+                'id' => 155,
+                'table_name' => 'legalacts',
+                'column_name' => 'slug',
+                'foreign_key' => 4,
+                'locale' => 'en',
+                'value' => 'decisions-of-the-milli-majlis',
+                'created_at' => '2022-05-10 12:39:57',
+                'updated_at' => '2022-05-10 12:39:57',
+            ),
+            155 => 
+            array (
+                'id' => 156,
+                'table_name' => 'legalacts',
+                'column_name' => 'slug',
+                'foreign_key' => 4,
+                'locale' => 'ru',
+                'value' => 'resheniya-milli-medzhlisa',
+                'created_at' => '2022-05-10 12:39:57',
+                'updated_at' => '2022-05-10 12:39:57',
+            ),
+            156 => 
+            array (
+                'id' => 157,
+                'table_name' => 'legalacts',
+                'column_name' => 'title',
+                'foreign_key' => 3,
+                'locale' => 'en',
+                'value' => 'Decisions of the Constitutional Court',
+                'created_at' => '2022-05-10 12:40:48',
+                'updated_at' => '2022-05-10 12:40:48',
+            ),
+            157 => 
+            array (
+                'id' => 158,
+                'table_name' => 'legalacts',
+                'column_name' => 'title',
+                'foreign_key' => 3,
+                'locale' => 'ru',
+                'value' => 'Решения Конституционного суда',
+                'created_at' => '2022-05-10 12:40:48',
+                'updated_at' => '2022-05-10 12:40:48',
+            ),
+            158 => 
+            array (
+                'id' => 159,
+                'table_name' => 'legalacts',
+                'column_name' => 'slug',
+                'foreign_key' => 3,
+                'locale' => 'en',
+                'value' => 'decisions-of-the-constitutional-court',
+                'created_at' => '2022-05-10 12:40:48',
+                'updated_at' => '2022-05-10 12:40:48',
+            ),
+            159 => 
+            array (
+                'id' => 160,
+                'table_name' => 'legalacts',
+                'column_name' => 'slug',
+                'foreign_key' => 3,
+                'locale' => 'ru',
+                'value' => 'resheniya-konstitucionnogo-suda',
+                'created_at' => '2022-05-10 12:40:48',
+                'updated_at' => '2022-05-10 12:40:48',
+            ),
+            160 => 
+            array (
+                'id' => 161,
+                'table_name' => 'legalacts',
+                'column_name' => 'title',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => 'Plenum Decisions of the Supreme Court',
+                'created_at' => '2022-05-10 12:41:38',
+                'updated_at' => '2022-05-10 12:41:38',
+            ),
+            161 => 
+            array (
+                'id' => 162,
+                'table_name' => 'legalacts',
+                'column_name' => 'title',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => 'Решения Пленума Верховного Суда',
+                'created_at' => '2022-05-10 12:41:38',
+                'updated_at' => '2022-05-10 12:41:38',
+            ),
+            162 => 
+            array (
+                'id' => 163,
+                'table_name' => 'legalacts',
+                'column_name' => 'slug',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => 'plenum-decisions-of-the-supreme-court',
+                'created_at' => '2022-05-10 12:41:38',
+                'updated_at' => '2022-05-10 12:41:38',
+            ),
+            163 => 
+            array (
+                'id' => 164,
+                'table_name' => 'legalacts',
+                'column_name' => 'slug',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => 'resheniya-plenuma-verhovnogo-suda',
+                'created_at' => '2022-05-10 12:41:38',
+                'updated_at' => '2022-05-10 12:41:38',
+            ),
+            164 => 
+            array (
+                'id' => 165,
+                'table_name' => 'legalacts',
+                'column_name' => 'title',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => 'Legal acts of the Nakhchivan Autonomous Republic',
+                'created_at' => '2022-05-10 12:42:20',
+                'updated_at' => '2022-05-10 12:42:20',
+            ),
+            165 => 
+            array (
+                'id' => 166,
+                'table_name' => 'legalacts',
+                'column_name' => 'title',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => 'Правовые акты Нахчыванской Автономной Республики',
+                'created_at' => '2022-05-10 12:42:20',
+                'updated_at' => '2022-05-10 12:42:20',
+            ),
+            166 => 
+            array (
+                'id' => 167,
+                'table_name' => 'legalacts',
+                'column_name' => 'slug',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => 'legal-acts-of-the-nakhchivan-autonomous-republic',
+                'created_at' => '2022-05-10 12:42:20',
+                'updated_at' => '2022-05-10 12:42:20',
+            ),
+            167 => 
+            array (
+                'id' => 168,
+                'table_name' => 'legalacts',
+                'column_name' => 'slug',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => 'pravovye-akty-nahchyvanskoj-avtonomnoj-respubliki',
+                'created_at' => '2022-05-10 12:42:20',
+                'updated_at' => '2022-05-10 12:42:20',
+            ),
+            168 => 
+            array (
+                'id' => 169,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 35,
+                'locale' => 'en',
+                'value' => 'CONSTITUTION OF THE REPUBLIC OF AZERBAIJAN',
+                'created_at' => '2022-05-10 12:49:45',
+                'updated_at' => '2022-05-10 12:49:45',
+            ),
+            169 => 
+            array (
+                'id' => 170,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 35,
+                'locale' => 'ru',
+                'value' => 'КОНСТИТУЦИЯ АЗЕРБАЙДЖАНСКОЙ РЕСПУБЛИКИ',
+                'created_at' => '2022-05-10 12:49:45',
+                'updated_at' => '2022-05-10 12:49:45',
+            ),
+            170 => 
+            array (
+                'id' => 171,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 35,
+                'locale' => 'en',
+                'value' => 'constitution-of-the-republic-of-azerbaijan',
+                'created_at' => '2022-05-10 12:49:45',
+                'updated_at' => '2022-05-10 12:49:45',
+            ),
+            171 => 
+            array (
+                'id' => 172,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 35,
+                'locale' => 'ru',
+                'value' => 'konstituciya-azerbajdzhanskoj-respubliki',
+                'created_at' => '2022-05-10 12:49:45',
+                'updated_at' => '2022-05-10 12:49:45',
+            ),
+            172 => 
+            array (
+                'id' => 173,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 34,
+                'locale' => 'en',
+                'value' => 'Constitution of the Nakhchivan Autonomous Republic',
+                'created_at' => '2022-05-10 12:50:34',
+                'updated_at' => '2022-05-10 12:50:34',
+            ),
+            173 => 
+            array (
+                'id' => 174,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 34,
+                'locale' => 'ru',
+                'value' => 'Конституция Нахчыванской Автономной Республики',
+                'created_at' => '2022-05-10 12:50:34',
+                'updated_at' => '2022-05-10 12:50:34',
+            ),
+            174 => 
+            array (
+                'id' => 175,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 34,
+                'locale' => 'en',
+                'value' => 'constitution-of-the-nakhchivan-autonomous-republic',
+                'created_at' => '2022-05-10 12:50:34',
+                'updated_at' => '2022-05-10 12:50:34',
+            ),
+            175 => 
+            array (
+                'id' => 176,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 34,
+                'locale' => 'ru',
+                'value' => 'konstituciya-nahchyvanskoj-avtonomnoj-respubliki',
+                'created_at' => '2022-05-10 12:50:34',
+                'updated_at' => '2022-05-10 12:50:34',
+            ),
+            176 => 
+            array (
+                'id' => 177,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 33,
+                'locale' => 'en',
+                'value' => 'FAMILY CODE',
+                'created_at' => '2022-05-10 12:51:13',
+                'updated_at' => '2022-05-10 12:51:13',
+            ),
+            177 => 
+            array (
+                'id' => 178,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 33,
+                'locale' => 'ru',
+                'value' => 'СЕМЕЙНЫЙ КОДЕКС',
+                'created_at' => '2022-05-10 12:51:13',
+                'updated_at' => '2022-05-10 12:51:13',
+            ),
+            178 => 
+            array (
+                'id' => 179,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 33,
+                'locale' => 'en',
+                'value' => 'family-code',
+                'created_at' => '2022-05-10 12:51:13',
+                'updated_at' => '2022-05-10 12:51:13',
+            ),
+            179 => 
+            array (
+                'id' => 180,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 33,
+                'locale' => 'ru',
+                'value' => 'semejnyj-kodeks',
+                'created_at' => '2022-05-10 12:51:13',
+                'updated_at' => '2022-05-10 12:51:13',
+            ),
+            180 => 
+            array (
+                'id' => 181,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 32,
+                'locale' => 'en',
+                'value' => 'CRIMINAL CODE',
+                'created_at' => '2022-05-10 12:51:50',
+                'updated_at' => '2022-05-10 12:51:50',
+            ),
+            181 => 
+            array (
+                'id' => 182,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 32,
+                'locale' => 'ru',
+                'value' => 'УГОЛОВНЫЙ КОДЕКС',
+                'created_at' => '2022-05-10 12:51:50',
+                'updated_at' => '2022-05-10 12:51:50',
+            ),
+            182 => 
+            array (
+                'id' => 183,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 32,
+                'locale' => 'en',
+                'value' => 'criminal-code',
+                'created_at' => '2022-05-10 12:51:50',
+                'updated_at' => '2022-05-10 12:51:50',
+            ),
+            183 => 
+            array (
+                'id' => 184,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 32,
+                'locale' => 'ru',
+                'value' => 'ugolovnyj-kodeks',
+                'created_at' => '2022-05-10 12:51:50',
+                'updated_at' => '2022-05-10 12:51:50',
+            ),
+            184 => 
+            array (
+                'id' => 185,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 31,
+                'locale' => 'en',
+                'value' => 'CRIMINAL PROCEDURAL CODE',
+                'created_at' => '2022-05-10 12:52:26',
+                'updated_at' => '2022-05-10 12:52:26',
+            ),
+            185 => 
+            array (
+                'id' => 186,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 31,
+                'locale' => 'ru',
+                'value' => 'УГОЛОВНО-ПРОЦЕССУАЛЬНЫЙ КОДЕКС',
+                'created_at' => '2022-05-10 12:52:26',
+                'updated_at' => '2022-05-10 12:52:26',
+            ),
+            186 => 
+            array (
+                'id' => 187,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 31,
+                'locale' => 'en',
+                'value' => 'criminal-procedural-code',
+                'created_at' => '2022-05-10 12:52:26',
+                'updated_at' => '2022-05-10 12:52:26',
+            ),
+            187 => 
+            array (
+                'id' => 188,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 31,
+                'locale' => 'ru',
+                'value' => 'ugolovno-processualnyj-kodeks',
+                'created_at' => '2022-05-10 12:52:26',
+                'updated_at' => '2022-05-10 12:52:26',
+            ),
+            188 => 
+            array (
+                'id' => 189,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 30,
+                'locale' => 'en',
+                'value' => 'EXECUTION CODE OF PENALTIES',
+                'created_at' => '2022-05-10 12:53:03',
+                'updated_at' => '2022-05-10 12:53:03',
+            ),
+            189 => 
+            array (
+                'id' => 190,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 30,
+                'locale' => 'ru',
+                'value' => 'ИСПОЛНИТЕЛЬНЫЙ КОДЕКС ШТРАФОВ',
+                'created_at' => '2022-05-10 12:53:03',
+                'updated_at' => '2022-05-10 12:53:03',
+            ),
+            190 => 
+            array (
+                'id' => 191,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 30,
+                'locale' => 'en',
+                'value' => 'execution-code-of-penalties',
+                'created_at' => '2022-05-10 12:53:03',
+                'updated_at' => '2022-05-10 12:53:03',
+            ),
+            191 => 
+            array (
+                'id' => 192,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 30,
+                'locale' => 'ru',
+                'value' => 'ispolnitelnyj-kodeks-shtrafov',
+                'created_at' => '2022-05-10 12:53:03',
+                'updated_at' => '2022-05-10 12:53:03',
+            ),
+            192 => 
+            array (
+                'id' => 193,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 29,
+                'locale' => 'en',
+                'value' => 'LABOR CODE',
+                'created_at' => '2022-05-10 12:53:41',
+                'updated_at' => '2022-05-10 12:53:41',
+            ),
+            193 => 
+            array (
+                'id' => 194,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 29,
+                'locale' => 'ru',
+                'value' => 'ТРУДОВОЙ КОДЕКС',
+                'created_at' => '2022-05-10 12:53:41',
+                'updated_at' => '2022-05-10 12:53:41',
+            ),
+            194 => 
+            array (
+                'id' => 195,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 29,
+                'locale' => 'en',
+                'value' => 'labor-code',
+                'created_at' => '2022-05-10 12:53:41',
+                'updated_at' => '2022-05-10 12:53:41',
+            ),
+            195 => 
+            array (
+                'id' => 196,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 29,
+                'locale' => 'ru',
+                'value' => 'trudovoj-kodeks',
+                'created_at' => '2022-05-10 12:53:41',
+                'updated_at' => '2022-05-10 12:53:41',
+            ),
+            196 => 
+            array (
+                'id' => 197,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 28,
+                'locale' => 'en',
+                'value' => 'CUSTOMS CODE',
+                'created_at' => '2022-05-10 12:54:16',
+                'updated_at' => '2022-05-10 12:54:16',
+            ),
+            197 => 
+            array (
+                'id' => 198,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 28,
+                'locale' => 'ru',
+                'value' => 'ТАМОЖЕННЫЙ КОДЕКС',
+                'created_at' => '2022-05-10 12:54:16',
+                'updated_at' => '2022-05-10 12:54:16',
+            ),
+            198 => 
+            array (
+                'id' => 199,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 28,
+                'locale' => 'en',
+                'value' => 'customs-code',
+                'created_at' => '2022-05-10 12:54:16',
+                'updated_at' => '2022-05-10 12:54:16',
+            ),
+            199 => 
+            array (
+                'id' => 200,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 28,
+                'locale' => 'ru',
+                'value' => 'tamozhennyj-kodeks',
+                'created_at' => '2022-05-10 12:54:16',
+                'updated_at' => '2022-05-10 12:54:16',
+            ),
+            200 => 
+            array (
+                'id' => 201,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 27,
+                'locale' => 'en',
+                'value' => 'THE CODE OF ADMINISTRATIVE OFFENCES',
+                'created_at' => '2022-05-10 12:54:56',
+                'updated_at' => '2022-05-10 12:54:56',
+            ),
+            201 => 
+            array (
+                'id' => 202,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 27,
+                'locale' => 'ru',
+                'value' => 'КОДЕКС ОБ АДМИНИСТРАТИВНЫХ ПРАВОНАРУШЕНИЯХ',
+                'created_at' => '2022-05-10 12:54:56',
+                'updated_at' => '2022-05-10 12:54:56',
+            ),
+            202 => 
+            array (
+                'id' => 203,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 27,
+                'locale' => 'en',
+                'value' => 'the-code-of-administrative-offences',
+                'created_at' => '2022-05-10 12:54:56',
+                'updated_at' => '2022-05-10 12:54:56',
+            ),
+            203 => 
+            array (
+                'id' => 204,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 27,
+                'locale' => 'ru',
+                'value' => 'kodeks-ob-administrativnyh-pravonarusheniyah',
+                'created_at' => '2022-05-10 12:54:56',
+                'updated_at' => '2022-05-10 12:54:56',
+            ),
+            204 => 
+            array (
+                'id' => 205,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 26,
+                'locale' => 'en',
+                'value' => 'ADMINISTRATIVE PROCEDURAL CODE',
+                'created_at' => '2022-05-10 12:55:54',
+                'updated_at' => '2022-05-10 12:55:54',
+            ),
+            205 => 
+            array (
+                'id' => 206,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 26,
+                'locale' => 'ru',
+                'value' => 'АДМИНИСТРАТИВНО-ПРОЦЕССУАЛЬНЫЙ КОДЕКС',
+                'created_at' => '2022-05-10 12:55:54',
+                'updated_at' => '2022-05-10 12:55:54',
+            ),
+            206 => 
+            array (
+                'id' => 207,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 26,
+                'locale' => 'en',
+                'value' => 'administrative-procedural-code',
+                'created_at' => '2022-05-10 12:55:54',
+                'updated_at' => '2022-05-10 12:55:54',
+            ),
+            207 => 
+            array (
+                'id' => 208,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 26,
+                'locale' => 'ru',
+                'value' => 'administrativno-processualnyj-kodeks',
+                'created_at' => '2022-05-10 12:55:54',
+                'updated_at' => '2022-05-10 12:55:54',
+            ),
+            208 => 
+            array (
+                'id' => 209,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 25,
+                'locale' => 'en',
+                'value' => 'FOREST CODE',
+                'created_at' => '2022-05-10 13:08:10',
+                'updated_at' => '2022-05-10 13:08:10',
+            ),
+            209 => 
+            array (
+                'id' => 210,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 25,
+                'locale' => 'ru',
+                'value' => 'ЛЕСНОЙ КОДЕКС',
+                'created_at' => '2022-05-10 13:08:10',
+                'updated_at' => '2022-05-10 13:08:10',
+            ),
+            210 => 
+            array (
+                'id' => 211,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 25,
+                'locale' => 'en',
+                'value' => 'forest-code',
+                'created_at' => '2022-05-10 13:08:10',
+                'updated_at' => '2022-05-10 13:08:10',
+            ),
+            211 => 
+            array (
+                'id' => 212,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 25,
+                'locale' => 'ru',
+                'value' => 'lesnoj-kodeks',
+                'created_at' => '2022-05-10 13:08:10',
+                'updated_at' => '2022-05-10 13:08:10',
+            ),
+            212 => 
+            array (
+                'id' => 213,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 24,
+                'locale' => 'en',
+                'value' => 'HOUSING CODE',
+                'created_at' => '2022-05-10 13:08:53',
+                'updated_at' => '2022-05-10 13:08:53',
+            ),
+            213 => 
+            array (
+                'id' => 214,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 24,
+                'locale' => 'ru',
+                'value' => 'ЖИЛИЩНЫЙ КОДЕКС',
+                'created_at' => '2022-05-10 13:08:53',
+                'updated_at' => '2022-05-10 13:08:53',
+            ),
+            214 => 
+            array (
+                'id' => 215,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 24,
+                'locale' => 'en',
+                'value' => 'housing-code',
+                'created_at' => '2022-05-10 13:08:53',
+                'updated_at' => '2022-05-10 13:08:53',
+            ),
+            215 => 
+            array (
+                'id' => 216,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 24,
+                'locale' => 'ru',
+                'value' => 'zhilishnyj-kodeks',
+                'created_at' => '2022-05-10 13:08:53',
+                'updated_at' => '2022-05-10 13:08:53',
+            ),
+            216 => 
+            array (
+                'id' => 217,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 23,
+                'locale' => 'en',
+                'value' => 'MIGRATION CODE',
+                'created_at' => '2022-05-10 13:09:35',
+                'updated_at' => '2022-05-10 13:09:35',
+            ),
+            217 => 
+            array (
+                'id' => 218,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 23,
+                'locale' => 'ru',
+                'value' => 'КОД МИГРАЦИИ',
+                'created_at' => '2022-05-10 13:09:35',
+                'updated_at' => '2022-05-10 13:09:35',
+            ),
+            218 => 
+            array (
+                'id' => 219,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 23,
+                'locale' => 'en',
+                'value' => 'migration-code',
+                'created_at' => '2022-05-10 13:09:35',
+                'updated_at' => '2022-05-10 13:09:35',
+            ),
+            219 => 
+            array (
+                'id' => 220,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 23,
+                'locale' => 'ru',
+                'value' => 'kod-migracii',
+                'created_at' => '2022-05-10 13:09:35',
+                'updated_at' => '2022-05-10 13:09:35',
+            ),
+            220 => 
+            array (
+                'id' => 221,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 22,
+                'locale' => 'en',
+                'value' => 'CIVIL CODE',
+                'created_at' => '2022-05-10 13:10:13',
+                'updated_at' => '2022-05-10 13:10:13',
+            ),
+            221 => 
+            array (
+                'id' => 222,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 22,
+                'locale' => 'ru',
+                'value' => 'ГРАЖДАНСКИЙ КОДЕКС',
+                'created_at' => '2022-05-10 13:10:13',
+                'updated_at' => '2022-05-10 13:10:13',
+            ),
+            222 => 
+            array (
+                'id' => 223,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 22,
+                'locale' => 'en',
+                'value' => 'civil-code',
+                'created_at' => '2022-05-10 13:10:13',
+                'updated_at' => '2022-05-10 13:10:13',
+            ),
+            223 => 
+            array (
+                'id' => 224,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 22,
+                'locale' => 'ru',
+                'value' => 'grazhdanskij-kodeks',
+                'created_at' => '2022-05-10 13:10:13',
+                'updated_at' => '2022-05-10 13:10:13',
+            ),
+            224 => 
+            array (
+                'id' => 225,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 16,
+                'locale' => 'en',
+                'value' => 'LAND CODE',
+                'created_at' => '2022-05-10 13:10:51',
+                'updated_at' => '2022-05-10 13:10:51',
+            ),
+            225 => 
+            array (
+                'id' => 226,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 16,
+                'locale' => 'ru',
+                'value' => 'ЗЕМЕЛЬНЫЙ КОДЕКС',
+                'created_at' => '2022-05-10 13:10:51',
+                'updated_at' => '2022-05-10 13:10:51',
+            ),
+            226 => 
+            array (
+                'id' => 227,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 16,
+                'locale' => 'en',
+                'value' => 'land-code',
+                'created_at' => '2022-05-10 13:10:51',
+                'updated_at' => '2022-05-10 13:10:51',
+            ),
+            227 => 
+            array (
+                'id' => 228,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 16,
+                'locale' => 'ru',
+                'value' => 'zemelnyj-kodeks',
+                'created_at' => '2022-05-10 13:10:51',
+                'updated_at' => '2022-05-10 13:10:51',
+            ),
+            228 => 
+            array (
+                'id' => 229,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 17,
+                'locale' => 'en',
+                'value' => 'COMMERCIAL SHIPPING CODE',
+                'created_at' => '2022-05-10 13:11:29',
+                'updated_at' => '2022-05-10 13:11:29',
+            ),
+            229 => 
+            array (
+                'id' => 230,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 17,
+                'locale' => 'ru',
+                'value' => 'КОММЕРЧЕСКИЙ КОД ДОСТАВКИ',
+                'created_at' => '2022-05-10 13:11:29',
+                'updated_at' => '2022-05-10 13:11:29',
+            ),
+            230 => 
+            array (
+                'id' => 231,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 17,
+                'locale' => 'en',
+                'value' => 'commercial-shipping-code',
+                'created_at' => '2022-05-10 13:11:29',
+                'updated_at' => '2022-05-10 13:11:29',
+            ),
+            231 => 
+            array (
+                'id' => 232,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 17,
+                'locale' => 'ru',
+                'value' => 'kommercheskij-kod-dostavki',
+                'created_at' => '2022-05-10 13:11:29',
+                'updated_at' => '2022-05-10 13:11:29',
+            ),
+            232 => 
+            array (
+                'id' => 233,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 18,
+                'locale' => 'en',
+                'value' => 'URBAN PLANNING AND CONSTRUCTION CODE',
+                'created_at' => '2022-05-10 13:12:12',
+                'updated_at' => '2022-05-10 13:12:12',
+            ),
+            233 => 
+            array (
+                'id' => 234,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 18,
+                'locale' => 'ru',
+                'value' => 'ГРАДОСТРОИТЕЛЬНЫЙ НОРМ ПЛАНИРОВАНИЯ И СТРОИТЕЛЬСТВА',
+                'created_at' => '2022-05-10 13:12:12',
+                'updated_at' => '2022-05-10 13:12:12',
+            ),
+            234 => 
+            array (
+                'id' => 235,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 18,
+                'locale' => 'en',
+                'value' => 'urban-planning-and-construction-code',
+                'created_at' => '2022-05-10 13:12:12',
+                'updated_at' => '2022-05-10 13:12:12',
+            ),
+            235 => 
+            array (
+                'id' => 236,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 18,
+                'locale' => 'ru',
+                'value' => 'gradostroitelnyj-norm-planirovaniya-i-stroitelstva',
+                'created_at' => '2022-05-10 13:12:12',
+                'updated_at' => '2022-05-10 13:12:12',
+            ),
+            236 => 
+            array (
+                'id' => 237,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 19,
+                'locale' => 'en',
+                'value' => 'WATER CODE',
+                'created_at' => '2022-05-10 13:12:48',
+                'updated_at' => '2022-05-10 13:12:48',
+            ),
+            237 => 
+            array (
+                'id' => 238,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 19,
+                'locale' => 'ru',
+                'value' => 'ВОДНЫЙ КОД',
+                'created_at' => '2022-05-10 13:12:48',
+                'updated_at' => '2022-05-10 13:12:48',
+            ),
+            238 => 
+            array (
+                'id' => 239,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 19,
+                'locale' => 'en',
+                'value' => 'water-code',
+                'created_at' => '2022-05-10 13:12:48',
+                'updated_at' => '2022-05-10 13:12:48',
+            ),
+            239 => 
+            array (
+                'id' => 240,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 19,
+                'locale' => 'ru',
+                'value' => 'vodnyj-kod',
+                'created_at' => '2022-05-10 13:12:48',
+                'updated_at' => '2022-05-10 13:12:48',
+            ),
+            240 => 
+            array (
+                'id' => 241,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 20,
+                'locale' => 'en',
+                'value' => 'ELECTION CODE',
+                'created_at' => '2022-05-10 13:13:23',
+                'updated_at' => '2022-05-10 13:13:23',
+            ),
+            241 => 
+            array (
+                'id' => 242,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 20,
+                'locale' => 'ru',
+                'value' => 'ИЗБИРАТЕЛЬНЫЙ КОДЕКС',
+                'created_at' => '2022-05-10 13:13:23',
+                'updated_at' => '2022-05-10 13:13:23',
+            ),
+            242 => 
+            array (
+                'id' => 243,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 20,
+                'locale' => 'en',
+                'value' => 'election-code',
+                'created_at' => '2022-05-10 13:13:23',
+                'updated_at' => '2022-05-10 13:13:23',
+            ),
+            243 => 
+            array (
+                'id' => 244,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 20,
+                'locale' => 'ru',
+                'value' => 'izbiratelnyj-kodeks',
+                'created_at' => '2022-05-10 13:13:23',
+                'updated_at' => '2022-05-10 13:13:23',
+            ),
+            244 => 
+            array (
+                'id' => 245,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 21,
+                'locale' => 'en',
+                'value' => 'CODE OF CIVIL PROCEDURE',
+                'created_at' => '2022-05-10 13:13:57',
+                'updated_at' => '2022-05-10 13:13:57',
+            ),
+            245 => 
+            array (
+                'id' => 246,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 21,
+                'locale' => 'ru',
+                'value' => 'ГРАЖДАНСКИЙ ПРОЦЕССУАЛЬНЫЙ КОДЕКС',
+                'created_at' => '2022-05-10 13:13:57',
+                'updated_at' => '2022-05-10 13:13:57',
+            ),
+            246 => 
+            array (
+                'id' => 247,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 21,
+                'locale' => 'en',
+                'value' => 'code-of-civil-procedure',
+                'created_at' => '2022-05-10 13:13:57',
+                'updated_at' => '2022-05-10 13:13:57',
+            ),
+            247 => 
+            array (
+                'id' => 248,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 21,
+                'locale' => 'ru',
+                'value' => 'grazhdanskij-processualnyj-kodeks',
+                'created_at' => '2022-05-10 13:13:57',
+                'updated_at' => '2022-05-10 13:13:57',
+            ),
+            248 => 
+            array (
+                'id' => 249,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 15,
+                'locale' => 'en',
+                'value' => 'TAX CODE',
+                'created_at' => '2022-05-10 13:14:48',
+                'updated_at' => '2022-05-10 13:14:48',
+            ),
+            249 => 
+            array (
+                'id' => 250,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 15,
+                'locale' => 'ru',
+                'value' => 'НАЛОГОВЫЙ КОДЕКС',
+                'created_at' => '2022-05-10 13:14:48',
+                'updated_at' => '2022-05-10 13:14:48',
+            ),
+            250 => 
+            array (
+                'id' => 251,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 15,
+                'locale' => 'en',
+                'value' => 'tax-code',
+                'created_at' => '2022-05-10 13:14:48',
+                'updated_at' => '2022-05-10 13:14:48',
+            ),
+            251 => 
+            array (
+                'id' => 252,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 15,
+                'locale' => 'ru',
+                'value' => 'nalogovyj-kodeks',
+                'created_at' => '2022-05-10 13:14:48',
+                'updated_at' => '2022-05-10 13:14:48',
+            ),
+            252 => 
+            array (
+                'id' => 253,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 14,
+                'locale' => 'en',
+                'value' => 'Constitutional Law of the Republic of Azerbaijan on Normative Legal Acts',
+                'created_at' => '2022-05-10 13:15:24',
+                'updated_at' => '2022-05-10 13:15:24',
+            ),
+            253 => 
+            array (
+                'id' => 254,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 14,
+                'locale' => 'ru',
+                'value' => 'Конституционный закон Азербайджанской Республики о нормативных правовых актах',
+                'created_at' => '2022-05-10 13:15:24',
+                'updated_at' => '2022-05-10 13:15:24',
+            ),
+            254 => 
+            array (
+                'id' => 255,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 14,
+                'locale' => 'en',
+                'value' => 'constitutional-law-of-the-republic-of-azerbaijan-on-normative-legal-acts',
+                'created_at' => '2022-05-10 13:15:24',
+                'updated_at' => '2022-05-10 13:15:24',
+            ),
+            255 => 
+            array (
+                'id' => 256,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 14,
+                'locale' => 'ru',
+                'value' => 'konstitucionnyj-zakon-azerbajdzhanskoj-respubliki-o-normativnyh-pravovyh-aktah',
+                'created_at' => '2022-05-10 13:15:24',
+                'updated_at' => '2022-05-10 13:15:24',
+            ),
+            256 => 
+            array (
+                'id' => 257,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 13,
+                'locale' => 'en',
+                'value' => 'Law of the Republic of Azerbaijan on the Constitutional Court',
+                'created_at' => '2022-05-10 13:16:00',
+                'updated_at' => '2022-05-10 13:16:00',
+            ),
+            257 => 
+            array (
+                'id' => 258,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 13,
+                'locale' => 'ru',
+                'value' => 'Закон Азербайджанской Республики о Конституционном Суде',
+                'created_at' => '2022-05-10 13:16:00',
+                'updated_at' => '2022-05-10 13:16:00',
+            ),
+            258 => 
+            array (
+                'id' => 259,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 13,
+                'locale' => 'en',
+                'value' => 'law-of-the-republic-of-azerbaijan-on-the-constitutional-court',
+                'created_at' => '2022-05-10 13:16:00',
+                'updated_at' => '2022-05-10 13:16:00',
+            ),
+            259 => 
+            array (
+                'id' => 260,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 13,
+                'locale' => 'ru',
+                'value' => 'zakon-azerbajdzhanskoj-respubliki-o-konstitucionnom-sude',
+                'created_at' => '2022-05-10 13:16:00',
+                'updated_at' => '2022-05-10 13:16:00',
+            ),
+            260 => 
+            array (
+                'id' => 261,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 12,
+                'locale' => 'en',
+                'value' => 'Law of the Republic of Azerbaijan on the Judicial-Legal Council',
+                'created_at' => '2022-05-10 13:16:48',
+                'updated_at' => '2022-05-10 13:16:48',
+            ),
+            261 => 
+            array (
+                'id' => 262,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 12,
+                'locale' => 'ru',
+                'value' => 'Закон Азербайджанской Республики о Судебно-правовом совете',
+                'created_at' => '2022-05-10 13:16:48',
+                'updated_at' => '2022-05-10 13:16:48',
+            ),
+            262 => 
+            array (
+                'id' => 263,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 12,
+                'locale' => 'en',
+                'value' => 'law-of-the-republic-of-azerbaijan-on-the-judicial-legal-council',
+                'created_at' => '2022-05-10 13:16:48',
+                'updated_at' => '2022-05-10 13:16:48',
+            ),
+            263 => 
+            array (
+                'id' => 264,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 12,
+                'locale' => 'ru',
+                'value' => 'zakon-azerbajdzhanskoj-respubliki-o-sudebno-pravovom-sovete',
+                'created_at' => '2022-05-10 13:16:48',
+                'updated_at' => '2022-05-10 13:16:48',
+            ),
+            264 => 
+            array (
+                'id' => 265,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 11,
+                'locale' => 'en',
+                'value' => 'Law of the Republic of Azerbaijan on Courts and Judges',
+                'created_at' => '2022-05-10 13:17:33',
+                'updated_at' => '2022-05-10 13:17:33',
+            ),
+            265 => 
+            array (
+                'id' => 266,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 11,
+                'locale' => 'ru',
+                'value' => 'Закон Азербайджанской Республики о судах и судьях',
+                'created_at' => '2022-05-10 13:17:33',
+                'updated_at' => '2022-05-10 13:17:33',
+            ),
+            266 => 
+            array (
+                'id' => 267,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 11,
+                'locale' => 'en',
+                'value' => 'law-of-the-republic-of-azerbaijan-on-courts-and-judges',
+                'created_at' => '2022-05-10 13:17:33',
+                'updated_at' => '2022-05-10 13:17:33',
+            ),
+            267 => 
+            array (
+                'id' => 268,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 11,
+                'locale' => 'ru',
+                'value' => 'zakon-azerbajdzhanskoj-respubliki-o-sudah-i-sudyah',
+                'created_at' => '2022-05-10 13:17:33',
+                'updated_at' => '2022-05-10 13:17:33',
+            ),
+            268 => 
+            array (
+                'id' => 269,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 10,
+                'locale' => 'en',
+                'value' => 'Law of the Republic of Azerbaijan on Civil Service',
+                'created_at' => '2022-05-10 13:18:12',
+                'updated_at' => '2022-05-10 13:18:12',
+            ),
+            269 => 
+            array (
+                'id' => 270,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 10,
+                'locale' => 'ru',
+                'value' => 'Закон Азербайджанской Республики о государственной службе',
+                'created_at' => '2022-05-10 13:18:12',
+                'updated_at' => '2022-05-10 13:18:12',
+            ),
+            270 => 
+            array (
+                'id' => 271,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 10,
+                'locale' => 'en',
+                'value' => 'law-of-the-republic-of-azerbaijan-on-civil-service',
+                'created_at' => '2022-05-10 13:18:12',
+                'updated_at' => '2022-05-10 13:18:12',
+            ),
+            271 => 
+            array (
+                'id' => 272,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 10,
+                'locale' => 'ru',
+                'value' => 'zakon-azerbajdzhanskoj-respubliki-o-gosudarstvennoj-sluzhbe',
+                'created_at' => '2022-05-10 13:18:12',
+                'updated_at' => '2022-05-10 13:18:12',
+            ),
+            272 => 
+            array (
+                'id' => 273,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 9,
+                'locale' => 'en',
+                'value' => 'Law of the Republic of Azerbaijan on Executive Officers',
+                'created_at' => '2022-05-10 13:18:51',
+                'updated_at' => '2022-05-10 13:18:51',
+            ),
+            273 => 
+            array (
+                'id' => 274,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 9,
+                'locale' => 'ru',
+                'value' => 'Закон Азербайджанской Республики об исполнительных должностных лицах',
+                'created_at' => '2022-05-10 13:18:51',
+                'updated_at' => '2022-05-10 13:18:51',
+            ),
+            274 => 
+            array (
+                'id' => 275,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 9,
+                'locale' => 'en',
+                'value' => 'law-of-the-republic-of-azerbaijan-on-executive-officers',
+                'created_at' => '2022-05-10 13:18:51',
+                'updated_at' => '2022-05-10 13:18:51',
+            ),
+            275 => 
+            array (
+                'id' => 276,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 9,
+                'locale' => 'ru',
+                'value' => 'zakon-azerbajdzhanskoj-respubliki-ob-ispolnitelnyh-dolzhnostnyh-licah',
+                'created_at' => '2022-05-10 13:18:51',
+                'updated_at' => '2022-05-10 13:18:51',
+            ),
+            276 => 
+            array (
+                'id' => 277,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 7,
+                'locale' => 'en',
+                'value' => 'Law of the Republic of Azerbaijan on State Duty',
+                'created_at' => '2022-05-10 13:19:33',
+                'updated_at' => '2022-05-10 13:19:33',
+            ),
+            277 => 
+            array (
+                'id' => 278,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 7,
+                'locale' => 'ru',
+                'value' => 'Закон Азербайджанской Республики о государственной пошлине',
+                'created_at' => '2022-05-10 13:19:33',
+                'updated_at' => '2022-05-10 13:19:33',
+            ),
+            278 => 
+            array (
+                'id' => 279,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 7,
+                'locale' => 'en',
+                'value' => 'law-of-the-republic-of-azerbaijan-on-state-duty',
+                'created_at' => '2022-05-10 13:19:33',
+                'updated_at' => '2022-05-10 13:19:33',
+            ),
+            279 => 
+            array (
+                'id' => 280,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 7,
+                'locale' => 'ru',
+                'value' => 'zakon-azerbajdzhanskoj-respubliki-o-gosudarstvennoj-poshline',
+                'created_at' => '2022-05-10 13:19:33',
+                'updated_at' => '2022-05-10 13:19:33',
+            ),
+            280 => 
+            array (
+                'id' => 281,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 6,
+                'locale' => 'en',
+                'value' => 'Instructions on clerical work in the courts of the Republic of Azerbaijan',
+                'created_at' => '2022-05-10 13:20:10',
+                'updated_at' => '2022-05-10 13:20:10',
+            ),
+            281 => 
+            array (
+                'id' => 282,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 6,
+                'locale' => 'ru',
+                'value' => 'Инструкция по делопроизводству в судах Азербайджанской Республики',
+                'created_at' => '2022-05-10 13:20:10',
+                'updated_at' => '2022-05-10 13:20:10',
+            ),
+            282 => 
+            array (
+                'id' => 283,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 6,
+                'locale' => 'en',
+                'value' => 'instructions-on-clerical-work-in-the-courts-of-the-republic-of-azerbaijan',
+                'created_at' => '2022-05-10 13:20:10',
+                'updated_at' => '2022-05-10 13:20:10',
+            ),
+            283 => 
+            array (
+                'id' => 284,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 6,
+                'locale' => 'ru',
+                'value' => 'instrukciya-po-deloproizvodstvu-v-sudah-azerbajdzhanskoj-respubliki',
+                'created_at' => '2022-05-10 13:20:10',
+                'updated_at' => '2022-05-10 13:20:10',
+            ),
+            284 => 
+            array (
+                'id' => 285,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 8,
+                'locale' => 'en',
+                'value' => 'Law of the Republic of Azerbaijan on Enforcement',
+                'created_at' => '2022-05-10 13:21:05',
+                'updated_at' => '2022-05-10 13:21:05',
+            ),
+            285 => 
+            array (
+                'id' => 286,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 8,
+                'locale' => 'ru',
+                'value' => 'Закон Азербайджанской Республики об исполнении',
+                'created_at' => '2022-05-10 13:21:05',
+                'updated_at' => '2022-05-10 13:21:05',
+            ),
+            286 => 
+            array (
+                'id' => 287,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 8,
+                'locale' => 'en',
+                'value' => 'law-of-the-republic-of-azerbaijan-on-enforcement',
+                'created_at' => '2022-05-10 13:21:05',
+                'updated_at' => '2022-05-10 13:21:05',
+            ),
+            287 => 
+            array (
+                'id' => 288,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 8,
+                'locale' => 'ru',
+                'value' => 'zakon-azerbajdzhanskoj-respubliki-ob-ispolnenii',
+                'created_at' => '2022-05-10 13:21:05',
+                'updated_at' => '2022-05-10 13:21:05',
+            ),
+            288 => 
+            array (
+                'id' => 289,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 5,
+                'locale' => 'en',
+                'value' => 'Decrees and Orders',
+                'created_at' => '2022-05-10 13:21:44',
+                'updated_at' => '2022-05-10 13:21:44',
+            ),
+            289 => 
+            array (
+                'id' => 290,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 5,
+                'locale' => 'ru',
+                'value' => 'Указы и распоряжения',
+                'created_at' => '2022-05-10 13:21:44',
+                'updated_at' => '2022-05-10 13:21:44',
+            ),
+            290 => 
+            array (
+                'id' => 291,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 5,
+                'locale' => 'en',
+                'value' => 'decrees-and-orders',
+                'created_at' => '2022-05-10 13:21:44',
+                'updated_at' => '2022-05-10 13:21:44',
+            ),
+            291 => 
+            array (
+                'id' => 292,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 5,
+                'locale' => 'ru',
+                'value' => 'ukazy-i-rasporyazheniya',
+                'created_at' => '2022-05-10 13:21:44',
+                'updated_at' => '2022-05-10 13:21:44',
+            ),
+            292 => 
+            array (
+                'id' => 293,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 4,
+                'locale' => 'en',
+                'value' => 'Decisions of the Milli Majlis',
+                'created_at' => '2022-05-10 13:22:23',
+                'updated_at' => '2022-05-10 13:22:23',
+            ),
+            293 => 
+            array (
+                'id' => 294,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 4,
+                'locale' => 'ru',
+                'value' => 'Решения Милли Меджлиса',
+                'created_at' => '2022-05-10 13:22:23',
+                'updated_at' => '2022-05-10 13:22:23',
+            ),
+            294 => 
+            array (
+                'id' => 295,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 4,
+                'locale' => 'en',
+                'value' => 'decisions-of-the-milli-majlis',
+                'created_at' => '2022-05-10 13:22:23',
+                'updated_at' => '2022-05-10 13:22:23',
+            ),
+            295 => 
+            array (
+                'id' => 296,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 4,
+                'locale' => 'ru',
+                'value' => 'resheniya-milli-medzhlisa',
+                'created_at' => '2022-05-10 13:22:23',
+                'updated_at' => '2022-05-10 13:22:23',
+            ),
+            296 => 
+            array (
+                'id' => 297,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 3,
+                'locale' => 'en',
+                'value' => 'Decisions of the Constitutional Court',
+                'created_at' => '2022-05-10 13:22:59',
+                'updated_at' => '2022-05-10 13:22:59',
+            ),
+            297 => 
+            array (
+                'id' => 298,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 3,
+                'locale' => 'ru',
+                'value' => 'Решения Конституционного суда',
+                'created_at' => '2022-05-10 13:22:59',
+                'updated_at' => '2022-05-10 13:22:59',
+            ),
+            298 => 
+            array (
+                'id' => 299,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 3,
+                'locale' => 'en',
+                'value' => 'decisions-of-the-constitutional-court',
+                'created_at' => '2022-05-10 13:22:59',
+                'updated_at' => '2022-05-10 13:22:59',
+            ),
+            299 => 
+            array (
+                'id' => 300,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 3,
+                'locale' => 'ru',
+                'value' => 'resheniya-konstitucionnogo-suda',
+                'created_at' => '2022-05-10 13:22:59',
+                'updated_at' => '2022-05-10 13:22:59',
+            ),
+            300 => 
+            array (
+                'id' => 301,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => 'Plenum Decisions of the Supreme Court',
+                'created_at' => '2022-05-10 13:23:40',
+                'updated_at' => '2022-05-10 13:23:40',
+            ),
+            301 => 
+            array (
+                'id' => 302,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => 'Решения Пленума Верховного Суда',
+                'created_at' => '2022-05-10 13:23:40',
+                'updated_at' => '2022-05-10 13:23:40',
+            ),
+            302 => 
+            array (
+                'id' => 303,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => 'plenum-decisions-of-the-supreme-court',
+                'created_at' => '2022-05-10 13:23:40',
+                'updated_at' => '2022-05-10 13:23:40',
+            ),
+            303 => 
+            array (
+                'id' => 304,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => 'resheniya-plenuma-verhovnogo-suda',
+                'created_at' => '2022-05-10 13:23:40',
+                'updated_at' => '2022-05-10 13:23:40',
+            ),
+            304 => 
+            array (
+                'id' => 305,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => 'Legal acts of the Nakhchivan Autonomous Republic',
+                'created_at' => '2022-05-10 13:24:20',
+                'updated_at' => '2022-05-10 13:24:20',
+            ),
+            305 => 
+            array (
+                'id' => 306,
+                'table_name' => 'constitutions',
+                'column_name' => 'title',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => 'Правовые акты Нахчыванской Автономной Республики',
+                'created_at' => '2022-05-10 13:24:20',
+                'updated_at' => '2022-05-10 13:24:20',
+            ),
+            306 => 
+            array (
+                'id' => 307,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => 'legal-acts-of-the-nakhchivan-autonomous-republic',
+                'created_at' => '2022-05-10 13:24:20',
+                'updated_at' => '2022-05-10 13:24:20',
+            ),
+            307 => 
+            array (
+                'id' => 308,
+                'table_name' => 'constitutions',
+                'column_name' => 'slug',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => 'pravovye-akty-nahchyvanskoj-avtonomnoj-respubliki',
+                'created_at' => '2022-05-10 13:24:20',
+                'updated_at' => '2022-05-10 13:24:20',
+            ),
+            308 => 
+            array (
+                'id' => 309,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 120,
+                'locale' => 'en',
+                'value' => 'Id',
+                'created_at' => '2022-05-10 13:27:31',
+                'updated_at' => '2022-05-10 13:27:31',
+            ),
+            309 => 
+            array (
+                'id' => 310,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 121,
+                'locale' => 'en',
+                'value' => 'Image',
+                'created_at' => '2022-05-10 13:27:31',
+                'updated_at' => '2022-05-10 13:27:31',
+            ),
+            310 => 
+            array (
+                'id' => 311,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 122,
+                'locale' => 'en',
+                'value' => 'Title',
+                'created_at' => '2022-05-10 13:27:31',
+                'updated_at' => '2022-05-10 13:27:31',
+            ),
+            311 => 
+            array (
+                'id' => 312,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 123,
+                'locale' => 'en',
+                'value' => 'Slug',
+                'created_at' => '2022-05-10 13:27:31',
+                'updated_at' => '2022-05-10 13:27:31',
+            ),
+            312 => 
+            array (
+                'id' => 313,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 124,
+                'locale' => 'en',
+                'value' => 'Content',
+                'created_at' => '2022-05-10 13:27:31',
+                'updated_at' => '2022-05-10 13:27:31',
+            ),
+            313 => 
+            array (
+                'id' => 314,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 125,
+                'locale' => 'en',
+                'value' => 'Created At',
+                'created_at' => '2022-05-10 13:27:31',
+                'updated_at' => '2022-05-10 13:27:31',
+            ),
+            314 => 
+            array (
+                'id' => 315,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 126,
+                'locale' => 'en',
+                'value' => 'Updated At',
+                'created_at' => '2022-05-10 13:27:31',
+                'updated_at' => '2022-05-10 13:27:31',
+            ),
+            315 => 
+            array (
+                'id' => 316,
+                'table_name' => 'data_types',
+                'column_name' => 'display_name_singular',
+                'foreign_key' => 27,
+                'locale' => 'en',
+                'value' => 'Decisionpresidium',
+                'created_at' => '2022-05-10 13:27:31',
+                'updated_at' => '2022-05-10 13:27:31',
+            ),
+            316 => 
+            array (
+                'id' => 317,
+                'table_name' => 'data_types',
+                'column_name' => 'display_name_plural',
+                'foreign_key' => 27,
+                'locale' => 'en',
+                'value' => 'Decisionpresidia',
+                'created_at' => '2022-05-10 13:27:31',
+                'updated_at' => '2022-05-10 13:27:31',
+            ),
+            317 => 
+            array (
+                'id' => 318,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 13,
+                'locale' => 'en',
+                'value' => 'Decision N1 2015',
+                'created_at' => '2022-05-10 13:28:29',
+                'updated_at' => '2022-05-10 13:28:29',
+            ),
+            318 => 
+            array (
+                'id' => 319,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 13,
+                'locale' => 'ru',
+                'value' => 'Решение №1 2015 г.',
+                'created_at' => '2022-05-10 13:28:29',
+                'updated_at' => '2022-05-10 13:28:29',
+            ),
+            319 => 
+            array (
+                'id' => 320,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 13,
+                'locale' => 'en',
+                'value' => 'decision-n1-2015',
+                'created_at' => '2022-05-10 13:28:29',
+                'updated_at' => '2022-05-10 13:28:29',
+            ),
+            320 => 
+            array (
+                'id' => 321,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 13,
+                'locale' => 'ru',
+                'value' => 'reshenie-1-2015-g',
+                'created_at' => '2022-05-10 13:28:29',
+                'updated_at' => '2022-05-10 13:28:29',
+            ),
+            321 => 
+            array (
+                'id' => 322,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'content',
+                'foreign_key' => 13,
+                'locale' => 'en',
+                'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center; line-height: 20.4px;"><strong style="box-sizing: border-box;">NАХ&Ccedil;IVАN &nbsp;MUХTАR &nbsp;RЕSPUBL</strong><strong style="box-sizing: border-box;">İKАSI En</strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center; line-height: 20.4px;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center; line-height: 20.4px;"><strong style="box-sizing: border-box;">АL</strong><strong style="box-sizing: border-box;">İ&nbsp; MƏHKƏMƏS</strong><strong style="box-sizing: border-box;">İ &nbsp;RƏYАSƏT &nbsp;HЕYƏT</strong><strong style="box-sizing: border-box;">İN</strong><strong style="box-sizing: border-box;">İN</strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center; line-height: 20.4px;">&nbsp;</p>
@@ -3995,72 +3946,72 @@ class FromArtisanTranslationsTableSeeder extends Seeder
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; text-indent: 18pt; line-height: 20.4px;"><span style="box-sizing: border-box; letter-spacing: -0.2pt;">- &ldquo;Аzərbаycаn Rеspublikаsının məhkəmələrində kаrg&uuml;zаrlığın аpаrılmаsınа</span>&nbsp;dаir Təlimаt&rdquo;а uyğun оlаrаq məhkəmələrdə kаrg&uuml;zаrlığın аpаrılmаsı işinin təkmilləşdirilməsinə, əmək və icrа intizаmınа dаhа ciddi əməl оlunmаsınа х&uuml;susi diqqət yеtirsinlər.</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center; line-height: 20.4px;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; line-height: 20.4px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong style="box-sizing: border-box;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; S Ə D R : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RАMİZ &nbsp;S&Uuml;LЕYMАNОV</strong></p>',
-            'created_at' => '2022-05-10 13:28:29',
-            'updated_at' => '2022-05-10 13:28:29',
-        ),
-        322 => 
-        array (
-            'id' => 323,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'content',
-            'foreign_key' => 13,
-            'locale' => 'ru',
-            'value' => '<p>Ru content</p>',
-            'created_at' => '2022-05-10 13:28:29',
-            'updated_at' => '2022-05-10 13:28:29',
-        ),
-        323 => 
-        array (
-            'id' => 324,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 12,
-            'locale' => 'en',
-            'value' => 'Decision N2 2014',
-            'created_at' => '2022-05-10 13:30:08',
-            'updated_at' => '2022-05-10 13:30:08',
-        ),
-        324 => 
-        array (
-            'id' => 325,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 12,
-            'locale' => 'ru',
-            'value' => 'Решение №2 2014 г.',
-            'created_at' => '2022-05-10 13:30:08',
-            'updated_at' => '2022-05-10 13:30:08',
-        ),
-        325 => 
-        array (
-            'id' => 326,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 12,
-            'locale' => 'en',
-            'value' => 'decision-n2-2014',
-            'created_at' => '2022-05-10 13:30:08',
-            'updated_at' => '2022-05-10 13:30:08',
-        ),
-        326 => 
-        array (
-            'id' => 327,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 12,
-            'locale' => 'ru',
-            'value' => 'reshenie-2-2014-g',
-            'created_at' => '2022-05-10 13:30:08',
-            'updated_at' => '2022-05-10 13:30:08',
-        ),
-        327 => 
-        array (
-            'id' => 328,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'content',
-            'foreign_key' => 12,
-            'locale' => 'en',
-            'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">NAX&Ccedil;IVAN MUXTAR RESPUBLİKASI ALİ MƏHKƏMƏSİNİN</strong></p>
+                'created_at' => '2022-05-10 13:28:29',
+                'updated_at' => '2022-05-10 13:28:29',
+            ),
+            322 => 
+            array (
+                'id' => 323,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'content',
+                'foreign_key' => 13,
+                'locale' => 'ru',
+                'value' => '<p>Ru content</p>',
+                'created_at' => '2022-05-10 13:28:29',
+                'updated_at' => '2022-05-10 13:28:29',
+            ),
+            323 => 
+            array (
+                'id' => 324,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 12,
+                'locale' => 'en',
+                'value' => 'Decision N2 2014',
+                'created_at' => '2022-05-10 13:30:08',
+                'updated_at' => '2022-05-10 13:30:08',
+            ),
+            324 => 
+            array (
+                'id' => 325,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 12,
+                'locale' => 'ru',
+                'value' => 'Решение №2 2014 г.',
+                'created_at' => '2022-05-10 13:30:08',
+                'updated_at' => '2022-05-10 13:30:08',
+            ),
+            325 => 
+            array (
+                'id' => 326,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 12,
+                'locale' => 'en',
+                'value' => 'decision-n2-2014',
+                'created_at' => '2022-05-10 13:30:08',
+                'updated_at' => '2022-05-10 13:30:08',
+            ),
+            326 => 
+            array (
+                'id' => 327,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 12,
+                'locale' => 'ru',
+                'value' => 'reshenie-2-2014-g',
+                'created_at' => '2022-05-10 13:30:08',
+                'updated_at' => '2022-05-10 13:30:08',
+            ),
+            327 => 
+            array (
+                'id' => 328,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'content',
+                'foreign_key' => 12,
+                'locale' => 'en',
+                'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">NAX&Ccedil;IVAN MUXTAR RESPUBLİKASI ALİ MƏHKƏMƏSİNİN</strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">RƏYASƏT HEYƏTİNİN</strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;">&nbsp;</p>
@@ -4088,61 +4039,61 @@ class FromArtisanTranslationsTableSeeder extends Seeder
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify;">- &ldquo;Аzərbаycаn Rеspublikаsının məhkəmələrində kаrg&uuml;zаrlığın аpаrılmаsınа dаir Təlimаt&rdquo;а uyğun оlаrаq məhkəmələrdə kаrg&uuml;zаrlığın və stаtistik təhlilin аpаrılmаsı işinin təkmilləşdirilməsinə, əmək və icrа intizаmınа dаhа ciddi əməl оlunmаsınа х&uuml;susi diqqət yеtirsinlər.</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; S Ə D R : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; RАMİZ &nbsp;S&Uuml;LЕYMАNОV</p>',
-            'created_at' => '2022-05-10 13:30:08',
-            'updated_at' => '2022-05-10 13:30:08',
-        ),
-        328 => 
-        array (
-            'id' => 329,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 11,
-            'locale' => 'en',
-            'value' => 'Decision N3 2013',
-            'created_at' => '2022-05-10 13:30:52',
-            'updated_at' => '2022-05-10 13:30:52',
-        ),
-        329 => 
-        array (
-            'id' => 330,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 11,
-            'locale' => 'ru',
-            'value' => 'Решение №3 2013 г.',
-            'created_at' => '2022-05-10 13:30:52',
-            'updated_at' => '2022-05-10 13:30:52',
-        ),
-        330 => 
-        array (
-            'id' => 331,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 11,
-            'locale' => 'en',
-            'value' => 'decision-n3-2013',
-            'created_at' => '2022-05-10 13:30:52',
-            'updated_at' => '2022-05-10 13:30:52',
-        ),
-        331 => 
-        array (
-            'id' => 332,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 11,
-            'locale' => 'ru',
-            'value' => 'reshenie-3-2013-g',
-            'created_at' => '2022-05-10 13:30:52',
-            'updated_at' => '2022-05-10 13:30:52',
-        ),
-        332 => 
-        array (
-            'id' => 333,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'content',
-            'foreign_key' => 11,
-            'locale' => 'en',
-            'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">NAX&Ccedil;IVAN MUXTAR RESPUBLİKASI ALİ MƏHKƏMƏSİNİN</strong></p>
+                'created_at' => '2022-05-10 13:30:08',
+                'updated_at' => '2022-05-10 13:30:08',
+            ),
+            328 => 
+            array (
+                'id' => 329,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 11,
+                'locale' => 'en',
+                'value' => 'Decision N3 2013',
+                'created_at' => '2022-05-10 13:30:52',
+                'updated_at' => '2022-05-10 13:30:52',
+            ),
+            329 => 
+            array (
+                'id' => 330,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 11,
+                'locale' => 'ru',
+                'value' => 'Решение №3 2013 г.',
+                'created_at' => '2022-05-10 13:30:52',
+                'updated_at' => '2022-05-10 13:30:52',
+            ),
+            330 => 
+            array (
+                'id' => 331,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 11,
+                'locale' => 'en',
+                'value' => 'decision-n3-2013',
+                'created_at' => '2022-05-10 13:30:52',
+                'updated_at' => '2022-05-10 13:30:52',
+            ),
+            331 => 
+            array (
+                'id' => 332,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 11,
+                'locale' => 'ru',
+                'value' => 'reshenie-3-2013-g',
+                'created_at' => '2022-05-10 13:30:52',
+                'updated_at' => '2022-05-10 13:30:52',
+            ),
+            332 => 
+            array (
+                'id' => 333,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'content',
+                'foreign_key' => 11,
+                'locale' => 'en',
+                'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">NAX&Ccedil;IVAN MUXTAR RESPUBLİKASI ALİ MƏHKƏMƏSİNİN</strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">RƏYASƏT HEYƏTİNİN</strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;">&nbsp;</p>
@@ -4182,61 +4133,61 @@ class FromArtisanTranslationsTableSeeder extends Seeder
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify;">&nbsp;&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; outline: none !important;">S Ə D R : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; RАMİZ S&Uuml;LЕYMАNОV</p>',
-            'created_at' => '2022-05-10 13:30:52',
-            'updated_at' => '2022-05-10 13:30:52',
-        ),
-        333 => 
-        array (
-            'id' => 334,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 10,
-            'locale' => 'en',
-            'value' => 'Decision N2 2013',
-            'created_at' => '2022-05-10 13:31:26',
-            'updated_at' => '2022-05-10 13:31:26',
-        ),
-        334 => 
-        array (
-            'id' => 335,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 10,
-            'locale' => 'ru',
-            'value' => 'Решение №2 2013 г.',
-            'created_at' => '2022-05-10 13:31:26',
-            'updated_at' => '2022-05-10 13:31:26',
-        ),
-        335 => 
-        array (
-            'id' => 336,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 10,
-            'locale' => 'en',
-            'value' => 'decision-n2-2013',
-            'created_at' => '2022-05-10 13:31:26',
-            'updated_at' => '2022-05-10 13:31:26',
-        ),
-        336 => 
-        array (
-            'id' => 337,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 10,
-            'locale' => 'ru',
-            'value' => 'reshenie-2-2013-g',
-            'created_at' => '2022-05-10 13:31:26',
-            'updated_at' => '2022-05-10 13:31:26',
-        ),
-        337 => 
-        array (
-            'id' => 338,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'content',
-            'foreign_key' => 10,
-            'locale' => 'en',
-            'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">NAX&Ccedil;IVAN MUXTAR RESPUBLİKASI ALİ MƏHKƏMƏSİNİN</strong></p>
+                'created_at' => '2022-05-10 13:30:52',
+                'updated_at' => '2022-05-10 13:30:52',
+            ),
+            333 => 
+            array (
+                'id' => 334,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 10,
+                'locale' => 'en',
+                'value' => 'Decision N2 2013',
+                'created_at' => '2022-05-10 13:31:26',
+                'updated_at' => '2022-05-10 13:31:26',
+            ),
+            334 => 
+            array (
+                'id' => 335,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 10,
+                'locale' => 'ru',
+                'value' => 'Решение №2 2013 г.',
+                'created_at' => '2022-05-10 13:31:26',
+                'updated_at' => '2022-05-10 13:31:26',
+            ),
+            335 => 
+            array (
+                'id' => 336,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 10,
+                'locale' => 'en',
+                'value' => 'decision-n2-2013',
+                'created_at' => '2022-05-10 13:31:26',
+                'updated_at' => '2022-05-10 13:31:26',
+            ),
+            336 => 
+            array (
+                'id' => 337,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 10,
+                'locale' => 'ru',
+                'value' => 'reshenie-2-2013-g',
+                'created_at' => '2022-05-10 13:31:26',
+                'updated_at' => '2022-05-10 13:31:26',
+            ),
+            337 => 
+            array (
+                'id' => 338,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'content',
+                'foreign_key' => 10,
+                'locale' => 'en',
+                'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">NAX&Ccedil;IVAN MUXTAR RESPUBLİKASI ALİ MƏHKƏMƏSİNİN</strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">RƏYASƏT HEYƏTİNİN</strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;">&nbsp;</p>
@@ -4276,61 +4227,61 @@ class FromArtisanTranslationsTableSeeder extends Seeder
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; outline: none !important;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;S Ə D R : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; RАMİZ &nbsp;S&Uuml;LЕYMАNОV</p>',
-            'created_at' => '2022-05-10 13:31:26',
-            'updated_at' => '2022-05-10 13:31:26',
-        ),
-        338 => 
-        array (
-            'id' => 339,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 9,
-            'locale' => 'en',
-            'value' => 'Decision N1 2013',
-            'created_at' => '2022-05-10 13:32:08',
-            'updated_at' => '2022-05-10 13:32:08',
-        ),
-        339 => 
-        array (
-            'id' => 340,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 9,
-            'locale' => 'ru',
-            'value' => 'Решение №1 2013 г.',
-            'created_at' => '2022-05-10 13:32:08',
-            'updated_at' => '2022-05-10 13:32:08',
-        ),
-        340 => 
-        array (
-            'id' => 341,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 9,
-            'locale' => 'en',
-            'value' => 'decision-n1-2013',
-            'created_at' => '2022-05-10 13:32:08',
-            'updated_at' => '2022-05-10 13:32:08',
-        ),
-        341 => 
-        array (
-            'id' => 342,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 9,
-            'locale' => 'ru',
-            'value' => 'reshenie-1-2013-g',
-            'created_at' => '2022-05-10 13:32:08',
-            'updated_at' => '2022-05-10 13:32:08',
-        ),
-        342 => 
-        array (
-            'id' => 343,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'content',
-            'foreign_key' => 9,
-            'locale' => 'en',
-            'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">NAX&Ccedil;IVAN MUXTAR RESPUBLİKASI ALİ MƏHKƏMƏSİNİN</strong></p>
+                'created_at' => '2022-05-10 13:31:26',
+                'updated_at' => '2022-05-10 13:31:26',
+            ),
+            338 => 
+            array (
+                'id' => 339,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 9,
+                'locale' => 'en',
+                'value' => 'Decision N1 2013',
+                'created_at' => '2022-05-10 13:32:08',
+                'updated_at' => '2022-05-10 13:32:08',
+            ),
+            339 => 
+            array (
+                'id' => 340,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 9,
+                'locale' => 'ru',
+                'value' => 'Решение №1 2013 г.',
+                'created_at' => '2022-05-10 13:32:08',
+                'updated_at' => '2022-05-10 13:32:08',
+            ),
+            340 => 
+            array (
+                'id' => 341,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 9,
+                'locale' => 'en',
+                'value' => 'decision-n1-2013',
+                'created_at' => '2022-05-10 13:32:08',
+                'updated_at' => '2022-05-10 13:32:08',
+            ),
+            341 => 
+            array (
+                'id' => 342,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 9,
+                'locale' => 'ru',
+                'value' => 'reshenie-1-2013-g',
+                'created_at' => '2022-05-10 13:32:08',
+                'updated_at' => '2022-05-10 13:32:08',
+            ),
+            342 => 
+            array (
+                'id' => 343,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'content',
+                'foreign_key' => 9,
+                'locale' => 'en',
+                'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">NAX&Ccedil;IVAN MUXTAR RESPUBLİKASI ALİ MƏHKƏMƏSİNİN</strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">RƏYASƏT HEYƏTİNİN</strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;">&nbsp;</p>
@@ -4367,61 +4318,61 @@ class FromArtisanTranslationsTableSeeder extends Seeder
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify;">- Azərbaycan Respublikasının məhkəmələrində karg&uuml;zarlığın aparılmasına dair Təlimata uyğun olaraq məhkəmələrdə karg&uuml;zarlığın və statistik təhlilin aparılması işinin təkmilləşdirilməsinə, əmək və icra intizamına daha ciddi əməl olunmasına x&uuml;susi diqqət yetirsinlər.</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; outline: none !important;">S Ə D R : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;RAMİZ &nbsp;S&Uuml;LEYMANOV</p>',
-            'created_at' => '2022-05-10 13:32:08',
-            'updated_at' => '2022-05-10 13:32:08',
-        ),
-        343 => 
-        array (
-            'id' => 344,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 8,
-            'locale' => 'en',
-            'value' => 'Decision N3 2012',
-            'created_at' => '2022-05-10 13:32:56',
-            'updated_at' => '2022-05-10 13:32:56',
-        ),
-        344 => 
-        array (
-            'id' => 345,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 8,
-            'locale' => 'ru',
-            'value' => 'Решение №3 2012 г.',
-            'created_at' => '2022-05-10 13:32:56',
-            'updated_at' => '2022-05-10 13:32:56',
-        ),
-        345 => 
-        array (
-            'id' => 346,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 8,
-            'locale' => 'en',
-            'value' => 'decision-n3-2012',
-            'created_at' => '2022-05-10 13:32:56',
-            'updated_at' => '2022-05-10 13:32:56',
-        ),
-        346 => 
-        array (
-            'id' => 347,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 8,
-            'locale' => 'ru',
-            'value' => 'reshenie-3-2012-g',
-            'created_at' => '2022-05-10 13:32:56',
-            'updated_at' => '2022-05-10 13:32:56',
-        ),
-        347 => 
-        array (
-            'id' => 348,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'content',
-            'foreign_key' => 8,
-            'locale' => 'en',
-            'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><span style="font-size: 14pt;"><strong style="box-sizing: border-box;">NAX&Ccedil;IVAN MUXTAR RESPUBLİKASI ALİ MƏHKƏMƏSİNİN</strong></span></p>
+                'created_at' => '2022-05-10 13:32:08',
+                'updated_at' => '2022-05-10 13:32:08',
+            ),
+            343 => 
+            array (
+                'id' => 344,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 8,
+                'locale' => 'en',
+                'value' => 'Decision N3 2012',
+                'created_at' => '2022-05-10 13:32:56',
+                'updated_at' => '2022-05-10 13:32:56',
+            ),
+            344 => 
+            array (
+                'id' => 345,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 8,
+                'locale' => 'ru',
+                'value' => 'Решение №3 2012 г.',
+                'created_at' => '2022-05-10 13:32:56',
+                'updated_at' => '2022-05-10 13:32:56',
+            ),
+            345 => 
+            array (
+                'id' => 346,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 8,
+                'locale' => 'en',
+                'value' => 'decision-n3-2012',
+                'created_at' => '2022-05-10 13:32:56',
+                'updated_at' => '2022-05-10 13:32:56',
+            ),
+            346 => 
+            array (
+                'id' => 347,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 8,
+                'locale' => 'ru',
+                'value' => 'reshenie-3-2012-g',
+                'created_at' => '2022-05-10 13:32:56',
+                'updated_at' => '2022-05-10 13:32:56',
+            ),
+            347 => 
+            array (
+                'id' => 348,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'content',
+                'foreign_key' => 8,
+                'locale' => 'en',
+                'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><span style="font-size: 14pt;"><strong style="box-sizing: border-box;">NAX&Ccedil;IVAN MUXTAR RESPUBLİKASI ALİ MƏHKƏMƏSİNİN</strong></span></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><span style="font-size: 14pt;">&nbsp;</span></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><span style="font-size: 14pt;"><strong style="box-sizing: border-box;">RƏYASƏT HEYƏTİNİN</strong></span></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><span style="font-size: 14pt;">&nbsp;</span></p>
@@ -4456,61 +4407,61 @@ class FromArtisanTranslationsTableSeeder extends Seeder
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;"><span style="font-size: 14pt;">Qurbanova G&uuml;lay Əjdər qızı - hakim k&ouml;mək&ccedil;isi;</span></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;"><span style="font-size: 14pt;">&nbsp;</span></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;"><span style="font-size: 14pt;">S Ə D R : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; RAMİZ S&Uuml;LEYMANOV</span></p>',
-            'created_at' => '2022-05-10 13:32:56',
-            'updated_at' => '2022-05-10 13:32:56',
-        ),
-        348 => 
-        array (
-            'id' => 349,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 7,
-            'locale' => 'en',
-            'value' => 'Decision N2 2012',
-            'created_at' => '2022-05-10 13:33:29',
-            'updated_at' => '2022-05-10 13:33:29',
-        ),
-        349 => 
-        array (
-            'id' => 350,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 7,
-            'locale' => 'ru',
-            'value' => 'Решение №2 2012 г.',
-            'created_at' => '2022-05-10 13:33:29',
-            'updated_at' => '2022-05-10 13:33:29',
-        ),
-        350 => 
-        array (
-            'id' => 351,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 7,
-            'locale' => 'en',
-            'value' => 'decision-n2-2012',
-            'created_at' => '2022-05-10 13:33:29',
-            'updated_at' => '2022-05-10 13:33:29',
-        ),
-        351 => 
-        array (
-            'id' => 352,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 7,
-            'locale' => 'ru',
-            'value' => 'reshenie-2-2012-g',
-            'created_at' => '2022-05-10 13:33:29',
-            'updated_at' => '2022-05-10 13:33:29',
-        ),
-        352 => 
-        array (
-            'id' => 353,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'content',
-            'foreign_key' => 7,
-            'locale' => 'en',
-            'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">NAX&Ccedil;IVAN MUXTAR RESPUBLİKASI ALİ MƏHKƏMƏSİNİN</strong></p>
+                'created_at' => '2022-05-10 13:32:56',
+                'updated_at' => '2022-05-10 13:32:56',
+            ),
+            348 => 
+            array (
+                'id' => 349,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 7,
+                'locale' => 'en',
+                'value' => 'Decision N2 2012',
+                'created_at' => '2022-05-10 13:33:29',
+                'updated_at' => '2022-05-10 13:33:29',
+            ),
+            349 => 
+            array (
+                'id' => 350,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 7,
+                'locale' => 'ru',
+                'value' => 'Решение №2 2012 г.',
+                'created_at' => '2022-05-10 13:33:29',
+                'updated_at' => '2022-05-10 13:33:29',
+            ),
+            350 => 
+            array (
+                'id' => 351,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 7,
+                'locale' => 'en',
+                'value' => 'decision-n2-2012',
+                'created_at' => '2022-05-10 13:33:29',
+                'updated_at' => '2022-05-10 13:33:29',
+            ),
+            351 => 
+            array (
+                'id' => 352,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 7,
+                'locale' => 'ru',
+                'value' => 'reshenie-2-2012-g',
+                'created_at' => '2022-05-10 13:33:29',
+                'updated_at' => '2022-05-10 13:33:29',
+            ),
+            352 => 
+            array (
+                'id' => 353,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'content',
+                'foreign_key' => 7,
+                'locale' => 'en',
+                'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">NAX&Ccedil;IVAN MUXTAR RESPUBLİKASI ALİ MƏHKƏMƏSİNİN</strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">RƏYASƏT HEYƏTİNİN</strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;">&nbsp;</p>
@@ -4545,61 +4496,61 @@ class FromArtisanTranslationsTableSeeder extends Seeder
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; outline: none !important;">S Ə D R : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;RAMİZ &nbsp;S&Uuml;LEYMANOV</p>',
-            'created_at' => '2022-05-10 13:33:29',
-            'updated_at' => '2022-05-10 13:33:29',
-        ),
-        353 => 
-        array (
-            'id' => 354,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 6,
-            'locale' => 'en',
-            'value' => 'On verification and approval of the results of the elections to the Supreme Assembly of the Nakhchivan Autonomous Republic held on July 15, 2012',
-            'created_at' => '2022-05-10 13:34:11',
-            'updated_at' => '2022-05-10 13:34:11',
-        ),
-        354 => 
-        array (
-            'id' => 355,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 6,
-            'locale' => 'ru',
-            'value' => 'О проверке и утверждении результатов выборов в Верховное Собрание Нахчыванской Автономной Республики, состоявшихся 15 июля 2012 года',
-            'created_at' => '2022-05-10 13:34:11',
-            'updated_at' => '2022-05-10 13:34:11',
-        ),
-        355 => 
-        array (
-            'id' => 356,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 6,
-            'locale' => 'en',
-            'value' => 'on-verification-and-approval-of-the-results-of-the-elections-to-the-supreme-assembly-of-the-nakhchivan-autonomous-republic-held-on-july-15-2012',
-            'created_at' => '2022-05-10 13:34:11',
-            'updated_at' => '2022-05-10 13:34:11',
-        ),
-        356 => 
-        array (
-            'id' => 357,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 6,
-            'locale' => 'ru',
-            'value' => 'o-proverke-i-utverzhdenii-rezultatov-vyborov-v-verhovnoe-sobranie-nahchyvanskoj-avtonomnoj-respubliki-sostoyavshihsya-15-iyulya-2012-goda',
-            'created_at' => '2022-05-10 13:34:11',
-            'updated_at' => '2022-05-10 13:34:11',
-        ),
-        357 => 
-        array (
-            'id' => 358,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'content',
-            'foreign_key' => 6,
-            'locale' => 'en',
-            'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">Nax&ccedil;ıvan Muxtar Respublikası Ali Məclisinə əlavə se&ccedil;kilər &uuml;zrə 15 iyul 2012ci il tarixdə ke&ccedil;irilmiş se&ccedil;kilərin nəticələrinin yoxlanılması və təsdiq edilməsinə dair</strong></p>
+                'created_at' => '2022-05-10 13:33:29',
+                'updated_at' => '2022-05-10 13:33:29',
+            ),
+            353 => 
+            array (
+                'id' => 354,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 6,
+                'locale' => 'en',
+                'value' => 'On verification and approval of the results of the elections to the Supreme Assembly of the Nakhchivan Autonomous Republic held on July 15, 2012',
+                'created_at' => '2022-05-10 13:34:11',
+                'updated_at' => '2022-05-10 13:34:11',
+            ),
+            354 => 
+            array (
+                'id' => 355,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 6,
+                'locale' => 'ru',
+                'value' => 'О проверке и утверждении результатов выборов в Верховное Собрание Нахчыванской Автономной Республики, состоявшихся 15 июля 2012 года',
+                'created_at' => '2022-05-10 13:34:11',
+                'updated_at' => '2022-05-10 13:34:11',
+            ),
+            355 => 
+            array (
+                'id' => 356,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 6,
+                'locale' => 'en',
+                'value' => 'on-verification-and-approval-of-the-results-of-the-elections-to-the-supreme-assembly-of-the-nakhchivan-autonomous-republic-held-on-july-15-2012',
+                'created_at' => '2022-05-10 13:34:11',
+                'updated_at' => '2022-05-10 13:34:11',
+            ),
+            356 => 
+            array (
+                'id' => 357,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 6,
+                'locale' => 'ru',
+                'value' => 'o-proverke-i-utverzhdenii-rezultatov-vyborov-v-verhovnoe-sobranie-nahchyvanskoj-avtonomnoj-respubliki-sostoyavshihsya-15-iyulya-2012-goda',
+                'created_at' => '2022-05-10 13:34:11',
+                'updated_at' => '2022-05-10 13:34:11',
+            ),
+            357 => 
+            array (
+                'id' => 358,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'content',
+                'foreign_key' => 6,
+                'locale' => 'en',
+                'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">Nax&ccedil;ıvan Muxtar Respublikası Ali Məclisinə əlavə se&ccedil;kilər &uuml;zrə 15 iyul 2012ci il tarixdə ke&ccedil;irilmiş se&ccedil;kilərin nəticələrinin yoxlanılması və təsdiq edilməsinə dair</strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">&nbsp;NAX&Ccedil;IVAN MUXTAR RESPUBLİKASI ALİ MƏHKƏMƏSİNİN</strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;">&nbsp;</p>
@@ -4638,61 +4589,61 @@ class FromArtisanTranslationsTableSeeder extends Seeder
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; outline: none !important;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Sədrlik edən: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Ramiz S&uuml;leymanov</p>',
-            'created_at' => '2022-05-10 13:34:11',
-            'updated_at' => '2022-05-10 13:34:11',
-        ),
-        358 => 
-        array (
-            'id' => 359,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 5,
-            'locale' => 'en',
-            'value' => 'On verification and approval of the results of the by-elections to the Supreme Assembly of the Nakhchivan Autonomous Republic held in Charchibogan Constituency No. 6 on October 2, 2011',
-            'created_at' => '2022-05-10 13:34:49',
-            'updated_at' => '2022-05-10 13:34:49',
-        ),
-        359 => 
-        array (
-            'id' => 360,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 5,
-            'locale' => 'ru',
-            'value' => 'О проверке и утверждении результатов довыборов в Верховное Собрание Нахчыванской Автономной Республики, проведенных по Чарчибоганскому избирательному округу № 6 2 октября 2011 года',
-            'created_at' => '2022-05-10 13:34:49',
-            'updated_at' => '2022-05-10 13:34:49',
-        ),
-        360 => 
-        array (
-            'id' => 361,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 5,
-            'locale' => 'en',
-            'value' => 'on-verification-and-approval-of-the-results-of-the-by-elections-to-the-supreme-assembly-of-the-nakhchivan-autonomous-republic-held-in-charchibogan-constituency-no-6-on-october-2-2011',
-            'created_at' => '2022-05-10 13:34:49',
-            'updated_at' => '2022-05-10 13:34:49',
-        ),
-        361 => 
-        array (
-            'id' => 362,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 5,
-            'locale' => 'ru',
-            'value' => 'o-proverke-i-utverzhdenii-rezultatov-dovyborov-v-verhovnoe-sobranie-nahchyvanskoj-avtonomnoj-respubliki-provedennyh-po-charchiboganskomu-izbiratelnomu-okrugu-6-2-oktyabrya-2011-goda',
-            'created_at' => '2022-05-10 13:34:49',
-            'updated_at' => '2022-05-10 13:34:49',
-        ),
-        362 => 
-        array (
-            'id' => 363,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'content',
-            'foreign_key' => 5,
-            'locale' => 'en',
-            'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">Nax&ccedil;ıvan Muxtar Respublikası Ali Məclisinə 02 oktyabr 2011-ci il tarixdə ke&ccedil;irilmiş 6 saylı &Ccedil;ər&ccedil;iboğan se&ccedil;ki dairəsi &uuml;zrə əlavə se&ccedil;kilərin nəticələrinin yoxlanılması və təsdiq edilməsinə dair</strong></p>
+                'created_at' => '2022-05-10 13:34:11',
+                'updated_at' => '2022-05-10 13:34:11',
+            ),
+            358 => 
+            array (
+                'id' => 359,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 5,
+                'locale' => 'en',
+                'value' => 'On verification and approval of the results of the by-elections to the Supreme Assembly of the Nakhchivan Autonomous Republic held in Charchibogan Constituency No. 6 on October 2, 2011',
+                'created_at' => '2022-05-10 13:34:49',
+                'updated_at' => '2022-05-10 13:34:49',
+            ),
+            359 => 
+            array (
+                'id' => 360,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 5,
+                'locale' => 'ru',
+                'value' => 'О проверке и утверждении результатов довыборов в Верховное Собрание Нахчыванской Автономной Республики, проведенных по Чарчибоганскому избирательному округу № 6 2 октября 2011 года',
+                'created_at' => '2022-05-10 13:34:49',
+                'updated_at' => '2022-05-10 13:34:49',
+            ),
+            360 => 
+            array (
+                'id' => 361,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 5,
+                'locale' => 'en',
+                'value' => 'on-verification-and-approval-of-the-results-of-the-by-elections-to-the-supreme-assembly-of-the-nakhchivan-autonomous-republic-held-in-charchibogan-constituency-no-6-on-october-2-2011',
+                'created_at' => '2022-05-10 13:34:49',
+                'updated_at' => '2022-05-10 13:34:49',
+            ),
+            361 => 
+            array (
+                'id' => 362,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 5,
+                'locale' => 'ru',
+                'value' => 'o-proverke-i-utverzhdenii-rezultatov-dovyborov-v-verhovnoe-sobranie-nahchyvanskoj-avtonomnoj-respubliki-provedennyh-po-charchiboganskomu-izbiratelnomu-okrugu-6-2-oktyabrya-2011-goda',
+                'created_at' => '2022-05-10 13:34:49',
+                'updated_at' => '2022-05-10 13:34:49',
+            ),
+            362 => 
+            array (
+                'id' => 363,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'content',
+                'foreign_key' => 5,
+                'locale' => 'en',
+                'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">Nax&ccedil;ıvan Muxtar Respublikası Ali Məclisinə 02 oktyabr 2011-ci il tarixdə ke&ccedil;irilmiş 6 saylı &Ccedil;ər&ccedil;iboğan se&ccedil;ki dairəsi &uuml;zrə əlavə se&ccedil;kilərin nəticələrinin yoxlanılması və təsdiq edilməsinə dair</strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">&nbsp;</strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">NAX&Ccedil;IVAN MUXTAR RESPUBLİKASI ALİ MƏHKƏMƏSİNİN</strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">RƏYASƏT HEYƏTİNİN</strong></p>
@@ -4730,61 +4681,61 @@ class FromArtisanTranslationsTableSeeder extends Seeder
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; outline: none !important;">Sədrlik edən:- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Ramiz &nbsp;S&uuml;leymanov</p>',
-            'created_at' => '2022-05-10 13:34:49',
-            'updated_at' => '2022-05-10 13:34:49',
-        ),
-        363 => 
-        array (
-            'id' => 364,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 4,
-            'locale' => 'en',
-            'value' => 'Decision № 2 2011',
-            'created_at' => '2022-05-10 13:35:25',
-            'updated_at' => '2022-05-10 13:35:25',
-        ),
-        364 => 
-        array (
-            'id' => 365,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 4,
-            'locale' => 'ru',
-            'value' => 'Решение № 2 2011 г.',
-            'created_at' => '2022-05-10 13:35:25',
-            'updated_at' => '2022-05-10 13:35:25',
-        ),
-        365 => 
-        array (
-            'id' => 366,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 4,
-            'locale' => 'en',
-            'value' => 'decision-2-2011',
-            'created_at' => '2022-05-10 13:35:25',
-            'updated_at' => '2022-05-10 13:35:25',
-        ),
-        366 => 
-        array (
-            'id' => 367,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 4,
-            'locale' => 'ru',
-            'value' => 'reshenie-2-2011-g',
-            'created_at' => '2022-05-10 13:35:25',
-            'updated_at' => '2022-05-10 13:35:25',
-        ),
-        367 => 
-        array (
-            'id' => 368,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'content',
-            'foreign_key' => 4,
-            'locale' => 'en',
-            'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">NAX&Ccedil;IVAN &nbsp;MUXTAR &nbsp;RESPUBLİKASI</strong></p>
+                'created_at' => '2022-05-10 13:34:49',
+                'updated_at' => '2022-05-10 13:34:49',
+            ),
+            363 => 
+            array (
+                'id' => 364,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 4,
+                'locale' => 'en',
+                'value' => 'Decision № 2 2011',
+                'created_at' => '2022-05-10 13:35:25',
+                'updated_at' => '2022-05-10 13:35:25',
+            ),
+            364 => 
+            array (
+                'id' => 365,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 4,
+                'locale' => 'ru',
+                'value' => 'Решение № 2 2011 г.',
+                'created_at' => '2022-05-10 13:35:25',
+                'updated_at' => '2022-05-10 13:35:25',
+            ),
+            365 => 
+            array (
+                'id' => 366,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 4,
+                'locale' => 'en',
+                'value' => 'decision-2-2011',
+                'created_at' => '2022-05-10 13:35:25',
+                'updated_at' => '2022-05-10 13:35:25',
+            ),
+            366 => 
+            array (
+                'id' => 367,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 4,
+                'locale' => 'ru',
+                'value' => 'reshenie-2-2011-g',
+                'created_at' => '2022-05-10 13:35:25',
+                'updated_at' => '2022-05-10 13:35:25',
+            ),
+            367 => 
+            array (
+                'id' => 368,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'content',
+                'foreign_key' => 4,
+                'locale' => 'en',
+                'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">NAX&Ccedil;IVAN &nbsp;MUXTAR &nbsp;RESPUBLİKASI</strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">ALİ &nbsp;MƏHKƏMƏSİ &nbsp;RƏYASƏT &nbsp;HEYƏTİNİN</strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">Q Ə R A R I &nbsp;№ 2</strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;">&nbsp;</p>
@@ -4818,61 +4769,61 @@ class FromArtisanTranslationsTableSeeder extends Seeder
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; outline: none !important;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; S Ə D R : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; RAMİZ &nbsp;S&Uuml;LEYMANOV</p>',
-            'created_at' => '2022-05-10 13:35:25',
-            'updated_at' => '2022-05-10 13:35:25',
-        ),
-        368 => 
-        array (
-            'id' => 369,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 3,
-            'locale' => 'en',
-            'value' => 'Decision of the Presidium of the Supreme Court of the Nakhchivan Autonomous Republic dated November 19, 2010 on verification and approval of the results of the elections held on November 7, 2010 on elections to the Supreme Assembly of Nakhchivan AR',
-            'created_at' => '2022-05-10 13:36:07',
-            'updated_at' => '2022-05-10 13:36:07',
-        ),
-        369 => 
-        array (
-            'id' => 370,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 3,
-            'locale' => 'ru',
-            'value' => 'Постановление Президиума Верховного Суда Нахчыванской Автономной Республики от 19 ноября 2010 года о проверке и утверждении результатов состоявшихся 7 ноября 2010 года выборов в Верховное Собрание Нахчыванской АР',
-            'created_at' => '2022-05-10 13:36:07',
-            'updated_at' => '2022-05-10 13:36:07',
-        ),
-        370 => 
-        array (
-            'id' => 371,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 3,
-            'locale' => 'en',
-            'value' => 'decision-of-the-presidium-of-the-supreme-court-of-the-nakhchivan-autonomous-republic-dated-november-19-2010-on-verification-and-approval-of-the-results-of-the-elections-held-on-november-7-2010-on-elections-to-the-supreme-assembly-of-nakhchivan-ar',
-            'created_at' => '2022-05-10 13:36:07',
-            'updated_at' => '2022-05-10 13:36:07',
-        ),
-        371 => 
-        array (
-            'id' => 372,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 3,
-            'locale' => 'ru',
-            'value' => 'postanovlenie-prezidiuma-verhovnogo-suda-nahchyvanskoj-avtonomnoj-respubliki-ot-19-noyabrya-2010-goda-o-proverke-i-utverzhdenii-rezultatov-sostoyavshihsya-7-noyabrya-2010-goda-vyborov-v-verhovnoe-sobranie-nahchyvanskoj-ar',
-            'created_at' => '2022-05-10 13:36:07',
-            'updated_at' => '2022-05-10 13:36:07',
-        ),
-        372 => 
-        array (
-            'id' => 373,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'content',
-            'foreign_key' => 3,
-            'locale' => 'en',
-            'value' => '<h1 class="" style="box-sizing: border-box; margin: 0px 0px 25px; font-size: 24.48px; font-family: Arial, sans-serif; font-weight: normal; line-height: 34.272px; color: #5e502f; padding: 30px 0px 14px; text-rendering: optimizelegibility; border-top: 1px dotted #bbbbbb; border-bottom: 1px dotted #bbbbbb; letter-spacing: -0.3px;">Nax&ccedil;ıvan MR Ali Məclisinə se&ccedil;kilər &uuml;zrə 07 noyabr 2010-cu il tarixdə ke&ccedil;irilmiş se&ccedil;kilərin nəticələrinin yoxlanılması və təsdiq edilməsinə dair Nax&ccedil;ıvan Muxtar Respublikası Ali Məhkəməsinin Rəyasət Heyətinin 19 noyabr 2010-cu il tarixli qərarı</h1>
+                'created_at' => '2022-05-10 13:35:25',
+                'updated_at' => '2022-05-10 13:35:25',
+            ),
+            368 => 
+            array (
+                'id' => 369,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 3,
+                'locale' => 'en',
+                'value' => 'Decision of the Presidium of the Supreme Court of the Nakhchivan Autonomous Republic dated November 19, 2010 on verification and approval of the results of the elections held on November 7, 2010 on elections to the Supreme Assembly of Nakhchivan AR',
+                'created_at' => '2022-05-10 13:36:07',
+                'updated_at' => '2022-05-10 13:36:07',
+            ),
+            369 => 
+            array (
+                'id' => 370,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 3,
+                'locale' => 'ru',
+                'value' => 'Постановление Президиума Верховного Суда Нахчыванской Автономной Республики от 19 ноября 2010 года о проверке и утверждении результатов состоявшихся 7 ноября 2010 года выборов в Верховное Собрание Нахчыванской АР',
+                'created_at' => '2022-05-10 13:36:07',
+                'updated_at' => '2022-05-10 13:36:07',
+            ),
+            370 => 
+            array (
+                'id' => 371,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 3,
+                'locale' => 'en',
+                'value' => 'decision-of-the-presidium-of-the-supreme-court-of-the-nakhchivan-autonomous-republic-dated-november-19-2010-on-verification-and-approval-of-the-results-of-the-elections-held-on-november-7-2010-on-elections-to-the-supreme-assembly-of-nakhchivan-ar',
+                'created_at' => '2022-05-10 13:36:07',
+                'updated_at' => '2022-05-10 13:36:07',
+            ),
+            371 => 
+            array (
+                'id' => 372,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 3,
+                'locale' => 'ru',
+                'value' => 'postanovlenie-prezidiuma-verhovnogo-suda-nahchyvanskoj-avtonomnoj-respubliki-ot-19-noyabrya-2010-goda-o-proverke-i-utverzhdenii-rezultatov-sostoyavshihsya-7-noyabrya-2010-goda-vyborov-v-verhovnoe-sobranie-nahchyvanskoj-ar',
+                'created_at' => '2022-05-10 13:36:07',
+                'updated_at' => '2022-05-10 13:36:07',
+            ),
+            372 => 
+            array (
+                'id' => 373,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'content',
+                'foreign_key' => 3,
+                'locale' => 'en',
+                'value' => '<h1 class="" style="box-sizing: border-box; margin: 0px 0px 25px; font-size: 24.48px; font-family: Arial, sans-serif; font-weight: normal; line-height: 34.272px; color: #5e502f; padding: 30px 0px 14px; text-rendering: optimizelegibility; border-top: 1px dotted #bbbbbb; border-bottom: 1px dotted #bbbbbb; letter-spacing: -0.3px;">Nax&ccedil;ıvan MR Ali Məclisinə se&ccedil;kilər &uuml;zrə 07 noyabr 2010-cu il tarixdə ke&ccedil;irilmiş se&ccedil;kilərin nəticələrinin yoxlanılması və təsdiq edilməsinə dair Nax&ccedil;ıvan Muxtar Respublikası Ali Məhkəməsinin Rəyasət Heyətinin 19 noyabr 2010-cu il tarixli qərarı</h1>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">Nax&ccedil;ıvan Muxtar Respublikası Ali Məclisinə se&ccedil;kilər &uuml;zrə 07 noyabr 2010-cu il tarixdə ke&ccedil;irilmiş se&ccedil;kilərin nəticələrinin yoxlanılması və təsdiq edilməsinə dair</strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">&nbsp;</strong></p>
@@ -4913,61 +4864,61 @@ class FromArtisanTranslationsTableSeeder extends Seeder
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; outline: none !important;">&nbsp; &nbsp; &nbsp; S Ə D R :- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;RAMİZ &nbsp;S&Uuml;LEYMANOV</p>',
-            'created_at' => '2022-05-10 13:36:07',
-            'updated_at' => '2022-05-10 13:36:07',
-        ),
-        373 => 
-        array (
-            'id' => 374,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 2,
-            'locale' => 'en',
-            'value' => 'Decision № 2 2009',
-            'created_at' => '2022-05-10 13:37:06',
-            'updated_at' => '2022-05-10 13:37:06',
-        ),
-        374 => 
-        array (
-            'id' => 375,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 2,
-            'locale' => 'ru',
-            'value' => 'Решение № 2 2009 г.',
-            'created_at' => '2022-05-10 13:37:06',
-            'updated_at' => '2022-05-10 13:37:06',
-        ),
-        375 => 
-        array (
-            'id' => 376,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 2,
-            'locale' => 'en',
-            'value' => 'decision-2-2009',
-            'created_at' => '2022-05-10 13:37:06',
-            'updated_at' => '2022-05-10 13:37:06',
-        ),
-        376 => 
-        array (
-            'id' => 377,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 2,
-            'locale' => 'ru',
-            'value' => 'reshenie-2-2009-g',
-            'created_at' => '2022-05-10 13:37:06',
-            'updated_at' => '2022-05-10 13:37:06',
-        ),
-        377 => 
-        array (
-            'id' => 378,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'content',
-            'foreign_key' => 2,
-            'locale' => 'en',
-            'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">NAX&Ccedil;IVAN &nbsp;MUXTAR &nbsp;RESPUBLİKASI</strong></p>
+                'created_at' => '2022-05-10 13:36:07',
+                'updated_at' => '2022-05-10 13:36:07',
+            ),
+            373 => 
+            array (
+                'id' => 374,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => 'Decision № 2 2009',
+                'created_at' => '2022-05-10 13:37:06',
+                'updated_at' => '2022-05-10 13:37:06',
+            ),
+            374 => 
+            array (
+                'id' => 375,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => 'Решение № 2 2009 г.',
+                'created_at' => '2022-05-10 13:37:06',
+                'updated_at' => '2022-05-10 13:37:06',
+            ),
+            375 => 
+            array (
+                'id' => 376,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => 'decision-2-2009',
+                'created_at' => '2022-05-10 13:37:06',
+                'updated_at' => '2022-05-10 13:37:06',
+            ),
+            376 => 
+            array (
+                'id' => 377,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => 'reshenie-2-2009-g',
+                'created_at' => '2022-05-10 13:37:06',
+                'updated_at' => '2022-05-10 13:37:06',
+            ),
+            377 => 
+            array (
+                'id' => 378,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'content',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">NAX&Ccedil;IVAN &nbsp;MUXTAR &nbsp;RESPUBLİKASI</strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">ALİ &nbsp;MƏHKƏMƏSİ &nbsp;RƏYASƏT &nbsp;HEYƏTİNİN</strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">Q Ə R A R I &nbsp;№ 1</strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;">&nbsp;</p>
@@ -4995,61 +4946,61 @@ class FromArtisanTranslationsTableSeeder extends Seeder
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; outline: none !important;">S Ə D R :- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;RAMİZ &nbsp;S&Uuml;LEYMANOV</p>',
-            'created_at' => '2022-05-10 13:37:06',
-            'updated_at' => '2022-05-10 13:37:06',
-        ),
-        378 => 
-        array (
-            'id' => 379,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => 'Decision № 1 2009',
-            'created_at' => '2022-05-10 13:37:44',
-            'updated_at' => '2022-05-10 13:37:44',
-        ),
-        379 => 
-        array (
-            'id' => 380,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'title',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => 'Решение № 1 2009 г.',
-            'created_at' => '2022-05-10 13:37:44',
-            'updated_at' => '2022-05-10 13:37:44',
-        ),
-        380 => 
-        array (
-            'id' => 381,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => 'decision-1-2009',
-            'created_at' => '2022-05-10 13:37:44',
-            'updated_at' => '2022-05-10 13:37:44',
-        ),
-        381 => 
-        array (
-            'id' => 382,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'slug',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => 'reshenie-1-2009-g',
-            'created_at' => '2022-05-10 13:37:44',
-            'updated_at' => '2022-05-10 13:37:44',
-        ),
-        382 => 
-        array (
-            'id' => 383,
-            'table_name' => 'decisionpresidia',
-            'column_name' => 'content',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">NAX&Ccedil;IVAN &nbsp;MUXTAR &nbsp;RESPUBLİKASI&nbsp;<span style="box-sizing: border-box; line-height: 1.3em;">ALİ &nbsp;MƏHKƏMƏSİ &nbsp;RƏYASƏT &nbsp;HEYƏTİNİN</span></strong></p>
+                'created_at' => '2022-05-10 13:37:06',
+                'updated_at' => '2022-05-10 13:37:06',
+            ),
+            378 => 
+            array (
+                'id' => 379,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => 'Decision № 1 2009',
+                'created_at' => '2022-05-10 13:37:44',
+                'updated_at' => '2022-05-10 13:37:44',
+            ),
+            379 => 
+            array (
+                'id' => 380,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'title',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => 'Решение № 1 2009 г.',
+                'created_at' => '2022-05-10 13:37:44',
+                'updated_at' => '2022-05-10 13:37:44',
+            ),
+            380 => 
+            array (
+                'id' => 381,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => 'decision-1-2009',
+                'created_at' => '2022-05-10 13:37:44',
+                'updated_at' => '2022-05-10 13:37:44',
+            ),
+            381 => 
+            array (
+                'id' => 382,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'slug',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => 'reshenie-1-2009-g',
+                'created_at' => '2022-05-10 13:37:44',
+                'updated_at' => '2022-05-10 13:37:44',
+            ),
+            382 => 
+            array (
+                'id' => 383,
+                'table_name' => 'decisionpresidia',
+                'column_name' => 'content',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">NAX&Ccedil;IVAN &nbsp;MUXTAR &nbsp;RESPUBLİKASI&nbsp;<span style="box-sizing: border-box; line-height: 1.3em;">ALİ &nbsp;MƏHKƏMƏSİ &nbsp;RƏYASƏT &nbsp;HEYƏTİNİN</span></strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;">&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: center;"><strong style="box-sizing: border-box;">Q Ə R A R I &nbsp;№ 1</strong></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px;">&nbsp;</p>
@@ -5071,281 +5022,281 @@ class FromArtisanTranslationsTableSeeder extends Seeder
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify;">&nbsp;<span style="box-sizing: border-box; line-height: 1.3em;">&nbsp;</span></p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify;">S Ə D R: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; RAMİZ S&Uuml;LEYMANOV&nbsp;</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; outline: none !important;">&nbsp;</p>',
-            'created_at' => '2022-05-10 13:37:44',
-            'updated_at' => '2022-05-10 13:37:44',
-        ),
-        383 => 
-        array (
-            'id' => 384,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 27,
-            'locale' => 'en',
-            'value' => 'Id',
-            'created_at' => '2022-05-10 13:44:05',
-            'updated_at' => '2022-05-10 13:44:05',
-        ),
-        384 => 
-        array (
-            'id' => 385,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 30,
-            'locale' => 'en',
-            'value' => 'Image',
-            'created_at' => '2022-05-10 13:44:05',
-            'updated_at' => '2022-05-10 13:44:05',
-        ),
-        385 => 
-        array (
-            'id' => 386,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 28,
-            'locale' => 'en',
-            'value' => 'Title',
-            'created_at' => '2022-05-10 13:44:05',
-            'updated_at' => '2022-05-10 13:44:05',
-        ),
-        386 => 
-        array (
-            'id' => 387,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 101,
-            'locale' => 'en',
-            'value' => 'Slug',
-            'created_at' => '2022-05-10 13:44:05',
-            'updated_at' => '2022-05-10 13:44:05',
-        ),
-        387 => 
-        array (
-            'id' => 388,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 102,
-            'locale' => 'en',
-            'value' => 'Content',
-            'created_at' => '2022-05-10 13:44:05',
-            'updated_at' => '2022-05-10 13:44:05',
-        ),
-        388 => 
-        array (
-            'id' => 389,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 31,
-            'locale' => 'en',
-            'value' => 'Created At',
-            'created_at' => '2022-05-10 13:44:05',
-            'updated_at' => '2022-05-10 13:44:05',
-        ),
-        389 => 
-        array (
-            'id' => 390,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 32,
-            'locale' => 'en',
-            'value' => 'Updated At',
-            'created_at' => '2022-05-10 13:44:05',
-            'updated_at' => '2022-05-10 13:44:05',
-        ),
-        390 => 
-        array (
-            'id' => 393,
-            'table_name' => 'news',
-            'column_name' => 'title',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => 'THE COLLECTIVE OF THE SUPREME COURT OF THE NAKHCHIVAN AUTONOMOUS REPUBLIC AND THE COLLECTIVE OF SPECIALIZED COURTS IN THE MUSEUM DAYS. NATIONAL VALUES',
-            'created_at' => '2022-05-10 13:47:55',
-            'updated_at' => '2022-05-11 06:00:53',
-        ),
-        391 => 
-        array (
-            'id' => 394,
-            'table_name' => 'news',
-            'column_name' => 'title',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => 'КОЛЛЕКТИВ ВЕРХОВНОГО СУДА НАХЧЫВАНСКОЙ АВТОНОМНОЙ РЕСПУБЛИКИ И КОЛЛЕКТИВ СПЕЦИАЛИЗИРОВАННЫХ СУДОВ В ДНИ МУЗЕЯ НАЦИОНАЛЬНЫЕ ЦЕННОСТИ',
-            'created_at' => '2022-05-10 13:47:55',
-            'updated_at' => '2022-05-11 06:00:53',
-        ),
-        392 => 
-        array (
-            'id' => 395,
-            'table_name' => 'news',
-            'column_name' => 'slug',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => 'the-collective-of-the-supreme-court-of-the-nakhchivan-autonomous-republic-and-the-collective-of-specialized-courts-in-the-museum-days-national-values',
-            'created_at' => '2022-05-10 13:47:55',
-            'updated_at' => '2022-05-11 06:00:53',
-        ),
-        393 => 
-        array (
-            'id' => 396,
-            'table_name' => 'news',
-            'column_name' => 'slug',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => 'kollektiv-verhovnogo-suda-nahchyvanskoj-avtonomnoj-respubliki-i-kollektiv-specializirovannyh-sudov-v-dni-muzeya-nacionalnye-cennosti',
-            'created_at' => '2022-05-10 13:47:55',
-            'updated_at' => '2022-05-11 06:00:53',
-        ),
-        394 => 
-        array (
-            'id' => 397,
-            'table_name' => 'news',
-            'column_name' => 'content',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; text-indent: 1cm;"><span style="font-family: Times New Roman, serif;"><span style="font-size: 18.6667px;">content en</span></span></p>',
-            'created_at' => '2022-05-10 13:47:55',
-            'updated_at' => '2022-05-11 06:00:53',
-        ),
-        395 => 
-        array (
-            'id' => 398,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 133,
-            'locale' => 'en',
-            'value' => 'Id',
-            'created_at' => '2022-05-10 13:52:01',
-            'updated_at' => '2022-05-10 13:52:01',
-        ),
-        396 => 
-        array (
-            'id' => 399,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 134,
-            'locale' => 'en',
-            'value' => 'Title',
-            'created_at' => '2022-05-10 13:52:01',
-            'updated_at' => '2022-05-10 13:52:01',
-        ),
-        397 => 
-        array (
-            'id' => 400,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 135,
-            'locale' => 'en',
-            'value' => 'Slug',
-            'created_at' => '2022-05-10 13:52:01',
-            'updated_at' => '2022-05-10 13:52:01',
-        ),
-        398 => 
-        array (
-            'id' => 401,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 136,
-            'locale' => 'en',
-            'value' => 'Content',
-            'created_at' => '2022-05-10 13:52:01',
-            'updated_at' => '2022-05-10 13:52:01',
-        ),
-        399 => 
-        array (
-            'id' => 402,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 137,
-            'locale' => 'en',
-            'value' => 'Created At',
-            'created_at' => '2022-05-10 13:52:01',
-            'updated_at' => '2022-05-10 13:52:01',
-        ),
-        400 => 
-        array (
-            'id' => 403,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 138,
-            'locale' => 'en',
-            'value' => 'Updated At',
-            'created_at' => '2022-05-10 13:52:01',
-            'updated_at' => '2022-05-10 13:52:01',
-        ),
-        401 => 
-        array (
-            'id' => 404,
-            'table_name' => 'data_types',
-            'column_name' => 'display_name_singular',
-            'foreign_key' => 30,
-            'locale' => 'en',
-            'value' => 'Report',
-            'created_at' => '2022-05-10 13:52:01',
-            'updated_at' => '2022-05-10 13:52:01',
-        ),
-        402 => 
-        array (
-            'id' => 405,
-            'table_name' => 'data_types',
-            'column_name' => 'display_name_plural',
-            'foreign_key' => 30,
-            'locale' => 'en',
-            'value' => 'Reports',
-            'created_at' => '2022-05-10 13:52:01',
-            'updated_at' => '2022-05-10 13:52:01',
-        ),
-        403 => 
-        array (
-            'id' => 406,
-            'table_name' => 'reports',
-            'column_name' => 'title',
-            'foreign_key' => 4,
-            'locale' => 'en',
-            'value' => 'Statistics on divorce cases in May 2017',
-            'created_at' => '2022-05-10 13:52:43',
-            'updated_at' => '2022-05-10 13:52:43',
-        ),
-        404 => 
-        array (
-            'id' => 407,
-            'table_name' => 'reports',
-            'column_name' => 'title',
-            'foreign_key' => 4,
-            'locale' => 'ru',
-            'value' => 'Статистика разводов в мае 2017 года',
-            'created_at' => '2022-05-10 13:52:43',
-            'updated_at' => '2022-05-10 13:52:43',
-        ),
-        405 => 
-        array (
-            'id' => 408,
-            'table_name' => 'reports',
-            'column_name' => 'slug',
-            'foreign_key' => 4,
-            'locale' => 'en',
-            'value' => 'statistics-on-divorce-cases-in-may-2017',
-            'created_at' => '2022-05-10 13:52:43',
-            'updated_at' => '2022-05-10 13:52:43',
-        ),
-        406 => 
-        array (
-            'id' => 409,
-            'table_name' => 'reports',
-            'column_name' => 'slug',
-            'foreign_key' => 4,
-            'locale' => 'ru',
-            'value' => 'statistika-razvodov-v-mae-2017-goda',
-            'created_at' => '2022-05-10 13:52:43',
-            'updated_at' => '2022-05-10 13:52:43',
-        ),
-        407 => 
-        array (
-            'id' => 410,
-            'table_name' => 'reports',
-            'column_name' => 'content',
-            'foreign_key' => 4,
-            'locale' => 'en',
-        'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify;"><span style="box-sizing: border-box; font-size: 15pt; line-height: 23px; font-family: \'Times New Roman\', serif;">&nbsp; Nax&ccedil;ıvan&nbsp; Muxtar&nbsp; Respublikası rayon (şəhər) məhkəmələri tərəfindən 2017-ci ilin may ayı ərzində nikahın pozulması tələbinə dair 22 işə baxılaraq iddialar təmin edilmişdir. Baxılan işlərin rayon (şəhər) məhkəmələri &uuml;zrə b&ouml;lg&uuml;s&uuml; aşağıdakı kimi olmuşdur:</span></p>
+                'created_at' => '2022-05-10 13:37:44',
+                'updated_at' => '2022-05-10 13:37:44',
+            ),
+            383 => 
+            array (
+                'id' => 384,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 27,
+                'locale' => 'en',
+                'value' => 'Id',
+                'created_at' => '2022-05-10 13:44:05',
+                'updated_at' => '2022-05-10 13:44:05',
+            ),
+            384 => 
+            array (
+                'id' => 385,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 30,
+                'locale' => 'en',
+                'value' => 'Image',
+                'created_at' => '2022-05-10 13:44:05',
+                'updated_at' => '2022-05-10 13:44:05',
+            ),
+            385 => 
+            array (
+                'id' => 386,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 28,
+                'locale' => 'en',
+                'value' => 'Title',
+                'created_at' => '2022-05-10 13:44:05',
+                'updated_at' => '2022-05-10 13:44:05',
+            ),
+            386 => 
+            array (
+                'id' => 387,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 101,
+                'locale' => 'en',
+                'value' => 'Slug',
+                'created_at' => '2022-05-10 13:44:05',
+                'updated_at' => '2022-05-10 13:44:05',
+            ),
+            387 => 
+            array (
+                'id' => 388,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 102,
+                'locale' => 'en',
+                'value' => 'Content',
+                'created_at' => '2022-05-10 13:44:05',
+                'updated_at' => '2022-05-10 13:44:05',
+            ),
+            388 => 
+            array (
+                'id' => 389,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 31,
+                'locale' => 'en',
+                'value' => 'Created At',
+                'created_at' => '2022-05-10 13:44:05',
+                'updated_at' => '2022-05-10 13:44:05',
+            ),
+            389 => 
+            array (
+                'id' => 390,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 32,
+                'locale' => 'en',
+                'value' => 'Updated At',
+                'created_at' => '2022-05-10 13:44:05',
+                'updated_at' => '2022-05-10 13:44:05',
+            ),
+            390 => 
+            array (
+                'id' => 393,
+                'table_name' => 'news',
+                'column_name' => 'title',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => 'THE COLLECTIVE OF THE SUPREME COURT OF THE NAKHCHIVAN AUTONOMOUS REPUBLIC AND THE COLLECTIVE OF SPECIALIZED COURTS IN THE MUSEUM DAYS. NATIONAL VALUES',
+                'created_at' => '2022-05-10 13:47:55',
+                'updated_at' => '2022-05-11 06:00:53',
+            ),
+            391 => 
+            array (
+                'id' => 394,
+                'table_name' => 'news',
+                'column_name' => 'title',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => 'КОЛЛЕКТИВ ВЕРХОВНОГО СУДА НАХЧЫВАНСКОЙ АВТОНОМНОЙ РЕСПУБЛИКИ И КОЛЛЕКТИВ СПЕЦИАЛИЗИРОВАННЫХ СУДОВ В ДНИ МУЗЕЯ НАЦИОНАЛЬНЫЕ ЦЕННОСТИ',
+                'created_at' => '2022-05-10 13:47:55',
+                'updated_at' => '2022-05-11 06:00:53',
+            ),
+            392 => 
+            array (
+                'id' => 395,
+                'table_name' => 'news',
+                'column_name' => 'slug',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => 'the-collective-of-the-supreme-court-of-the-nakhchivan-autonomous-republic-and-the-collective-of-specialized-courts-in-the-museum-days-national-values',
+                'created_at' => '2022-05-10 13:47:55',
+                'updated_at' => '2022-05-11 06:00:53',
+            ),
+            393 => 
+            array (
+                'id' => 396,
+                'table_name' => 'news',
+                'column_name' => 'slug',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => 'kollektiv-verhovnogo-suda-nahchyvanskoj-avtonomnoj-respubliki-i-kollektiv-specializirovannyh-sudov-v-dni-muzeya-nacionalnye-cennosti',
+                'created_at' => '2022-05-10 13:47:55',
+                'updated_at' => '2022-05-11 06:00:53',
+            ),
+            394 => 
+            array (
+                'id' => 397,
+                'table_name' => 'news',
+                'column_name' => 'content',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; text-indent: 1cm;"><span style="font-family: Times New Roman, serif;"><span style="font-size: 18.6667px;">content en</span></span></p>',
+                'created_at' => '2022-05-10 13:47:55',
+                'updated_at' => '2022-05-11 06:00:53',
+            ),
+            395 => 
+            array (
+                'id' => 398,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 133,
+                'locale' => 'en',
+                'value' => 'Id',
+                'created_at' => '2022-05-10 13:52:01',
+                'updated_at' => '2022-05-10 13:52:01',
+            ),
+            396 => 
+            array (
+                'id' => 399,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 134,
+                'locale' => 'en',
+                'value' => 'Title',
+                'created_at' => '2022-05-10 13:52:01',
+                'updated_at' => '2022-05-10 13:52:01',
+            ),
+            397 => 
+            array (
+                'id' => 400,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 135,
+                'locale' => 'en',
+                'value' => 'Slug',
+                'created_at' => '2022-05-10 13:52:01',
+                'updated_at' => '2022-05-10 13:52:01',
+            ),
+            398 => 
+            array (
+                'id' => 401,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 136,
+                'locale' => 'en',
+                'value' => 'Content',
+                'created_at' => '2022-05-10 13:52:01',
+                'updated_at' => '2022-05-10 13:52:01',
+            ),
+            399 => 
+            array (
+                'id' => 402,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 137,
+                'locale' => 'en',
+                'value' => 'Created At',
+                'created_at' => '2022-05-10 13:52:01',
+                'updated_at' => '2022-05-10 13:52:01',
+            ),
+            400 => 
+            array (
+                'id' => 403,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 138,
+                'locale' => 'en',
+                'value' => 'Updated At',
+                'created_at' => '2022-05-10 13:52:01',
+                'updated_at' => '2022-05-10 13:52:01',
+            ),
+            401 => 
+            array (
+                'id' => 404,
+                'table_name' => 'data_types',
+                'column_name' => 'display_name_singular',
+                'foreign_key' => 30,
+                'locale' => 'en',
+                'value' => 'Report',
+                'created_at' => '2022-05-10 13:52:01',
+                'updated_at' => '2022-05-10 13:52:01',
+            ),
+            402 => 
+            array (
+                'id' => 405,
+                'table_name' => 'data_types',
+                'column_name' => 'display_name_plural',
+                'foreign_key' => 30,
+                'locale' => 'en',
+                'value' => 'Reports',
+                'created_at' => '2022-05-10 13:52:01',
+                'updated_at' => '2022-05-10 13:52:01',
+            ),
+            403 => 
+            array (
+                'id' => 406,
+                'table_name' => 'reports',
+                'column_name' => 'title',
+                'foreign_key' => 4,
+                'locale' => 'en',
+                'value' => 'Statistics on divorce cases in May 2017',
+                'created_at' => '2022-05-10 13:52:43',
+                'updated_at' => '2022-05-10 13:52:43',
+            ),
+            404 => 
+            array (
+                'id' => 407,
+                'table_name' => 'reports',
+                'column_name' => 'title',
+                'foreign_key' => 4,
+                'locale' => 'ru',
+                'value' => 'Статистика разводов в мае 2017 года',
+                'created_at' => '2022-05-10 13:52:43',
+                'updated_at' => '2022-05-10 13:52:43',
+            ),
+            405 => 
+            array (
+                'id' => 408,
+                'table_name' => 'reports',
+                'column_name' => 'slug',
+                'foreign_key' => 4,
+                'locale' => 'en',
+                'value' => 'statistics-on-divorce-cases-in-may-2017',
+                'created_at' => '2022-05-10 13:52:43',
+                'updated_at' => '2022-05-10 13:52:43',
+            ),
+            406 => 
+            array (
+                'id' => 409,
+                'table_name' => 'reports',
+                'column_name' => 'slug',
+                'foreign_key' => 4,
+                'locale' => 'ru',
+                'value' => 'statistika-razvodov-v-mae-2017-goda',
+                'created_at' => '2022-05-10 13:52:43',
+                'updated_at' => '2022-05-10 13:52:43',
+            ),
+            407 => 
+            array (
+                'id' => 410,
+                'table_name' => 'reports',
+                'column_name' => 'content',
+                'foreign_key' => 4,
+                'locale' => 'en',
+            'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify;"><span style="box-sizing: border-box; font-size: 15pt; line-height: 23px; font-family: \'Times New Roman\', serif;">&nbsp; Nax&ccedil;ıvan&nbsp; Muxtar&nbsp; Respublikası rayon (şəhər) məhkəmələri tərəfindən 2017-ci ilin may ayı ərzində nikahın pozulması tələbinə dair 22 işə baxılaraq iddialar təmin edilmişdir. Baxılan işlərin rayon (şəhər) məhkəmələri &uuml;zrə b&ouml;lg&uuml;s&uuml; aşağıdakı kimi olmuşdur:</span></p>
 <table style="border-spacing: 0px; border-collapse: collapse; max-width: 100%; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; border: none; outline: none !important;" border="1" cellspacing="0" cellpadding="0">
 <tbody style="box-sizing: border-box; outline: none !important;">
 <tr style="box-sizing: border-box;">
@@ -5386,72 +5337,72 @@ class FromArtisanTranslationsTableSeeder extends Seeder
 </tr>
 </tbody>
 </table>',
-            'created_at' => '2022-05-10 13:52:43',
-            'updated_at' => '2022-05-10 13:52:43',
-        ),
-        408 => 
-        array (
-            'id' => 411,
-            'table_name' => 'reports',
-            'column_name' => 'content',
-            'foreign_key' => 4,
-            'locale' => 'ru',
-            'value' => '<p>Content ru</p>',
-            'created_at' => '2022-05-10 13:52:43',
-            'updated_at' => '2022-05-10 13:52:43',
-        ),
-        409 => 
-        array (
-            'id' => 412,
-            'table_name' => 'reports',
-            'column_name' => 'title',
-            'foreign_key' => 5,
-            'locale' => 'en',
-            'value' => 'Statistics on divorce cases in June 2017',
-            'created_at' => '2022-05-10 13:54:36',
-            'updated_at' => '2022-05-10 13:54:36',
-        ),
-        410 => 
-        array (
-            'id' => 413,
-            'table_name' => 'reports',
-            'column_name' => 'title',
-            'foreign_key' => 5,
-            'locale' => 'ru',
-            'value' => 'Статистика разводов в июне 2017 года',
-            'created_at' => '2022-05-10 13:54:36',
-            'updated_at' => '2022-05-10 13:54:36',
-        ),
-        411 => 
-        array (
-            'id' => 414,
-            'table_name' => 'reports',
-            'column_name' => 'slug',
-            'foreign_key' => 5,
-            'locale' => 'en',
-            'value' => 'statistics-on-divorce-cases-in-june-2017',
-            'created_at' => '2022-05-10 13:54:36',
-            'updated_at' => '2022-05-10 13:54:36',
-        ),
-        412 => 
-        array (
-            'id' => 415,
-            'table_name' => 'reports',
-            'column_name' => 'slug',
-            'foreign_key' => 5,
-            'locale' => 'ru',
-            'value' => 'statistika-razvodov-v-iyune-2017-goda',
-            'created_at' => '2022-05-10 13:54:36',
-            'updated_at' => '2022-05-10 13:54:36',
-        ),
-        413 => 
-        array (
-            'id' => 416,
-            'table_name' => 'reports',
-            'column_name' => 'content',
-            'foreign_key' => 5,
-            'locale' => 'en',
-        'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify;"><span style="box-sizing: border-box; font-size: 15pt; line-height: 23px; font-family: \'Times New Roman\', serif;">&nbsp; Nax&ccedil;ıvan&nbsp; Muxtar&nbsp; Respublikası rayon (şəhər) məhkəmələri tərəfindən 2017-ci ilin iyun ayı ərzində nikahın pozulması tələbinə dair 33 işə baxılaraq iddialar təmin edilmişdir. Baxılan işlərin rayon (şəhər) məhkəmələri &uuml;zrə b&ouml;lg&uuml;s&uuml; aşağıdakı kimi olmuşdur:</span></p>
+                'created_at' => '2022-05-10 13:52:43',
+                'updated_at' => '2022-05-10 13:52:43',
+            ),
+            408 => 
+            array (
+                'id' => 411,
+                'table_name' => 'reports',
+                'column_name' => 'content',
+                'foreign_key' => 4,
+                'locale' => 'ru',
+                'value' => '<p>Content ru</p>',
+                'created_at' => '2022-05-10 13:52:43',
+                'updated_at' => '2022-05-10 13:52:43',
+            ),
+            409 => 
+            array (
+                'id' => 412,
+                'table_name' => 'reports',
+                'column_name' => 'title',
+                'foreign_key' => 5,
+                'locale' => 'en',
+                'value' => 'Statistics on divorce cases in June 2017',
+                'created_at' => '2022-05-10 13:54:36',
+                'updated_at' => '2022-05-10 13:54:36',
+            ),
+            410 => 
+            array (
+                'id' => 413,
+                'table_name' => 'reports',
+                'column_name' => 'title',
+                'foreign_key' => 5,
+                'locale' => 'ru',
+                'value' => 'Статистика разводов в июне 2017 года',
+                'created_at' => '2022-05-10 13:54:36',
+                'updated_at' => '2022-05-10 13:54:36',
+            ),
+            411 => 
+            array (
+                'id' => 414,
+                'table_name' => 'reports',
+                'column_name' => 'slug',
+                'foreign_key' => 5,
+                'locale' => 'en',
+                'value' => 'statistics-on-divorce-cases-in-june-2017',
+                'created_at' => '2022-05-10 13:54:36',
+                'updated_at' => '2022-05-10 13:54:36',
+            ),
+            412 => 
+            array (
+                'id' => 415,
+                'table_name' => 'reports',
+                'column_name' => 'slug',
+                'foreign_key' => 5,
+                'locale' => 'ru',
+                'value' => 'statistika-razvodov-v-iyune-2017-goda',
+                'created_at' => '2022-05-10 13:54:36',
+                'updated_at' => '2022-05-10 13:54:36',
+            ),
+            413 => 
+            array (
+                'id' => 416,
+                'table_name' => 'reports',
+                'column_name' => 'content',
+                'foreign_key' => 5,
+                'locale' => 'en',
+            'value' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify;"><span style="box-sizing: border-box; font-size: 15pt; line-height: 23px; font-family: \'Times New Roman\', serif;">&nbsp; Nax&ccedil;ıvan&nbsp; Muxtar&nbsp; Respublikası rayon (şəhər) məhkəmələri tərəfindən 2017-ci ilin iyun ayı ərzində nikahın pozulması tələbinə dair 33 işə baxılaraq iddialar təmin edilmişdir. Baxılan işlərin rayon (şəhər) məhkəmələri &uuml;zrə b&ouml;lg&uuml;s&uuml; aşağıdakı kimi olmuşdur:</span></p>
 <table style="border-spacing: 0px; border-collapse: collapse; max-width: 100%; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; border: none;" border="1" cellspacing="0" cellpadding="0">
 <tbody style="box-sizing: border-box;">
 <tr style="box-sizing: border-box;">
@@ -5488,160 +5439,160 @@ class FromArtisanTranslationsTableSeeder extends Seeder
 </tr>
 </tbody>
 </table>',
-            'created_at' => '2022-05-10 13:54:36',
-            'updated_at' => '2022-05-10 13:54:36',
-        ),
-        414 => 
-        array (
-            'id' => 417,
-            'table_name' => 'reports',
-            'column_name' => 'content',
-            'foreign_key' => 5,
-            'locale' => 'ru',
-            'value' => '<p>content ru</p>',
-            'created_at' => '2022-05-10 13:54:36',
-            'updated_at' => '2022-05-10 13:54:36',
-        ),
-        415 => 
-        array (
-            'id' => 418,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 127,
-            'locale' => 'en',
-            'value' => 'Id',
-            'created_at' => '2022-05-10 16:28:55',
-            'updated_at' => '2022-05-10 16:28:55',
-        ),
-        416 => 
-        array (
-            'id' => 419,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 128,
-            'locale' => 'en',
-            'value' => 'Title',
-            'created_at' => '2022-05-10 16:28:55',
-            'updated_at' => '2022-05-10 16:28:55',
-        ),
-        417 => 
-        array (
-            'id' => 420,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 129,
-            'locale' => 'en',
-            'value' => 'Slug',
-            'created_at' => '2022-05-10 16:28:55',
-            'updated_at' => '2022-05-10 16:28:55',
-        ),
-        418 => 
-        array (
-            'id' => 421,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 130,
-            'locale' => 'en',
-            'value' => 'Content',
-            'created_at' => '2022-05-10 16:28:55',
-            'updated_at' => '2022-05-10 16:28:55',
-        ),
-        419 => 
-        array (
-            'id' => 422,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 131,
-            'locale' => 'en',
-            'value' => 'Created At',
-            'created_at' => '2022-05-10 16:28:55',
-            'updated_at' => '2022-05-10 16:28:55',
-        ),
-        420 => 
-        array (
-            'id' => 423,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 132,
-            'locale' => 'en',
-            'value' => 'Updated At',
-            'created_at' => '2022-05-10 16:28:55',
-            'updated_at' => '2022-05-10 16:28:55',
-        ),
-        421 => 
-        array (
-            'id' => 424,
-            'table_name' => 'data_types',
-            'column_name' => 'display_name_singular',
-            'foreign_key' => 28,
-            'locale' => 'en',
-            'value' => 'Speech',
-            'created_at' => '2022-05-10 16:28:55',
-            'updated_at' => '2022-05-10 16:28:55',
-        ),
-        422 => 
-        array (
-            'id' => 425,
-            'table_name' => 'data_types',
-            'column_name' => 'display_name_plural',
-            'foreign_key' => 28,
-            'locale' => 'en',
-            'value' => 'Speeches',
-            'created_at' => '2022-05-10 16:28:55',
-            'updated_at' => '2022-05-10 16:28:55',
-        ),
-        423 => 
-        array (
-            'id' => 426,
-            'table_name' => 'speeches',
-            'column_name' => 'title',
-            'foreign_key' => 2,
-            'locale' => 'en',
-            'value' => 'Output 2',
-            'created_at' => '2022-05-10 16:30:03',
-            'updated_at' => '2022-05-10 16:30:03',
-        ),
-        424 => 
-        array (
-            'id' => 427,
-            'table_name' => 'speeches',
-            'column_name' => 'title',
-            'foreign_key' => 2,
-            'locale' => 'ru',
-            'value' => 'Выход 2',
-            'created_at' => '2022-05-10 16:30:03',
-            'updated_at' => '2022-05-10 16:30:03',
-        ),
-        425 => 
-        array (
-            'id' => 428,
-            'table_name' => 'speeches',
-            'column_name' => 'slug',
-            'foreign_key' => 2,
-            'locale' => 'en',
-            'value' => 'output-2',
-            'created_at' => '2022-05-10 16:30:03',
-            'updated_at' => '2022-05-10 16:30:03',
-        ),
-        426 => 
-        array (
-            'id' => 429,
-            'table_name' => 'speeches',
-            'column_name' => 'slug',
-            'foreign_key' => 2,
-            'locale' => 'ru',
-            'value' => 'vyhod-2',
-            'created_at' => '2022-05-10 16:30:03',
-            'updated_at' => '2022-05-10 16:30:03',
-        ),
-        427 => 
-        array (
-            'id' => 430,
-            'table_name' => 'speeches',
-            'column_name' => 'content',
-            'foreign_key' => 2,
-            'locale' => 'en',
-            'value' => '<div id="Inner" style="margin: 0px auto; padding: 0px; width: 960px; color: #000000; font-family: \'Open Sans\', Arial, sans-serif; text-align: center;">
+                'created_at' => '2022-05-10 13:54:36',
+                'updated_at' => '2022-05-10 13:54:36',
+            ),
+            414 => 
+            array (
+                'id' => 417,
+                'table_name' => 'reports',
+                'column_name' => 'content',
+                'foreign_key' => 5,
+                'locale' => 'ru',
+                'value' => '<p>content ru</p>',
+                'created_at' => '2022-05-10 13:54:36',
+                'updated_at' => '2022-05-10 13:54:36',
+            ),
+            415 => 
+            array (
+                'id' => 418,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 127,
+                'locale' => 'en',
+                'value' => 'Id',
+                'created_at' => '2022-05-10 16:28:55',
+                'updated_at' => '2022-05-10 16:28:55',
+            ),
+            416 => 
+            array (
+                'id' => 419,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 128,
+                'locale' => 'en',
+                'value' => 'Title',
+                'created_at' => '2022-05-10 16:28:55',
+                'updated_at' => '2022-05-10 16:28:55',
+            ),
+            417 => 
+            array (
+                'id' => 420,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 129,
+                'locale' => 'en',
+                'value' => 'Slug',
+                'created_at' => '2022-05-10 16:28:55',
+                'updated_at' => '2022-05-10 16:28:55',
+            ),
+            418 => 
+            array (
+                'id' => 421,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 130,
+                'locale' => 'en',
+                'value' => 'Content',
+                'created_at' => '2022-05-10 16:28:55',
+                'updated_at' => '2022-05-10 16:28:55',
+            ),
+            419 => 
+            array (
+                'id' => 422,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 131,
+                'locale' => 'en',
+                'value' => 'Created At',
+                'created_at' => '2022-05-10 16:28:55',
+                'updated_at' => '2022-05-10 16:28:55',
+            ),
+            420 => 
+            array (
+                'id' => 423,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 132,
+                'locale' => 'en',
+                'value' => 'Updated At',
+                'created_at' => '2022-05-10 16:28:55',
+                'updated_at' => '2022-05-10 16:28:55',
+            ),
+            421 => 
+            array (
+                'id' => 424,
+                'table_name' => 'data_types',
+                'column_name' => 'display_name_singular',
+                'foreign_key' => 28,
+                'locale' => 'en',
+                'value' => 'Speech',
+                'created_at' => '2022-05-10 16:28:55',
+                'updated_at' => '2022-05-10 16:28:55',
+            ),
+            422 => 
+            array (
+                'id' => 425,
+                'table_name' => 'data_types',
+                'column_name' => 'display_name_plural',
+                'foreign_key' => 28,
+                'locale' => 'en',
+                'value' => 'Speeches',
+                'created_at' => '2022-05-10 16:28:55',
+                'updated_at' => '2022-05-10 16:28:55',
+            ),
+            423 => 
+            array (
+                'id' => 426,
+                'table_name' => 'speeches',
+                'column_name' => 'title',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => 'Output 2',
+                'created_at' => '2022-05-10 16:30:03',
+                'updated_at' => '2022-05-10 16:30:03',
+            ),
+            424 => 
+            array (
+                'id' => 427,
+                'table_name' => 'speeches',
+                'column_name' => 'title',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => 'Выход 2',
+                'created_at' => '2022-05-10 16:30:03',
+                'updated_at' => '2022-05-10 16:30:03',
+            ),
+            425 => 
+            array (
+                'id' => 428,
+                'table_name' => 'speeches',
+                'column_name' => 'slug',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => 'output-2',
+                'created_at' => '2022-05-10 16:30:03',
+                'updated_at' => '2022-05-10 16:30:03',
+            ),
+            426 => 
+            array (
+                'id' => 429,
+                'table_name' => 'speeches',
+                'column_name' => 'slug',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => 'vyhod-2',
+                'created_at' => '2022-05-10 16:30:03',
+                'updated_at' => '2022-05-10 16:30:03',
+            ),
+            427 => 
+            array (
+                'id' => 430,
+                'table_name' => 'speeches',
+                'column_name' => 'content',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => '<div id="Inner" style="margin: 0px auto; padding: 0px; width: 960px; color: #000000; font-family: \'Open Sans\', Arial, sans-serif; text-align: center;">
 <div id="Content" style="margin: 0px; padding: 0px; position: relative;">
 <div id="Translation" style="margin: 0px 28.7917px; padding: 0px; text-align: left;">
 <h3 style="margin: 15px 0px; padding: 0px; font-size: 14px;"><span style="font-size: 14pt;">1914 translation by H. Rackham</span></h3>
@@ -5656,72 +5607,72 @@ class FromArtisanTranslationsTableSeeder extends Seeder
 <div class="boxed" style="margin: 10px 28.7917px; padding: 0px; clear: both;"><span style="font-size: 14pt;"><a style="margin: 0px; padding: 0px; color: #000000; text-decoration-line: none;" href="mailto:help@lipsum.com">help@lipsum.com</a></span><br style="margin: 0px; padding: 0px;" /><span style="font-size: 14pt;"><a style="margin: 0px; padding: 0px; color: #000000; text-decoration-line: none;" href="https://www.lipsum.com/privacy.pdf" target="_blank" rel="noopener">Privacy Policy</a></span></div>
 <p>&nbsp;</p>
 </div>',
-            'created_at' => '2022-05-10 16:30:03',
-            'updated_at' => '2022-05-10 16:30:03',
-        ),
-        428 => 
-        array (
-            'id' => 431,
-            'table_name' => 'speeches',
-            'column_name' => 'content',
-            'foreign_key' => 2,
-            'locale' => 'ru',
-            'value' => '<p>&Ccedil;ıxış content ru</p>',
-            'created_at' => '2022-05-10 16:30:03',
-            'updated_at' => '2022-05-10 16:30:03',
-        ),
-        429 => 
-        array (
-            'id' => 432,
-            'table_name' => 'speeches',
-            'column_name' => 'title',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => 'Output 1',
-            'created_at' => '2022-05-10 16:30:51',
-            'updated_at' => '2022-05-10 16:30:51',
-        ),
-        430 => 
-        array (
-            'id' => 433,
-            'table_name' => 'speeches',
-            'column_name' => 'title',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => 'Выход 1',
-            'created_at' => '2022-05-10 16:30:51',
-            'updated_at' => '2022-05-10 16:30:51',
-        ),
-        431 => 
-        array (
-            'id' => 434,
-            'table_name' => 'speeches',
-            'column_name' => 'slug',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => 'output-1',
-            'created_at' => '2022-05-10 16:30:51',
-            'updated_at' => '2022-05-10 16:30:51',
-        ),
-        432 => 
-        array (
-            'id' => 435,
-            'table_name' => 'speeches',
-            'column_name' => 'slug',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => 'vyhod-1',
-            'created_at' => '2022-05-10 16:30:51',
-            'updated_at' => '2022-05-10 16:30:51',
-        ),
-        433 => 
-        array (
-            'id' => 436,
-            'table_name' => 'speeches',
-            'column_name' => 'content',
-            'foreign_key' => 1,
-            'locale' => 'en',
-        'value' => '<p><span style="font-size: 14pt;"><a class="speech-link" style="box-sizing: border-box; color: black; text-decoration-line: none; margin: 0px; padding: 0px; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; text-align: justify;">Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies &ndash; such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (e.g. the visible text), or is included through alternative means, such as additional text hidden with the Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies &ndash; such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (e.g. the visible text), or is included through alternative means, such as additional text hidden with the class.</a></span></p>
+                'created_at' => '2022-05-10 16:30:03',
+                'updated_at' => '2022-05-10 16:30:03',
+            ),
+            428 => 
+            array (
+                'id' => 431,
+                'table_name' => 'speeches',
+                'column_name' => 'content',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => '<p>&Ccedil;ıxış content ru</p>',
+                'created_at' => '2022-05-10 16:30:03',
+                'updated_at' => '2022-05-10 16:30:03',
+            ),
+            429 => 
+            array (
+                'id' => 432,
+                'table_name' => 'speeches',
+                'column_name' => 'title',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => 'Output 1',
+                'created_at' => '2022-05-10 16:30:51',
+                'updated_at' => '2022-05-10 16:30:51',
+            ),
+            430 => 
+            array (
+                'id' => 433,
+                'table_name' => 'speeches',
+                'column_name' => 'title',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => 'Выход 1',
+                'created_at' => '2022-05-10 16:30:51',
+                'updated_at' => '2022-05-10 16:30:51',
+            ),
+            431 => 
+            array (
+                'id' => 434,
+                'table_name' => 'speeches',
+                'column_name' => 'slug',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => 'output-1',
+                'created_at' => '2022-05-10 16:30:51',
+                'updated_at' => '2022-05-10 16:30:51',
+            ),
+            432 => 
+            array (
+                'id' => 435,
+                'table_name' => 'speeches',
+                'column_name' => 'slug',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => 'vyhod-1',
+                'created_at' => '2022-05-10 16:30:51',
+                'updated_at' => '2022-05-10 16:30:51',
+            ),
+            433 => 
+            array (
+                'id' => 436,
+                'table_name' => 'speeches',
+                'column_name' => 'content',
+                'foreign_key' => 1,
+                'locale' => 'en',
+            'value' => '<p><span style="font-size: 14pt;"><a class="speech-link" style="box-sizing: border-box; color: black; text-decoration-line: none; margin: 0px; padding: 0px; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; text-align: justify;">Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies &ndash; such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (e.g. the visible text), or is included through alternative means, such as additional text hidden with the Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies &ndash; such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (e.g. the visible text), or is included through alternative means, such as additional text hidden with the class.</a></span></p>
 <p><span style="font-size: 14pt;">Lorem</span></p>
 <div id="Inner" style="margin: 0px auto; padding: 0px; width: 960px; color: #000000; font-family: \'Open Sans\', Arial, sans-serif; text-align: center;">
 <div id="Content" style="margin: 0px; padding: 0px; position: relative;">
@@ -5740,325 +5691,325 @@ class FromArtisanTranslationsTableSeeder extends Seeder
 </div>
 <p><span style="font-size: 14pt;">Lorem</span></p>
 <p><span style="font-size: 14pt;">Lorem</span></p>',
-            'created_at' => '2022-05-10 16:30:51',
-            'updated_at' => '2022-05-10 16:30:51',
-        ),
-        434 => 
-        array (
-            'id' => 437,
-            'table_name' => 'speeches',
-            'column_name' => 'content',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => '<p>Content ru</p>',
-            'created_at' => '2022-05-10 16:30:51',
-            'updated_at' => '2022-05-10 16:30:51',
-        ),
-        435 => 
-        array (
-            'id' => 438,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 147,
-            'locale' => 'en',
-            'value' => 'Id',
-            'created_at' => '2022-05-10 16:51:00',
-            'updated_at' => '2022-05-10 16:51:00',
-        ),
-        436 => 
-        array (
-            'id' => 439,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 148,
-            'locale' => 'en',
-            'value' => 'Title',
-            'created_at' => '2022-05-10 16:51:00',
-            'updated_at' => '2022-05-10 16:51:00',
-        ),
-        437 => 
-        array (
-            'id' => 440,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 149,
-            'locale' => 'en',
-            'value' => 'Slug',
-            'created_at' => '2022-05-10 16:51:00',
-            'updated_at' => '2022-05-10 16:51:00',
-        ),
-        438 => 
-        array (
-            'id' => 441,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 150,
-            'locale' => 'en',
-            'value' => 'Image',
-            'created_at' => '2022-05-10 16:51:00',
-            'updated_at' => '2022-05-10 16:51:00',
-        ),
-        439 => 
-        array (
-            'id' => 442,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 151,
-            'locale' => 'en',
-            'value' => 'Content',
-            'created_at' => '2022-05-10 16:51:00',
-            'updated_at' => '2022-05-10 16:51:00',
-        ),
-        440 => 
-        array (
-            'id' => 443,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 152,
-            'locale' => 'en',
-            'value' => 'Created At',
-            'created_at' => '2022-05-10 16:51:00',
-            'updated_at' => '2022-05-10 16:51:00',
-        ),
-        441 => 
-        array (
-            'id' => 444,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 153,
-            'locale' => 'en',
-            'value' => 'Updated At',
-            'created_at' => '2022-05-10 16:51:00',
-            'updated_at' => '2022-05-10 16:51:00',
-        ),
-        442 => 
-        array (
-            'id' => 445,
-            'table_name' => 'data_types',
-            'column_name' => 'display_name_singular',
-            'foreign_key' => 33,
-            'locale' => 'en',
-            'value' => 'Article',
-            'created_at' => '2022-05-10 16:51:00',
-            'updated_at' => '2022-05-10 16:51:00',
-        ),
-        443 => 
-        array (
-            'id' => 446,
-            'table_name' => 'data_types',
-            'column_name' => 'display_name_plural',
-            'foreign_key' => 33,
-            'locale' => 'en',
-            'value' => 'Articles',
-            'created_at' => '2022-05-10 16:51:00',
-            'updated_at' => '2022-05-10 16:51:00',
-        ),
-        444 => 
-        array (
-            'id' => 447,
-            'table_name' => 'articles',
-            'column_name' => 'title',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => 'Article 1',
-            'created_at' => '2022-05-10 16:52:09',
-            'updated_at' => '2022-05-10 16:52:09',
-        ),
-        445 => 
-        array (
-            'id' => 448,
-            'table_name' => 'articles',
-            'column_name' => 'title',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => 'Статья 1',
-            'created_at' => '2022-05-10 16:52:09',
-            'updated_at' => '2022-05-10 16:52:09',
-        ),
-        446 => 
-        array (
-            'id' => 449,
-            'table_name' => 'articles',
-            'column_name' => 'slug',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => 'article-1',
-            'created_at' => '2022-05-10 16:52:09',
-            'updated_at' => '2022-05-10 16:52:09',
-        ),
-        447 => 
-        array (
-            'id' => 450,
-            'table_name' => 'articles',
-            'column_name' => 'slug',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => 'statya-1',
-            'created_at' => '2022-05-10 16:52:09',
-            'updated_at' => '2022-05-10 16:52:09',
-        ),
-        448 => 
-        array (
-            'id' => 451,
-            'table_name' => 'articles',
-            'column_name' => 'content',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => '<p>Article en</p>',
-            'created_at' => '2022-05-10 16:52:09',
-            'updated_at' => '2022-05-10 16:54:05',
-        ),
-        449 => 
-        array (
-            'id' => 452,
-            'table_name' => 'articles',
-            'column_name' => 'content',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => '<p>Статья ru</p>',
-            'created_at' => '2022-05-10 16:54:05',
-            'updated_at' => '2022-05-10 16:54:05',
-        ),
-        450 => 
-        array (
-            'id' => 453,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 161,
-            'locale' => 'en',
-            'value' => 'Id',
-            'created_at' => '2022-05-10 17:00:28',
-            'updated_at' => '2022-05-10 17:00:28',
-        ),
-        451 => 
-        array (
-            'id' => 454,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 162,
-            'locale' => 'en',
-            'value' => 'Title',
-            'created_at' => '2022-05-10 17:00:28',
-            'updated_at' => '2022-05-10 17:00:28',
-        ),
-        452 => 
-        array (
-            'id' => 455,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 163,
-            'locale' => 'en',
-            'value' => 'Slug',
-            'created_at' => '2022-05-10 17:00:28',
-            'updated_at' => '2022-05-10 17:00:28',
-        ),
-        453 => 
-        array (
-            'id' => 456,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 165,
-            'locale' => 'en',
-            'value' => 'Content',
-            'created_at' => '2022-05-10 17:00:28',
-            'updated_at' => '2022-05-10 17:00:28',
-        ),
-        454 => 
-        array (
-            'id' => 457,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 166,
-            'locale' => 'en',
-            'value' => 'Created At',
-            'created_at' => '2022-05-10 17:00:28',
-            'updated_at' => '2022-05-10 17:00:28',
-        ),
-        455 => 
-        array (
-            'id' => 458,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 167,
-            'locale' => 'en',
-            'value' => 'Updated At',
-            'created_at' => '2022-05-10 17:00:28',
-            'updated_at' => '2022-05-10 17:00:28',
-        ),
-        456 => 
-        array (
-            'id' => 459,
-            'table_name' => 'data_types',
-            'column_name' => 'display_name_singular',
-            'foreign_key' => 36,
-            'locale' => 'en',
-            'value' => 'Educationmaterial',
-            'created_at' => '2022-05-10 17:00:28',
-            'updated_at' => '2022-05-10 17:00:28',
-        ),
-        457 => 
-        array (
-            'id' => 460,
-            'table_name' => 'data_types',
-            'column_name' => 'display_name_plural',
-            'foreign_key' => 36,
-            'locale' => 'en',
-            'value' => 'Educationmaterials',
-            'created_at' => '2022-05-10 17:00:28',
-            'updated_at' => '2022-05-10 17:00:28',
-        ),
-        458 => 
-        array (
-            'id' => 461,
-            'table_name' => 'educationmaterials',
-            'column_name' => 'title',
-            'foreign_key' => 2,
-            'locale' => 'en',
-            'value' => 'Educational materials 2',
-            'created_at' => '2022-05-10 17:01:46',
-            'updated_at' => '2022-05-10 17:01:46',
-        ),
-        459 => 
-        array (
-            'id' => 462,
-            'table_name' => 'educationmaterials',
-            'column_name' => 'title',
-            'foreign_key' => 2,
-            'locale' => 'ru',
-            'value' => 'Учебные материалы 2',
-            'created_at' => '2022-05-10 17:01:46',
-            'updated_at' => '2022-05-10 17:01:46',
-        ),
-        460 => 
-        array (
-            'id' => 463,
-            'table_name' => 'educationmaterials',
-            'column_name' => 'slug',
-            'foreign_key' => 2,
-            'locale' => 'en',
-            'value' => 'educational-materials-2',
-            'created_at' => '2022-05-10 17:01:46',
-            'updated_at' => '2022-05-10 17:01:46',
-        ),
-        461 => 
-        array (
-            'id' => 464,
-            'table_name' => 'educationmaterials',
-            'column_name' => 'slug',
-            'foreign_key' => 2,
-            'locale' => 'ru',
-            'value' => 'uchebnye-materialy-2',
-            'created_at' => '2022-05-10 17:01:46',
-            'updated_at' => '2022-05-10 17:01:46',
-        ),
-        462 => 
-        array (
-            'id' => 465,
-            'table_name' => 'educationmaterials',
-            'column_name' => 'content',
-            'foreign_key' => 2,
-            'locale' => 'en',
-            'value' => '<h1 style="margin: 0px; padding: 0px; font-weight: 400; font-family: DauphinPlain; font-size: 70px; line-height: 90px; color: #000000; text-align: center;">Lorem Ipsum</h1>
+                'created_at' => '2022-05-10 16:30:51',
+                'updated_at' => '2022-05-10 16:30:51',
+            ),
+            434 => 
+            array (
+                'id' => 437,
+                'table_name' => 'speeches',
+                'column_name' => 'content',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => '<p>Content ru</p>',
+                'created_at' => '2022-05-10 16:30:51',
+                'updated_at' => '2022-05-10 16:30:51',
+            ),
+            435 => 
+            array (
+                'id' => 438,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 147,
+                'locale' => 'en',
+                'value' => 'Id',
+                'created_at' => '2022-05-10 16:51:00',
+                'updated_at' => '2022-05-10 16:51:00',
+            ),
+            436 => 
+            array (
+                'id' => 439,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 148,
+                'locale' => 'en',
+                'value' => 'Title',
+                'created_at' => '2022-05-10 16:51:00',
+                'updated_at' => '2022-05-10 16:51:00',
+            ),
+            437 => 
+            array (
+                'id' => 440,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 149,
+                'locale' => 'en',
+                'value' => 'Slug',
+                'created_at' => '2022-05-10 16:51:00',
+                'updated_at' => '2022-05-10 16:51:00',
+            ),
+            438 => 
+            array (
+                'id' => 441,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 150,
+                'locale' => 'en',
+                'value' => 'Image',
+                'created_at' => '2022-05-10 16:51:00',
+                'updated_at' => '2022-05-10 16:51:00',
+            ),
+            439 => 
+            array (
+                'id' => 442,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 151,
+                'locale' => 'en',
+                'value' => 'Content',
+                'created_at' => '2022-05-10 16:51:00',
+                'updated_at' => '2022-05-10 16:51:00',
+            ),
+            440 => 
+            array (
+                'id' => 443,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 152,
+                'locale' => 'en',
+                'value' => 'Created At',
+                'created_at' => '2022-05-10 16:51:00',
+                'updated_at' => '2022-05-10 16:51:00',
+            ),
+            441 => 
+            array (
+                'id' => 444,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 153,
+                'locale' => 'en',
+                'value' => 'Updated At',
+                'created_at' => '2022-05-10 16:51:00',
+                'updated_at' => '2022-05-10 16:51:00',
+            ),
+            442 => 
+            array (
+                'id' => 445,
+                'table_name' => 'data_types',
+                'column_name' => 'display_name_singular',
+                'foreign_key' => 33,
+                'locale' => 'en',
+                'value' => 'Article',
+                'created_at' => '2022-05-10 16:51:00',
+                'updated_at' => '2022-05-10 16:51:00',
+            ),
+            443 => 
+            array (
+                'id' => 446,
+                'table_name' => 'data_types',
+                'column_name' => 'display_name_plural',
+                'foreign_key' => 33,
+                'locale' => 'en',
+                'value' => 'Articles',
+                'created_at' => '2022-05-10 16:51:00',
+                'updated_at' => '2022-05-10 16:51:00',
+            ),
+            444 => 
+            array (
+                'id' => 447,
+                'table_name' => 'articles',
+                'column_name' => 'title',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => 'Article 1',
+                'created_at' => '2022-05-10 16:52:09',
+                'updated_at' => '2022-05-10 16:52:09',
+            ),
+            445 => 
+            array (
+                'id' => 448,
+                'table_name' => 'articles',
+                'column_name' => 'title',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => 'Статья 1',
+                'created_at' => '2022-05-10 16:52:09',
+                'updated_at' => '2022-05-10 16:52:09',
+            ),
+            446 => 
+            array (
+                'id' => 449,
+                'table_name' => 'articles',
+                'column_name' => 'slug',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => 'article-1',
+                'created_at' => '2022-05-10 16:52:09',
+                'updated_at' => '2022-05-10 16:52:09',
+            ),
+            447 => 
+            array (
+                'id' => 450,
+                'table_name' => 'articles',
+                'column_name' => 'slug',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => 'statya-1',
+                'created_at' => '2022-05-10 16:52:09',
+                'updated_at' => '2022-05-10 16:52:09',
+            ),
+            448 => 
+            array (
+                'id' => 451,
+                'table_name' => 'articles',
+                'column_name' => 'content',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => '<p>Article en</p>',
+                'created_at' => '2022-05-10 16:52:09',
+                'updated_at' => '2022-05-10 16:54:05',
+            ),
+            449 => 
+            array (
+                'id' => 452,
+                'table_name' => 'articles',
+                'column_name' => 'content',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => '<p>Статья ru</p>',
+                'created_at' => '2022-05-10 16:54:05',
+                'updated_at' => '2022-05-10 16:54:05',
+            ),
+            450 => 
+            array (
+                'id' => 453,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 161,
+                'locale' => 'en',
+                'value' => 'Id',
+                'created_at' => '2022-05-10 17:00:28',
+                'updated_at' => '2022-05-10 17:00:28',
+            ),
+            451 => 
+            array (
+                'id' => 454,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 162,
+                'locale' => 'en',
+                'value' => 'Title',
+                'created_at' => '2022-05-10 17:00:28',
+                'updated_at' => '2022-05-10 17:00:28',
+            ),
+            452 => 
+            array (
+                'id' => 455,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 163,
+                'locale' => 'en',
+                'value' => 'Slug',
+                'created_at' => '2022-05-10 17:00:28',
+                'updated_at' => '2022-05-10 17:00:28',
+            ),
+            453 => 
+            array (
+                'id' => 456,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 165,
+                'locale' => 'en',
+                'value' => 'Content',
+                'created_at' => '2022-05-10 17:00:28',
+                'updated_at' => '2022-05-10 17:00:28',
+            ),
+            454 => 
+            array (
+                'id' => 457,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 166,
+                'locale' => 'en',
+                'value' => 'Created At',
+                'created_at' => '2022-05-10 17:00:28',
+                'updated_at' => '2022-05-10 17:00:28',
+            ),
+            455 => 
+            array (
+                'id' => 458,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 167,
+                'locale' => 'en',
+                'value' => 'Updated At',
+                'created_at' => '2022-05-10 17:00:28',
+                'updated_at' => '2022-05-10 17:00:28',
+            ),
+            456 => 
+            array (
+                'id' => 459,
+                'table_name' => 'data_types',
+                'column_name' => 'display_name_singular',
+                'foreign_key' => 36,
+                'locale' => 'en',
+                'value' => 'Educationmaterial',
+                'created_at' => '2022-05-10 17:00:28',
+                'updated_at' => '2022-05-10 17:00:28',
+            ),
+            457 => 
+            array (
+                'id' => 460,
+                'table_name' => 'data_types',
+                'column_name' => 'display_name_plural',
+                'foreign_key' => 36,
+                'locale' => 'en',
+                'value' => 'Educationmaterials',
+                'created_at' => '2022-05-10 17:00:28',
+                'updated_at' => '2022-05-10 17:00:28',
+            ),
+            458 => 
+            array (
+                'id' => 461,
+                'table_name' => 'educationmaterials',
+                'column_name' => 'title',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => 'Educational materials 2',
+                'created_at' => '2022-05-10 17:01:46',
+                'updated_at' => '2022-05-10 17:01:46',
+            ),
+            459 => 
+            array (
+                'id' => 462,
+                'table_name' => 'educationmaterials',
+                'column_name' => 'title',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => 'Учебные материалы 2',
+                'created_at' => '2022-05-10 17:01:46',
+                'updated_at' => '2022-05-10 17:01:46',
+            ),
+            460 => 
+            array (
+                'id' => 463,
+                'table_name' => 'educationmaterials',
+                'column_name' => 'slug',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => 'educational-materials-2',
+                'created_at' => '2022-05-10 17:01:46',
+                'updated_at' => '2022-05-10 17:01:46',
+            ),
+            461 => 
+            array (
+                'id' => 464,
+                'table_name' => 'educationmaterials',
+                'column_name' => 'slug',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => 'uchebnye-materialy-2',
+                'created_at' => '2022-05-10 17:01:46',
+                'updated_at' => '2022-05-10 17:01:46',
+            ),
+            462 => 
+            array (
+                'id' => 465,
+                'table_name' => 'educationmaterials',
+                'column_name' => 'content',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => '<h1 style="margin: 0px; padding: 0px; font-weight: 400; font-family: DauphinPlain; font-size: 70px; line-height: 90px; color: #000000; text-align: center;">Lorem Ipsum</h1>
 <h4 style="margin: 10px 10px 5px; padding: 0px; font-weight: 400; line-height: 18px; text-align: center; font-style: italic; color: #000000; font-family: \'Open Sans\', Arial, sans-serif;">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h4>
 <h5 style="margin: 5px 10px 20px; padding: 0px; font-weight: 400; font-size: 12px; line-height: 14px; text-align: center; color: #000000; font-family: \'Open Sans\', Arial, sans-serif;">"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</h5>
 <hr style="margin: 0px; padding: 0px; clear: both; border: 0px; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); color: #000000; font-family: \'Open Sans\', Arial, sans-serif; text-align: center;" />
@@ -6073,72 +6024,72 @@ class FromArtisanTranslationsTableSeeder extends Seeder
 </div>
 </div>
 </div>',
-            'created_at' => '2022-05-10 17:01:46',
-            'updated_at' => '2022-05-10 17:01:46',
-        ),
-        463 => 
-        array (
-            'id' => 466,
-            'table_name' => 'educationmaterials',
-            'column_name' => 'content',
-            'foreign_key' => 2,
-            'locale' => 'ru',
-            'value' => '<p>Учебные материалы 2 ru</p>',
-            'created_at' => '2022-05-10 17:01:46',
-            'updated_at' => '2022-05-10 17:01:46',
-        ),
-        464 => 
-        array (
-            'id' => 467,
-            'table_name' => 'educationmaterials',
-            'column_name' => 'title',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => 'Educational materials 1',
-            'created_at' => '2022-05-10 17:02:54',
-            'updated_at' => '2022-05-10 17:02:54',
-        ),
-        465 => 
-        array (
-            'id' => 468,
-            'table_name' => 'educationmaterials',
-            'column_name' => 'title',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => 'Учебные материалы 2',
-            'created_at' => '2022-05-10 17:02:54',
-            'updated_at' => '2022-05-10 17:02:54',
-        ),
-        466 => 
-        array (
-            'id' => 469,
-            'table_name' => 'educationmaterials',
-            'column_name' => 'slug',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => 'educational-materials-1',
-            'created_at' => '2022-05-10 17:02:54',
-            'updated_at' => '2022-05-10 17:02:54',
-        ),
-        467 => 
-        array (
-            'id' => 470,
-            'table_name' => 'educationmaterials',
-            'column_name' => 'slug',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => 'uchebnye-materialy-2',
-            'created_at' => '2022-05-10 17:02:54',
-            'updated_at' => '2022-05-10 17:02:54',
-        ),
-        468 => 
-        array (
-            'id' => 471,
-            'table_name' => 'educationmaterials',
-            'column_name' => 'content',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => '<div style="margin: 0px 14.3958px 0px 28.7917px; padding: 0px; width: 436.792px; float: left; color: #000000; font-family: \'Open Sans\', Arial, sans-serif;">
+                'created_at' => '2022-05-10 17:01:46',
+                'updated_at' => '2022-05-10 17:01:46',
+            ),
+            463 => 
+            array (
+                'id' => 466,
+                'table_name' => 'educationmaterials',
+                'column_name' => 'content',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => '<p>Учебные материалы 2 ru</p>',
+                'created_at' => '2022-05-10 17:01:46',
+                'updated_at' => '2022-05-10 17:01:46',
+            ),
+            464 => 
+            array (
+                'id' => 467,
+                'table_name' => 'educationmaterials',
+                'column_name' => 'title',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => 'Educational materials 1',
+                'created_at' => '2022-05-10 17:02:54',
+                'updated_at' => '2022-05-10 17:02:54',
+            ),
+            465 => 
+            array (
+                'id' => 468,
+                'table_name' => 'educationmaterials',
+                'column_name' => 'title',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => 'Учебные материалы 2',
+                'created_at' => '2022-05-10 17:02:54',
+                'updated_at' => '2022-05-10 17:02:54',
+            ),
+            466 => 
+            array (
+                'id' => 469,
+                'table_name' => 'educationmaterials',
+                'column_name' => 'slug',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => 'educational-materials-1',
+                'created_at' => '2022-05-10 17:02:54',
+                'updated_at' => '2022-05-10 17:02:54',
+            ),
+            467 => 
+            array (
+                'id' => 470,
+                'table_name' => 'educationmaterials',
+                'column_name' => 'slug',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => 'uchebnye-materialy-2',
+                'created_at' => '2022-05-10 17:02:54',
+                'updated_at' => '2022-05-10 17:02:54',
+            ),
+            468 => 
+            array (
+                'id' => 471,
+                'table_name' => 'educationmaterials',
+                'column_name' => 'content',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => '<div style="margin: 0px 14.3958px 0px 28.7917px; padding: 0px; width: 436.792px; float: left; color: #000000; font-family: \'Open Sans\', Arial, sans-serif;">
 <h2 style="margin: 0px 0px 10px; padding: 0px; font-weight: 400; font-family: DauphinPlain; font-size: 24px; line-height: 24px;">What is Lorem Ipsum?</h2>
 <p style="margin: 0px 0px 15px; padding: 0px; text-align: justify;"><strong style="margin: 0px; padding: 0px;">Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 </div>
@@ -6151,351 +6102,351 @@ class FromArtisanTranslationsTableSeeder extends Seeder
 <h2 style="margin: 0px 0px 10px; padding: 0px; font-weight: 400; font-family: DauphinPlain; font-size: 24px; line-height: 24px;">Where does it come from?</h2>
 <p style="margin: 0px 0px 15px; padding: 0px; text-align: justify;">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
 </div>',
-            'created_at' => '2022-05-10 17:02:54',
-            'updated_at' => '2022-05-10 17:02:54',
-        ),
-        469 => 
-        array (
-            'id' => 472,
-            'table_name' => 'educationmaterials',
-            'column_name' => 'content',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => '<p>content ru</p>',
-            'created_at' => '2022-05-10 17:02:54',
-            'updated_at' => '2022-05-10 17:02:54',
-        ),
-        470 => 
-        array (
-            'id' => 473,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 154,
-            'locale' => 'en',
-            'value' => 'Id',
-            'created_at' => '2022-05-10 17:09:14',
-            'updated_at' => '2022-05-10 17:09:14',
-        ),
-        471 => 
-        array (
-            'id' => 474,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 155,
-            'locale' => 'en',
-            'value' => 'Image',
-            'created_at' => '2022-05-10 17:09:14',
-            'updated_at' => '2022-05-10 17:09:14',
-        ),
-        472 => 
-        array (
-            'id' => 475,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 156,
-            'locale' => 'en',
-            'value' => 'Title',
-            'created_at' => '2022-05-10 17:09:14',
-            'updated_at' => '2022-05-10 17:09:14',
-        ),
-        473 => 
-        array (
-            'id' => 476,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 157,
-            'locale' => 'en',
-            'value' => 'Slug',
-            'created_at' => '2022-05-10 17:09:14',
-            'updated_at' => '2022-05-10 17:09:14',
-        ),
-        474 => 
-        array (
-            'id' => 477,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 158,
-            'locale' => 'en',
-            'value' => 'Content',
-            'created_at' => '2022-05-10 17:09:14',
-            'updated_at' => '2022-05-10 17:09:14',
-        ),
-        475 => 
-        array (
-            'id' => 478,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 159,
-            'locale' => 'en',
-            'value' => 'Created At',
-            'created_at' => '2022-05-10 17:09:14',
-            'updated_at' => '2022-05-10 17:09:14',
-        ),
-        476 => 
-        array (
-            'id' => 479,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 160,
-            'locale' => 'en',
-            'value' => 'Updated At',
-            'created_at' => '2022-05-10 17:09:14',
-            'updated_at' => '2022-05-10 17:09:14',
-        ),
-        477 => 
-        array (
-            'id' => 480,
-            'table_name' => 'data_types',
-            'column_name' => 'display_name_singular',
-            'foreign_key' => 35,
-            'locale' => 'en',
-            'value' => 'Measure',
-            'created_at' => '2022-05-10 17:09:14',
-            'updated_at' => '2022-05-10 17:09:14',
-        ),
-        478 => 
-        array (
-            'id' => 481,
-            'table_name' => 'data_types',
-            'column_name' => 'display_name_plural',
-            'foreign_key' => 35,
-            'locale' => 'en',
-            'value' => 'Measures',
-            'created_at' => '2022-05-10 17:09:14',
-            'updated_at' => '2022-05-10 17:09:14',
-        ),
-        479 => 
-        array (
-            'id' => 482,
-            'table_name' => 'measures',
-            'column_name' => 'title',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => 'Measures 1',
-            'created_at' => '2022-05-10 17:10:45',
-            'updated_at' => '2022-05-10 17:10:45',
-        ),
-        480 => 
-        array (
-            'id' => 483,
-            'table_name' => 'measures',
-            'column_name' => 'title',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => 'Меры 1',
-            'created_at' => '2022-05-10 17:10:45',
-            'updated_at' => '2022-05-10 17:10:45',
-        ),
-        481 => 
-        array (
-            'id' => 484,
-            'table_name' => 'measures',
-            'column_name' => 'slug',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => 'measures-1',
-            'created_at' => '2022-05-10 17:10:45',
-            'updated_at' => '2022-05-10 17:10:45',
-        ),
-        482 => 
-        array (
-            'id' => 485,
-            'table_name' => 'measures',
-            'column_name' => 'slug',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => 'mery-1',
-            'created_at' => '2022-05-10 17:10:45',
-            'updated_at' => '2022-05-10 17:10:45',
-        ),
-        483 => 
-        array (
-            'id' => 486,
-            'table_name' => 'measures',
-            'column_name' => 'content',
-            'foreign_key' => 1,
-            'locale' => 'en',
-            'value' => '<p>Tədbirlər1 content en</p>',
-            'created_at' => '2022-05-10 17:10:45',
-            'updated_at' => '2022-05-10 17:10:45',
-        ),
-        484 => 
-        array (
-            'id' => 487,
-            'table_name' => 'measures',
-            'column_name' => 'content',
-            'foreign_key' => 1,
-            'locale' => 'ru',
-            'value' => '<p>Tədbirlər1 content ru</p>',
-            'created_at' => '2022-05-10 17:10:45',
-            'updated_at' => '2022-05-10 17:10:45',
-        ),
-        485 => 
-        array (
-            'id' => 488,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 168,
-            'locale' => 'en',
-            'value' => 'Id',
-            'created_at' => '2022-05-10 17:27:49',
-            'updated_at' => '2022-05-10 17:27:49',
-        ),
-        486 => 
-        array (
-            'id' => 489,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 169,
-            'locale' => 'en',
-            'value' => 'Title',
-            'created_at' => '2022-05-10 17:27:49',
-            'updated_at' => '2022-05-10 17:27:49',
-        ),
-        487 => 
-        array (
-            'id' => 490,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 170,
-            'locale' => 'en',
-            'value' => 'Slug',
-            'created_at' => '2022-05-10 17:27:49',
-            'updated_at' => '2022-05-10 17:27:49',
-        ),
-        488 => 
-        array (
-            'id' => 491,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 172,
-            'locale' => 'en',
-            'value' => 'Content',
-            'created_at' => '2022-05-10 17:27:49',
-            'updated_at' => '2022-05-10 17:27:49',
-        ),
-        489 => 
-        array (
-            'id' => 492,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 173,
-            'locale' => 'en',
-            'value' => 'Created At',
-            'created_at' => '2022-05-10 17:27:49',
-            'updated_at' => '2022-05-10 17:27:49',
-        ),
-        490 => 
-        array (
-            'id' => 493,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 174,
-            'locale' => 'en',
-            'value' => 'Updated At',
-            'created_at' => '2022-05-10 17:27:49',
-            'updated_at' => '2022-05-10 17:27:49',
-        ),
-        491 => 
-        array (
-            'id' => 494,
-            'table_name' => 'data_types',
-            'column_name' => 'display_name_singular',
-            'foreign_key' => 37,
-            'locale' => 'en',
-            'value' => 'Supremecourt',
-            'created_at' => '2022-05-10 17:27:49',
-            'updated_at' => '2022-05-10 17:27:49',
-        ),
-        492 => 
-        array (
-            'id' => 495,
-            'table_name' => 'data_types',
-            'column_name' => 'display_name_plural',
-            'foreign_key' => 37,
-            'locale' => 'en',
-            'value' => 'Supremecourts',
-            'created_at' => '2022-05-10 17:27:49',
-            'updated_at' => '2022-05-10 17:27:49',
-        ),
-        493 => 
-        array (
-            'id' => 496,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 182,
-            'locale' => 'en',
-            'value' => 'Id',
-            'created_at' => '2022-05-10 17:34:19',
-            'updated_at' => '2022-05-10 17:34:19',
-        ),
-        494 => 
-        array (
-            'id' => 497,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 183,
-            'locale' => 'en',
-            'value' => 'Image',
-            'created_at' => '2022-05-10 17:34:19',
-            'updated_at' => '2022-05-10 17:34:19',
-        ),
-        495 => 
-        array (
-            'id' => 498,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 184,
-            'locale' => 'en',
-            'value' => 'Title',
-            'created_at' => '2022-05-10 17:34:19',
-            'updated_at' => '2022-05-10 17:34:19',
-        ),
-        496 => 
-        array (
-            'id' => 499,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 185,
-            'locale' => 'en',
-            'value' => 'Slug',
-            'created_at' => '2022-05-10 17:34:19',
-            'updated_at' => '2022-05-10 17:34:19',
-        ),
-        497 => 
-        array (
-            'id' => 500,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 186,
-            'locale' => 'en',
-            'value' => 'Content',
-            'created_at' => '2022-05-10 17:34:19',
-            'updated_at' => '2022-05-10 17:34:19',
-        ),
-        498 => 
-        array (
-            'id' => 501,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 187,
-            'locale' => 'en',
-            'value' => 'Created At',
-            'created_at' => '2022-05-10 17:34:19',
-            'updated_at' => '2022-05-10 17:34:19',
-        ),
-        499 => 
-        array (
-            'id' => 502,
-            'table_name' => 'data_rows',
-            'column_name' => 'display_name',
-            'foreign_key' => 188,
-            'locale' => 'en',
-            'value' => 'Updated At',
-            'created_at' => '2022-05-10 17:34:19',
-            'updated_at' => '2022-05-10 17:34:19',
-        ),
-    ));
+                'created_at' => '2022-05-10 17:02:54',
+                'updated_at' => '2022-05-10 17:02:54',
+            ),
+            469 => 
+            array (
+                'id' => 472,
+                'table_name' => 'educationmaterials',
+                'column_name' => 'content',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => '<p>content ru</p>',
+                'created_at' => '2022-05-10 17:02:54',
+                'updated_at' => '2022-05-10 17:02:54',
+            ),
+            470 => 
+            array (
+                'id' => 473,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 154,
+                'locale' => 'en',
+                'value' => 'Id',
+                'created_at' => '2022-05-10 17:09:14',
+                'updated_at' => '2022-05-10 17:09:14',
+            ),
+            471 => 
+            array (
+                'id' => 474,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 155,
+                'locale' => 'en',
+                'value' => 'Image',
+                'created_at' => '2022-05-10 17:09:14',
+                'updated_at' => '2022-05-10 17:09:14',
+            ),
+            472 => 
+            array (
+                'id' => 475,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 156,
+                'locale' => 'en',
+                'value' => 'Title',
+                'created_at' => '2022-05-10 17:09:14',
+                'updated_at' => '2022-05-10 17:09:14',
+            ),
+            473 => 
+            array (
+                'id' => 476,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 157,
+                'locale' => 'en',
+                'value' => 'Slug',
+                'created_at' => '2022-05-10 17:09:14',
+                'updated_at' => '2022-05-10 17:09:14',
+            ),
+            474 => 
+            array (
+                'id' => 477,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 158,
+                'locale' => 'en',
+                'value' => 'Content',
+                'created_at' => '2022-05-10 17:09:14',
+                'updated_at' => '2022-05-10 17:09:14',
+            ),
+            475 => 
+            array (
+                'id' => 478,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 159,
+                'locale' => 'en',
+                'value' => 'Created At',
+                'created_at' => '2022-05-10 17:09:14',
+                'updated_at' => '2022-05-10 17:09:14',
+            ),
+            476 => 
+            array (
+                'id' => 479,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 160,
+                'locale' => 'en',
+                'value' => 'Updated At',
+                'created_at' => '2022-05-10 17:09:14',
+                'updated_at' => '2022-05-10 17:09:14',
+            ),
+            477 => 
+            array (
+                'id' => 480,
+                'table_name' => 'data_types',
+                'column_name' => 'display_name_singular',
+                'foreign_key' => 35,
+                'locale' => 'en',
+                'value' => 'Measure',
+                'created_at' => '2022-05-10 17:09:14',
+                'updated_at' => '2022-05-10 17:09:14',
+            ),
+            478 => 
+            array (
+                'id' => 481,
+                'table_name' => 'data_types',
+                'column_name' => 'display_name_plural',
+                'foreign_key' => 35,
+                'locale' => 'en',
+                'value' => 'Measures',
+                'created_at' => '2022-05-10 17:09:14',
+                'updated_at' => '2022-05-10 17:09:14',
+            ),
+            479 => 
+            array (
+                'id' => 482,
+                'table_name' => 'measures',
+                'column_name' => 'title',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => 'Measures 1',
+                'created_at' => '2022-05-10 17:10:45',
+                'updated_at' => '2022-05-10 17:10:45',
+            ),
+            480 => 
+            array (
+                'id' => 483,
+                'table_name' => 'measures',
+                'column_name' => 'title',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => 'Меры 1',
+                'created_at' => '2022-05-10 17:10:45',
+                'updated_at' => '2022-05-10 17:10:45',
+            ),
+            481 => 
+            array (
+                'id' => 484,
+                'table_name' => 'measures',
+                'column_name' => 'slug',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => 'measures-1',
+                'created_at' => '2022-05-10 17:10:45',
+                'updated_at' => '2022-05-10 17:10:45',
+            ),
+            482 => 
+            array (
+                'id' => 485,
+                'table_name' => 'measures',
+                'column_name' => 'slug',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => 'mery-1',
+                'created_at' => '2022-05-10 17:10:45',
+                'updated_at' => '2022-05-10 17:10:45',
+            ),
+            483 => 
+            array (
+                'id' => 486,
+                'table_name' => 'measures',
+                'column_name' => 'content',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => '<p>Tədbirlər1 content en</p>',
+                'created_at' => '2022-05-10 17:10:45',
+                'updated_at' => '2022-05-10 17:10:45',
+            ),
+            484 => 
+            array (
+                'id' => 487,
+                'table_name' => 'measures',
+                'column_name' => 'content',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => '<p>Tədbirlər1 content ru</p>',
+                'created_at' => '2022-05-10 17:10:45',
+                'updated_at' => '2022-05-10 17:10:45',
+            ),
+            485 => 
+            array (
+                'id' => 488,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 168,
+                'locale' => 'en',
+                'value' => 'Id',
+                'created_at' => '2022-05-10 17:27:49',
+                'updated_at' => '2022-05-10 17:27:49',
+            ),
+            486 => 
+            array (
+                'id' => 489,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 169,
+                'locale' => 'en',
+                'value' => 'Title',
+                'created_at' => '2022-05-10 17:27:49',
+                'updated_at' => '2022-05-10 17:27:49',
+            ),
+            487 => 
+            array (
+                'id' => 490,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 170,
+                'locale' => 'en',
+                'value' => 'Slug',
+                'created_at' => '2022-05-10 17:27:49',
+                'updated_at' => '2022-05-10 17:27:49',
+            ),
+            488 => 
+            array (
+                'id' => 491,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 172,
+                'locale' => 'en',
+                'value' => 'Content',
+                'created_at' => '2022-05-10 17:27:49',
+                'updated_at' => '2022-05-10 17:27:49',
+            ),
+            489 => 
+            array (
+                'id' => 492,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 173,
+                'locale' => 'en',
+                'value' => 'Created At',
+                'created_at' => '2022-05-10 17:27:49',
+                'updated_at' => '2022-05-10 17:27:49',
+            ),
+            490 => 
+            array (
+                'id' => 493,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 174,
+                'locale' => 'en',
+                'value' => 'Updated At',
+                'created_at' => '2022-05-10 17:27:49',
+                'updated_at' => '2022-05-10 17:27:49',
+            ),
+            491 => 
+            array (
+                'id' => 494,
+                'table_name' => 'data_types',
+                'column_name' => 'display_name_singular',
+                'foreign_key' => 37,
+                'locale' => 'en',
+                'value' => 'Supremecourt',
+                'created_at' => '2022-05-10 17:27:49',
+                'updated_at' => '2022-05-10 17:27:49',
+            ),
+            492 => 
+            array (
+                'id' => 495,
+                'table_name' => 'data_types',
+                'column_name' => 'display_name_plural',
+                'foreign_key' => 37,
+                'locale' => 'en',
+                'value' => 'Supremecourts',
+                'created_at' => '2022-05-10 17:27:49',
+                'updated_at' => '2022-05-10 17:27:49',
+            ),
+            493 => 
+            array (
+                'id' => 496,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 182,
+                'locale' => 'en',
+                'value' => 'Id',
+                'created_at' => '2022-05-10 17:34:19',
+                'updated_at' => '2022-05-10 17:34:19',
+            ),
+            494 => 
+            array (
+                'id' => 497,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 183,
+                'locale' => 'en',
+                'value' => 'Image',
+                'created_at' => '2022-05-10 17:34:19',
+                'updated_at' => '2022-05-10 17:34:19',
+            ),
+            495 => 
+            array (
+                'id' => 498,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 184,
+                'locale' => 'en',
+                'value' => 'Title',
+                'created_at' => '2022-05-10 17:34:19',
+                'updated_at' => '2022-05-10 17:34:19',
+            ),
+            496 => 
+            array (
+                'id' => 499,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 185,
+                'locale' => 'en',
+                'value' => 'Slug',
+                'created_at' => '2022-05-10 17:34:19',
+                'updated_at' => '2022-05-10 17:34:19',
+            ),
+            497 => 
+            array (
+                'id' => 500,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 186,
+                'locale' => 'en',
+                'value' => 'Content',
+                'created_at' => '2022-05-10 17:34:19',
+                'updated_at' => '2022-05-10 17:34:19',
+            ),
+            498 => 
+            array (
+                'id' => 501,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 187,
+                'locale' => 'en',
+                'value' => 'Created At',
+                'created_at' => '2022-05-10 17:34:19',
+                'updated_at' => '2022-05-10 17:34:19',
+            ),
+            499 => 
+            array (
+                'id' => 502,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 188,
+                'locale' => 'en',
+                'value' => 'Updated At',
+                'created_at' => '2022-05-10 17:34:19',
+                'updated_at' => '2022-05-10 17:34:19',
+            ),
+        ));
         \DB::table('translations')->insert(array (
             0 => 
             array (
@@ -6724,9 +6675,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 4,
                 'locale' => 'en',
-                'value' => 'Applications',
+                'value' => 'Petition',
                 'created_at' => '2022-05-10 17:54:04',
-                'updated_at' => '2022-05-10 17:54:04',
+                'updated_at' => '2022-05-18 12:46:04',
             ),
             21 => 
             array (
@@ -6735,9 +6686,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 4,
                 'locale' => 'ru',
-                'value' => 'Приложения',
+                'value' => 'Заявления',
                 'created_at' => '2022-05-10 17:54:04',
-                'updated_at' => '2022-05-10 17:54:04',
+                'updated_at' => '2022-05-18 12:46:04',
             ),
             22 => 
             array (
@@ -6768,9 +6719,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 2,
                 'locale' => 'en',
-                'value' => 'Funds',
+                'value' => 'Solicitations',
                 'created_at' => '2022-05-10 17:55:45',
-                'updated_at' => '2022-05-10 17:55:45',
+                'updated_at' => '2022-05-18 12:47:26',
             ),
             25 => 
             array (
@@ -6779,9 +6730,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 2,
                 'locale' => 'ru',
-                'value' => 'Фонды',
+                'value' => 'Ходатайство',
                 'created_at' => '2022-05-10 17:55:45',
-                'updated_at' => '2022-05-10 17:55:45',
+                'updated_at' => '2022-05-18 12:47:26',
             ),
             26 => 
             array (
@@ -6790,9 +6741,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 5,
                 'locale' => 'en',
-                'value' => 'Claims',
+                'value' => 'Claim Petitions',
                 'created_at' => '2022-05-10 17:56:27',
-                'updated_at' => '2022-05-10 17:56:27',
+                'updated_at' => '2022-05-18 12:44:46',
             ),
             27 => 
             array (
@@ -6801,9 +6752,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 5,
                 'locale' => 'ru',
-                'value' => 'Претензии',
+                'value' => 'Исковые заявления',
                 'created_at' => '2022-05-10 17:56:27',
-                'updated_at' => '2022-05-10 17:56:27',
+                'updated_at' => '2022-05-18 12:44:46',
             ),
             28 => 
             array (
@@ -6823,9 +6774,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 1,
                 'locale' => 'ru',
-                'value' => 'Bозражения',
+                'value' => 'Протесты',
                 'created_at' => '2022-05-10 17:57:27',
-                'updated_at' => '2022-05-10 17:57:27',
+                'updated_at' => '2022-05-18 12:47:54',
             ),
             30 => 
             array (
@@ -7450,9 +7401,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 2,
                 'locale' => 'en',
-                'value' => 'Examples of documents',
+                'value' => 'Samples of Documents',
                 'created_at' => '2022-05-10 18:41:21',
-                'updated_at' => '2022-05-10 18:41:21',
+                'updated_at' => '2022-05-18 12:42:21',
             ),
             87 => 
             array (
@@ -7461,9 +7412,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 2,
                 'locale' => 'ru',
-                'value' => 'Примеры документов',
+                'value' => 'Образцы документов',
                 'created_at' => '2022-05-10 18:41:21',
-                'updated_at' => '2022-05-10 18:41:21',
+                'updated_at' => '2022-05-18 12:42:21',
             ),
             88 => 
             array (
@@ -7472,9 +7423,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 1,
                 'locale' => 'en',
-                'value' => 'State duty calculator',
+                'value' => 'Court Fees Calculator',
                 'created_at' => '2022-05-10 18:42:04',
-                'updated_at' => '2022-05-10 18:42:04',
+                'updated_at' => '2022-05-18 12:41:38',
             ),
             89 => 
             array (
@@ -7483,9 +7434,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 1,
                 'locale' => 'ru',
-                'value' => 'Калькулятор госпошлины',
+                'value' => 'Калькулятор судебных пошлин',
                 'created_at' => '2022-05-10 18:42:04',
-                'updated_at' => '2022-05-10 18:42:04',
+                'updated_at' => '2022-05-18 12:41:38',
             ),
             90 => 
             array (
@@ -7560,9 +7511,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 4,
                 'locale' => 'en',
-                'value' => 'Payment of court fees',
+                'value' => 'Court Fees Payment',
                 'created_at' => '2022-05-10 19:00:54',
-                'updated_at' => '2022-05-10 19:00:54',
+                'updated_at' => '2022-05-18 12:39:14',
             ),
             97 => 
             array (
@@ -7571,9 +7522,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 4,
                 'locale' => 'ru',
-                'value' => 'Оплата судебных издержек',
+                'value' => 'Оплата судебных пошлин',
                 'created_at' => '2022-05-10 19:00:54',
-                'updated_at' => '2022-05-10 19:00:54',
+                'updated_at' => '2022-05-18 12:39:14',
             ),
             98 => 
             array (
@@ -7582,9 +7533,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 6,
                 'locale' => 'en',
-                'value' => 'Judicial acts',
+                'value' => 'Judgements',
                 'created_at' => '2022-05-10 19:01:30',
-                'updated_at' => '2022-05-10 19:01:30',
+                'updated_at' => '2022-05-18 12:40:47',
             ),
             99 => 
             array (
@@ -7593,9 +7544,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 6,
                 'locale' => 'ru',
-                'value' => 'Судебные акты',
+                'value' => 'Судебные Постановления',
                 'created_at' => '2022-05-10 19:01:30',
-                'updated_at' => '2022-05-10 19:01:30',
+                'updated_at' => '2022-05-18 12:40:47',
             ),
             100 => 
             array (
@@ -7604,9 +7555,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 2,
                 'locale' => 'en',
-                'value' => 'Procedure for filing a cassation appeal',
+                'value' => 'The procedure for filing a cassation appeal',
                 'created_at' => '2022-05-10 19:02:15',
-                'updated_at' => '2022-05-10 19:02:15',
+                'updated_at' => '2022-05-18 12:35:58',
             ),
             101 => 
             array (
@@ -7615,9 +7566,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 2,
                 'locale' => 'ru',
-                'value' => 'Порядок подачи кассационной жалобы',
+                'value' => 'Процедура подачи кассационной жалобы',
                 'created_at' => '2022-05-10 19:02:15',
-                'updated_at' => '2022-05-10 19:02:15',
+                'updated_at' => '2022-05-18 12:35:58',
             ),
             102 => 
             array (
@@ -7626,9 +7577,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 3,
                 'locale' => 'en',
-                'value' => 'Switch to electronic cabinet',
+                'value' => 'Enter to the e-cabinet',
                 'created_at' => '2022-05-10 19:02:50',
-                'updated_at' => '2022-05-10 19:02:50',
+                'updated_at' => '2022-05-18 12:36:40',
             ),
             103 => 
             array (
@@ -7637,9 +7588,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 3,
                 'locale' => 'ru',
-                'value' => 'Переключиться на электронный шкаф',
+                'value' => 'Войти в электронный кабинет',
                 'created_at' => '2022-05-10 19:02:50',
-                'updated_at' => '2022-05-10 19:02:50',
+                'updated_at' => '2022-05-18 12:36:40',
             ),
             104 => 
             array (
@@ -7648,9 +7599,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 5,
                 'locale' => 'en',
-                'value' => 'Considered cases',
+                'value' => 'Cases',
                 'created_at' => '2022-05-10 19:03:24',
-                'updated_at' => '2022-05-10 19:03:24',
+                'updated_at' => '2022-05-18 12:39:54',
             ),
             105 => 
             array (
@@ -7659,9 +7610,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 5,
                 'locale' => 'ru',
-                'value' => 'Рассмотренные дела',
+                'value' => 'Судебные дела',
                 'created_at' => '2022-05-10 19:03:24',
-                'updated_at' => '2022-05-10 19:03:24',
+                'updated_at' => '2022-05-18 12:39:54',
             ),
             106 => 
             array (
@@ -7670,9 +7621,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 1,
                 'locale' => 'en',
-                'value' => 'Procedure for filing an appeal',
+                'value' => 'The procedure for filing an appeal',
                 'created_at' => '2022-05-10 19:05:44',
-                'updated_at' => '2022-05-10 19:05:44',
+                'updated_at' => '2022-05-18 12:34:29',
             ),
             107 => 
             array (
@@ -7681,9 +7632,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 1,
                 'locale' => 'ru',
-                'value' => 'Порядок подачи апелляции',
+                'value' => 'Процедура подачи апелляции',
                 'created_at' => '2022-05-10 19:05:44',
-                'updated_at' => '2022-05-10 19:05:44',
+                'updated_at' => '2022-05-18 12:34:29',
             ),
             108 => 
             array (
@@ -11361,6 +11312,844 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'value' => 'http://127.0.0.1:8000/structure',
                 'created_at' => '2022-05-15 18:18:25',
                 'updated_at' => '2022-05-15 18:18:25',
+            ),
+            429 => 
+            array (
+                'id' => 942,
+                'table_name' => 'apparats',
+                'column_name' => 'title',
+                'foreign_key' => 4,
+                'locale' => 'en',
+                'value' => 'Civil board',
+                'created_at' => '2022-05-18 07:15:43',
+                'updated_at' => '2022-05-18 07:15:43',
+            ),
+            430 => 
+            array (
+                'id' => 943,
+                'table_name' => 'apparats',
+                'column_name' => 'title',
+                'foreign_key' => 4,
+                'locale' => 'ru',
+                'value' => 'Гражданский совет',
+                'created_at' => '2022-05-18 07:15:43',
+                'updated_at' => '2022-05-18 07:21:33',
+            ),
+            431 => 
+            array (
+                'id' => 944,
+                'table_name' => 'apparats',
+                'column_name' => 'position',
+                'foreign_key' => 4,
+                'locale' => 'en',
+                'value' => 'Acting Chairman of the Board',
+                'created_at' => '2022-05-18 07:15:43',
+                'updated_at' => '2022-05-18 07:21:33',
+            ),
+            432 => 
+            array (
+                'id' => 945,
+                'table_name' => 'apparats',
+                'column_name' => 'position',
+                'foreign_key' => 4,
+                'locale' => 'ru',
+                'value' => 'Исполняющий обязанности Председателя Правления',
+                'created_at' => '2022-05-18 07:15:43',
+                'updated_at' => '2022-05-18 07:21:33',
+            ),
+            433 => 
+            array (
+                'id' => 946,
+                'table_name' => 'apparats',
+                'column_name' => 'member',
+                'foreign_key' => 4,
+                'locale' => 'en',
+                'value' => 'Allahverdiyev Əli Kərim oğlu',
+                'created_at' => '2022-05-18 07:15:43',
+                'updated_at' => '2022-05-18 07:15:43',
+            ),
+            434 => 
+            array (
+                'id' => 947,
+                'table_name' => 'apparats',
+                'column_name' => 'member',
+                'foreign_key' => 4,
+                'locale' => 'ru',
+                'value' => 'Allahverdiyev Əli Kərim oğlu',
+                'created_at' => '2022-05-18 07:15:43',
+                'updated_at' => '2022-05-18 07:15:43',
+            ),
+            435 => 
+            array (
+                'id' => 948,
+                'table_name' => 'apparats',
+                'column_name' => 'title',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => 'Commercial board',
+                'created_at' => '2022-05-18 07:22:57',
+                'updated_at' => '2022-05-18 07:22:57',
+            ),
+            436 => 
+            array (
+                'id' => 949,
+                'table_name' => 'apparats',
+                'column_name' => 'title',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => 'Коммерческая доска',
+                'created_at' => '2022-05-18 07:22:57',
+                'updated_at' => '2022-05-18 07:22:57',
+            ),
+            437 => 
+            array (
+                'id' => 950,
+                'table_name' => 'apparats',
+                'column_name' => 'position',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => 'Chairman of the Board:',
+                'created_at' => '2022-05-18 07:22:57',
+                'updated_at' => '2022-05-18 07:22:57',
+            ),
+            438 => 
+            array (
+                'id' => 951,
+                'table_name' => 'apparats',
+                'column_name' => 'position',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => 'Председатель правления:',
+                'created_at' => '2022-05-18 07:22:57',
+                'updated_at' => '2022-05-18 07:22:57',
+            ),
+            439 => 
+            array (
+                'id' => 952,
+                'table_name' => 'apparats',
+                'column_name' => 'member',
+                'foreign_key' => 1,
+                'locale' => 'en',
+                'value' => 'Xıdırov Əhliman Mehman oğlu',
+                'created_at' => '2022-05-18 07:22:57',
+                'updated_at' => '2022-05-18 07:22:57',
+            ),
+            440 => 
+            array (
+                'id' => 953,
+                'table_name' => 'apparats',
+                'column_name' => 'member',
+                'foreign_key' => 1,
+                'locale' => 'ru',
+                'value' => 'Xıdırov Əhliman Mehman oğlu',
+                'created_at' => '2022-05-18 07:22:57',
+                'updated_at' => '2022-05-18 07:22:57',
+            ),
+            441 => 
+            array (
+                'id' => 954,
+                'table_name' => 'apparats',
+                'column_name' => 'title',
+                'foreign_key' => 3,
+                'locale' => 'en',
+                'value' => 'Administrative board',
+                'created_at' => '2022-05-18 07:24:11',
+                'updated_at' => '2022-05-18 07:24:11',
+            ),
+            442 => 
+            array (
+                'id' => 955,
+                'table_name' => 'apparats',
+                'column_name' => 'title',
+                'foreign_key' => 3,
+                'locale' => 'ru',
+                'value' => 'Административный совет',
+                'created_at' => '2022-05-18 07:24:11',
+                'updated_at' => '2022-05-18 07:24:11',
+            ),
+            443 => 
+            array (
+                'id' => 956,
+                'table_name' => 'apparats',
+                'column_name' => 'position',
+                'foreign_key' => 3,
+                'locale' => 'en',
+                'value' => 'Acting Chairman of the Board',
+                'created_at' => '2022-05-18 07:24:11',
+                'updated_at' => '2022-05-18 07:24:11',
+            ),
+            444 => 
+            array (
+                'id' => 957,
+                'table_name' => 'apparats',
+                'column_name' => 'position',
+                'foreign_key' => 3,
+                'locale' => 'ru',
+                'value' => 'Исполняющий обязанности Председателя Правления',
+                'created_at' => '2022-05-18 07:24:11',
+                'updated_at' => '2022-05-18 07:24:11',
+            ),
+            445 => 
+            array (
+                'id' => 958,
+                'table_name' => 'apparats',
+                'column_name' => 'member',
+                'foreign_key' => 3,
+                'locale' => 'en',
+                'value' => 'Qurbanov Yusifəli Süleyman oğlu',
+                'created_at' => '2022-05-18 07:24:11',
+                'updated_at' => '2022-05-18 07:24:11',
+            ),
+            446 => 
+            array (
+                'id' => 959,
+                'table_name' => 'apparats',
+                'column_name' => 'member',
+                'foreign_key' => 3,
+                'locale' => 'ru',
+                'value' => 'Qurbanov Yusifəli Süleyman oğlu',
+                'created_at' => '2022-05-18 07:24:11',
+                'updated_at' => '2022-05-18 07:24:11',
+            ),
+            447 => 
+            array (
+                'id' => 960,
+                'table_name' => 'apparats',
+                'column_name' => 'title',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => 'Criminal board',
+                'created_at' => '2022-05-18 07:25:11',
+                'updated_at' => '2022-05-18 07:25:11',
+            ),
+            448 => 
+            array (
+                'id' => 961,
+                'table_name' => 'apparats',
+                'column_name' => 'title',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => 'Криминальная коллегия',
+                'created_at' => '2022-05-18 07:25:11',
+                'updated_at' => '2022-05-18 07:25:11',
+            ),
+            449 => 
+            array (
+                'id' => 962,
+                'table_name' => 'apparats',
+                'column_name' => 'position',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => 'Chairman of the Board:',
+                'created_at' => '2022-05-18 07:25:11',
+                'updated_at' => '2022-05-18 07:25:11',
+            ),
+            450 => 
+            array (
+                'id' => 963,
+                'table_name' => 'apparats',
+                'column_name' => 'position',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => 'Председатель правления:',
+                'created_at' => '2022-05-18 07:25:11',
+                'updated_at' => '2022-05-18 07:25:11',
+            ),
+            451 => 
+            array (
+                'id' => 964,
+                'table_name' => 'apparats',
+                'column_name' => 'member',
+                'foreign_key' => 2,
+                'locale' => 'en',
+                'value' => 'Mirzəyev İlqar Məhərrəm oğlu',
+                'created_at' => '2022-05-18 07:25:11',
+                'updated_at' => '2022-05-18 07:25:11',
+            ),
+            452 => 
+            array (
+                'id' => 965,
+                'table_name' => 'apparats',
+                'column_name' => 'member',
+                'foreign_key' => 2,
+                'locale' => 'ru',
+                'value' => 'Mirzəyev İlqar Məhərrəm oğlu',
+                'created_at' => '2022-05-18 07:25:11',
+                'updated_at' => '2022-05-18 07:25:11',
+            ),
+            453 => 
+            array (
+                'id' => 966,
+                'table_name' => 'apparats',
+                'column_name' => 'title',
+                'foreign_key' => 7,
+                'locale' => 'en',
+                'value' => 'Chairman of the Supreme Court',
+                'created_at' => '2022-05-18 07:26:18',
+                'updated_at' => '2022-05-18 07:26:18',
+            ),
+            454 => 
+            array (
+                'id' => 967,
+                'table_name' => 'apparats',
+                'column_name' => 'title',
+                'foreign_key' => 7,
+                'locale' => 'ru',
+                'value' => 'Председатель Верховного суда',
+                'created_at' => '2022-05-18 07:26:18',
+                'updated_at' => '2022-05-18 07:26:18',
+            ),
+            455 => 
+            array (
+                'id' => 968,
+                'table_name' => 'apparats',
+                'column_name' => 'position',
+                'foreign_key' => 7,
+                'locale' => 'en',
+                'value' => 'Chairman of the Supreme Court',
+                'created_at' => '2022-05-18 07:26:18',
+                'updated_at' => '2022-05-18 07:26:18',
+            ),
+            456 => 
+            array (
+                'id' => 969,
+                'table_name' => 'apparats',
+                'column_name' => 'position',
+                'foreign_key' => 7,
+                'locale' => 'ru',
+                'value' => 'Председатель Верховного суда',
+                'created_at' => '2022-05-18 07:26:18',
+                'updated_at' => '2022-05-18 07:26:18',
+            ),
+            457 => 
+            array (
+                'id' => 970,
+                'table_name' => 'apparats',
+                'column_name' => 'member',
+                'foreign_key' => 7,
+                'locale' => 'en',
+                'value' => 'Ali Məhkəmənin sədri',
+                'created_at' => '2022-05-18 07:26:18',
+                'updated_at' => '2022-05-18 07:26:18',
+            ),
+            458 => 
+            array (
+                'id' => 971,
+                'table_name' => 'apparats',
+                'column_name' => 'member',
+                'foreign_key' => 7,
+                'locale' => 'ru',
+                'value' => 'Ali Məhkəmənin sədri',
+                'created_at' => '2022-05-18 07:26:18',
+                'updated_at' => '2022-05-18 07:26:18',
+            ),
+            459 => 
+            array (
+                'id' => 972,
+                'table_name' => 'apparats',
+                'column_name' => 'title',
+                'foreign_key' => 5,
+                'locale' => 'en',
+                'value' => 'Deputy Chairman of the Supreme Court',
+                'created_at' => '2022-05-18 07:27:28',
+                'updated_at' => '2022-05-18 07:27:28',
+            ),
+            460 => 
+            array (
+                'id' => 973,
+                'table_name' => 'apparats',
+                'column_name' => 'title',
+                'foreign_key' => 5,
+                'locale' => 'ru',
+                'value' => 'Заместитель Председателя Верховного суда',
+                'created_at' => '2022-05-18 07:27:28',
+                'updated_at' => '2022-05-18 07:27:28',
+            ),
+            461 => 
+            array (
+                'id' => 974,
+                'table_name' => 'apparats',
+                'column_name' => 'position',
+                'foreign_key' => 5,
+                'locale' => 'en',
+                'value' => 'Deputy Chairman of the Supreme Court',
+                'created_at' => '2022-05-18 07:27:28',
+                'updated_at' => '2022-05-18 07:27:28',
+            ),
+            462 => 
+            array (
+                'id' => 975,
+                'table_name' => 'apparats',
+                'column_name' => 'position',
+                'foreign_key' => 5,
+                'locale' => 'ru',
+                'value' => 'Заместитель Председателя Верховного суда',
+                'created_at' => '2022-05-18 07:27:28',
+                'updated_at' => '2022-05-18 07:27:28',
+            ),
+            463 => 
+            array (
+                'id' => 976,
+                'table_name' => 'apparats',
+                'column_name' => 'member',
+                'foreign_key' => 5,
+                'locale' => 'en',
+                'value' => 'Ali Məhkəmənin sədr müavini',
+                'created_at' => '2022-05-18 07:27:28',
+                'updated_at' => '2022-05-18 07:27:28',
+            ),
+            464 => 
+            array (
+                'id' => 977,
+                'table_name' => 'apparats',
+                'column_name' => 'member',
+                'foreign_key' => 5,
+                'locale' => 'ru',
+                'value' => 'Ali Məhkəmənin sədr müavini',
+                'created_at' => '2022-05-18 07:27:28',
+                'updated_at' => '2022-05-18 07:27:28',
+            ),
+            465 => 
+            array (
+                'id' => 978,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 128,
+                'locale' => 'en',
+                'value' => 'The Court',
+                'created_at' => '2022-05-18 18:09:53',
+                'updated_at' => '2022-05-19 05:46:00',
+            ),
+            466 => 
+            array (
+                'id' => 979,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 128,
+                'locale' => 'ru',
+                'value' => 'Суд',
+                'created_at' => '2022-05-18 18:09:53',
+                'updated_at' => '2022-05-19 05:45:03',
+            ),
+            467 => 
+            array (
+                'id' => 980,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 129,
+                'locale' => 'en',
+                'value' => 'About the Court ',
+                'created_at' => '2022-05-18 18:10:46',
+                'updated_at' => '2022-05-18 18:10:46',
+            ),
+            468 => 
+            array (
+                'id' => 981,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 129,
+                'locale' => 'ru',
+                'value' => 'О Суде',
+                'created_at' => '2022-05-18 18:10:46',
+                'updated_at' => '2022-05-18 18:10:46',
+            ),
+            469 => 
+            array (
+                'id' => 982,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 130,
+                'locale' => 'en',
+                'value' => 'The Chairman of the Court',
+                'created_at' => '2022-05-18 18:11:24',
+                'updated_at' => '2022-05-18 18:11:24',
+            ),
+            470 => 
+            array (
+                'id' => 983,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 130,
+                'locale' => 'ru',
+                'value' => 'Председатель Суда',
+                'created_at' => '2022-05-18 18:11:24',
+                'updated_at' => '2022-05-18 18:11:24',
+            ),
+            471 => 
+            array (
+                'id' => 984,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 131,
+                'locale' => 'en',
+                'value' => 'Presidium ',
+                'created_at' => '2022-05-18 18:12:23',
+                'updated_at' => '2022-05-18 18:12:23',
+            ),
+            472 => 
+            array (
+                'id' => 985,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 131,
+                'locale' => 'ru',
+                'value' => 'Президиум ',
+                'created_at' => '2022-05-18 18:12:23',
+                'updated_at' => '2022-05-18 18:12:23',
+            ),
+            473 => 
+            array (
+                'id' => 986,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 132,
+                'locale' => 'en',
+                'value' => 'Judges',
+                'created_at' => '2022-05-18 18:13:02',
+                'updated_at' => '2022-05-18 18:13:02',
+            ),
+            474 => 
+            array (
+                'id' => 987,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 132,
+                'locale' => 'ru',
+                'value' => 'Судьи ',
+                'created_at' => '2022-05-18 18:13:02',
+                'updated_at' => '2022-05-18 18:13:02',
+            ),
+            475 => 
+            array (
+                'id' => 988,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 133,
+                'locale' => 'en',
+                'value' => 'The structure of the Court ',
+                'created_at' => '2022-05-18 18:13:36',
+                'updated_at' => '2022-05-18 18:13:36',
+            ),
+            476 => 
+            array (
+                'id' => 989,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 133,
+                'locale' => 'ru',
+                'value' => 'Структура Суда ',
+                'created_at' => '2022-05-18 18:13:36',
+                'updated_at' => '2022-05-18 18:13:36',
+            ),
+            477 => 
+            array (
+                'id' => 990,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 134,
+                'locale' => 'en',
+                'value' => 'Registry of the Court',
+                'created_at' => '2022-05-18 18:14:26',
+                'updated_at' => '2022-05-18 18:14:26',
+            ),
+            478 => 
+            array (
+                'id' => 991,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 134,
+                'locale' => 'ru',
+                'value' => 'Аппарат Верховного Суда',
+                'created_at' => '2022-05-18 18:14:26',
+                'updated_at' => '2022-05-18 18:14:26',
+            ),
+            479 => 
+            array (
+                'id' => 992,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 135,
+                'locale' => 'en',
+                'value' => 'Legal documents',
+                'created_at' => '2022-05-18 18:15:07',
+                'updated_at' => '2022-05-18 18:15:07',
+            ),
+            480 => 
+            array (
+                'id' => 993,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 135,
+                'locale' => 'ru',
+                'value' => 'Правовые документы',
+                'created_at' => '2022-05-18 18:15:07',
+                'updated_at' => '2022-05-18 18:15:07',
+            ),
+            481 => 
+            array (
+                'id' => 994,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 136,
+                'locale' => 'en',
+                'value' => 'Legal acts of Azerbaijan Republic',
+                'created_at' => '2022-05-19 05:49:42',
+                'updated_at' => '2022-05-19 05:49:42',
+            ),
+            482 => 
+            array (
+                'id' => 995,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 136,
+                'locale' => 'ru',
+                'value' => 'Правовые документы Азербайджанской Республики',
+                'created_at' => '2022-05-19 05:49:42',
+                'updated_at' => '2022-05-19 05:49:42',
+            ),
+            483 => 
+            array (
+                'id' => 996,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 137,
+                'locale' => 'en',
+                'value' => 'İnternational Legal documents ',
+                'created_at' => '2022-05-19 05:51:40',
+                'updated_at' => '2022-05-19 05:51:40',
+            ),
+            484 => 
+            array (
+                'id' => 997,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 137,
+                'locale' => 'ru',
+                'value' => 'Международные правовые документы ',
+                'created_at' => '2022-05-19 05:51:40',
+                'updated_at' => '2022-05-19 05:51:40',
+            ),
+            485 => 
+            array (
+                'id' => 998,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 138,
+                'locale' => 'en',
+                'value' => 'Court Documents',
+                'created_at' => '2022-05-19 05:52:36',
+                'updated_at' => '2022-05-19 05:52:36',
+            ),
+            486 => 
+            array (
+                'id' => 999,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 138,
+                'locale' => 'ru',
+                'value' => 'Судебные документы',
+                'created_at' => '2022-05-19 05:52:36',
+                'updated_at' => '2022-05-19 05:52:36',
+            ),
+            487 => 
+            array (
+                'id' => 1000,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 139,
+                'locale' => 'en',
+                'value' => 'The Decisions of Presidium',
+                'created_at' => '2022-05-19 05:54:08',
+                'updated_at' => '2022-05-19 05:54:08',
+            ),
+            488 => 
+            array (
+                'id' => 1001,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 139,
+                'locale' => 'ru',
+                'value' => 'Постановления Президиум',
+                'created_at' => '2022-05-19 05:54:08',
+                'updated_at' => '2022-05-19 05:54:08',
+            ),
+            489 => 
+            array (
+                'id' => 1002,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 140,
+                'locale' => 'en',
+                'value' => 'Judgements',
+                'created_at' => '2022-05-19 05:54:41',
+                'updated_at' => '2022-05-19 05:54:41',
+            ),
+            490 => 
+            array (
+                'id' => 1003,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 140,
+                'locale' => 'ru',
+                'value' => 'Судебные Постановления',
+                'created_at' => '2022-05-19 05:54:41',
+                'updated_at' => '2022-05-19 07:44:31',
+            ),
+            491 => 
+            array (
+                'id' => 1004,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 141,
+                'locale' => 'en',
+                'value' => 'The judgements of the European Court on Human Rights',
+                'created_at' => '2022-05-19 05:55:28',
+                'updated_at' => '2022-05-19 05:55:28',
+            ),
+            492 => 
+            array (
+                'id' => 1005,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 141,
+                'locale' => 'ru',
+                'value' => 'Постановления Европейского Суда по Правам Человека',
+                'created_at' => '2022-05-19 05:55:28',
+                'updated_at' => '2022-05-19 05:55:28',
+            ),
+            493 => 
+            array (
+                'id' => 1006,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 142,
+                'locale' => 'en',
+                'value' => 'Press Service',
+                'created_at' => '2022-05-19 05:56:14',
+                'updated_at' => '2022-05-19 05:56:14',
+            ),
+            494 => 
+            array (
+                'id' => 1007,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 142,
+                'locale' => 'ru',
+                'value' => 'Пресс-служба',
+                'created_at' => '2022-05-19 05:56:14',
+                'updated_at' => '2022-05-19 05:56:14',
+            ),
+            495 => 
+            array (
+                'id' => 1008,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 143,
+                'locale' => 'en',
+                'value' => 'News',
+                'created_at' => '2022-05-19 05:56:49',
+                'updated_at' => '2022-05-19 05:56:49',
+            ),
+            496 => 
+            array (
+                'id' => 1009,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 143,
+                'locale' => 'ru',
+                'value' => 'Новости',
+                'created_at' => '2022-05-19 05:56:49',
+                'updated_at' => '2022-05-19 05:56:49',
+            ),
+            497 => 
+            array (
+                'id' => 1010,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 144,
+                'locale' => 'en',
+                'value' => 'Photo gallery',
+                'created_at' => '2022-05-19 05:57:37',
+                'updated_at' => '2022-05-19 05:57:37',
+            ),
+            498 => 
+            array (
+                'id' => 1011,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 144,
+                'locale' => 'ru',
+                'value' => 'Фотогалерея',
+                'created_at' => '2022-05-19 05:57:37',
+                'updated_at' => '2022-05-19 05:57:37',
+            ),
+            499 => 
+            array (
+                'id' => 1012,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 145,
+                'locale' => 'en',
+                'value' => 'Video gallery',
+                'created_at' => '2022-05-19 05:58:18',
+                'updated_at' => '2022-05-19 05:58:18',
+            ),
+        ));
+        \DB::table('translations')->insert(array (
+            0 => 
+            array (
+                'id' => 1013,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 145,
+                'locale' => 'ru',
+                'value' => 'Видео галерея',
+                'created_at' => '2022-05-19 05:58:18',
+                'updated_at' => '2022-05-19 05:58:18',
+            ),
+            1 => 
+            array (
+                'id' => 1014,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 146,
+                'locale' => 'en',
+                'value' => 'Legal information',
+                'created_at' => '2022-05-19 06:00:21',
+                'updated_at' => '2022-05-19 06:00:21',
+            ),
+            2 => 
+            array (
+                'id' => 1015,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 146,
+                'locale' => 'ru',
+                'value' => 'легальная информация',
+                'created_at' => '2022-05-19 06:00:21',
+                'updated_at' => '2022-05-19 06:00:21',
+            ),
+            3 => 
+            array (
+                'id' => 1016,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 147,
+                'locale' => 'en',
+                'value' => 'Events',
+                'created_at' => '2022-05-19 06:01:04',
+                'updated_at' => '2022-05-19 06:01:04',
+            ),
+            4 => 
+            array (
+                'id' => 1017,
+                'table_name' => 'menu_items',
+                'column_name' => 'title',
+                'foreign_key' => 147,
+                'locale' => 'ru',
+                'value' => 'События',
+                'created_at' => '2022-05-19 06:01:04',
+                'updated_at' => '2022-05-19 06:01:04',
             ),
         ));
         

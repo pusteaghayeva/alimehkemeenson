@@ -930,7 +930,10 @@ body {
         cursor: pointer;
         overflow: hidden;
         border: 1px solid #02353C;
-        border-radius: 5px; } }
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center; } }
     body .person-for .cat-container {
       margin-left: 5%;
       margin-left: 0;
@@ -943,7 +946,7 @@ body {
       font-size: 12px;
       position: relative; }
     body .person-for .cat-center1 {
-      padding-top: 15%; }
+      padding-top: 25%; }
     body .person-for .cat-center2 {
       padding-top: 8%; }
     body .person-for .cat-img-display:after,

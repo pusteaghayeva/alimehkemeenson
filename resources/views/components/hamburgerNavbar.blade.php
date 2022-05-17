@@ -1,5 +1,5 @@
 @foreach($items as $item)
-{{--    use Illuminate\Support\Facades\Session;--}}
+    {{--    use Illuminate\Support\Facades\Session;--}}
     @php
         $locale =Session ::get('locale');
         $children = (isset($item->children[0]))?$item->children:false

@@ -2,7 +2,6 @@
 <header class="">
     <div class="container">
         <div class="row align-items-center justify-content-between">
-
             <nav class="nav-side col-1 col-md-1 col-sm-1">
                 <div class="sub-menu">
                     <span class="sub-menu-circle"></span>
@@ -21,7 +20,10 @@
                                 {{menu("Logo", "components.logo")}}
                                 <div class="footer-menu">
                                     <div class="row">
-                                        {{menu("hamburgerNavbar", "components.hamburgerNavbar")}}
+                                        @php
+                                        $hamburgerMenu = (Session::get('locale') == 'az')?"hamburgerNavbar":"hamburgerNavbar_foreign";
+                                        @endphp
+                                        {{menu($hamburgerMenu, "components.hamburgerNavbar")}}
                                         <div class="col-5 col-lg-12 col-sm-4 bigsearch">
                                             {{menu("search", "components.search")}}
                                         </div>
@@ -49,7 +51,11 @@
                                 </button>
 
                                 <div id="navbar-collapse" class="collapse navbar-collapse">
-                                    {{menu("dropDownMenu", "components.dropDownMenu")}}
+{{--                                    {{menu("dropDownMenu", "components.dropDownMenu")}}--}}
+                                    @php
+                                        $hamburgerMenu = (Session::get('locale') == 'az')?"hamburgerNavbar":"hamburgerNavbar_foreign";
+                                    @endphp
+                                    {{menu($hamburgerMenu, "components.dropDownMenu")}}
                                 </div>
                                 <div class="nav-search">
                                     <span id="search"><i class="fas fa-search"></i></span>

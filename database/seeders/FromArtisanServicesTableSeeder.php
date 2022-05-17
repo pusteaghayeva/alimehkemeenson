@@ -40,11 +40,11 @@ class FromArtisanServicesTableSeeder extends Seeder
             2 => 
             array (
                 'id' => 3,
-                'title' => 'Nəşrlərin nümunələri',
+                'title' => 'Nəşrlərimiz',
                 'link' => '\\publications',
                 'icon' => 'fa-print',
                 'created_at' => '2022-05-05 19:57:00',
-                'updated_at' => '2022-05-10 18:40:40',
+                'updated_at' => '2022-05-18 05:08:22',
             ),
             3 => 
             array (

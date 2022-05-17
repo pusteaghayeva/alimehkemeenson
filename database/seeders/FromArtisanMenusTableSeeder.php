@@ -75,6 +75,13 @@ class FromArtisanMenusTableSeeder extends Seeder
                 'created_at' => '2022-05-14 13:01:45',
                 'updated_at' => '2022-05-14 13:01:45',
             ),
+            8 => 
+            array (
+                'id' => 11,
+                'name' => 'hamburgerNavbar_foreign',
+                'created_at' => '2022-05-18 17:19:30',
+                'updated_at' => '2022-05-18 17:19:30',
+            ),
         ));
         
         

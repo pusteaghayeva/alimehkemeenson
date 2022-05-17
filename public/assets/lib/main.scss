@@ -1372,6 +1372,9 @@ body {
         overflow: hidden;
         border: 1px solid #02353C;
         border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
     }
 
@@ -1388,10 +1391,14 @@ body {
       text-align: center;
       font-size: 12px;
       position: relative;
+
     }
 
+
+
+
     .cat-center1 {
-      padding-top: 15%;
+      padding-top: 25%;
     }
 
     .cat-center2 {

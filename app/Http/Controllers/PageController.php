@@ -92,41 +92,40 @@ class PageController extends Controller
 
     public function apparats(){
         $locale = Session::get('locale');
-//        switch ($locale){
-//            case "en":
-//                $titlesTranslation['MəhkəməAparatı'] = "Judicial Office";
-//                break;
-//            case "ru":
-//                $titlesTranslation['MəhkəməAparatı'] = "Судебная канцелярия";
-//                break;
-//            default :
-//                $titlesTranslation['MəhkəməAparatı'] = "Məhkəmə Aparatı";
-//        }
+        switch ($locale){
+            case "en":
+                $titlesTranslation['MəhkəməninStrukturu'] = "Structure of the Court";
+                $titlesTranslation['NaxcivanMRAMStrukturu'] = "The structure of the Supreme Court of the Nakhchivan Autonomous Republic";
+                $titlesTranslation['AliMəhkəməninAparatı'] = "Apparatus of the Supreme Court";
+                break;
+            case "ru":
+                $titlesTranslation['MəhkəməninStrukturu'] = "Структура суда";
+                $titlesTranslation['NaxcivanMRAMStrukturu'] = "Структура Верховного суда Нахчыванской Автономной Республики";
+                $titlesTranslation['AliMəhkəməninAparatı'] = "Аппарат Верховного суда";
+                break;
+            default :
+                $titlesTranslation['MəhkəməninStrukturu'] = "Məhkəmənin strukturu";
+                $titlesTranslation['NaxcivanMRAMStrukturu'] = "Naxçıvan Muxtar Respublikası Ali Məhkəmənin strukturu";
+                $titlesTranslation['AliMəhkəməninAparatı'] = "Ali Məhkəmənin aparatı";
+        }
          $apparats = \App\Models\Apparats::orderBy('id', 'desc')->get();
-        return view('pages.apparats', compact('apparats', 'locale'));
+        return view('pages.apparats', compact('apparats', 'locale', 'titlesTranslation'));
     }
-
-//    public function singleapparats(Request $request){
-//        $locale = Session::get('locale');
-//
-//        $singleapparats= Apparats::where('id', $request->singleapparats)->get();
-//        return view('pages.singleApparatus', compact('singleapparats', 'locale'));
-//    }
 
     public function singleapparats(Request $request) {
         $locale = Session::get('locale');
-//        switch ($locale){
-//            case "en":
-//                $titlesTranslation['Xəbərlər'] = "News";
-//                break;
-//            case "ru":
-//                $titlesTranslation['Xəbərlər'] = "Новости";
-//                break;
-//            default :
-//                $titlesTranslation['Xəbərlər'] = "Xəbərlər";
-//        }
-        $singleapparatss=Apparats::where('id', $request->singlenews)->get();
-        return view('pages.singleApparatus', compact('singleapparatss', 'locale'));
+        switch ($locale){
+            case "en":
+                $titlesTranslation['MəhkəməninStrukturu'] = "Structure of the Court";
+                break;
+            case "ru":
+                $titlesTranslation['MəhkəməninStrukturu'] = "Структура суда";
+                break;
+            default :
+                $titlesTranslation['MəhkəməninStrukturu'] = "Məhkəmənin strukturu";
+        }
+        $singleapparatss=Apparats::where('id', $request->singleapparats)->get();
+        return view('pages.singleApparats', compact('singleapparatss', 'locale', 'titlesTranslation'));
     }
 
 
@@ -191,7 +190,7 @@ class PageController extends Controller
             default :
                 $titlesTranslation['OnlaynMüraciət'] = "Onlayn Müraciət";
         }
-        $applyonlines = \App\models\Applyonline::get();
+        $applyonlines = \App\Models\Applyonline::get();
         return view('pages.applyonline', compact('applyonlines', 'locale', 'titlesTranslation'));
     }
 
