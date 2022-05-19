@@ -30,10 +30,10 @@ class FromArtisanExampledocumentsTableSeeder extends Seeder
             1 => 
             array (
                 'id' => 2,
-                'title' => 'Vəsaitlər',
+                'title' => 'Vəsatətlər',
                 'link' => 'https://courts.gov.az/az/main/page/Vsattlr_2777',
                 'created_at' => '2022-05-06 10:30:00',
-                'updated_at' => '2022-05-10 17:55:45',
+                'updated_at' => '2022-05-18 12:47:26',
             ),
             2 => 
             array (
