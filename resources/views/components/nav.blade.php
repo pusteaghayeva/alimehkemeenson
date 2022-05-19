@@ -53,7 +53,7 @@
                                 <div id="navbar-collapse" class="collapse navbar-collapse">
 {{--                                    {{menu("dropDownMenu", "components.dropDownMenu")}}--}}
                                     @php
-                                        $hamburgerMenu = (Session::get('locale') == 'az')?"hamburgerNavbar":"hamburgerNavbar_foreign";
+                                        $hamburgerMenu = (Session::get('locale') == 'az'|| Session::get('locale') == '')?"hamburgerNavbar":"hamburgerNavbar_foreign";
                                     @endphp
                                     {{menu($hamburgerMenu, "components.dropDownMenu")}}
                                 </div>

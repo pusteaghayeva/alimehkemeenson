@@ -62,14 +62,14 @@ class FromArtisanApparatsTableSeeder extends Seeder
             array (
                 'id' => 4,
                 'title' => 'Mülki kollegiya',
-                'slug' => 'grazhdanskij-sovet',
-                'link' => 'https://courts.gov.az/az/nakhchivansupreme/judge/Allahverdiyev-li-Krim-oglu_428',
+                'slug' => 'mulki-kollegiya',
+                'link' => 'mulki-kollegiya',
                 'position' => 'Kollegiyanın sədri vəzifəsini  icra edən',
                 'member' => 'Allahverdiyev Əli Kərim oğlu',
                 'college' => '1',
                 'status' => 1,
                 'created_at' => '2022-05-17 19:21:00',
-                'updated_at' => '2022-05-18 07:21:33',
+                'updated_at' => '2022-05-20 06:27:29',
             ),
             4 => 
             array (

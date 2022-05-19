@@ -328,6 +328,23 @@ class FromArtisanPagesTableSeeder extends Seeder
                 'created_at' => '2022-05-05 08:53:00',
                 'updated_at' => '2022-05-11 07:52:52',
             ),
+            6 => 
+            array (
+                'id' => 9,
+                'author_id' => 6,
+                'title' => 'Mulki kollegiya',
+                'short_description' => '',
+                'body' => '<p>Mulki kollegiya content</p>',
+                'image' => NULL,
+                'slug' => 'mulki-kollegiya',
+                'redirect_to' => 0,
+                'external_link' => 'mulki-kollegiya',
+                'meta_description' => NULL,
+                'meta_keywords' => NULL,
+                'status' => 'ACTIVE',
+                'created_at' => '2022-05-20 06:24:00',
+                'updated_at' => '2022-05-20 06:29:38',
+            ),
         ));
         
         
