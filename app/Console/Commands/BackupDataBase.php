@@ -58,7 +58,7 @@ class BackupDataBase extends Command
             'usefullinks',
             'home_pages',
 //            'colleges',
-            'contacts',
+//            'contacts',
             'forpersons',
             'langs',
             'news',
@@ -91,8 +91,8 @@ class BackupDataBase extends Command
 //            'translates',
             'adres',
             'supremecourts',
-            'videos,
-            '
+            'videos'
+
 
 
 
