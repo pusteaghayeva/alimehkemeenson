@@ -12151,6 +12151,94 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'created_at' => '2022-05-19 06:01:04',
                 'updated_at' => '2022-05-19 06:01:04',
             ),
+            5 => 
+            array (
+                'id' => 1018,
+                'table_name' => 'apparats',
+                'column_name' => 'link',
+                'foreign_key' => 4,
+                'locale' => 'en',
+                'value' => 'https://courts.gov.az/az/nakhchivansupreme/judge/Allahverdiyev-li-Krim-oglu_428',
+                'created_at' => '2022-05-20 06:24:38',
+                'updated_at' => '2022-05-20 06:24:38',
+            ),
+            6 => 
+            array (
+                'id' => 1019,
+                'table_name' => 'apparats',
+                'column_name' => 'link',
+                'foreign_key' => 4,
+                'locale' => 'ru',
+                'value' => 'https://courts.gov.az/az/nakhchivansupreme/judge/Allahverdiyev-li-Krim-oglu_428',
+                'created_at' => '2022-05-20 06:24:38',
+                'updated_at' => '2022-05-20 06:24:38',
+            ),
+            7 => 
+            array (
+                'id' => 1020,
+                'table_name' => 'pages',
+                'column_name' => 'title',
+                'foreign_key' => 9,
+                'locale' => 'en',
+                'value' => 'Mulki kollegiya',
+                'created_at' => '2022-05-20 06:29:38',
+                'updated_at' => '2022-05-20 06:29:38',
+            ),
+            8 => 
+            array (
+                'id' => 1021,
+                'table_name' => 'pages',
+                'column_name' => 'title',
+                'foreign_key' => 9,
+                'locale' => 'ru',
+                'value' => 'Mulki kollegiya',
+                'created_at' => '2022-05-20 06:29:38',
+                'updated_at' => '2022-05-20 06:29:38',
+            ),
+            9 => 
+            array (
+                'id' => 1022,
+                'table_name' => 'pages',
+                'column_name' => 'body',
+                'foreign_key' => 9,
+                'locale' => 'en',
+                'value' => '<p>Mulki kollegiya content</p>',
+                'created_at' => '2022-05-20 06:29:38',
+                'updated_at' => '2022-05-20 06:29:38',
+            ),
+            10 => 
+            array (
+                'id' => 1023,
+                'table_name' => 'pages',
+                'column_name' => 'body',
+                'foreign_key' => 9,
+                'locale' => 'ru',
+                'value' => '<p>Mulki kollegiya content</p>',
+                'created_at' => '2022-05-20 06:29:38',
+                'updated_at' => '2022-05-20 06:29:38',
+            ),
+            11 => 
+            array (
+                'id' => 1024,
+                'table_name' => 'pages',
+                'column_name' => 'slug',
+                'foreign_key' => 9,
+                'locale' => 'en',
+                'value' => 'mulki-kollegiya',
+                'created_at' => '2022-05-20 06:29:38',
+                'updated_at' => '2022-05-20 06:29:38',
+            ),
+            12 => 
+            array (
+                'id' => 1025,
+                'table_name' => 'pages',
+                'column_name' => 'slug',
+                'foreign_key' => 9,
+                'locale' => 'ru',
+                'value' => 'mulki-kollegiya',
+                'created_at' => '2022-05-20 06:29:38',
+                'updated_at' => '2022-05-20 06:29:38',
+            ),
         ));
         
         
