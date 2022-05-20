@@ -30,7 +30,7 @@ class DatabaseSeeder extends Seeder
         $this->call(FromArtisanTranslationsTableSeeder::class);
         $this->call(FromArtisanContactsTableSeeder::class);
         $this->call(FromArtisanHomePagesTableSeeder::class);
-        $this->call(FromArtisanCollegesTableSeeder::class);
+//        $this->call(FromArtisanCollegesTableSeeder::class);
         $this->call(FromArtisanForpersonsTableSeeder::class);
         $this->call(FromArtisanLangsTableSeeder::class);
         $this->call(FromArtisanNewsTableSeeder::class);
@@ -41,15 +41,15 @@ class DatabaseSeeder extends Seeder
         $this->call(FromArtisanPersonalAccessTokensTableSeeder::class);
         $this->call(FromArtisanPasswordResetsTableSeeder::class);
         $this->call(FromArtisanFailedJobsTableSeeder::class);
-        $this->call(FromArtisanFootersocialsTableSeeder::class);
-        $this->call(FromArtisanStructuresTableSeeder::class);
+//        $this->call(FromArtisanFootersocialsTableSeeder::class);
+//        $this->call(FromArtisanStructuresTableSeeder::class);
         $this->call(FromArtisanFaqsTableSeeder::class);
         $this->call(FromArtisanInternationaldocumentsTableSeeder::class);
         $this->call(FromArtisanSpeechesTableSeeder::class);
         $this->call(FromArtisanDecisionpresidiaTableSeeder::class);
         $this->call(FromArtisanGalleriesTableSeeder::class);
         $this->call(FromArtisanEducationmaterialsTableSeeder::class);
-        $this->call(FromArtisanApparatusesTableSeeder::class);
+//        $this->call(FromArtisanApparatusesTableSeeder::class);
         $this->call(FromArtisanAppealsTableSeeder::class);
         $this->call(FromArtisanArticlesTableSeeder::class);
         $this->call(FromArtisanConstitutionsTableSeeder::class);
@@ -64,12 +64,11 @@ class DatabaseSeeder extends Seeder
         $this->call(FromArtisanSupremecourtsTableSeeder::class);
         $this->call(FromArtisanVideosTableSeeder::class);
         $this->call(FromArtisanApplyonlinesTableSeeder::class);
-        $this->call(FromArtisanTranslatesTableSeeder::class);
+//        $this->call(FromArtisanTranslatesTableSeeder::class);
         $this->call(FromArtisanAdresTableSeeder::class);
-        Schema::enableForeignKeyConstraints();
-
-        $this->call(FromArtisanFootersTableSeeder::class);
+//        $this->call(FromArtisanFootersTableSeeder::class);
         $this->call(FromArtisanSlidertodaysTableSeeder::class);
         $this->call(FromArtisanApparatsTableSeeder::class);
+        Schema::enableForeignKeyConstraints();
     }
 }
