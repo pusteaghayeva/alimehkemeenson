@@ -11,7 +11,7 @@ class Forpersons extends Model
 {
     use HasFactory, Translatable;
 
-    protected $translatable = ['title'];
+    protected $translatable = ['title', 'link'];
 
     public static function findBySlug($slug)
     {

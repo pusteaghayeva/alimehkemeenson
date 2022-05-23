@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title', $titlesTranslation["VideoMateriallar"])
 @section('content')
-    <div class="container">
+    <div class="container min-vh-100 mt-5">
         @if(!empty($videos[0]))
             <div class="row m-auto">
                 @foreach ($videos as $video)

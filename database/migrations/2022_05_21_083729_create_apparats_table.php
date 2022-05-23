@@ -18,8 +18,6 @@ class CreateApparatsTable extends Migration
             $table->string('title');
             $table->string('slug');
             $table->string('link');
-            $table->string('position');
-            $table->string('member');
             $table->string('college');
             $table->integer('status');
             $table->timestamps();

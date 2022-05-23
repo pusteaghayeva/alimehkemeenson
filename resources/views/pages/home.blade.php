@@ -13,9 +13,9 @@
                             <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                         </ol>
                         <div class="carousel-inner">
-                            @foreach($news as $new)
+                            @foreach($news as $key => $new)
                                 <a href="{{route('singlenews', ['singlenews'=>$new->id])}}"
-                                   class="carousel-item  {{$new->id ==1?'active': ''}}">
+                                   class="carousel-item  {{$key === 0 ? 'active' : ''}}">
 
                                     <img src="{{asset('storage/'.$new->image)}}" class=" w-100" alt="...">
                                     <div class="carousel-bg"></div>
@@ -65,7 +65,8 @@
                     </div>
                     <div class="cat-container">
                         @foreach($forpersons as $forperson)
-                            <a href="{{$forperson->link}}" target="_blank">
+                            <a href="{{$forperson->getTranslatedAttribute('link', $locale, 'fallbackLocale') }}
+                                    ">
                                 <div class="cat-img-display">
                                     <h2 class="cat-title">
                                         {{$forperson->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
@@ -118,7 +119,7 @@
                     @foreach($nmrcourts as $nmrcourt)
                         <div class="col-12 col-sm-12 col-md-6 only-courts courts-left ">
                             <div class="city-court">
-                                <a href="{{$nmrcourt->link}}" target="_blank">
+                                <a href="{{$nmrcourt->getTranslatedAttribute('link', $locale, 'fallbackLocale')}}" target="_blank">
                                     {{$nmrcourt->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
                                 </a>
                             </div>

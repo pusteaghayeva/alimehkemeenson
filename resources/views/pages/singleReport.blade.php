@@ -12,7 +12,7 @@
                         </h3>
                         <div class="container single_text">
                             <p class="coll-text text-justify">
-                                {!! mb_substr(html_entity_decode (strip_tags($singlereport->getTranslatedAttribute('content', $locale, 'fallbackLocale'))), 0, 400) !!}
+                                {!! html_entity_decode (strip_tags($singlereport->getTranslatedAttribute('content', $locale, 'fallbackLocale'))) !!}
                             </p>
                         </div>
                     </div>

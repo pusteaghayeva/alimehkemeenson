@@ -11,9 +11,9 @@ class Apparats extends Model
 {
 
     use HasFactory, Translatable;
-    protected $fillable=['title', 'slug', 'link', 'member','position', 'college', 'status'];
+    protected $fillable=['title', 'slug', 'college', 'status'];
 
-    protected $translatable = ['title','member','position', 'link'];
+    protected $translatable = ['title', 'link'];
 
     public static function findBySlug($slug)
     {
