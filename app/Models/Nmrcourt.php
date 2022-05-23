@@ -13,7 +13,7 @@ class Nmrcourt extends Model
 //    protected $fillable = ['title', 'link', 'status'];
     use HasFactory, Translatable;
 
-    protected $translatable = ['title'];
+    protected $translatable = ['title', 'link'];
 
     public static function findBySlug($slug)
     {

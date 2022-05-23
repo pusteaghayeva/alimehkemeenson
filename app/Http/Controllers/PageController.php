@@ -564,7 +564,7 @@ class PageController extends Controller
             default :
                 $titlesTranslation['Hesabatlar'] = "Hesabatlar";
         }
-        $reports = Report:: orderBy('id', 'desc')->paginate(1);
+        $reports = Report:: orderBy('id', 'desc')->paginate(10);
         return view('pages.report', compact('reports', 'locale', 'titlesTranslation'));
     }
     public function singlereport(Request $request) {

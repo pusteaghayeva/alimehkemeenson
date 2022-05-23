@@ -12,7 +12,7 @@ class Exampledocument extends Model
 //    use HasFactory;
 //    protected $fillable = ['title', 'link'];
     use HasFactory, Translatable;
-    protected $translatable = ['title'];
+    protected $translatable = ['title', 'link'];
     public static function findBySlug($slug)
     {
         return static::withTranslations(Session::get('locale'))->first();

@@ -1,7 +1,6 @@
 <ul class="nav navbar-nav">
     @foreach($items as $item)
         @php
-
             $locale = Session::get('locale');
             $children = (isset($item->children[0]))?$item->children:false
         @endphp
@@ -9,8 +8,7 @@
         @if(!$children)
             <li class="nav-item active">
                 @if($item->title == "home")
-                    <a href="{{route('home')}}" class="nav-link dropdown-toggle fa-2x"><i
-                                class="fas fa-home mr-1"></i>
+                    <a href="{{route('home')}}" class="nav-link dropdown-toggle fa-2x"><i class="fas fa-home mr-1"></i>
                     </a>
                 @else
                     <a href="{{$item->link()}}" class="nav-link dropdown-toggle fa-2x" target="{{$item->target}}" >

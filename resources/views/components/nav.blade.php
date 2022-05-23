@@ -21,7 +21,8 @@
                                 <div class="footer-menu">
                                     <div class="row">
                                         @php
-                                        $hamburgerMenu = (Session::get('locale') == 'az')?"hamburgerNavbar":"hamburgerNavbar_foreign";
+                                            $locale = Session::get('locale');
+                                            $hamburgerMenu = (Session::get('locale') == 'az' || $locale =='')?"hamburgerNavbar":"hamburgerNavbar_foreign";
                                         @endphp
                                         {{menu($hamburgerMenu, "components.hamburgerNavbar")}}
                                         <div class="col-5 col-lg-12 col-sm-4 bigsearch">
@@ -30,11 +31,8 @@
                                         <hr>
                                     </div>
                                 </div>
-
-
                             </div>
                         </div>
-
                     </footer>
 
                 </div>
@@ -46,13 +44,16 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <nav class="navbar navbar-expand-lg navbar-dark p-0">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                        data-target=".navbar-collapse" aria-controls="navbar-collapse"
+                                        aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
 
                                 <div id="navbar-collapse" class="collapse navbar-collapse">
-{{--                                    {{menu("dropDownMenu", "components.dropDownMenu")}}--}}
+                                    {{--{{menu("dropDownMenu", "components.dropDownMenu")}}--}}
                                     @php
+                                        $locale = Session::get('locale');
                                         $hamburgerMenu = (Session::get('locale') == 'az'|| Session::get('locale') == '')?"hamburgerNavbar":"hamburgerNavbar_foreign";
                                     @endphp
                                     {{menu($hamburgerMenu, "components.dropDownMenu")}}
@@ -65,7 +66,8 @@
                                 <div class="search-block" style="display: none;">
                                     <form action="{{route('news')}}">
                                         <label for="search-field" class="w-100 mb-0">
-                                            <input type="text" class="form-control" name="search" id="search-field" placeholder="Axtar">
+                                            <input type="text" class="form-control" name="search" id="search-field"
+                                                   placeholder="Axtar">
                                         </label>
                                         <span class="search-close">&times;</span>
                                     </form>

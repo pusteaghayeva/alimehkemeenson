@@ -17,7 +17,7 @@ class HomePageController extends Controller
 {
     //
     public function home(){
-        $news = \App\Models\News::get();
+        $news = \App\Models\News::orderBy('id', 'desc')->get();
         $adres = \App\Models\Adres::get();
         $contacts = \App\Models\Contact::get();
         $forpersons = Forpersons::get();
@@ -54,7 +54,7 @@ class HomePageController extends Controller
                 $titlesTranslation['NaxçıvanBuGün'] = "NAXÇIVAN BU GÜN";
                 $titlesTranslation['NaxçıvanMrMəhkəmələri'] = "Naxçıvan Muxtar Respublikası Məhkəmələri";
                 $titlesTranslation['AliMəhkəmə90'] = "Ali Məhkəmə-90";
-                $titlesTranslation['vətəndaşlarÜçün'] = "Vətəndaşlar Üçün";
+                $titlesTranslation['vətəndaşlarÜçün'] = "Vətəndaşlar üçün";
                 $titlesTranslation['NaxçıvanMuxtarRespublikasıAliMəhkəməsi'] = "Naxçıvan Muxtar Respublikası Ali Məhkəməsi";
 
 

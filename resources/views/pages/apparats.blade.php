@@ -14,7 +14,8 @@
             @foreach($apparats as $apparat)
                 @if($apparat->college!=1)
                     <div class='col-lg-12 structure-aparat'>
-                        <a href="/{{$apparat->link}}">
+{{--                        <a href="{{url($apparat->link)}}">--}}
+                        <a href="{{($apparat->getTranslatedAttribute('link', $locale, 'fallbackLocale'))}}">
                             <button type='button' class='btn-lg btn-success'>
                                 {{$apparat->getTranslatedAttribute('title', $locale, 'fallbackLocale')}}
                             </button>

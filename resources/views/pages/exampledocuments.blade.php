@@ -6,7 +6,10 @@
         <div class="container">
         @foreach($exampledocuments as $exampledocument)
             <div class="alert alert-success" role="alert">
-                <a href="{{$exampledocument->link}}" target="_blank">
+                <a href="
+                {{$exampledocument->getTranslatedAttribute('link', $locale, 'fallbackLocale') }}
+
+                        " target="_blank">
                     {{$exampledocument->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
                 </a>
             </div>

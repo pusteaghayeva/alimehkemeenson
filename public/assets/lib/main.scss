@@ -113,7 +113,7 @@ body {
 .sub-menu.open .sub-menu-circle {
   transform: scale(2);
   width: 100vw;
-  height: 130vh;
+  height: 650px;
   overflow: hidden;
 }
 
@@ -176,8 +176,8 @@ body {
         width: 11%;
 
         .menu-link {
-          font-size: 16px;
-          //font-weight: bold;
+          font-size: 14px;
+          font-weight: bold;
           text-decoration: underline;
           margin-bottom: 8px !important;
           color: #fff !important;
@@ -1379,9 +1379,9 @@ body {
     }
 
     .cat-container {
-      margin-left: 5%;
+      margin-right: -21px;
       margin-left: 0;
-      margin-right: auto;
+      //margin-right: auto;
       position: relative;
     }
 
