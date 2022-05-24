@@ -10,10 +10,12 @@
             <img src="{{asset('storage/'.$measure->image)}}" alt="image"/>
             <figcaption>
                 <h3>
-                    {{$measure->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
+{{--                    {{$measure->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}--}}
+                    {{mb_substr($measure->getTranslatedAttribute('title', $locale, 'fallbackLocale'), 0, 160)}}
+
                 </h3>
                 <p>
-                    {!! mb_substr(html_entity_decode (strip_tags($measure->getTranslatedAttribute('content', $locale, 'fallbackLocale'))), 0, 400)  !!}
+                    {!! mb_substr(html_entity_decode (strip_tags($measure->getTranslatedAttribute('content', $locale, 'fallbackLocale'))), 0, 0) !!}
                 </p>
                 <footer>
                     <div class="hor_date">{{$measure->created_at}}</div>

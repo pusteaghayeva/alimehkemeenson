@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title', $titlesTranslation["MaarifəndiriciMateriallar"])
 @section('content')
-    <div class="speech">
+    <div class="speech min-vh-100">
         <div class="container">
             @foreach($educationmaterials as $educationmaterial)
             <div class="bd-speech bd-speech-warning">

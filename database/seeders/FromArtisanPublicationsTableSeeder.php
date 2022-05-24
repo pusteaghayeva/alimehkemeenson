@@ -35,6 +35,22 @@ class FromArtisanPublicationsTableSeeder extends Seeder
                 'created_at' => '2022-05-16 07:42:24',
                 'updated_at' => '2022-05-16 07:42:24',
             ),
+            2 => 
+            array (
+                'id' => 3,
+                'image' => 'publications\\May2022\\pfzwQQTnGnUptDtzCQAn.gif',
+            'pdf' => '[{"download_link":"publications\\\\May2022\\\\TOhH5CGBZVAwfuxhVVd8.pdf","original_name":"1yKwZcZe1zmrPCn4ickM (2).pdf"}]',
+                'created_at' => '2022-05-24 08:08:39',
+                'updated_at' => '2022-05-24 08:08:39',
+            ),
+            3 => 
+            array (
+                'id' => 4,
+                'image' => 'publications\\May2022\\ymRcwtZVjDKoSzO3WI9H.jpg',
+            'pdf' => '[{"download_link":"publications\\\\May2022\\\\jbuagPslm3DuOMIs1Yp2.pdf","original_name":"1yKwZcZe1zmrPCn4ickM (2).pdf"}]',
+                'created_at' => '2022-05-24 08:11:00',
+                'updated_at' => '2022-05-24 08:11:00',
+            ),
         ));
         
         

@@ -24,28 +24,50 @@ class FromArtisanReportsTableSeeder extends Seeder
                 'id' => 4,
                 'title' => '2017-ci ilin may ayı ərzində nikahın pozulması tələbinə dair işlər üzrə statistik məlumat',
                 'slug' => '2017-ci-ilin-may-ayi-rzind-nikahin-pozulmasi-t-l-bin-dair-isl-r-uzr-statistik-m-lumat',
-                'content' => '<table style="height: 80px; width: 56.6265%; border-collapse: collapse; border-color: black;" border="1">
-<tbody>
-<tr style="height: 40px;">
-<td style="width: 16.6667%; height: 40px;">a</td>
-<td style="width: 16.6667%; height: 40px;">b</td>
-<td style="width: 16.6667%; height: 40px;">c</td>
-<td style="width: 16.6667%; height: 40px;">d</td>
-<td style="width: 16.6667%; height: 40px;">e</td>
-<td style="width: 16.6667%; height: 40px;">f</td>
+            'content' => '<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; outline: none !important;"><span style="box-sizing: border-box; outline: none !important; font-size: 15pt; line-height: 23px; font-family: \'Times New Roman\', serif;">Nax&ccedil;ıvan&nbsp; Muxtar&nbsp; Respublikası rayon (şəhər) məhkəmələri tərəfindən 2017-ci ilin may ayı ərzində nikahın pozulması tələbinə dair 22 işə baxılaraq iddialar təmin edilmişdir. Baxılan işlərin rayon (şəhər) məhkəmələri &uuml;zrə b&ouml;lg&uuml;s&uuml; aşağıdakı kimi olmuşdur:</span></p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; text-align: justify; outline: none !important;">&nbsp;</p>
+<table style="border-spacing: 0px; border-collapse: collapse; max-width: 100%; color: #000000; font-family: Arial, sans-serif; font-size: 13.6px; border: none; margin-left: auto; margin-right: auto;" border="1" cellspacing="0px" cellpadding="0">
+<tbody style="box-sizing: border-box;">
+<tr style="box-sizing: border-box;">
+<td style="box-sizing: border-box; padding: 0cm 5.4pt; width: 232.2pt; border: 1pt solid windowtext; text-align: left;" width="387"><strong style="box-sizing: border-box;"><em style="box-sizing: border-box;"><span style="box-sizing: border-box; font-size: 15pt; font-family: \'Times New Roman\', serif;">Məhkəmənin adı</span></em></strong></td>
+<td style="box-sizing: border-box; padding: 0cm 5.4pt; width: 232.2pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: none; text-align: left;" width="387"><strong style="box-sizing: border-box;"><em style="box-sizing: border-box;"><span style="box-sizing: border-box; font-size: 15pt; font-family: \'Times New Roman\', serif;">İşlərin sayı</span></em></strong></td>
 </tr>
-<tr style="height: 40px;">
-<td style="width: 16.6667%; height: 40px;">&nbsp;</td>
-<td style="width: 16.6667%; height: 40px;">&nbsp;</td>
-<td style="width: 16.6667%; height: 40px;">&nbsp;</td>
-<td style="width: 16.6667%; height: 40px;">&nbsp;</td>
-<td style="width: 16.6667%; height: 40px;">&nbsp;</td>
-<td style="width: 16.6667%; height: 40px;">&nbsp;</td>
+<tr style="box-sizing: border-box; text-align: left;">
+<td style="box-sizing: border-box; padding: 0cm 5.4pt; width: 232.2pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none;" width="387"><span style="box-sizing: border-box; font-size: 15pt; font-family: \'Times New Roman\', serif;">Nax&ccedil;ıvan Şəhər Məhkəməsi</span></td>
+<td style="box-sizing: border-box; padding: 0cm 5.4pt; width: 232.2pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext;" width="387"><span style="box-sizing: border-box; font-size: 15pt; font-family: \'Times New Roman\', serif;">3</span></td>
+</tr>
+<tr style="box-sizing: border-box; text-align: left;">
+<td style="box-sizing: border-box; padding: 0cm 5.4pt; width: 232.2pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none;" width="387"><span style="box-sizing: border-box; font-size: 15pt; font-family: \'Times New Roman\', serif;">Babək Rayon Məhkəməsi</span></td>
+<td style="box-sizing: border-box; padding: 0cm 5.4pt; width: 232.2pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext;" width="387"><span style="box-sizing: border-box; font-size: 15pt; font-family: \'Times New Roman\', serif;">3</span></td>
+</tr>
+<tr style="box-sizing: border-box; text-align: left;">
+<td style="box-sizing: border-box; padding: 0cm 5.4pt; width: 232.2pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none;" width="387"><span style="box-sizing: border-box; font-size: 15pt; font-family: \'Times New Roman\', serif;">Şərur Rayon Məhkəməsi</span></td>
+<td style="box-sizing: border-box; padding: 0cm 5.4pt; width: 232.2pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext;" width="387"><span style="box-sizing: border-box; font-size: 15pt; font-family: \'Times New Roman\', serif;">4</span></td>
+</tr>
+<tr style="box-sizing: border-box; text-align: left;">
+<td style="box-sizing: border-box; padding: 0cm 5.4pt; width: 232.2pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none;" width="387"><span style="box-sizing: border-box; font-size: 15pt; font-family: \'Times New Roman\', serif;">Culfa&nbsp; Rayon Məhkəməsi</span></td>
+<td style="box-sizing: border-box; padding: 0cm 5.4pt; width: 232.2pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext;" width="387"><span style="box-sizing: border-box; font-size: 15pt; font-family: \'Times New Roman\', serif;">1</span></td>
+</tr>
+<tr style="box-sizing: border-box; text-align: left;">
+<td style="box-sizing: border-box; padding: 0cm 5.4pt; width: 232.2pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none;" width="387"><span style="box-sizing: border-box; font-size: 15pt; font-family: \'Times New Roman\', serif;">Şahbuz Rayon Məhkəməsi</span></td>
+<td style="box-sizing: border-box; padding: 0cm 5.4pt; width: 232.2pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext;" width="387"><span style="box-sizing: border-box; font-size: 15pt; font-family: \'Times New Roman\', serif;">2</span></td>
+</tr>
+<tr style="box-sizing: border-box; text-align: left;">
+<td style="box-sizing: border-box; padding: 0cm 5.4pt; width: 232.2pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none;" width="387"><span style="box-sizing: border-box; font-size: 15pt; font-family: \'Times New Roman\', serif;">Kəngərli Rayon Məhkəməsi</span></td>
+<td style="box-sizing: border-box; padding: 0cm 5.4pt; width: 232.2pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext;" width="387"><span style="box-sizing: border-box; font-size: 15pt; font-family: \'Times New Roman\', serif;">2</span></td>
+</tr>
+<tr style="box-sizing: border-box; text-align: left;">
+<td style="box-sizing: border-box; padding: 0cm 5.4pt; width: 232.2pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none;" width="387"><span style="box-sizing: border-box; font-size: 15pt; font-family: \'Times New Roman\', serif;">Ordubad Rayon Məhkəməsi</span></td>
+<td style="box-sizing: border-box; padding: 0cm 5.4pt; width: 232.2pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext;" width="387"><span style="box-sizing: border-box; font-size: 15pt; font-family: \'Times New Roman\', serif;">6</span></td>
+</tr>
+<tr style="box-sizing: border-box; text-align: left;">
+<td style="box-sizing: border-box; padding: 0cm 5.4pt; width: 232.2pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none;" width="387"><span style="box-sizing: border-box; font-size: 15pt; font-family: \'Times New Roman\', serif;">Sədərək Rayon Məhkəməsi</span></td>
+<td style="box-sizing: border-box; padding: 0cm 5.4pt; width: 232.2pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext;" width="387"><span style="box-sizing: border-box; font-size: 15pt; font-family: \'Times New Roman\', serif;">1</span></td>
 </tr>
 </tbody>
 </table>',
                 'created_at' => '2022-05-07 07:05:00',
-                'updated_at' => '2022-05-23 17:21:54',
+                'updated_at' => '2022-05-24 11:20:26',
             ),
         ));
         

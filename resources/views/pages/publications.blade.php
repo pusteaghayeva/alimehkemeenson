@@ -25,17 +25,19 @@
 @section('title', $titlesTranslation["NəşrlərinNümunələri"])
 
 @section('content')
-    <div class="wrap">
+    <div class="container">
+    <div class="wrap min-vh-100">
         @foreach($publications as $publication)
             <div class="box">
                 <div class="boxInner">
-                    <a href="{{asset('/storage/'.json_decode($publication->pdf)[0]->download_link)}}">
-                        <img src="{{asset('storage/'.$publication->image)}}" style="min-height: 250px; height: 250px;" />
+                    <a href="{{asset('/storage/'.json_decode($publication->pdf)[0]->download_link)}}" target="_blank">
+                        <img src="{{asset('storage/'.$publication->image)}}" style="height: 200px; width: 240px; " />
                     </a>
                 </div>
             </div>
         @endforeach
 
+    </div>
     </div>
 @endsection
 

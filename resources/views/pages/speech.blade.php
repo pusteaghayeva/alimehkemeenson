@@ -2,7 +2,7 @@
 @section('title', $titlesTranslation["Çıxışlar"])
 
 @section('content')
-    <div class="speech">
+    <div class="speech min-vh-100">
         <div class="container">
             @foreach($speechs as $speech)
                 <div class="bd-speech bd-speech-warning">

@@ -1,5 +1,15 @@
 @extends('layouts.master')
 @section('title', $titlesTranslation["Hesabatlar"])
+@section('css')
+    <style>
+        table{
+            border: 1px solid #000;
+        }
+        td {
+            border: 1px solid #000 !important;
+        }
+    </style>
+@endsection
 
 @section('content')
     <section class="blog-area pt-5 pb-5">
@@ -12,7 +22,8 @@
                         </h3>
                         <div class="container single_text">
                             <p class="coll-text text-justify">
-                                {!! html_entity_decode (strip_tags($singlereport->getTranslatedAttribute('content', $locale, 'fallbackLocale'))) !!}
+                                {!! $singlereport->getTranslatedAttribute('content', $locale, 'fallbackLocale')!!}
+
                             </p>
                         </div>
                     </div>

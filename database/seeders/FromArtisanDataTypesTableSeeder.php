@@ -323,7 +323,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'server_side' => 0,
                 'details' => '{"order_column":"id","order_display_column":"title","order_direction":"desc","default_search_key":null,"scope":null}',
                 'created_at' => '2022-05-05 18:17:30',
-                'updated_at' => '2022-05-10 13:52:01',
+                'updated_at' => '2022-05-24 06:24:59',
             ),
             17 => 
             array (

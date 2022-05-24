@@ -11,7 +11,9 @@
                             {{$singlesupremecourt->getTranslatedAttribute('title', $locale, 'fallbackLocale')}}
                         </h2>
                         <div class="container single_text">
-                            <p class="coll-text text-justify"> {!! $singlesupremecourt->content !!}</p>
+                            <p class="coll-text text-justify">
+                                {!!  $singlesupremecourt->getTranslatedAttribute('content', $locale, 'fallbackLocale') !!}
+                            </p>
                         </div>
                     </div>
                 @endforeach

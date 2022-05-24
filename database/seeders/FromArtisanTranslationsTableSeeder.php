@@ -11986,9 +11986,10 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'body',
                 'foreign_key' => 9,
                 'locale' => 'en',
-                'value' => '<p><strong><span style="font-size: 14pt;"><span style="line-height: 115%; font-family: Arial, sans-serif;">The Chairman of Civil </span><span style="line-height: 115%; font-family: \'Times New Roman\', serif;">Board</span><span style="line-height: 115%; font-family: Arial, sans-serif;">:&nbsp; <span style="color: #333333;"><a style="text-decoration: none; color: #333333;" href="https://courts.gov.az/en/nakhchivansupreme/judge/Allahverdiyev-li-Krim-oglu_428" target="_blank" rel="noopener">Ali Allahverdiyev&nbsp;</a></span></span></span></strong></p>',
+                'value' => '<p>&nbsp;</p>
+<p><span style="font-family: verdana, geneva, sans-serif;"><strong><span style="font-size: 14pt;"><span style="line-height: 115%;">The Chairman of Civil </span><span style="line-height: 115%;">Board</span><span style="line-height: 115%;">:&nbsp; <span style="color: #333333;"><a style="text-decoration: none; color: #333333;" href="https://courts.gov.az/en/nakhchivansupreme/judge/Allahverdiyev-li-Krim-oglu_428" target="_blank" rel="noopener">Ali Allahverdiyev&nbsp;</a></span></span></span></strong></span></p>',
                 'created_at' => '2022-05-20 06:29:38',
-                'updated_at' => '2022-05-22 17:44:39',
+                'updated_at' => '2022-05-24 08:38:09',
             ),
             494 => 
             array (
@@ -11997,9 +11998,10 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'body',
                 'foreign_key' => 9,
                 'locale' => 'ru',
-                'value' => '<p><strong><span style="font-size: 14pt; line-height: 115%; font-family: Arial, sans-serif;">Председатель гражданской коллегии:&nbsp; </span><span style="font-size: 14pt; line-height: 115%; font-family: Arial, sans-serif; color: #333333;"><a style="text-decoration: none; color: #333333;" href="https://courts.gov.az/ru/nakhchivansupreme/judge/Allahverdiev-Ali-Kerim-oglu_428%20" target="_blank" rel="noopener">Аллахвердиев Али Кeрим оглу</a></span></strong></p>',
+                'value' => '<p>&nbsp;</p>
+<p><strong><span style="font-size: 14pt; line-height: 115%; font-family: Arial, sans-serif;">Председатель гражданской коллегии:&nbsp; </span><span style="font-size: 14pt; line-height: 115%; font-family: Arial, sans-serif; color: #333333;"><a style="text-decoration: none; color: #333333;" href="https://courts.gov.az/ru/nakhchivansupreme/judge/Allahverdiev-Ali-Kerim-oglu_428%20" target="_blank" rel="noopener">Аллахвердиев Али Кeрим оглу</a></span></strong></p>',
                 'created_at' => '2022-05-20 06:29:38',
-                'updated_at' => '2022-05-22 17:44:39',
+                'updated_at' => '2022-05-24 08:38:09',
             ),
             495 => 
             array (
@@ -12109,9 +12111,9 @@ class FromArtisanTranslationsTableSeeder extends Seeder
                 'column_name' => 'title',
                 'foreign_key' => 12,
                 'locale' => 'ru',
-                'value' => 'Kommersiya kollegiyası',
+                'value' => 'Коммерческая коллегия',
                 'created_at' => '2022-05-20 18:29:02',
-                'updated_at' => '2022-05-20 18:29:02',
+                'updated_at' => '2022-05-24 08:36:44',
             ),
             5 => 
             array (
@@ -13424,6 +13426,160 @@ array (
 'value' => 'https://courts.gov.az/ru/sadarak',
 'created_at' => '2022-05-23 13:38:53',
 'updated_at' => '2022-05-23 13:38:53',
+),
+123 => 
+array (
+'id' => 1152,
+'table_name' => 'data_rows',
+'column_name' => 'display_name',
+'foreign_key' => 133,
+'locale' => 'ru',
+'value' => 'Id',
+'created_at' => '2022-05-24 06:02:49',
+'updated_at' => '2022-05-24 06:02:49',
+),
+124 => 
+array (
+'id' => 1153,
+'table_name' => 'data_rows',
+'column_name' => 'display_name',
+'foreign_key' => 134,
+'locale' => 'ru',
+'value' => 'Title',
+'created_at' => '2022-05-24 06:02:49',
+'updated_at' => '2022-05-24 06:02:49',
+),
+125 => 
+array (
+'id' => 1154,
+'table_name' => 'data_rows',
+'column_name' => 'display_name',
+'foreign_key' => 135,
+'locale' => 'ru',
+'value' => 'Slug',
+'created_at' => '2022-05-24 06:02:49',
+'updated_at' => '2022-05-24 06:02:49',
+),
+126 => 
+array (
+'id' => 1155,
+'table_name' => 'data_rows',
+'column_name' => 'display_name',
+'foreign_key' => 136,
+'locale' => 'ru',
+'value' => 'Content',
+'created_at' => '2022-05-24 06:02:49',
+'updated_at' => '2022-05-24 06:02:49',
+),
+127 => 
+array (
+'id' => 1156,
+'table_name' => 'data_rows',
+'column_name' => 'display_name',
+'foreign_key' => 137,
+'locale' => 'ru',
+'value' => 'Created At',
+'created_at' => '2022-05-24 06:02:49',
+'updated_at' => '2022-05-24 06:02:49',
+),
+128 => 
+array (
+'id' => 1157,
+'table_name' => 'data_rows',
+'column_name' => 'display_name',
+'foreign_key' => 138,
+'locale' => 'ru',
+'value' => 'Updated At',
+'created_at' => '2022-05-24 06:02:49',
+'updated_at' => '2022-05-24 06:02:49',
+),
+129 => 
+array (
+'id' => 1158,
+'table_name' => 'data_types',
+'column_name' => 'display_name_singular',
+'foreign_key' => 30,
+'locale' => 'ru',
+'value' => 'Report',
+'created_at' => '2022-05-24 06:02:49',
+'updated_at' => '2022-05-24 06:02:49',
+),
+130 => 
+array (
+'id' => 1159,
+'table_name' => 'data_types',
+'column_name' => 'display_name_plural',
+'foreign_key' => 30,
+'locale' => 'ru',
+'value' => 'Reports',
+'created_at' => '2022-05-24 06:02:49',
+'updated_at' => '2022-05-24 06:02:49',
+),
+131 => 
+array (
+'id' => 1160,
+'table_name' => 'legalacts',
+'column_name' => 'link',
+'foreign_key' => 5,
+'locale' => 'en',
+'value' => 'https://president.az/en/documents/category/decrees',
+'created_at' => '2022-05-24 08:44:38',
+'updated_at' => '2022-05-24 08:44:38',
+),
+132 => 
+array (
+'id' => 1161,
+'table_name' => 'legalacts',
+'column_name' => 'link',
+'foreign_key' => 5,
+'locale' => 'ru',
+'value' => 'https://president.az/en/documents/category/decrees',
+'created_at' => '2022-05-24 08:44:38',
+'updated_at' => '2022-05-24 08:44:38',
+),
+133 => 
+array (
+'id' => 1162,
+'table_name' => 'legalacts',
+'column_name' => 'link',
+'foreign_key' => 4,
+'locale' => 'en',
+'value' => 'https://www.meclis.gov.az/cat-qanun.php?cat=72&lang=az',
+'created_at' => '2022-05-24 08:49:41',
+'updated_at' => '2022-05-24 08:49:41',
+),
+134 => 
+array (
+'id' => 1163,
+'table_name' => 'legalacts',
+'column_name' => 'link',
+'foreign_key' => 4,
+'locale' => 'ru',
+'value' => 'https://www.meclis.gov.az/cat-qanun.php?cat=72&lang=az',
+'created_at' => '2022-05-24 08:49:41',
+'updated_at' => '2022-05-24 08:49:41',
+),
+135 => 
+array (
+'id' => 1164,
+'table_name' => 'legalacts',
+'column_name' => 'link',
+'foreign_key' => 3,
+'locale' => 'en',
+'value' => 'http://www.constcourt.gov.az/az/decisions',
+'created_at' => '2022-05-24 08:51:40',
+'updated_at' => '2022-05-24 08:51:40',
+),
+136 => 
+array (
+'id' => 1165,
+'table_name' => 'legalacts',
+'column_name' => 'link',
+'foreign_key' => 3,
+'locale' => 'ru',
+'value' => 'http://www.constcourt.gov.az/az/decisions',
+'created_at' => '2022-05-24 08:51:40',
+'updated_at' => '2022-05-24 08:51:40',
 ),
 ));
         

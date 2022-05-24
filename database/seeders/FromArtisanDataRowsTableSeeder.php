@@ -1712,7 +1712,7 @@ class FromArtisanDataRowsTableSeeder extends Seeder
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{"tinymceOptions":{"toolbar":"styleselect bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter  alignright | bullist numlist outdent indent | link image table | code"}}',
+                'details' => '{"tinymceOptions":{"toolbar":"styleselect bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter  alignright | bullist numlist outdent indent | link image table |  code"}}',
                 'order' => 4,
             ),
             106 => 

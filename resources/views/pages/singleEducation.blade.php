@@ -1,5 +1,15 @@
 @extends('layouts.master')
 @section('title', $titlesTranslation["MaarifəndiriciMateriallar"])
+@section('css')
+    <style>
+        table{
+            border: 1px solid #000;
+        }
+        td {
+            border: 1px solid #000 !important;
+        }
+    </style>
+@endsection
 
 @section('content')
     <section class="blog-area pt-5 pb-5">

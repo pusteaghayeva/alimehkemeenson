@@ -1,5 +1,15 @@
 @extends('layouts.master')
 @section('title', $titlesTranslation["Tədbirlər"])
+@section('css')
+    <style>
+        table{
+            border: 1px solid #000;
+        }
+        td {
+            border: 1px solid #000 !important;
+        }
+    </style>
+@endsection
 
 @section('content')
 
@@ -13,8 +23,8 @@
                         </h2>
                         <div class="container single_text">
                             <img src="{{asset('storage/'.$singlemeasure->image)}}" class="coll-image m-auto" alt="">
-                            <p class="coll-text text-justify">
-                                {!! mb_substr(html_entity_decode (strip_tags($singlemeasure->getTranslatedAttribute('content', $locale, 'fallbackLocale'))), 0, 400)  !!}
+                            <p class="coll-text text-justify mt-5">
+                                {!!  $singlemeasure->getTranslatedAttribute('content', $locale, 'fallbackLocale') !!}
                             </p>
                         </div>
                     </div>

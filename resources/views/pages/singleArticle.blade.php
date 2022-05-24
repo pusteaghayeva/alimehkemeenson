@@ -1,5 +1,15 @@
 @extends('layouts.master')
 @section('title', $titlesTranslation["Məqalələr"])
+@section('css')
+    <style>
+        table{
+            border: 1px solid #000;
+        }
+        td {
+            border: 1px solid #000 !important;
+        }
+    </style>
+@endsection
 
 @section('content')
 
@@ -12,7 +22,9 @@
                             {{$singlearticle->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
                         </h2>
                         <div class="container single_text">
-                            <p class="coll-text text-justify"> {!!$singlearticle->getTranslatedAttribute('title', $locale, 'fallbackLocale') !!}</p>
+                            <p class="coll-text text-justify">
+                                {!!  $singlearticle->getTranslatedAttribute('content', $locale, 'fallbackLocale') !!}
+                            </p>
                         </div>
                     </div>
                 @endforeach
