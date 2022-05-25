@@ -22,7 +22,7 @@
                                     <div class="row">
                                         @php
                                             $locale = Session::get('locale');
-                                            $hamburgerMenu = (Session::get('locale') == 'az' || $locale =='en' || $locale = 'ru')?"hamburgerNavbar":"hamburgerNavbar_foreign";
+                                            $hamburgerMenu = ($locale == 'az' || $locale == '')?"hamburgerNavbar":"hamburgerNavbar_foreign".$locale;
                                         @endphp
                                         {{menu($hamburgerMenu, "components.hamburgerNavbar")}}
                                         <div class="col-5 col-lg-12 col-sm-4 bigsearch">
@@ -52,10 +52,6 @@
 
                                 <div id="navbar-collapse" class="collapse navbar-collapse">
                                     {{--{{menu("dropDownMenu", "components.dropDownMenu")}}--}}
-                                    @php
-                                        $locale = Session::get('locale');
-                                        $hamburgerMenu = (Session::get('locale') == 'az'|| Session::get('locale') == '')?"hamburgerNavbar":"hamburgerNavbar_foreign";
-                                    @endphp
                                     {{menu($hamburgerMenu, "components.dropDownMenu")}}
                                 </div>
                                 <div class="nav-search">
