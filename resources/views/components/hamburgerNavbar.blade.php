@@ -10,6 +10,9 @@
         @if(!$children)
         @else
             @foreach($children as $child)
+                @php
+                    $child->route = ($child->link()!='#')?$child->link():$child->route;
+                @endphp
                 <p class="menu-text">
                     <a href="{{$child->route}}" target="{{$item->target}}" class="text-light big-li">
                         {{$child->getTranslatedAttribute('title', $locale, 'fallbackLocale')}}

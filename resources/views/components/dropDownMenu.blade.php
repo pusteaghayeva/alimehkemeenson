@@ -22,6 +22,9 @@
                             class=""></i></a>
                 <ul class="dropdown-menu" role="menu">
                     @foreach($children as $child)
+                        @php
+                            $child->route = ($child->link()!='#')?$child->link():$child->route;
+                        @endphp
                         <li><a href="{{$child->route}}" target="{{$item->target}}">
 {{--                                {{$child->title}}--}}
                                 {{$child->getTranslatedAttribute('title', $locale, 'fallbackLocale')}}
