@@ -12,7 +12,7 @@ class News extends Model
 //    protected $fillable=['image', 'title', 'content', 'slug', 'read_more'];
 
     use HasFactory, Translatable;
-    protected $fillable=['image','slug'];
+    protected $fillable=['image','slug', 'status'];
 
     protected $translatable = ['title', 'content', 'read_more'];
 

@@ -17,9 +17,9 @@
                 <p>
                     {!! mb_substr(html_entity_decode (strip_tags($measure->getTranslatedAttribute('content', $locale, 'fallbackLocale'))), 0, 0) !!}
                 </p>
-                <footer>
-                    <div class="hor_date">{{$measure->created_at}}</div>
-                </footer>
+{{--                <footer>--}}
+{{--                    <div class="hor_date">{{$measure->created_at}}</div>--}}
+{{--                </footer>--}}
             </figcaption>
             <a href="{{route('singlemeasures', ['singlemeasures'=>$measure->id])}}"></a>
         </figure>

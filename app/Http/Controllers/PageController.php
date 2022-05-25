@@ -96,12 +96,12 @@ class PageController extends Controller
             case "en":
                 $titlesTranslation['MəhkəməninStrukturu'] = "Structure of the Court";
                 $titlesTranslation['NaxcivanMRAMStrukturu'] = "The structure of the Supreme Court of the Nakhchivan Autonomous Republic";
-                $titlesTranslation['AliMəhkəməninAparatı'] = "Apparatus of the Supreme Court";
+                $titlesTranslation['AliMəhkəməninAparatı'] = "Registry of the Court ";
                 break;
             case "ru":
                 $titlesTranslation['MəhkəməninStrukturu'] = "Структура суда";
-                $titlesTranslation['NaxcivanMRAMStrukturu'] = "Структура Верховного суда Нахчыванской Автономной Республики";
-                $titlesTranslation['AliMəhkəməninAparatı'] = "Аппарат Верховного суда";
+                $titlesTranslation['NaxcivanMRAMStrukturu'] = "Структура Верховного Cуда Нахчыванской Автономной Республики";
+                $titlesTranslation['AliMəhkəməninAparatı'] = "Аппарат Верховного Cуда";
                 break;
             default :
                 $titlesTranslation['MəhkəməninStrukturu'] = "Məhkəmənin strukturu";
@@ -300,13 +300,13 @@ class PageController extends Controller
         $locale = Session::get('locale');
         switch ($locale){
             case "en":
-                $titlesTranslation['RəyasətHeyətininQərarları'] = "Decisions of the Presidium";
+                $titlesTranslation['ApellyasiyaŞikayətininVerilməsi'] = "The procedure for filing an appeal";
                 break;
             case "ru":
-                $titlesTranslation['RəyasətHeyətininQərarları'] = "Решения Президиума";
+                $titlesTranslation['ApellyasiyaŞikayətininVerilməsi'] = "Процедура подачи апелляции";
                 break;
             default :
-                $titlesTranslation['RəyasətHeyətininQərarları'] = "Rəyasət Heyətinin Qərarları";
+                $titlesTranslation['ApellyasiyaŞikayətininVerilməsi'] = "Apellyasiya şikayətinin verilmə qaydası";
         }
         $appeals = Appeal::orderBy('id', 'desc')->get();
         return view('pages.appeal', compact('appeals', 'locale', 'titlesTranslation'));
@@ -455,7 +455,7 @@ class PageController extends Controller
   }
 
 
-    public function faq(){
+    public function faq(Request $request){
         $locale = Session::get('locale');
         switch ($locale){
             case "en":
@@ -467,7 +467,7 @@ class PageController extends Controller
             default :
                 $titlesTranslation['Faq'] = "Tez-tez verilən suallar";
         }
-        $faqs = Faq::paginate(10);
+        $faqs = Faq::where('id', $request->singleeducation)->orderBy('id', 'desc')->paginate(10);
         return view('pages.faq', compact('faqs', 'locale', 'titlesTranslation'));
     }
 

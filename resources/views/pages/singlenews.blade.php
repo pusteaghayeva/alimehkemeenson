@@ -11,7 +11,7 @@
                             {{$singlenews_item->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
                         </h2>
                         <div class="container single_text">
-                            <img src="{{asset('storage/'.$singlenews_item->image)}}" class="coll-image m-auto" alt="">
+                            <img src="{{asset('storage/'.$singlenews_item->image)}}" class="coll-image m-auto {{$singlenews_item->image ? '' : 'd-none'}}" alt="">
                             <p class="coll-text text-justify">
                                 {!!  $singlenews_item->getTranslatedAttribute('content', $locale, 'fallbackLocale') !!}
                             </p>

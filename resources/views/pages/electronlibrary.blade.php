@@ -8,7 +8,7 @@
         <ul>
             @foreach($electronlibrarys as $electronlibrary)
             <li>
-                <a class="cool-link" target="_blank" href="{{$electronlibrary->link}}" target="_blank">
+                <a class="cool-link" href="{{$electronlibrary->link}}">
                     <img src="{{asset('storage/'.$electronlibrary->image)}}" alt="">
                     {{$electronlibrary->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
                 </a>

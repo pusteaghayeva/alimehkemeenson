@@ -1,4 +1,12 @@
 <!-- NAVBAR -->
+@php
+    // define variables for translation and menus
+    // as menu link is not translatable from UI we did 2 additional menus for ru and en
+    // it is not good, but it is quick resolution. Otherwise we can override menubuilder veiw
+    $locale = Session::get('locale');
+    $hamburgerMenu = ($locale == 'az' || $locale == '')?"hamburgerNavbar":"hamburgerNavbar_foreign".$locale;
+@endphp
+
 <header class="">
     <div class="container">
         <div class="row align-items-center justify-content-between">
@@ -20,10 +28,6 @@
                                 {{menu("Logo", "components.logo")}}
                                 <div class="footer-menu">
                                     <div class="row">
-                                        @php
-                                            $locale = Session::get('locale');
-                                            $hamburgerMenu = ($locale == 'az' || $locale == '')?"hamburgerNavbar":"hamburgerNavbar_foreign".$locale;
-                                        @endphp
                                         {{menu($hamburgerMenu, "components.hamburgerNavbar")}}
                                         <div class="col-5 col-lg-12 col-sm-4 bigsearch">
                                             {{menu("search", "components.search")}}
@@ -51,7 +55,6 @@
                                 </button>
 
                                 <div id="navbar-collapse" class="collapse navbar-collapse">
-                                    {{--{{menu("dropDownMenu", "components.dropDownMenu")}}--}}
                                     {{menu($hamburgerMenu, "components.dropDownMenu")}}
                                 </div>
                                 <div class="nav-search">

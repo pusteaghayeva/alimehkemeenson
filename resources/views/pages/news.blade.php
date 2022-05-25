@@ -20,19 +20,26 @@
                         <div class="blog-wrapper home-blog-wrapper white-bg">
                             <div class="blog-thumb">
                                 <a href="{{route('singlenews', ['singlenews'=>$news_item->id])}}">
-                                    <img src="{{asset('storage/'.$news_item->image)}}" alt=""/>
+                                    <?php
+                                    if (!empty($news_item->image)) {
+                                        $image = $news_item->image;
+                                    } else {
+                                        $image = 'alimeh.jpg';
+                                    }
+                                    ?>
+                                    <img src="{{asset('storage/'.$image)}}" alt=""/>
                                 </a>
                             </div>
-                            <div class="meta-info">
-                                <ul>
-                                    <li class="posts-time">{{$news_item->created_at}}</li>
-                                </ul>
-                            </div>
+                            {{--                            <div class="meta-info">--}}
+                            {{--                                <ul>--}}
+                            {{--                                    <li class="posts-time">{{$news_item->created_at}}</li>--}}
+                            {{--                                </ul>--}}
+                            {{--                            </div>--}}
                             <div class="blog-content home-blog">
-                                <h2 class="blog-title">
+                                <h2 class="blog-title text-uppercase">
                                     <a href="{{route('singlenews', ['singlenews'=>$news_item->id])}}"
                                        class="text-justify">
-                                        {{mb_substr($news_item->getTranslatedAttribute('title', $locale, 'fallbackLocale'), 0, 160)}}
+                                        {{mb_substr($news_item->getTranslatedAttribute('title', $locale, 'fallbackLocale'), 0, 100)}}
                                     </a>
                                 </h2>
                                 <p>

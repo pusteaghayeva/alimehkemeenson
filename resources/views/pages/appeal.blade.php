@@ -1,10 +1,10 @@
 @extends('layouts.master')
-@section('title', $titlesTranslation["RəyasətHeyətininQərarları"])
+@section('title', $titlesTranslation["ApellyasiyaŞikayətininVerilməsi"])
 @section('content')
 
     <div class="first-down-menu container">
         <h2 class="first-dm-title text-center mt-5">
-            {{$titlesTranslation['RəyasətHeyətininQərarları']}}
+            {{$titlesTranslation['ApellyasiyaŞikayətininVerilməsi']}}
         </h2>
         <ul>
          @foreach($appeals as $appeal)

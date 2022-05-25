@@ -2,11 +2,16 @@
 @section('title', $titlesTranslation["RəyasətHeyətininQərarları"])
 @section('css')
     <style>
-        table{
+        table {
             border: 1px solid #000;
         }
+
         td {
             border: 1px solid #000 !important;
+        }
+
+        body .blog-area {
+            background: transparent !important;
         }
     </style>
 @endsection

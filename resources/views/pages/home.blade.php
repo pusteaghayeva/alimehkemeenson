@@ -17,7 +17,15 @@
                                 <a href="{{route('singlenews', ['singlenews'=>$new->id])}}"
                                    class="carousel-item  {{$key === 0 ? 'active' : ''}}">
 
-                                    <img src="{{asset('storage/'.$new->image)}}" class=" w-100" alt="...">
+{{--                                    <img src="{{asset('storage/'.$new->image)}}" class=" w-100" alt="...">--}}
+                                    <?php
+                                    if (!empty($new->image)) {
+                                        $image = $new->image;
+                                    } else {
+                                        $image = 'alimeh.jpg';
+                                    }
+                                    ?>
+                                    <img src="{{asset('storage/'.$image)}}" alt=""/>
                                     <div class="carousel-bg"></div>
                                     <div class="carousel-caption  d-md-block ">
                                         <h5 class="text-left">
@@ -65,7 +73,9 @@
                     </div>
                     <div class="cat-container">
                         @foreach($forpersons as $forperson)
-                            <a href="{{$forperson->getTranslatedAttribute('link', $locale, 'fallbackLocale') }}
+                            <a href="
+{{--{{$forperson->getTranslatedAttribute('link', $locale, 'fallbackLocale') }}--}}
+                            {{$forperson->link}}
                                     ">
                                 <div class="cat-img-display">
                                     <h2 class="cat-title">

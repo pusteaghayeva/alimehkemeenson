@@ -7,12 +7,12 @@
 
         @if(!$children)
             <li class="nav-item active">
-                @if($item->title == "home")
+                @if($item->getTranslatedAttribute('title', $locale, 'fallbackLocale') == "home")
                     <a href="{{route('home')}}" class="nav-link dropdown-toggle fa-2x"><i class="fas fa-home mr-1"></i>
                     </a>
                 @else
                     <a href="{{$item->link()}}" class="nav-link dropdown-toggle fa-2x" target="{{$item->target}}" >
-                           {{$item->getTranslatedAttribute('title', $locale, 'fallbackLocale')}}
+                        {{$item->getTranslatedAttribute('title', $locale, 'fallbackLocale')}}
                     </a>
                 @endif
             </li>

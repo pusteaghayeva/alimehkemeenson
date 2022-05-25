@@ -543,24 +543,6 @@ class FromArtisanDataTypesTableSeeder extends Seeder
             ),
             29 => 
             array (
-                'id' => 45,
-                'name' => 'news',
-                'slug' => 'news',
-                'display_name_singular' => 'News',
-                'display_name_plural' => 'News',
-                'icon' => 'voyager-credit-cards',
-                'model_name' => 'App\\Models\\News',
-                'policy_name' => NULL,
-                'controller' => NULL,
-                'description' => NULL,
-                'generate_permissions' => 1,
-                'server_side' => 0,
-                'details' => '{"order_column":"id","order_display_column":"title","order_direction":"desc","default_search_key":null}',
-                'created_at' => '2022-05-11 05:57:45',
-                'updated_at' => '2022-05-11 05:57:45',
-            ),
-            30 => 
-            array (
                 'id' => 46,
                 'name' => 'applyonlines',
                 'slug' => 'applyonlines',
@@ -577,7 +559,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-11 07:50:54',
                 'updated_at' => '2022-05-11 07:50:54',
             ),
-            31 => 
+            30 => 
             array (
                 'id' => 47,
                 'name' => 'judicialapparats',
@@ -595,7 +577,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-12 05:39:56',
                 'updated_at' => '2022-05-12 05:39:56',
             ),
-            32 => 
+            31 => 
             array (
                 'id' => 48,
                 'name' => 'apparatuses',
@@ -613,7 +595,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-12 05:54:18',
                 'updated_at' => '2022-05-12 05:57:51',
             ),
-            33 => 
+            32 => 
             array (
                 'id' => 49,
                 'name' => 'titles',
@@ -631,7 +613,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-12 06:18:54',
                 'updated_at' => '2022-05-12 06:18:54',
             ),
-            34 => 
+            33 => 
             array (
                 'id' => 51,
                 'name' => 'adres',
@@ -649,7 +631,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-12 13:05:22',
                 'updated_at' => '2022-05-12 13:32:16',
             ),
-            35 => 
+            34 => 
             array (
                 'id' => 52,
                 'name' => 'footers',
@@ -667,7 +649,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-14 08:52:08',
                 'updated_at' => '2022-05-14 08:52:08',
             ),
-            36 => 
+            35 => 
             array (
                 'id' => 53,
                 'name' => 'slidertodays',
@@ -685,7 +667,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-16 06:27:42',
                 'updated_at' => '2022-05-16 06:27:42',
             ),
-            37 => 
+            36 => 
             array (
                 'id' => 54,
                 'name' => 'single_apparatuses',
@@ -703,7 +685,7 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-17 16:13:48',
                 'updated_at' => '2022-05-17 16:13:48',
             ),
-            38 => 
+            37 => 
             array (
                 'id' => 60,
                 'name' => 'apparats',
@@ -720,6 +702,24 @@ class FromArtisanDataTypesTableSeeder extends Seeder
                 'details' => '{"order_column":"id","order_display_column":"title","order_direction":"desc","default_search_key":null,"scope":null}',
                 'created_at' => '2022-05-17 19:13:04',
                 'updated_at' => '2022-05-21 08:50:42',
+            ),
+            38 => 
+            array (
+                'id' => 62,
+                'name' => 'news',
+                'slug' => 'news',
+                'display_name_singular' => 'News',
+                'display_name_plural' => 'News',
+                'icon' => 'voyager-news',
+                'model_name' => 'App\\Models\\News',
+                'policy_name' => NULL,
+                'controller' => NULL,
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":"id","order_display_column":"title","order_direction":"desc","default_search_key":null,"scope":null}',
+                'created_at' => '2022-06-10 18:20:10',
+                'updated_at' => '2022-06-10 19:10:27',
             ),
         ));
         
