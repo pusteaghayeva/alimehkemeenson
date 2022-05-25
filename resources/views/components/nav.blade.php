@@ -22,7 +22,7 @@
                                     <div class="row">
                                         @php
                                             $locale = Session::get('locale');
-                                            $hamburgerMenu = (Session::get('locale') == 'az' || $locale =='')?"hamburgerNavbar":"hamburgerNavbar_foreign";
+                                            $hamburgerMenu = (Session::get('locale') == 'az' || $locale =='en' || $locale = 'ru')?"hamburgerNavbar":"hamburgerNavbar_foreign";
                                         @endphp
                                         {{menu($hamburgerMenu, "components.hamburgerNavbar")}}
                                         <div class="col-5 col-lg-12 col-sm-4 bigsearch">
