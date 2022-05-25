@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 24, 2022 at 03:36 PM
+-- Generation Time: May 25, 2022 at 08:54 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.27
 
@@ -899,7 +899,8 @@ INSERT INTO `menus` (`id`, `name`, `created_at`, `updated_at`) VALUES
 (8, 'logo', '2022-05-14 08:51:47', '2022-05-14 08:59:44'),
 (9, 'search', '2022-05-14 09:01:45', '2022-05-14 09:01:45'),
 (11, 'hamburgerNavbar_foreign', '2022-05-18 13:19:30', '2022-05-18 13:19:30'),
-(12, 'hamburgerNavbar_foreignru', '2022-05-23 08:25:00', '2022-05-23 08:25:00');
+(12, 'hamburgerNavbar_foreignru', '2022-05-23 08:25:00', '2022-05-23 08:25:00'),
+(13, 'hamburgerNavbar_foreignen', '2022-05-25 14:18:23', '2022-05-25 14:18:23');
 
 -- --------------------------------------------------------
 
@@ -1075,7 +1076,27 @@ INSERT INTO `menu_items` (`id`, `menu_id`, `title`, `url`, `target`, `icon_class
 (164, 12, '', '\\gallery', '_self', NULL, '#000000', 162, 2, '2022-05-23 08:37:53', '2022-05-23 08:38:11', NULL, ''),
 (165, 12, '', '', '_self', NULL, '#000000', 162, 3, '2022-05-23 08:38:38', '2022-05-23 08:39:08', '\\video', NULL),
 (166, 12, '', '', '_self', NULL, '#000000', NULL, 5, '2022-05-23 08:39:01', '2022-05-23 08:39:08', NULL, ''),
-(167, 12, '', '', '_self', NULL, '#000000', NULL, 43, '2022-05-23 08:39:36', '2022-05-23 08:39:36', '\\measures', NULL);
+(167, 12, '', '', '_self', NULL, '#000000', NULL, 43, '2022-05-23 08:39:36', '2022-05-23 08:39:36', '\\measures', NULL),
+(168, 13, '', '', '_self', NULL, '#000000', NULL, 1, '2022-05-25 14:24:05', '2022-05-25 14:25:43', NULL, ''),
+(169, 13, '', '', '_self', NULL, '#000000', 168, 1, '2022-05-25 14:24:39', '2022-05-25 14:25:43', '\\about', NULL),
+(170, 13, '', '', '_self', NULL, '#000000', 168, 2, '2022-05-25 14:25:24', '2022-05-25 14:25:44', '\\college', NULL),
+(171, 13, '', 'https://courts.gov.az/en/nakhchivansupreme/board/Prezidium_5', '_self', NULL, '#000000', 168, 3, '2022-05-25 14:26:04', '2022-05-25 14:26:12', NULL, ''),
+(172, 13, '', 'https://courts.gov.az/en/nakhchivansupreme/judges', '_self', NULL, '#000000', 168, 4, '2022-05-25 14:26:41', '2022-05-25 14:26:47', NULL, ''),
+(173, 13, '', '', '_self', NULL, '#000000', 168, 5, '2022-05-25 14:27:56', '2022-05-25 14:29:24', '\\apparats', NULL),
+(174, 13, '', '', '_self', NULL, '#000000', 168, 6, '2022-05-25 14:29:57', '2022-05-25 14:30:04', '\\structure', NULL),
+(175, 13, '', '', '_self', NULL, '#000000', NULL, 2, '2022-05-25 14:30:37', '2022-05-25 14:31:20', NULL, ''),
+(176, 13, '', '', '_self', NULL, '#000000', 175, 1, '2022-05-25 14:31:14', '2022-05-25 14:31:20', '\\legalact', NULL),
+(177, 13, '', '', '_self', NULL, '#000000', 175, 2, '2022-05-25 14:31:56', '2022-05-25 14:32:03', '\\internationaldocument', NULL),
+(178, 13, '', '', '_self', NULL, '#000000', NULL, 3, '2022-05-25 14:35:54', '2022-05-25 14:36:43', NULL, ''),
+(179, 13, '', '', '_self', NULL, '#000000', 178, 1, '2022-05-25 14:36:36', '2022-05-25 14:36:43', '\\decisionpresidia', NULL),
+(180, 13, '', 'https://e-mehkeme.gov.az/Public/Anonymizedecisions?courtid=113', '_self', NULL, '#000000', 178, 2, '2022-05-25 14:37:24', '2022-05-25 14:37:32', NULL, ''),
+(181, 13, '', 'https://hudoc.echr.coe.int/eng#{%22documentcollectionid2%22:[%22GRANDCHAMBER%22,%22CHAMBER%22]}', '_self', NULL, '#000000', 178, 3, '2022-05-25 14:37:56', '2022-05-25 14:43:05', NULL, ''),
+(182, 13, '', '', '_self', NULL, '#000000', NULL, 4, '2022-05-25 14:38:20', '2022-05-25 14:43:05', NULL, ''),
+(183, 13, '', '', '_self', NULL, '#000000', 182, 1, '2022-05-25 14:42:48', '2022-05-25 14:42:56', '/news', NULL),
+(184, 13, '', '', '_self', NULL, '#000000', 182, 2, '2022-05-25 14:43:32', '2022-05-25 14:43:39', '\\gallery', NULL),
+(185, 13, '', '', '_self', NULL, '#000000', 182, 3, '2022-05-25 14:44:07', '2022-05-25 14:44:14', '\\video', NULL),
+(186, 13, '', '', '_self', NULL, '#000000', NULL, 44, '2022-05-25 14:44:33', '2022-05-25 14:44:33', NULL, ''),
+(187, 13, '', '', '_self', NULL, '#000000', NULL, 45, '2022-05-25 14:45:03', '2022-05-25 14:45:03', '\\measures', NULL);
 
 -- --------------------------------------------------------
 
@@ -3348,7 +3369,27 @@ INSERT INTO `translations` (`id`, `table_name`, `column_name`, `foreign_key`, `l
 (1162, 'legalacts', 'link', 4, 'en', 'https://www.meclis.gov.az/cat-qanun.php?cat=72&lang=az', '2022-05-24 04:49:41', '2022-05-24 04:49:41'),
 (1163, 'legalacts', 'link', 4, 'ru', 'https://www.meclis.gov.az/cat-qanun.php?cat=72&lang=az', '2022-05-24 04:49:41', '2022-05-24 04:49:41'),
 (1164, 'legalacts', 'link', 3, 'en', 'http://www.constcourt.gov.az/az/decisions', '2022-05-24 04:51:40', '2022-05-24 04:51:40'),
-(1165, 'legalacts', 'link', 3, 'ru', 'http://www.constcourt.gov.az/az/decisions', '2022-05-24 04:51:40', '2022-05-24 04:51:40');
+(1165, 'legalacts', 'link', 3, 'ru', 'http://www.constcourt.gov.az/az/decisions', '2022-05-24 04:51:40', '2022-05-24 04:51:40'),
+(1166, 'menu_items', 'title', 168, 'en', 'The Court', '2022-05-25 14:24:05', '2022-05-25 14:24:05'),
+(1167, 'menu_items', 'title', 169, 'en', 'About the Court ', '2022-05-25 14:24:39', '2022-05-25 14:24:39'),
+(1168, 'menu_items', 'title', 170, 'en', 'The Chairman of the Court', '2022-05-25 14:25:24', '2022-05-25 14:25:24'),
+(1169, 'menu_items', 'title', 171, 'en', 'Presidium ', '2022-05-25 14:26:04', '2022-05-25 14:26:04'),
+(1170, 'menu_items', 'title', 172, 'en', 'Judges', '2022-05-25 14:26:41', '2022-05-25 14:26:41'),
+(1171, 'menu_items', 'title', 173, 'en', 'The structure of the Court ', '2022-05-25 14:27:56', '2022-05-25 14:27:56'),
+(1172, 'menu_items', 'title', 174, 'en', 'Registry of the Court', '2022-05-25 14:29:57', '2022-05-25 14:29:57'),
+(1173, 'menu_items', 'title', 175, 'en', 'Legal documents', '2022-05-25 14:30:37', '2022-05-25 14:30:37'),
+(1174, 'menu_items', 'title', 176, 'en', 'Legal acts of Azerbaijan Republic', '2022-05-25 14:31:14', '2022-05-25 14:31:14'),
+(1175, 'menu_items', 'title', 177, 'en', 'İnternational Legal documents ', '2022-05-25 14:31:56', '2022-05-25 14:31:56'),
+(1176, 'menu_items', 'title', 178, 'en', 'Court Documents', '2022-05-25 14:35:54', '2022-05-25 14:35:54'),
+(1177, 'menu_items', 'title', 179, 'en', 'The Decisions of Presidium', '2022-05-25 14:36:36', '2022-05-25 14:36:36'),
+(1178, 'menu_items', 'title', 180, 'en', 'Judgements', '2022-05-25 14:37:24', '2022-05-25 14:37:24'),
+(1179, 'menu_items', 'title', 181, 'en', 'The judgements of the European Court on Human Rights', '2022-05-25 14:37:56', '2022-05-25 14:37:56'),
+(1180, 'menu_items', 'title', 182, 'en', 'Press Service', '2022-05-25 14:38:20', '2022-05-25 14:38:20'),
+(1181, 'menu_items', 'title', 183, 'en', 'News', '2022-05-25 14:42:48', '2022-05-25 14:42:48'),
+(1182, 'menu_items', 'title', 184, 'en', 'Photo gallery', '2022-05-25 14:43:32', '2022-05-25 14:43:32'),
+(1183, 'menu_items', 'title', 185, 'en', 'Video gallery', '2022-05-25 14:44:07', '2022-05-25 14:44:07'),
+(1184, 'menu_items', 'title', 186, 'en', 'Legal information', '2022-05-25 14:44:33', '2022-05-25 14:44:33'),
+(1185, 'menu_items', 'title', 187, 'en', 'Events', '2022-05-25 14:45:03', '2022-05-25 14:45:03');
 
 -- --------------------------------------------------------
 
@@ -3889,13 +3930,13 @@ ALTER TABLE `measures`
 -- AUTO_INCREMENT for table `menus`
 --
 ALTER TABLE `menus`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `menu_items`
 --
 ALTER TABLE `menu_items`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=168;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=188;
 
 --
 -- AUTO_INCREMENT for table `migrations`
@@ -3997,7 +4038,7 @@ ALTER TABLE `titles`
 -- AUTO_INCREMENT for table `translations`
 --
 ALTER TABLE `translations`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1166;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1186;
 
 --
 -- AUTO_INCREMENT for table `usefullinks`
