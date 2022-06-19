@@ -16,7 +16,9 @@ class CreateInternationaldocumentsTable extends Migration
         Schema::create('internationaldocuments', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->string('pdf');
+            $table->string('pdf_az')->nullable();
+            $table->string('pdf_ru')->nullable();
+            $table->string('pdf_en')->nullable();
             $table->timestamps();
         });
     }

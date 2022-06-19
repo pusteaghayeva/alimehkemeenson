@@ -7,11 +7,20 @@
         </h2>
         <ul>
             @foreach($internationaldocuments as $internationaldocument)
+                <?php
+
+                    switch ($locale){
+                        case "ru": $pdf_url ='/storage/'.json_decode($internationaldocument->pdf_ru)[0]->download_link; break;
+                        case "en": $pdf_url ='/storage/'.json_decode($internationaldocument->pdf_en)[0]->download_link; break;
+                        default : $pdf_url ='/storage/'.json_decode($internationaldocument->pdf_az)[0]->download_link;
+                    }
+
+                ?>
                 <li>
                     <a class="cool-link"
-                       href="{{asset('/storage/'.json_decode($internationaldocument->pdf)[0]->download_link)}}"
+                       href="{{asset($pdf_url)}}"
                        target="_blank">
-                        {{$internationaldocument->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
+                       {{$internationaldocument->getTranslatedAttribute('title', $locale, 'fallbackLocale') }}
                     </a>
                 </li>
             @endforeach
