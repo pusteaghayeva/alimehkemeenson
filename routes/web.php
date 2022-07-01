@@ -30,6 +30,9 @@ Route::group(['prefix' => 'admin'], function () {
 Route::get('/', [HomePageController::class, 'home'])->name('home');
 
 Route::get('/home',[HomePageController::class, 'home'])->name('home');
+Route::get('/storage/redirectBack',function (){
+    return redirect()->back();
+});
 //Route::get('/title', [PageController::class, 'title'])->name('title');
 Route::get('/supremecourt',[PageController::class, 'supremecourt'])->name('supremecourt');
 Route::get('/singlesupremecourt', [PageController::class, 'singlesupremecourt'])->name('singlesupremecourt');
